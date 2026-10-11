@@ -136,7 +136,46 @@ in a group before 2010 stay frequent in that group from 2010 on:
 * Draws within ±1.5 days of a full or new moon show the same rates of
   repeated-digit numbers (e.g. 1123) and of recent repeats as other draws.
 
-## 4. Predictive models (walk-forward backtest)
+## 4. Vedic astrology
+
+`python3 analysis/vedic_analysis.py` (~20 s), using `analysis/vedic.py`:
+sidereal positions with the Lahiri ayanamsa, Mercury–Saturn from JPL's
+approximate Keplerian elements, mean-node Rahu/Ketu, the panchanga (tithi,
+paksha, nakshatra, yoga, karana, vara) and the hora lord from Kuala Lumpur
+sunrise/sunset. Validated against published data: sidereal ingresses of Jupiter,
+Saturn, Rahu, Mars and Venus (2022–2025) to within a day, Mercury's 2024
+retrogrades, KL sunrise/sunset to the minute, and the nakshatra/tithi of
+2024-01-22 (Mrigashira, Shukla Dwadashi) and Diwali 2023 (Amavasya, Swati).
+Draws are evaluated at 19:00 MYT; since that is close to sunset, the hora lord
+is mostly fixed by the weekday.
+
+16 factors were tested (tithi, paksha, nakshatra, yoga, karana, vara lord, hora
+lord, Moon and Sun rashi, rashis of Mars, Mercury, Venus, Jupiter, Saturn and
+Rahu, Mercury retrograde), plus Vedic numerology. Magnum was also analysed
+with its biased eras removed (section 2). 348 tests in total.
+
+| Question | Result |
+|---|---|
+| Do digit frequencies differ by tithi, nakshatra, yoga, karana, paksha, Moon rashi or Mercury retrograde? | No: 3 of 84 tests below p = 0.05 for the other operators (4.2 expected by chance). |
+| Do the 100 numbers most frequent in a group (e.g. Rohini nakshatra) before 2010 stay frequent in that group after 2010? | No: 0.90–1.12× random across all 16 factors and four datasets; the largest positive result (Mercury retrograde, Magnum fair periods, 1.12×, z = 2.4) is about the size expected for the best of 64 tries. |
+| Numerology: does the ruling planet's number (Sun 1, Moon 2, Jupiter 3, Rahu 4, Mercury 5, Venus 6, Ketu 7, Saturn 8, Mars 9) appear more on days ruled by that planet? | No: for vara, hora and nakshatra lords it appears as a digit 9.93–10.06% of the time (10% expected) and as the digital root 11.03–11.26% (11.11% expected); all \|z\| ≤ 1.7. |
+| Combined panchanga model (digit frequencies by nakshatra, tithi, hora and Moon rashi, learned before 2010) | Top 100 picks per draw: Magnum 0.99×, Sports Toto 1.06×, Da Ma Cai 1.04×, Magnum fair periods 1.03× random; none significant. |
+
+Only 2 tests survive correction: Magnum's vara lord against the 1st and 3rd
+digits. The vara lord is just the weekday, and this is the weekday/era
+confound from section 1 (Monday and Thursday draws were almost all in Magnum's
+biased 1985–94 era). With the biased eras removed it drops to p = 0.02 (not
+significant).
+
+Digit tests for slow-moving planets (Jupiter, Saturn, Rahu) come out below
+p = 0.05 a little more often than 5% (5 of 36). That is not astrology: the
+same tests on **arbitrary time blocks** of the same lengths (1–2.5 years) give
+p < 0.05 in 10–12.5% of cases, because the draws drift slightly from year to
+year as equipment changes. Short blocks (~30 days) give the nominal 3–6%.
+Planet signs behave exactly like arbitrary calendar blocks, and their hot
+numbers do not carry over (0 of 21 tests).
+
+## 5. Predictive models (walk-forward backtest)
 
 Each strategy picked 23 numbers per draw using only earlier draws, over the
 last 40% of each operator's history (2,191–2,731 draws). Hits are compared

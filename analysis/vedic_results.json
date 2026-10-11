@@ -1,0 +1,3010 @@
+{
+ "results": {
+  "Magnum": {
+   "factors": {
+    "tithi": {
+     "min_digit_p": 0.062518754253308,
+     "hot_numbers": {
+      "lift": 0.997,
+      "z": -0.08
+     }
+    },
+    "paksha": {
+     "min_digit_p": 0.2496290314554987,
+     "hot_numbers": {
+      "lift": 0.942,
+      "z": -1.49
+     }
+    },
+    "nakshatra": {
+     "min_digit_p": 0.17975858369027264,
+     "hot_numbers": {
+      "lift": 0.985,
+      "z": -0.39
+     }
+    },
+    "yoga": {
+     "min_digit_p": 0.22212095004752463,
+     "hot_numbers": {
+      "lift": 0.961,
+      "z": -0.98
+     }
+    },
+    "karana": {
+     "min_digit_p": 0.04077451553071891,
+     "hot_numbers": {
+      "lift": 0.971,
+      "z": -0.75
+     }
+    },
+    "vara_lord": {
+     "min_digit_p": 5.929153602551554e-06,
+     "hot_numbers": {
+      "lift": 0.982,
+      "z": -0.47
+     }
+    },
+    "hora_lord": {
+     "min_digit_p": 0.0020504360043867662,
+     "hot_numbers": {
+      "lift": 0.963,
+      "z": -0.94
+     }
+    },
+    "moon_rashi": {
+     "min_digit_p": 0.2024966776115493,
+     "hot_numbers": {
+      "lift": 0.971,
+      "z": -0.75
+     }
+    },
+    "sun_rashi": {
+     "min_digit_p": 0.1742458623059172,
+     "hot_numbers": {
+      "lift": 1.001,
+      "z": 0.04
+     }
+    },
+    "mars_rashi": {
+     "min_digit_p": 0.05523381210413483,
+     "hot_numbers": {
+      "lift": 1.003,
+      "z": 0.08
+     }
+    },
+    "mercury_rashi": {
+     "min_digit_p": 0.007114657316170756,
+     "hot_numbers": {
+      "lift": 1.003,
+      "z": 0.08
+     }
+    },
+    "venus_rashi": {
+     "min_digit_p": 0.32911861887047306,
+     "hot_numbers": {
+      "lift": 0.985,
+      "z": -0.39
+     }
+    },
+    "jupiter_rashi": {
+     "min_digit_p": 0.006257912533264107,
+     "hot_numbers": {
+      "lift": 0.968,
+      "z": -0.83
+     }
+    },
+    "saturn_rashi": {
+     "min_digit_p": 0.0008129241365614941,
+     "hot_numbers": {
+      "lift": 0.965,
+      "z": -0.9
+     }
+    },
+    "rahu_rashi": {
+     "min_digit_p": 0.020548258017898394,
+     "hot_numbers": {
+      "lift": 1.044,
+      "z": 1.13
+     }
+    },
+    "mercury_retrograde": {
+     "min_digit_p": 0.24114471579985977,
+     "hot_numbers": {
+      "lift": 0.983,
+      "z": -0.43
+     }
+    }
+   },
+   "numerology": {
+    "vara_lord": {
+     "digit_share": 0.1004,
+     "digit_z": 1.15,
+     "root_share": 0.1113,
+     "root_z": 0.27
+    },
+    "hora_lord": {
+     "digit_share": 0.0994,
+     "digit_z": -1.66,
+     "root_share": 0.1105,
+     "root_z": -0.75
+    },
+    "nakshatra_lord": {
+     "digit_share": 0.0998,
+     "digit_z": -0.44,
+     "root_share": 0.1121,
+     "root_z": 1.23
+    }
+   },
+   "combined_model": {
+    "hits": 641,
+    "expected": 651.1,
+    "lift": 0.985,
+    "z": -0.39
+   }
+  },
+  "Sports Toto": {
+   "factors": {
+    "tithi": {
+     "min_digit_p": 0.2995688549904837,
+     "hot_numbers": {
+      "lift": 1.0,
+      "z": -0.01
+     }
+    },
+    "paksha": {
+     "min_digit_p": 0.008559712132177887,
+     "hot_numbers": {
+      "lift": 0.996,
+      "z": -0.09
+     }
+    },
+    "nakshatra": {
+     "min_digit_p": 0.25083318205249944,
+     "hot_numbers": {
+      "lift": 1.032,
+      "z": 0.82
+     }
+    },
+    "yoga": {
+     "min_digit_p": 0.018993047202397292,
+     "hot_numbers": {
+      "lift": 1.054,
+      "z": 1.37
+     }
+    },
+    "karana": {
+     "min_digit_p": 0.27609393603602916,
+     "hot_numbers": {
+      "lift": 1.014,
+      "z": 0.34
+     }
+    },
+    "vara_lord": {
+     "min_digit_p": 0.16489607776960385,
+     "hot_numbers": {
+      "lift": 0.982,
+      "z": -0.44
+     }
+    },
+    "hora_lord": {
+     "min_digit_p": 0.2873906165843679,
+     "hot_numbers": {
+      "lift": 0.906,
+      "z": -2.38
+     }
+    },
+    "moon_rashi": {
+     "min_digit_p": 0.25054495823833733,
+     "hot_numbers": {
+      "lift": 1.018,
+      "z": 0.46
+     }
+    },
+    "sun_rashi": {
+     "min_digit_p": 0.238154429486065,
+     "hot_numbers": {
+      "lift": 0.968,
+      "z": -0.8
+     }
+    },
+    "mars_rashi": {
+     "min_digit_p": 0.002138422150414965,
+     "hot_numbers": {
+      "lift": 1.001,
+      "z": 0.03
+     }
+    },
+    "mercury_rashi": {
+     "min_digit_p": 0.37692250387128434,
+     "hot_numbers": {
+      "lift": 0.995,
+      "z": -0.13
+     }
+    },
+    "venus_rashi": {
+     "min_digit_p": 0.04372256655003611,
+     "hot_numbers": {
+      "lift": 1.02,
+      "z": 0.5
+     }
+    },
+    "jupiter_rashi": {
+     "min_digit_p": 0.06094230372792818,
+     "hot_numbers": {
+      "lift": 0.962,
+      "z": -0.96
+     }
+    },
+    "saturn_rashi": {
+     "min_digit_p": 0.133989972642216,
+     "hot_numbers": {
+      "lift": 1.029,
+      "z": 0.52
+     }
+    },
+    "rahu_rashi": {
+     "min_digit_p": 0.0647891731514429,
+     "hot_numbers": {
+      "lift": 1.037,
+      "z": 0.94
+     }
+    },
+    "mercury_retrograde": {
+     "min_digit_p": 0.1098949919674442,
+     "hot_numbers": {
+      "lift": 1.012,
+      "z": 0.3
+     }
+    }
+   },
+   "numerology": {
+    "vara_lord": {
+     "digit_share": 0.0998,
+     "digit_z": -0.43,
+     "root_share": 0.1113,
+     "root_z": 0.25
+    },
+    "hora_lord": {
+     "digit_share": 0.0993,
+     "digit_z": -1.65,
+     "root_share": 0.1115,
+     "root_z": 0.48
+    },
+    "nakshatra_lord": {
+     "digit_share": 0.1006,
+     "digit_z": 1.36,
+     "root_share": 0.111,
+     "root_z": -0.18
+    }
+   },
+   "combined_model": {
+    "hits": 681,
+    "expected": 643.3,
+    "lift": 1.059,
+    "z": 1.49
+   }
+  },
+  "Da Ma Cai": {
+   "factors": {
+    "tithi": {
+     "min_digit_p": 0.07731066109609026,
+     "hot_numbers": {
+      "lift": 0.958,
+      "z": -1.07
+     }
+    },
+    "paksha": {
+     "min_digit_p": 0.11219064307359035,
+     "hot_numbers": {
+      "lift": 0.997,
+      "z": -0.08
+     }
+    },
+    "nakshatra": {
+     "min_digit_p": 0.2122742924149345,
+     "hot_numbers": {
+      "lift": 0.986,
+      "z": -0.36
+     }
+    },
+    "yoga": {
+     "min_digit_p": 0.6552612421205963,
+     "hot_numbers": {
+      "lift": 1.017,
+      "z": 0.43
+     }
+    },
+    "karana": {
+     "min_digit_p": 0.2898952187728655,
+     "hot_numbers": {
+      "lift": 0.959,
+      "z": -1.03
+     }
+    },
+    "vara_lord": {
+     "min_digit_p": 0.07060326318726426,
+     "hot_numbers": {
+      "lift": 0.896,
+      "z": -2.64
+     }
+    },
+    "hora_lord": {
+     "min_digit_p": 0.14776028801117763,
+     "hot_numbers": {
+      "lift": 0.922,
+      "z": -1.97
+     }
+    },
+    "moon_rashi": {
+     "min_digit_p": 0.28166848163232516,
+     "hot_numbers": {
+      "lift": 0.972,
+      "z": -0.71
+     }
+    },
+    "sun_rashi": {
+     "min_digit_p": 0.034307666098167974,
+     "hot_numbers": {
+      "lift": 1.018,
+      "z": 0.47
+     }
+    },
+    "mars_rashi": {
+     "min_digit_p": 0.3252592380450995,
+     "hot_numbers": {
+      "lift": 1.025,
+      "z": 0.62
+     }
+    },
+    "mercury_rashi": {
+     "min_digit_p": 0.27825647803431797,
+     "hot_numbers": {
+      "lift": 1.039,
+      "z": 0.98
+     }
+    },
+    "venus_rashi": {
+     "min_digit_p": 0.12953173186037464,
+     "hot_numbers": {
+      "lift": 0.998,
+      "z": -0.05
+     }
+    },
+    "jupiter_rashi": {
+     "min_digit_p": 0.02131085839764176,
+     "hot_numbers": {
+      "lift": 1.031,
+      "z": 0.78
+     }
+    },
+    "saturn_rashi": {
+     "min_digit_p": 0.001879447167789567,
+     "hot_numbers": {
+      "lift": 0.979,
+      "z": -0.38
+     }
+    },
+    "rahu_rashi": {
+     "min_digit_p": 0.006176918893273552,
+     "hot_numbers": {
+      "lift": 1.009,
+      "z": 0.23
+     }
+    },
+    "mercury_retrograde": {
+     "min_digit_p": 0.3553641690388988,
+     "hot_numbers": {
+      "lift": 1.074,
+      "z": 1.88
+     }
+    }
+   },
+   "numerology": {
+    "vara_lord": {
+     "digit_share": 0.0996,
+     "digit_z": -1.02,
+     "root_share": 0.1103,
+     "root_z": -0.98
+    },
+    "hora_lord": {
+     "digit_share": 0.1006,
+     "digit_z": 1.5,
+     "root_share": 0.1114,
+     "root_z": 0.31
+    },
+    "nakshatra_lord": {
+     "digit_share": 0.1,
+     "digit_z": 0.03,
+     "root_share": 0.1103,
+     "root_z": -0.91
+    }
+   },
+   "combined_model": {
+    "hits": 669,
+    "expected": 645.2,
+    "lift": 1.037,
+    "z": 0.94
+   }
+  },
+  "Magnum (fair periods)": {
+   "factors": {
+    "tithi": {
+     "min_digit_p": 0.17229828286522966,
+     "hot_numbers": {
+      "lift": 1.059,
+      "z": 1.2
+     }
+    },
+    "paksha": {
+     "min_digit_p": 0.07924793442733641,
+     "hot_numbers": {
+      "lift": 0.991,
+      "z": -0.18
+     }
+    },
+    "nakshatra": {
+     "min_digit_p": 0.13504534415738928,
+     "hot_numbers": {
+      "lift": 1.037,
+      "z": 0.76
+     }
+    },
+    "yoga": {
+     "min_digit_p": 0.16097001011256842,
+     "hot_numbers": {
+      "lift": 1.062,
+      "z": 1.25
+     }
+    },
+    "karana": {
+     "min_digit_p": 0.283513149870794,
+     "hot_numbers": {
+      "lift": 0.942,
+      "z": -1.17
+     }
+    },
+    "vara_lord": {
+     "min_digit_p": 0.022283588434619882,
+     "hot_numbers": {
+      "lift": 0.96,
+      "z": -0.81
+     }
+    },
+    "hora_lord": {
+     "min_digit_p": 0.026325702015259304,
+     "hot_numbers": {
+      "lift": 0.998,
+      "z": -0.03
+     }
+    },
+    "moon_rashi": {
+     "min_digit_p": 0.03506081459972156,
+     "hot_numbers": {
+      "lift": 1.013,
+      "z": 0.26
+     }
+    },
+    "sun_rashi": {
+     "min_digit_p": 0.330393883813864,
+     "hot_numbers": {
+      "lift": 0.998,
+      "z": -0.03
+     }
+    },
+    "mars_rashi": {
+     "min_digit_p": 0.19549306118599155,
+     "hot_numbers": {
+      "lift": 1.035,
+      "z": 0.71
+     }
+    },
+    "mercury_rashi": {
+     "min_digit_p": 0.09783085668638697,
+     "hot_numbers": {
+      "lift": 0.898,
+      "z": -2.06
+     }
+    },
+    "venus_rashi": {
+     "min_digit_p": 0.40767264162758265,
+     "hot_numbers": {
+      "lift": 1.025,
+      "z": 0.51
+     }
+    },
+    "jupiter_rashi": {
+     "min_digit_p": 0.11678761801351384,
+     "hot_numbers": {
+      "lift": 1.077,
+      "z": 1.55
+     }
+    },
+    "saturn_rashi": {
+     "min_digit_p": 0.13193594434811476,
+     "hot_numbers": {
+      "lift": 1.003,
+      "z": 0.03
+     }
+    },
+    "rahu_rashi": {
+     "min_digit_p": 0.030889098567374956,
+     "hot_numbers": {
+      "lift": 0.978,
+      "z": -0.4
+     }
+    },
+    "mercury_retrograde": {
+     "min_digit_p": 0.14616953183907538,
+     "hot_numbers": {
+      "lift": 1.118,
+      "z": 2.39
+     }
+    }
+   },
+   "numerology": {
+    "vara_lord": {
+     "digit_share": 0.0999,
+     "digit_z": -0.17,
+     "root_share": 0.1116,
+     "root_z": 0.52
+    },
+    "hora_lord": {
+     "digit_share": 0.0995,
+     "digit_z": -1.06,
+     "root_share": 0.1106,
+     "root_z": -0.55
+    },
+    "nakshatra_lord": {
+     "digit_share": 0.1004,
+     "digit_z": 0.93,
+     "root_share": 0.1126,
+     "root_z": 1.51
+    }
+   },
+   "combined_model": {
+    "hits": 422,
+    "expected": 408.7,
+    "lift": 1.033,
+    "z": 0.66
+   }
+  }
+ },
+ "tests": [
+  {
+   "test": "tithi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.062518754253308,
+   "detail": "chi2=296.9, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.13493211222215537,
+   "detail": "chi2=286.3, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.898828611259147,
+   "detail": "chi2=232.3, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.13832303635841028,
+   "detail": "chi2=285.9, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.532328861169154,
+   "detail": "649 hits vs 651.1 expected (x0.997)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.2699330832912944,
+   "detail": "chi2=11.1, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.8767427989474925,
+   "detail": "chi2=4.5, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.2496290314554987,
+   "detail": "chi2=11.4, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.36048764890431145,
+   "detail": "chi2=9.9, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.9321505225640172,
+   "detail": "613 hits vs 651.1 expected (x0.942)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.17975858369027264,
+   "detail": "chi2=253.7, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.746118419680335,
+   "detail": "chi2=219.3, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.5797927720161785,
+   "detail": "chi2=229.0, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.9499137912557842,
+   "detail": "chi2=199.6, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.6534505770034995,
+   "detail": "641 hits vs 651.1 expected (x0.985)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.4459448305489789,
+   "detail": "chi2=236.3, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.4691429438535362,
+   "detail": "chi2=235.0, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.22212095004752463,
+   "detail": "chi2=250.2, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.5229994854298825,
+   "detail": "chi2=232.1, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.8370776269380648,
+   "detail": "626 hits vs 651.1 expected (x0.961)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.2737399753130217,
+   "detail": "chi2=97.6, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.5305531825367953,
+   "detail": "chi2=88.3, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.04077451553071891,
+   "detail": "chi2=114.7, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.6967601807364516,
+   "detail": "chi2=82.6, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.7725804933236075,
+   "detail": "632 hits vs 651.1 expected (x0.971)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 5.929153602551554e-06,
+   "detail": "chi2=112.4, df=54",
+   "p_bonferroni": 0.002063345453687941
+  },
+  {
+   "test": "vara_lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.0005237921429864894,
+   "detail": "chi2=94.7, df=54",
+   "p_bonferroni": 0.18227966575929833
+  },
+  {
+   "test": "vara_lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 4.037209674078134e-05,
+   "detail": "chi2=105.2, df=54",
+   "p_bonferroni": 0.014049489665791906
+  },
+  {
+   "test": "vara_lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.07061239005822513,
+   "detail": "chi2=70.0, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.6802585862927466,
+   "detail": "639 hits vs 651.0 expected (x0.982)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.0020504360043867662,
+   "detail": "chi2=88.7, df=54",
+   "p_bonferroni": 0.7135517295265946
+  },
+  {
+   "test": "hora_lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.03479535155874227,
+   "detail": "chi2=74.3, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.003691144350096329,
+   "detail": "chi2=86.0, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.49884022731327415,
+   "detail": "chi2=53.4, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.8272431557956894,
+   "detail": "627 hits vs 651.1 expected (x0.963)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.547639964877955,
+   "detail": "chi2=96.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.535353997716391,
+   "detail": "chi2=97.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.2024966776115493,
+   "detail": "chi2=110.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.5820029019217867,
+   "detail": "chi2=95.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.7725804933236075,
+   "detail": "632 hits vs 651.1 expected (x0.971)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.929438266152427,
+   "detail": "chi2=79.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.1742458623059172,
+   "detail": "chi2=112.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.9619353450747101,
+   "detail": "chi2=75.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.7945741865779501,
+   "detail": "chi2=87.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.4854627243372354,
+   "detail": "652 hits vs 651.1 expected (x1.001)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.3370187680207195,
+   "detail": "chi2=104.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.05523381210413483,
+   "detail": "chi2=122.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.25476532966863225,
+   "detail": "chi2=107.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.3190851661567559,
+   "detail": "chi2=105.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.4698533140694411,
+   "detail": "653 hits vs 651.1 expected (x1.003)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.8093197171413347,
+   "detail": "chi2=86.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.007114657316170756,
+   "detail": "chi2=136.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.5735060362363449,
+   "detail": "chi2=95.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.8340947243047669,
+   "detail": "chi2=85.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.4698533140694411,
+   "detail": "653 hits vs 651.1 expected (x1.003)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.7211260733857879,
+   "detail": "chi2=90.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.32911861887047306,
+   "detail": "chi2=104.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.7640415159259909,
+   "detail": "chi2=88.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.5828232240663574,
+   "detail": "chi2=95.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.6534505770034995,
+   "detail": "641 hits vs 651.1 expected (x0.985)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.006257912533264107,
+   "detail": "chi2=137.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.8639379623077617,
+   "detail": "chi2=83.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.7024298515988832,
+   "detail": "chi2=91.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.006949959045426791,
+   "detail": "chi2=137.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.795528177393834,
+   "detail": "630 hits vs 651.1 expected (x0.968)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.1432452168710469,
+   "detail": "chi2=114.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.5353373754259394,
+   "detail": "chi2=97.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.11252009483101008,
+   "detail": "chi2=116.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.0008129241365614941,
+   "detail": "chi2=149.4, df=99",
+   "p_bonferroni": 0.28289759952339993
+  },
+  {
+   "test": "saturn_rashi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.8170383490705072,
+   "detail": "628 hits vs 651.1 expected (x0.965)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.03367204587843891,
+   "detail": "chi2=126.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.5829763606967222,
+   "detail": "chi2=95.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.8225109391832711,
+   "detail": "chi2=85.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.020548258017898394,
+   "detail": "chi2=129.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.12844024483043529,
+   "detail": "680 hits vs 651.1 expected (x1.044)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.5002221109692743,
+   "detail": "chi2=8.3, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.24114471579985977,
+   "detail": "chi2=11.5, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.4065760853168907,
+   "detail": "chi2=9.3, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.8617915416094809,
+   "detail": "chi2=4.7, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde: group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.6677992026071108,
+   "detail": "640 hits vs 651.1 expected (x0.983)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: vara_lord's number as a digit",
+   "operator": "Magnum",
+   "p": 0.12559113920549064,
+   "detail": "10.04% vs 10% (z=+1.15)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: vara_lord's number as digital root",
+   "operator": "Magnum",
+   "p": 0.39514987892394515,
+   "detail": "11.13% vs 11.11% (z=+0.27)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: hora_lord's number as a digit",
+   "operator": "Magnum",
+   "p": 0.9517772174780512,
+   "detail": "9.94% vs 10% (z=-1.66)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: hora_lord's number as digital root",
+   "operator": "Magnum",
+   "p": 0.7721685981200338,
+   "detail": "11.05% vs 11.11% (z=-0.75)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: nakshatra_lord's number as a digit",
+   "operator": "Magnum",
+   "p": 0.6709378160516595,
+   "detail": "9.98% vs 10% (z=-0.44)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: nakshatra_lord's number as digital root",
+   "operator": "Magnum",
+   "p": 0.10941160758390407,
+   "detail": "11.21% vs 11.11% (z=+1.23)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "combined panchanga digit model (top 100)",
+   "operator": "Magnum",
+   "p": 0.6534505770034995,
+   "detail": "641 hits vs 651.1 expected (x0.985)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.5238316104431221,
+   "detail": "chi2=259.0, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.2995688549904837,
+   "detail": "chi2=272.5, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.4826346536403266,
+   "detail": "chi2=261.3, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.6179626685109343,
+   "detail": "chi2=253.5, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.5042468701093507,
+   "detail": "643 hits vs 643.3 expected (x1.000)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.008559712132177887,
+   "detail": "chi2=22.1, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.17021934994473603,
+   "detail": "chi2=12.8, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.9878526900726188,
+   "detail": "chi2=2.2, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.5434944099323601,
+   "detail": "chi2=7.9, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.5356582286915204,
+   "detail": "641 hits vs 643.3 expected (x0.996)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.25083318205249944,
+   "detail": "chi2=248.1, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5690214820358074,
+   "detail": "chi2=229.6, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.5308937504294524,
+   "detail": "chi2=231.7, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.8100875083001269,
+   "detail": "chi2=214.9, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.2068671308115123,
+   "detail": "664 hits vs 643.3 expected (x1.032)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.018993047202397292,
+   "detail": "chi2=281.1, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.9303378638942722,
+   "detail": "chi2=202.8, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.5142571403169153,
+   "detail": "chi2=232.6, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.6375404852577871,
+   "detail": "chi2=225.8, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.08544806660550387,
+   "detail": "678 hits vs 643.3 expected (x1.054)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.27609393603602916,
+   "detail": "chi2=97.5, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.479162246946385,
+   "detail": "chi2=90.0, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.9279634101457603,
+   "detail": "chi2=71.2, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.33375395398329655,
+   "detail": "chi2=95.2, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.36534593597898524,
+   "detail": "652 hits vs 643.3 expected (x1.014)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.5353247034309003,
+   "detail": "chi2=34.6, df=36",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5648838454808666,
+   "detail": "chi2=34.0, df=36",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.5611976531851779,
+   "detail": "chi2=34.1, df=36",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.16489607776960385,
+   "detail": "chi2=44.2, df=36",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.6716059917068269,
+   "detail": "632 hits vs 643.3 expected (x0.982)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.7366195291116258,
+   "detail": "chi2=47.1, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.304264830145984,
+   "detail": "chi2=58.8, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.6334544259336319,
+   "detail": "chi2=49.9, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.2873906165843679,
+   "detail": "chi2=59.3, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.9912568053128737,
+   "detail": "583 hits vs 643.3 expected (x0.906)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.25054495823833733,
+   "detail": "chi2=108.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5079842244154543,
+   "detail": "chi2=98.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.7947148584710699,
+   "detail": "chi2=87.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.44437422950345135,
+   "detail": "chi2=100.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.32186536143331357,
+   "detail": "655 hits vs 643.3 expected (x1.018)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.6017806667324554,
+   "detail": "chi2=94.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.6935611349310769,
+   "detail": "chi2=91.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.238154429486065,
+   "detail": "chi2=108.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.46708602900708834,
+   "detail": "chi2=99.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.7879136406337512,
+   "detail": "623 hits vs 643.3 expected (x0.968)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.17680143216761443,
+   "detail": "chi2=111.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.002138422150414965,
+   "detail": "chi2=144.0, df=99",
+   "p_bonferroni": 0.7441709083444078
+  },
+  {
+   "test": "mars_rashi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.19513058258164703,
+   "detail": "chi2=110.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.6223269672227267,
+   "detail": "chi2=94.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.488519089879417,
+   "detail": "644 hits vs 643.3 expected (x1.001)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.37692250387128434,
+   "detail": "chi2=102.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5994029215415686,
+   "detail": "chi2=94.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.41569342479776306,
+   "detail": "chi2=101.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.9020574071504062,
+   "detail": "chi2=81.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.5512931427555039,
+   "detail": "640 hits vs 643.3 expected (x0.995)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.44142479854125893,
+   "detail": "chi2=100.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5867181316654971,
+   "detail": "chi2=95.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.337915100048074,
+   "detail": "chi2=104.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.04372256655003611,
+   "detail": "chi2=124.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.30786301455233694,
+   "detail": "656 hits vs 643.3 expected (x1.020)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.49031377524081965,
+   "detail": "chi2=98.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.06094230372792818,
+   "detail": "chi2=121.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.5364404955339552,
+   "detail": "chi2=97.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.8854009250683545,
+   "detail": "chi2=82.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.8306947896117829,
+   "detail": "619 hits vs 643.3 expected (x0.962)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.42588010227455575,
+   "detail": "chi2=101.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.133989972642216,
+   "detail": "chi2=114.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.2341719887171182,
+   "detail": "chi2=108.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.5084062751455418,
+   "detail": "chi2=98.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.3026738924060567,
+   "detail": "329 hits vs 319.8 expected (x1.029)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.9602197350046342,
+   "detail": "chi2=75.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.0647891731514429,
+   "detail": "chi2=121.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.7697425747673767,
+   "detail": "chi2=88.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.07582025521072318,
+   "detail": "chi2=119.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.17473355316969497,
+   "detail": "667 hits vs 643.3 expected (x1.037)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.41722413807118847,
+   "detail": "chi2=9.2, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.35158623695677704,
+   "detail": "chi2=10.0, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.1098949919674442,
+   "detail": "chi2=14.3, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.37614433733174624,
+   "detail": "chi2=9.7, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde: group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.38026782489332345,
+   "detail": "651 hits vs 643.3 expected (x1.012)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: vara_lord's number as a digit",
+   "operator": "Sports Toto",
+   "p": 0.6654280692106043,
+   "detail": "9.98% vs 10% (z=-0.43)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: vara_lord's number as digital root",
+   "operator": "Sports Toto",
+   "p": 0.40089049356717404,
+   "detail": "11.13% vs 11.11% (z=+0.25)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: hora_lord's number as a digit",
+   "operator": "Sports Toto",
+   "p": 0.9508287563304769,
+   "detail": "9.93% vs 10% (z=-1.65)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: hora_lord's number as digital root",
+   "operator": "Sports Toto",
+   "p": 0.3141382721007587,
+   "detail": "11.15% vs 11.11% (z=+0.48)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: nakshatra_lord's number as a digit",
+   "operator": "Sports Toto",
+   "p": 0.08737413490516867,
+   "detail": "10.06% vs 10% (z=+1.36)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: nakshatra_lord's number as digital root",
+   "operator": "Sports Toto",
+   "p": 0.5711553315328353,
+   "detail": "11.10% vs 11.11% (z=-0.18)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "combined panchanga digit model (top 100)",
+   "operator": "Sports Toto",
+   "p": 0.06842640504940228,
+   "detail": "681 hits vs 643.3 expected (x1.059)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.4720534006672307,
+   "detail": "chi2=261.9, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.07731066109609026,
+   "detail": "chi2=294.2, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.36647807443663805,
+   "detail": "chi2=268.2, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.2603501507643936,
+   "detail": "chi2=275.3, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.857443968354805,
+   "detail": "618 hits vs 645.2 expected (x0.958)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.9004048640422054,
+   "detail": "chi2=4.2, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.13823903361786957,
+   "detail": "chi2=13.6, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.11219064307359035,
+   "detail": "chi2=14.3, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.4729343982038691,
+   "detail": "chi2=8.6, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.5337287155340906,
+   "detail": "643 hits vs 645.2 expected (x0.997)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.2727742341830641,
+   "detail": "chi2=246.6, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.34243266883388707,
+   "detail": "chi2=242.2, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.2122742924149345,
+   "detail": "chi2=251.0, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.44058782627763354,
+   "detail": "chi2=236.6, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.6406657986219562,
+   "detail": "636 hits vs 645.2 expected (x0.986)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.6552612421205963,
+   "detail": "chi2=224.8, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.9326674931355979,
+   "detail": "chi2=202.5, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.8300405407503695,
+   "detail": "chi2=213.3, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.7834928737399172,
+   "detail": "chi2=216.8, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.3346282414280158,
+   "detail": "656 hits vs 645.2 expected (x1.017)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.33163888879641945,
+   "detail": "chi2=95.3, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.5632542489580733,
+   "detail": "chi2=87.2, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.9780161153283834,
+   "detail": "chi2=65.1, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.2898952187728655,
+   "detail": "chi2=96.9, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.8483859555117044,
+   "detail": "619 hits vs 645.2 expected (x0.959)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.6013552130420695,
+   "detail": "chi2=42.0, df=45",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.07060326318726426,
+   "detail": "chi2=59.6, df=45",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.6756594658587447,
+   "detail": "chi2=40.2, df=45",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.28049138553449665,
+   "detail": "chi2=50.0, df=45",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.9958999925721294,
+   "detail": "578 hits vs 645.2 expected (x0.896)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.2468474670255424,
+   "detail": "chi2=60.7, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.8029439163109306,
+   "detail": "chi2=45.0, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.9431769338335984,
+   "detail": "chi2=38.6, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.14776028801117763,
+   "detail": "chi2=64.9, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.9758332669931599,
+   "detail": "595 hits vs 645.2 expected (x0.922)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.38440249275081234,
+   "detail": "chi2=102.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.28166848163232516,
+   "detail": "chi2=106.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.726448740566359,
+   "detail": "chi2=90.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.644201583961457,
+   "detail": "chi2=93.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.7625633686099209,
+   "detail": "627 hits vs 645.2 expected (x0.972)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.034307666098167974,
+   "detail": "chi2=126.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.981655382569339,
+   "detail": "chi2=71.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.9432710558133768,
+   "detail": "chi2=77.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.649618384184414,
+   "detail": "chi2=93.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.3204148518299616,
+   "detail": "657 hits vs 645.2 expected (x1.018)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.3715620639489889,
+   "detail": "chi2=103.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.948704130162477,
+   "detail": "chi2=77.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.4376894711357001,
+   "detail": "chi2=100.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.3252592380450995,
+   "detail": "chi2=104.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.26630703342079226,
+   "detail": "661 hits vs 645.2 expected (x1.025)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.49571998998444244,
+   "detail": "chi2=98.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.36588846278588094,
+   "detail": "chi2=103.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.5724147323510327,
+   "detail": "chi2=95.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.27825647803431797,
+   "detail": "chi2=106.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.16394962576114863,
+   "detail": "670 hits vs 645.2 expected (x1.039)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.12953173186037464,
+   "detail": "chi2=115.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.7748743404228362,
+   "detail": "chi2=88.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.5674270827443473,
+   "detail": "chi2=96.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.46613239281267627,
+   "detail": "chi2=99.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.5180563181420539,
+   "detail": "644 hits vs 645.2 expected (x0.998)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.04454740152556677,
+   "detail": "chi2=124.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.3083622904827298,
+   "detail": "chi2=105.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.02131085839764176,
+   "detail": "chi2=129.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.554135670355753,
+   "detail": "chi2=96.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.21725361526011705,
+   "detail": "665 hits vs 645.2 expected (x1.031)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.2560694927354278,
+   "detail": "chi2=107.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.7266912398814963,
+   "detail": "chi2=90.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.001879447167789567,
+   "detail": "chi2=144.8, df=99",
+   "p_bonferroni": 0.6540476143907693
+  },
+  {
+   "test": "saturn_rashi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.8314609833126179,
+   "detail": "chi2=85.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.6468742020717162,
+   "detail": "314 hits vs 320.8 expected (x0.979)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.5179352506920142,
+   "detail": "chi2=97.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.3330162288556418,
+   "detail": "chi2=104.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.006176918893273552,
+   "detail": "chi2=137.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.6156114505330986,
+   "detail": "chi2=94.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.40892282462506724,
+   "detail": "651 hits vs 645.2 expected (x1.009)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.9504442867319783,
+   "detail": "chi2=3.3, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.6530253754728963,
+   "detail": "chi2=6.9, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.9069130333818048,
+   "detail": "chi2=4.1, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.3553641690388988,
+   "detail": "chi2=9.9, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde: group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.029791087032746553,
+   "detail": "693 hits vs 645.2 expected (x1.074)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: vara_lord's number as a digit",
+   "operator": "Da Ma Cai",
+   "p": 0.8460607474500078,
+   "detail": "9.96% vs 10% (z=-1.02)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: vara_lord's number as digital root",
+   "operator": "Da Ma Cai",
+   "p": 0.8353389305388335,
+   "detail": "11.03% vs 11.11% (z=-0.98)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: hora_lord's number as a digit",
+   "operator": "Da Ma Cai",
+   "p": 0.06744316167469448,
+   "detail": "10.06% vs 10% (z=+1.50)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: hora_lord's number as digital root",
+   "operator": "Da Ma Cai",
+   "p": 0.3773287151689557,
+   "detail": "11.14% vs 11.11% (z=+0.31)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: nakshatra_lord's number as a digit",
+   "operator": "Da Ma Cai",
+   "p": 0.4875528503342008,
+   "detail": "10.00% vs 10% (z=+0.03)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: nakshatra_lord's number as digital root",
+   "operator": "Da Ma Cai",
+   "p": 0.8173694757641435,
+   "detail": "11.03% vs 11.11% (z=-0.91)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "combined panchanga digit model (top 100)",
+   "operator": "Da Ma Cai",
+   "p": 0.17386956813508822,
+   "detail": "669 hits vs 645.2 expected (x1.037)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.3485622874233687,
+   "detail": "chi2=269.3, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7197719153804399,
+   "detail": "chi2=247.3, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7687703806101052,
+   "detail": "chi2=243.9, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.17229828286522966,
+   "detail": "chi2=282.5, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "tithi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.11458339556872432,
+   "detail": "433 hits vs 408.7 expected (x1.059)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.0991206384578127,
+   "detail": "chi2=14.7, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7310417394009094,
+   "detail": "chi2=6.1, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.07924793442733641,
+   "detail": "chi2=15.4, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.21824618669269485,
+   "detail": "chi2=11.9, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "paksha: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5724157864875998,
+   "detail": "405 hits vs 408.7 expected (x0.991)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.21275107634330992,
+   "detail": "chi2=251.0, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5022762747464338,
+   "detail": "chi2=233.2, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.13504534415738928,
+   "detail": "chi2=258.0, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9118411941601676,
+   "detail": "chi2=205.3, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "nakshatra: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2244297339867182,
+   "detail": "424 hits vs 408.7 expected (x1.037)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.3897926172131138,
+   "detail": "chi2=239.4, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.16097001011256842,
+   "detail": "chi2=255.4, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2619280793887497,
+   "detail": "chi2=247.4, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.18835702063050994,
+   "detail": "chi2=252.9, df=234",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "yoga: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.10528975856745286,
+   "detail": "434 hits vs 408.7 expected (x1.062)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.499466130880591,
+   "detail": "chi2=89.4, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8912278958620279,
+   "detail": "chi2=73.9, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2909612268108203,
+   "detail": "chi2=96.9, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.283513149870794,
+   "detail": "chi2=97.2, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "karana: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8793692074475772,
+   "detail": "385 hits vs 408.7 expected (x0.942)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.40168135005745775,
+   "detail": "chi2=46.7, df=45",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.022283588434619882,
+   "detail": "chi2=66.0, df=45",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.532228535676515,
+   "detail": "chi2=43.6, df=45",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.816904138305238,
+   "detail": "chi2=36.4, df=45",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "vara_lord: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.792440163763128,
+   "detail": "392 hits vs 408.5 expected (x0.960)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.3723795964794268,
+   "detail": "chi2=56.8, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.026325702015259304,
+   "detail": "chi2=75.9, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.27217772117993255,
+   "detail": "chi2=59.8, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9059237080463722,
+   "detail": "chi2=40.9, df=54",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "hora_lord: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5136137520407594,
+   "detail": "408 hits vs 408.7 expected (x0.998)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.26453025372842337,
+   "detail": "chi2=107.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7304195824996671,
+   "detail": "chi2=90.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.03506081459972156,
+   "detail": "chi2=125.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.4147119447016289,
+   "detail": "chi2=101.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon_rashi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.39640549148459386,
+   "detail": "414 hits vs 408.7 expected (x1.013)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8001730793902551,
+   "detail": "chi2=87.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.330393883813864,
+   "detail": "chi2=104.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9973167395636647,
+   "detail": "chi2=64.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8270600692723564,
+   "detail": "chi2=85.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun_rashi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5136137520407594,
+   "detail": "408 hits vs 408.7 expected (x0.998)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8889842543634656,
+   "detail": "chi2=82.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.19549306118599155,
+   "detail": "chi2=110.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8679277573130703,
+   "detail": "chi2=83.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.783845964392315,
+   "detail": "chi2=87.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mars_rashi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.23951850187048432,
+   "detail": "423 hits vs 408.7 expected (x1.035)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.43160294561324053,
+   "detail": "chi2=100.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.09783085668638697,
+   "detail": "chi2=117.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.31101265407218803,
+   "detail": "chi2=105.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7707119753349326,
+   "detail": "chi2=88.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_rashi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.980406578563978,
+   "detail": "367 hits vs 408.7 expected (x0.898)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9856202392173079,
+   "detail": "chi2=70.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.40767264162758265,
+   "detail": "chi2=101.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7763918392120718,
+   "detail": "chi2=88.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.43584245969468477,
+   "detail": "chi2=100.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "venus_rashi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.3050292341639077,
+   "detail": "419 hits vs 408.7 expected (x1.025)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.11678761801351384,
+   "detail": "chi2=116.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8883032138729023,
+   "detail": "chi2=82.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8148059794067775,
+   "detail": "chi2=86.3, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.563681521627488,
+   "detail": "chi2=96.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "jupiter_rashi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.06071888104913085,
+   "detail": "440 hits vs 408.7 expected (x1.077)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.47908452875102014,
+   "detail": "chi2=90.0, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5974460157986131,
+   "detail": "chi2=86.1, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.33211676888923064,
+   "detail": "chi2=95.3, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.13193594434811476,
+   "detail": "chi2=105.1, df=90",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "saturn_rashi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.48833224433577826,
+   "detail": "120 hits vs 119.7 expected (x1.003)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.16243259241440666,
+   "detail": "chi2=112.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.982386417655072,
+   "detail": "chi2=71.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7037567748170821,
+   "detail": "chi2=91.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.030889098567374956,
+   "detail": "chi2=126.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "rahu_rashi: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6567076295631654,
+   "detail": "338 hits vs 345.5 expected (x0.978)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.14616953183907538,
+   "detail": "chi2=13.4, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.3252876358669284,
+   "detail": "chi2=10.3, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7199745448817131,
+   "detail": "chi2=6.2, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9740564029129646,
+   "detail": "chi2=2.7, df=9",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "mercury_retrograde: group's hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.008431493417771257,
+   "detail": "457 hits vs 408.7 expected (x1.118)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: vara_lord's number as a digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.566940974367582,
+   "detail": "9.99% vs 10% (z=-0.17)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: vara_lord's number as digital root",
+   "operator": "Magnum (fair periods)",
+   "p": 0.30130813121173416,
+   "detail": "11.16% vs 11.11% (z=+0.52)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: hora_lord's number as a digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8553287037035566,
+   "detail": "9.95% vs 10% (z=-1.06)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: hora_lord's number as digital root",
+   "operator": "Magnum (fair periods)",
+   "p": 0.708475878478557,
+   "detail": "11.06% vs 11.11% (z=-0.55)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: nakshatra_lord's number as a digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.17745211162608687,
+   "detail": "10.04% vs 10% (z=+0.93)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "numerology: nakshatra_lord's number as digital root",
+   "operator": "Magnum (fair periods)",
+   "p": 0.06568394268297777,
+   "detail": "11.26% vs 11.11% (z=+1.51)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "combined panchanga digit model (top 100)",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2551448393943265,
+   "detail": "422 hits vs 408.7 expected (x1.033)",
+   "p_bonferroni": 1.0
+  }
+ ]
+}
