@@ -175,6 +175,35 @@ year as equipment changes. Short blocks (~30 days) give the nominal 3–6%.
 Planet signs behave exactly like arbitrary calendar blocks, and their hot
 numbers do not carry over (0 of 21 tests).
 
+### KP (Krishnamurti Paddhati) numbers
+
+`python3 analysis/kp_analysis.py` (~20 s), using `analysis/kp.py`: the
+standard 249-sub table (nakshatras divided by Vimshottari proportions, split
+at sign boundaries; self-checked to give 249 subs, #1 = Ketu/Ketu
+0°00'–0°46'40"), the KP ayanamsa, and the Ascendant for Kuala Lumpur at 19:00
+MYT (checked: at sunrise the Ascendant coincides with the Sun to within the
+expected ~0.8°). For the Ascendant, Moon, Sun, Mercury, Venus, Mars, Jupiter,
+Saturn, Rahu and Ketu we tested:
+
+* **The KP number inside the winning numbers** (e.g. Moon at KP 119 → do
+  numbers containing "119", or ending in 119, win more?): all 40
+  body/operator combinations within chance (substring z from −2.5 to +2.3;
+  last-3-digits z from −1.3 to +2.0).
+* **Sign, star and sub lords' planet numbers as digits:** 9.9–10.1% for every
+  body (10% expected). The one large value, Magnum's Saturn sign lord at
+  z = +3.4, is the Magnum equipment bias again: during the 2019–2025 bias
+  Saturn sat in its own signs and digit 8 ran hot. With those years removed it
+  is z = +0.8.
+* **Digit frequencies by star lord, sub lord, and Ascendant/Moon KP number:**
+  no consistent effect.
+* **Hot numbers per Ascendant / Moon KP number** (learned before 2010):
+  Sports Toto 1.09–1.10× (z ≈ 2.4), but Magnum fair periods 0.85× (z = −3.1)
+  and Da Ma Cai 0.92–1.08×. Effects that change sign between operators are
+  noise.
+
+560 tests: 30 with raw p < 0.05 (28 expected by chance), none significant
+after correction.
+
 ## 5. Predictive models (walk-forward backtest)
 
 Each strategy picked 23 numbers per draw using only earlier draws, over the

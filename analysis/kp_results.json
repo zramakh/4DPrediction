@@ -1,0 +1,5190 @@
+{
+ "results": {
+  "Magnum": {
+   "Ascendant": {
+    "kp_in_winners": {
+     "substring": [
+      3704,
+      3798.0,
+      -1.53
+     ],
+     "last3": [
+      159,
+      157.0,
+      0.16
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0996,
+      -1.11
+     ],
+     "star_lord": [
+      0.1003,
+      0.89
+     ],
+     "sub_lord": [
+      0.1,
+      -0.02
+     ]
+    },
+    "star_lord_digits_min_p": 0.4068130130190213,
+    "sub_lord_digits_min_p": 0.6905647043241108,
+    "kp_number_digits_min_p": 0.2871210533911259,
+    "hot_numbers": [
+     675,
+     651.1,
+     1.037,
+     0.94
+    ]
+   },
+   "Moon": {
+    "kp_in_winners": {
+     "substring": [
+      3857,
+      3893.4,
+      -0.58
+     ],
+     "last3": [
+      150,
+      157.0,
+      -0.56
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0997,
+      -0.68
+     ],
+     "star_lord": [
+      0.0999,
+      -0.28
+     ],
+     "sub_lord": [
+      0.0998,
+      -0.53
+     ]
+    },
+    "star_lord_digits_min_p": 0.3437382701773825,
+    "sub_lord_digits_min_p": 0.053274340871510346,
+    "kp_number_digits_min_p": 0.385292774380082,
+    "hot_numbers": [
+     647,
+     648.2,
+     0.998,
+     -0.05
+    ]
+   },
+   "Sun": {
+    "kp_in_winners": {
+     "substring": [
+      3822,
+      3842.8,
+      -0.34
+     ],
+     "last3": [
+      151,
+      157.0,
+      -0.48
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1005,
+      1.29
+     ],
+     "star_lord": [
+      0.1001,
+      0.37
+     ],
+     "sub_lord": [
+      0.0999,
+      -0.34
+     ]
+    },
+    "star_lord_digits_min_p": 0.07930798335666259,
+    "sub_lord_digits_min_p": 0.10626567068118915
+   },
+   "Mercury": {
+    "kp_in_winners": {
+     "substring": [
+      3613,
+      3627.7,
+      -0.24
+     ],
+     "last3": [
+      160,
+      157.0,
+      0.24
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1004,
+      0.93
+     ],
+     "star_lord": [
+      0.0998,
+      -0.62
+     ],
+     "sub_lord": [
+      0.1004,
+      1.1
+     ]
+    },
+    "star_lord_digits_min_p": 0.050784418268591536,
+    "sub_lord_digits_min_p": 0.0528054121226973
+   },
+   "Venus": {
+    "kp_in_winners": {
+     "substring": [
+      3615,
+      3648.0,
+      -0.55
+     ],
+     "last3": [
+      153,
+      157.0,
+      -0.32
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1001,
+      0.17
+     ],
+     "star_lord": [
+      0.1001,
+      0.3
+     ],
+     "sub_lord": [
+      0.0999,
+      -0.28
+     ]
+    },
+    "star_lord_digits_min_p": 0.12930997866579416,
+    "sub_lord_digits_min_p": 0.01748852227450808
+   },
+   "Mars": {
+    "kp_in_winners": {
+     "substring": [
+      3751,
+      3773.8,
+      -0.37
+     ],
+     "last3": [
+      180,
+      157.0,
+      1.84
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0998,
+      -0.55
+     ],
+     "star_lord": [
+      0.0998,
+      -0.56
+     ],
+     "sub_lord": [
+      0.1,
+      -0.12
+     ]
+    },
+    "star_lord_digits_min_p": 0.06107718405088339,
+    "sub_lord_digits_min_p": 0.28938800596221975
+   },
+   "Jupiter": {
+    "kp_in_winners": {
+     "substring": [
+      5048,
+      4999.8,
+      0.68
+     ],
+     "last3": [
+      161,
+      157.0,
+      0.32
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0996,
+      -1.01
+     ],
+     "star_lord": [
+      0.1011,
+      2.83
+     ],
+     "sub_lord": [
+      0.0991,
+      -2.28
+     ]
+    },
+    "star_lord_digits_min_p": 0.006673944875601187,
+    "sub_lord_digits_min_p": 0.05063365868418198
+   },
+   "Saturn": {
+    "kp_in_winners": {
+     "substring": [
+      2680,
+      2663.0,
+      0.33
+     ],
+     "last3": [
+      148,
+      157.0,
+      -0.72
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1013,
+      3.38
+     ],
+     "star_lord": [
+      0.0999,
+      -0.24
+     ],
+     "sub_lord": [
+      0.0998,
+      -0.43
+     ]
+    },
+    "star_lord_digits_min_p": 0.004639898334604902,
+    "sub_lord_digits_min_p": 0.07851646652261868
+   },
+   "Rahu": {
+    "kp_in_winners": {
+     "substring": [
+      4547,
+      4444.6,
+      1.54
+     ],
+     "last3": [
+      169,
+      157.0,
+      0.96
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1002,
+      0.45
+     ],
+     "star_lord": [
+      0.1004,
+      1.03
+     ],
+     "sub_lord": [
+      0.1007,
+      1.82
+     ]
+    },
+    "star_lord_digits_min_p": 0.1278646638591869,
+    "sub_lord_digits_min_p": 0.12475796472501016
+   },
+   "Ketu": {
+    "kp_in_winners": {
+     "substring": [
+      3770,
+      3674.5,
+      1.58
+     ],
+     "last3": [
+      171,
+      157.0,
+      1.12
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1001,
+      0.39
+     ],
+     "star_lord": [
+      0.0997,
+      -0.75
+     ],
+     "sub_lord": [
+      0.1,
+      -0.03
+     ]
+    },
+    "star_lord_digits_min_p": 0.026833256553188814,
+    "sub_lord_digits_min_p": 0.27929851151473783
+   }
+  },
+  "Sports Toto": {
+   "Ascendant": {
+    "kp_in_winners": {
+     "substring": [
+      3034,
+      3075.7,
+      -0.75
+     ],
+     "last3": [
+      138,
+      126.0,
+      1.07
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0997,
+      -0.71
+     ],
+     "star_lord": [
+      0.1003,
+      0.8
+     ],
+     "sub_lord": [
+      0.0992,
+      -1.95
+     ]
+    },
+    "star_lord_digits_min_p": 0.03493854905612018,
+    "sub_lord_digits_min_p": 0.20496601757553878,
+    "kp_number_digits_min_p": 0.15884644402871606,
+    "hot_numbers": [
+     701,
+     640.7,
+     1.094,
+     2.38
+    ]
+   },
+   "Moon": {
+    "kp_in_winners": {
+     "substring": [
+      3214,
+      3113.7,
+      1.8
+     ],
+     "last3": [
+      129,
+      126.0,
+      0.27
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0996,
+      -0.97
+     ],
+     "star_lord": [
+      0.1006,
+      1.4
+     ],
+     "sub_lord": [
+      0.1001,
+      0.15
+     ]
+    },
+    "star_lord_digits_min_p": 0.20188681891550814,
+    "sub_lord_digits_min_p": 0.15501282226937962,
+    "kp_number_digits_min_p": 0.227055392346964,
+    "hot_numbers": [
+     696,
+     633.0,
+     1.1,
+     2.51
+    ]
+   },
+   "Sun": {
+    "kp_in_winners": {
+     "substring": [
+      3076,
+      3029.5,
+      0.85
+     ],
+     "last3": [
+      127,
+      126.0,
+      0.09
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1003,
+      0.69
+     ],
+     "star_lord": [
+      0.0988,
+      -2.84
+     ],
+     "sub_lord": [
+      0.1004,
+      0.96
+     ]
+    },
+    "star_lord_digits_min_p": 0.2687644216452995,
+    "sub_lord_digits_min_p": 0.4294904399630335
+   },
+   "Mercury": {
+    "kp_in_winners": {
+     "substring": [
+      2860,
+      2879.4,
+      -0.36
+     ],
+     "last3": [
+      116,
+      126.0,
+      -0.89
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0999,
+      -0.32
+     ],
+     "star_lord": [
+      0.0998,
+      -0.57
+     ],
+     "sub_lord": [
+      0.1007,
+      1.73
+     ]
+    },
+    "star_lord_digits_min_p": 0.3282158344218371,
+    "sub_lord_digits_min_p": 0.03575534615124009
+   },
+   "Venus": {
+    "kp_in_winners": {
+     "substring": [
+      2826,
+      2878.6,
+      -0.98
+     ],
+     "last3": [
+      130,
+      126.0,
+      0.36
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1004,
+      0.86
+     ],
+     "star_lord": [
+      0.0999,
+      -0.25
+     ],
+     "sub_lord": [
+      0.0997,
+      -0.6
+     ]
+    },
+    "star_lord_digits_min_p": 0.05285063968623187,
+    "sub_lord_digits_min_p": 0.3896780180905262
+   },
+   "Mars": {
+    "kp_in_winners": {
+     "substring": [
+      3126,
+      3094.9,
+      0.56
+     ],
+     "last3": [
+      131,
+      126.0,
+      0.45
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0994,
+      -1.37
+     ],
+     "star_lord": [
+      0.1005,
+      1.16
+     ],
+     "sub_lord": [
+      0.1,
+      0.09
+     ]
+    },
+    "star_lord_digits_min_p": 0.0055335573995867245,
+    "sub_lord_digits_min_p": 0.4879910192667249
+   },
+   "Jupiter": {
+    "kp_in_winners": {
+     "substring": [
+      3686,
+      3841.9,
+      -2.52
+     ],
+     "last3": [
+      114,
+      126.0,
+      -1.07
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0995,
+      -1.22
+     ],
+     "star_lord": [
+      0.1001,
+      0.32
+     ],
+     "sub_lord": [
+      0.0995,
+      -1.3
+     ]
+    },
+    "star_lord_digits_min_p": 0.24131285558611196,
+    "sub_lord_digits_min_p": 0.12661727368027378
+   },
+   "Saturn": {
+    "kp_in_winners": {
+     "substring": [
+      2476,
+      2513.2,
+      -0.74
+     ],
+     "last3": [
+      122,
+      126.0,
+      -0.35
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0999,
+      -0.34
+     ],
+     "star_lord": [
+      0.1001,
+      0.31
+     ],
+     "sub_lord": [
+      0.0992,
+      -1.95
+     ]
+    },
+    "star_lord_digits_min_p": 0.026568171050569876,
+    "sub_lord_digits_min_p": 0.187770142631619
+   },
+   "Rahu": {
+    "kp_in_winners": {
+     "substring": [
+      3439,
+      3453.2,
+      -0.24
+     ],
+     "last3": [
+      126,
+      126.0,
+      0.0
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1001,
+      0.3
+     ],
+     "star_lord": [
+      0.1005,
+      1.18
+     ],
+     "sub_lord": [
+      0.0995,
+      -1.3
+     ]
+    },
+    "star_lord_digits_min_p": 0.299221636581358,
+    "sub_lord_digits_min_p": 0.15563327432461244
+   },
+   "Ketu": {
+    "kp_in_winners": {
+     "substring": [
+      3060,
+      3084.6,
+      -0.44
+     ],
+     "last3": [
+      122,
+      126.0,
+      -0.35
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1001,
+      0.3
+     ],
+     "star_lord": [
+      0.0998,
+      -0.41
+     ],
+     "sub_lord": [
+      0.0995,
+      -1.2
+     ]
+    },
+    "star_lord_digits_min_p": 0.1694373890785403,
+    "sub_lord_digits_min_p": 0.04302763259813457
+   }
+  },
+  "Da Ma Cai": {
+   "Ascendant": {
+    "kp_in_winners": {
+     "substring": [
+      3210,
+      3186.3,
+      0.42
+     ],
+     "last3": [
+      128,
+      131.9,
+      -0.34
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0995,
+      -1.1
+     ],
+     "star_lord": [
+      0.1003,
+      0.8
+     ],
+     "sub_lord": [
+      0.1002,
+      0.38
+     ]
+    },
+    "star_lord_digits_min_p": 0.21684914494018528,
+    "sub_lord_digits_min_p": 0.08899438782279151,
+    "kp_number_digits_min_p": 0.036367632482209485,
+    "hot_numbers": [
+     593,
+     644.1,
+     0.921,
+     -2.01
+    ]
+   },
+   "Moon": {
+    "kp_in_winners": {
+     "substring": [
+      3248,
+      3247.5,
+      0.01
+     ],
+     "last3": [
+      117,
+      131.9,
+      -1.3
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1003,
+      0.71
+     ],
+     "star_lord": [
+      0.1,
+      0.07
+     ],
+     "sub_lord": [
+      0.1001,
+      0.18
+     ]
+    },
+    "star_lord_digits_min_p": 0.1956939962024303,
+    "sub_lord_digits_min_p": 0.032501281451162434,
+    "kp_number_digits_min_p": 0.28112835215011434,
+    "hot_numbers": [
+     687,
+     637.4,
+     1.078,
+     1.97
+    ]
+   },
+   "Sun": {
+    "kp_in_winners": {
+     "substring": [
+      3262,
+      3231.4,
+      0.54
+     ],
+     "last3": [
+      123,
+      131.9,
+      -0.78
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1004,
+      0.88
+     ],
+     "star_lord": [
+      0.0997,
+      -0.8
+     ],
+     "sub_lord": [
+      0.0997,
+      -0.67
+     ]
+    },
+    "star_lord_digits_min_p": 0.016134754865586423,
+    "sub_lord_digits_min_p": 0.05907690928461251
+   },
+   "Mercury": {
+    "kp_in_winners": {
+     "substring": [
+      3125,
+      3038.2,
+      1.58
+     ],
+     "last3": [
+      143,
+      131.9,
+      0.97
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0999,
+      -0.16
+     ],
+     "star_lord": [
+      0.1003,
+      0.84
+     ],
+     "sub_lord": [
+      0.1002,
+      0.43
+     ]
+    },
+    "star_lord_digits_min_p": 0.13972449882566476,
+    "sub_lord_digits_min_p": 0.06793708115566502
+   },
+   "Venus": {
+    "kp_in_winners": {
+     "substring": [
+      3026,
+      3042.6,
+      -0.3
+     ],
+     "last3": [
+      141,
+      131.9,
+      0.79
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0997,
+      -0.79
+     ],
+     "star_lord": [
+      0.0997,
+      -0.7
+     ],
+     "sub_lord": [
+      0.0997,
+      -0.69
+     ]
+    },
+    "star_lord_digits_min_p": 0.40187665601964256,
+    "sub_lord_digits_min_p": 0.07419974893656868
+   },
+   "Mars": {
+    "kp_in_winners": {
+     "substring": [
+      3241,
+      3220.6,
+      0.36
+     ],
+     "last3": [
+      129,
+      131.9,
+      -0.25
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1,
+      -0.09
+     ],
+     "star_lord": [
+      0.1002,
+      0.55
+     ],
+     "sub_lord": [
+      0.0995,
+      -1.28
+     ]
+    },
+    "star_lord_digits_min_p": 0.2575898039828031,
+    "sub_lord_digits_min_p": 0.005230850202370013
+   },
+   "Jupiter": {
+    "kp_in_winners": {
+     "substring": [
+      3834,
+      3883.4,
+      -0.79
+     ],
+     "last3": [
+      141,
+      131.9,
+      0.79
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0998,
+      -0.55
+     ],
+     "star_lord": [
+      0.0996,
+      -1.09
+     ],
+     "sub_lord": [
+      0.1001,
+      0.27
+     ]
+    },
+    "star_lord_digits_min_p": 0.09051041790207437,
+    "sub_lord_digits_min_p": 0.48222831753007916
+   },
+   "Saturn": {
+    "kp_in_winners": {
+     "substring": [
+      2608,
+      2610.3,
+      -0.04
+     ],
+     "last3": [
+      127,
+      131.9,
+      -0.43
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.099,
+      -2.38
+     ],
+     "star_lord": [
+      0.0996,
+      -0.86
+     ],
+     "sub_lord": [
+      0.0992,
+      -2.02
+     ]
+    },
+    "star_lord_digits_min_p": 0.006587548011957061,
+    "sub_lord_digits_min_p": 0.10834132626095587
+   },
+   "Rahu": {
+    "kp_in_winners": {
+     "substring": [
+      3466,
+      3456.8,
+      0.16
+     ],
+     "last3": [
+      139,
+      131.9,
+      0.62
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1001,
+      0.25
+     ],
+     "star_lord": [
+      0.0999,
+      -0.16
+     ],
+     "sub_lord": [
+      0.0995,
+      -1.18
+     ]
+    },
+    "star_lord_digits_min_p": 0.142674175350044,
+    "sub_lord_digits_min_p": 0.5107253498845352
+   },
+   "Ketu": {
+    "kp_in_winners": {
+     "substring": [
+      3197,
+      3269.6,
+      -1.27
+     ],
+     "last3": [
+      129,
+      131.9,
+      -0.25
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0999,
+      -0.12
+     ],
+     "star_lord": [
+      0.1001,
+      0.27
+     ],
+     "sub_lord": [
+      0.0998,
+      -0.55
+     ]
+    },
+    "star_lord_digits_min_p": 0.04279717371296145,
+    "sub_lord_digits_min_p": 0.1356056318958083
+   }
+  },
+  "Magnum (fair periods)": {
+   "Ascendant": {
+    "kp_in_winners": {
+     "substring": [
+      2243,
+      2305.0,
+      -1.29
+     ],
+     "last3": [
+      108,
+      97.6,
+      1.05
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0993,
+      -1.48
+     ],
+     "star_lord": [
+      0.1005,
+      1.08
+     ],
+     "sub_lord": [
+      0.1,
+      0.06
+     ]
+    },
+    "star_lord_digits_min_p": 0.15446077886188397,
+    "sub_lord_digits_min_p": 0.6821738398963657,
+    "kp_number_digits_min_p": 0.5919194665066674,
+    "hot_numbers": [
+     342,
+     404.9,
+     0.845,
+     -3.13
+    ]
+   },
+   "Moon": {
+    "kp_in_winners": {
+     "substring": [
+      2404,
+      2397.2,
+      0.14
+     ],
+     "last3": [
+      93,
+      97.6,
+      -0.46
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0994,
+      -1.32
+     ],
+     "star_lord": [
+      0.1005,
+      1.02
+     ],
+     "sub_lord": [
+      0.0995,
+      -1.08
+     ]
+    },
+    "star_lord_digits_min_p": 0.15757085024601,
+    "sub_lord_digits_min_p": 0.09529408265296822,
+    "kp_number_digits_min_p": 0.04973267640369269,
+    "hot_numbers": [
+     389,
+     398.9,
+     0.975,
+     -0.49
+    ]
+   },
+   "Sun": {
+    "kp_in_winners": {
+     "substring": [
+      2379,
+      2413.9,
+      -0.71
+     ],
+     "last3": [
+      105,
+      97.6,
+      0.75
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1003,
+      0.57
+     ],
+     "star_lord": [
+      0.1,
+      0.05
+     ],
+     "sub_lord": [
+      0.0999,
+      -0.26
+     ]
+    },
+    "star_lord_digits_min_p": 0.1335693274200721,
+    "sub_lord_digits_min_p": 0.2777170003637366
+   },
+   "Mercury": {
+    "kp_in_winners": {
+     "substring": [
+      2352,
+      2353.8,
+      -0.04
+     ],
+     "last3": [
+      93,
+      97.6,
+      -0.46
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1006,
+      1.2
+     ],
+     "star_lord": [
+      0.0994,
+      -1.27
+     ],
+     "sub_lord": [
+      0.1005,
+      1.09
+     ]
+    },
+    "star_lord_digits_min_p": 0.04930364385190906,
+    "sub_lord_digits_min_p": 0.25519049351271555
+   },
+   "Venus": {
+    "kp_in_winners": {
+     "substring": [
+      2220,
+      2228.0,
+      -0.17
+     ],
+     "last3": [
+      96,
+      97.6,
+      -0.16
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1005,
+      1.06
+     ],
+     "star_lord": [
+      0.0997,
+      -0.54
+     ],
+     "sub_lord": [
+      0.0996,
+      -0.73
+     ]
+    },
+    "star_lord_digits_min_p": 0.21105455594005673,
+    "sub_lord_digits_min_p": 0.33811952037005166
+   },
+   "Mars": {
+    "kp_in_winners": {
+     "substring": [
+      2080,
+      2080.3,
+      -0.01
+     ],
+     "last3": [
+      117,
+      97.6,
+      1.96
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0996,
+      -0.85
+     ],
+     "star_lord": [
+      0.0993,
+      -1.55
+     ],
+     "sub_lord": [
+      0.1001,
+      0.17
+     ]
+    },
+    "star_lord_digits_min_p": 0.11395117346784553,
+    "sub_lord_digits_min_p": 0.09213337601350378
+   },
+   "Jupiter": {
+    "kp_in_winners": {
+     "substring": [
+      3127,
+      3093.9,
+      0.6
+     ],
+     "last3": [
+      106,
+      97.6,
+      0.85
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0998,
+      -0.44
+     ],
+     "star_lord": [
+      0.1004,
+      0.82
+     ],
+     "sub_lord": [
+      0.099,
+      -2.07
+     ]
+    },
+    "star_lord_digits_min_p": 0.04953076423069244,
+    "sub_lord_digits_min_p": 0.19082627131704102
+   },
+   "Saturn": {
+    "kp_in_winners": {
+     "substring": [
+      2564,
+      2544.3,
+      0.39
+     ],
+     "last3": [
+      85,
+      97.6,
+      -1.27
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1004,
+      0.81
+     ],
+     "star_lord": [
+      0.0999,
+      -0.23
+     ],
+     "sub_lord": [
+      0.1001,
+      0.15
+     ]
+    },
+    "star_lord_digits_min_p": 0.08312957705477876,
+    "sub_lord_digits_min_p": 0.20257905054161518
+   },
+   "Rahu": {
+    "kp_in_winners": {
+     "substring": [
+      2240,
+      2134.5,
+      2.28
+     ],
+     "last3": [
+      112,
+      97.6,
+      1.46
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.0993,
+      -1.45
+     ],
+     "star_lord": [
+      0.1005,
+      1.13
+     ],
+     "sub_lord": [
+      0.1006,
+      1.23
+     ]
+    },
+    "star_lord_digits_min_p": 0.1288371651516878,
+    "sub_lord_digits_min_p": 0.242505405210539
+   },
+   "Ketu": {
+    "kp_in_winners": {
+     "substring": [
+      2979,
+      2886.7,
+      1.72
+     ],
+     "last3": [
+      106,
+      97.6,
+      0.85
+     ]
+    },
+    "lords_as_digits": {
+     "sign_lord": [
+      0.1003,
+      0.57
+     ],
+     "star_lord": [
+      0.1002,
+      0.41
+     ],
+     "sub_lord": [
+      0.0995,
+      -1.09
+     ]
+    },
+    "star_lord_digits_min_p": 0.5132403093428334,
+    "sub_lord_digits_min_p": 0.5817533080215198
+   }
+  }
+ },
+ "tests": [
+  {
+   "test": "Ascendant KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.936376540274904,
+   "detail": "3704 vs 3798.0 (z=-1.53)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.4365279727226997,
+   "detail": "159 vs 157.0 (z=+0.16)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.8667821357049328,
+   "detail": "9.96% vs 10% (z=-1.11)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.18762264487876448,
+   "detail": "10.03% vs 10% (z=+0.89)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.5070475546998369,
+   "detail": "10.00% vs 10% (z=-0.02)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.9241578733881493,
+   "detail": "chi2=55.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.4068130130190213,
+   "detail": "chi2=74.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.6670865232675445,
+   "detail": "chi2=66.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.6806333481374667,
+   "detail": "chi2=65.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.6905647043241108,
+   "detail": "chi2=65.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.797006322189961,
+   "detail": "chi2=61.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.8799170330890549,
+   "detail": "chi2=58.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.8034354008898265,
+   "detail": "chi2=61.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.8634568092513588,
+   "detail": "chi2=2158.9, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.2871210533911259,
+   "detail": "chi2=2269.1, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.7504221466480491,
+   "detail": "chi2=2186.5, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.8320793588079924,
+   "detail": "chi2=2167.7, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number: hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.17416326272190025,
+   "detail": "675 vs 651.1 (x1.037)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.7201547498195967,
+   "detail": "3857 vs 3893.4 (z=-0.58)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.7117501221774162,
+   "detail": "150 vs 157.0 (z=-0.56)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.7511324823606629,
+   "detail": "9.97% vs 10% (z=-0.68)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.61128290780185,
+   "detail": "9.99% vs 10% (z=-0.28)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.7007749007965369,
+   "detail": "9.98% vs 10% (z=-0.53)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.8779409954126698,
+   "detail": "chi2=58.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.5686927556966437,
+   "detail": "chi2=69.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.3437382701773825,
+   "detail": "chi2=76.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.7961976523166984,
+   "detail": "chi2=61.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.053274340871510346,
+   "detail": "chi2=92.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.23378480581277591,
+   "detail": "chi2=80.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.9367239164710673,
+   "detail": "chi2=54.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.15702101324880885,
+   "detail": "chi2=84.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.4665290690275598,
+   "detail": "chi2=2236.9, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.8531183048757962,
+   "detail": "chi2=2161.9, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.385292774380082,
+   "detail": "chi2=2250.9, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.5987893998237876,
+   "detail": "chi2=2214.7, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number: hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.5186244410069759,
+   "detail": "647 vs 648.2 (x0.998)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.6315207325599053,
+   "detail": "3822 vs 3842.8 (z=-0.34)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.6839223883713559,
+   "detail": "151 vs 157.0 (z=-0.48)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.09771127475232516,
+   "detail": "10.05% vs 10% (z=+1.29)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.355946708142122,
+   "detail": "10.01% vs 10% (z=+0.37)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.633656229590631,
+   "detail": "9.99% vs 10% (z=-0.34)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.9521977007495166,
+   "detail": "chi2=53.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.07930798335666259,
+   "detail": "chi2=89.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.39285368105558155,
+   "detail": "chi2=74.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.5003559032220815,
+   "detail": "chi2=71.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.8903368042727018,
+   "detail": "chi2=57.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.707142881370708,
+   "detail": "chi2=65.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.10626567068118915,
+   "detail": "chi2=87.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.6682283868323271,
+   "detail": "chi2=66.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.5962337493386455,
+   "detail": "3613 vs 3627.7 (z=-0.24)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.4053251409684456,
+   "detail": "160 vs 157.0 (z=+0.24)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.17542019568412545,
+   "detail": "10.04% vs 10% (z=+0.93)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.7334811801628373,
+   "detail": "9.98% vs 10% (z=-0.62)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.13540198133586984,
+   "detail": "10.04% vs 10% (z=+1.10)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.13563510823670144,
+   "detail": "chi2=85.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.050784418268591536,
+   "detail": "chi2=92.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.8748682855746007,
+   "detail": "chi2=58.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.7101307331042518,
+   "detail": "chi2=64.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.6242898561064291,
+   "detail": "chi2=67.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.44150735171107053,
+   "detail": "chi2=73.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.0528054121226973,
+   "detail": "chi2=92.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.9068537711186455,
+   "detail": "chi2=56.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.7076597418429065,
+   "detail": "3615 vs 3648.0 (z=-0.55)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.6251660019090696,
+   "detail": "153 vs 157.0 (z=-0.32)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.4318690805502489,
+   "detail": "10.01% vs 10% (z=+0.17)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.3813209448172504,
+   "detail": "10.01% vs 10% (z=+0.30)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.61128290780185,
+   "detail": "9.99% vs 10% (z=-0.28)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.7299848556670548,
+   "detail": "chi2=64.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.6837965468307194,
+   "detail": "chi2=65.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.12930997866579416,
+   "detail": "chi2=85.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.9860065607274108,
+   "detail": "chi2=48.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.5938132777218128,
+   "detail": "chi2=68.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.01748852227450808,
+   "detail": "chi2=99.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.9517522059055035,
+   "detail": "chi2=53.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.8816688210812192,
+   "detail": "chi2=58.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.6449914124007975,
+   "detail": "3751 vs 3773.8 (z=-0.37)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.03319575540027559,
+   "detail": "180 vs 157.0 (z=+1.84)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.7080380239586793,
+   "detail": "9.98% vs 10% (z=-0.55)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.7123561159907901,
+   "detail": "9.98% vs 10% (z=-0.56)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.5488769115889471,
+   "detail": "10.00% vs 10% (z=-0.12)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.06107718405088339,
+   "detail": "chi2=91.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.6437223416746536,
+   "detail": "chi2=67.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.6668958165787005,
+   "detail": "chi2=66.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.6535255695957813,
+   "detail": "chi2=66.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.31708931661445283,
+   "detail": "chi2=77.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.28938800596221975,
+   "detail": "chi2=78.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.3018075815659071,
+   "detail": "chi2=77.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.9150017380172311,
+   "detail": "chi2=56.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.24768329708003597,
+   "detail": "5048 vs 4999.8 (z=+0.68)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.3747129680832162,
+   "detail": "161 vs 157.0 (z=+0.32)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.8448428929443208,
+   "detail": "9.96% vs 10% (z=-1.01)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.0023581222040304733,
+   "detail": "10.11% vs 10% (z=+2.83)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.9888397673265249,
+   "detail": "9.91% vs 10% (z=-2.28)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.006673944875601187,
+   "detail": "chi2=105.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.6096100229813188,
+   "detail": "chi2=68.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.3357938925072572,
+   "detail": "chi2=76.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.47439905060629417,
+   "detail": "chi2=72.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.7626226337116496,
+   "detail": "chi2=63.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.05063365868418198,
+   "detail": "chi2=92.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.612379836559721,
+   "detail": "chi2=68.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.5544517884604191,
+   "detail": "chi2=69.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.37099830374661935,
+   "detail": "2680 vs 2663.0 (z=+0.33)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.7636593221820789,
+   "detail": "148 vs 157.0 (z=-0.72)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.00036663326405658785,
+   "detail": "10.13% vs 10% (z=+3.38)",
+   "p_bonferroni": 0.2053146278716892
+  },
+  {
+   "test": "Saturn star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.5934368527513231,
+   "detail": "9.99% vs 10% (z=-0.24)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.6648291084771131,
+   "detail": "9.98% vs 10% (z=-0.43)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.29386764916681063,
+   "detail": "chi2=78.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.41211004263320455,
+   "detail": "chi2=74.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.5489603403530618,
+   "detail": "chi2=69.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.004639898334604902,
+   "detail": "chi2=107.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.07851646652261868,
+   "detail": "chi2=89.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.8820742674923683,
+   "detail": "chi2=58.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.8641980256297854,
+   "detail": "chi2=59.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.2457570878815102,
+   "detail": "chi2=79.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.06218787000810591,
+   "detail": "4547 vs 4444.6 (z=+1.54)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.1690641629733181,
+   "detail": "169 vs 157.0 (z=+0.96)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.3281497520496319,
+   "detail": "10.02% vs 10% (z=+0.45)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.15157409714659412,
+   "detail": "10.04% vs 10% (z=+1.03)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.034023231093981504,
+   "detail": "10.07% vs 10% (z=+1.82)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.9562223638106759,
+   "detail": "chi2=52.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.9929555481758997,
+   "detail": "chi2=45.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.1278646638591869,
+   "detail": "chi2=85.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.22993762008686344,
+   "detail": "chi2=80.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.12475796472501016,
+   "detail": "chi2=86.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.3063420679311126,
+   "detail": "chi2=77.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.8093043210833712,
+   "detail": "chi2=61.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.23487990724090876,
+   "detail": "chi2=80.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu KP number inside winners",
+   "operator": "Magnum",
+   "p": 0.05750249247829639,
+   "detail": "3770 vs 3674.5 (z=+1.58)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu KP number = last 3 digits",
+   "operator": "Magnum",
+   "p": 0.13189278401303736,
+   "detail": "171 vs 157.0 (z=+1.12)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sign lord number as digit",
+   "operator": "Magnum",
+   "p": 0.3481403787514844,
+   "detail": "10.01% vs 10% (z=+0.39)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord number as digit",
+   "operator": "Magnum",
+   "p": 0.7719725906551331,
+   "detail": "9.97% vs 10% (z=-0.75)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord number as digit",
+   "operator": "Magnum",
+   "p": 0.5104028950789748,
+   "detail": "10.00% vs 10% (z=-0.03)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.7757163961234208,
+   "detail": "chi2=62.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.5804928054078282,
+   "detail": "chi2=68.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.026833256553188814,
+   "detail": "chi2=96.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.06489150443738147,
+   "detail": "chi2=91.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.4198467876077852,
+   "detail": "chi2=73.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.27929851151473783,
+   "detail": "chi2=78.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.9256031675908938,
+   "detail": "chi2=55.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.8303401852976178,
+   "detail": "chi2=60.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.7740719343054425,
+   "detail": "3034 vs 3075.7 (z=-0.75)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.14189478631828253,
+   "detail": "138 vs 126.0 (z=+1.07)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.7608610110120985,
+   "detail": "9.97% vs 10% (z=-0.71)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.21098963822270772,
+   "detail": "10.03% vs 10% (z=+0.80)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.9746185067721345,
+   "detail": "9.92% vs 10% (z=-1.95)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.03493854905612018,
+   "detail": "chi2=95.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5621533740280233,
+   "detail": "chi2=69.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.767499306044677,
+   "detail": "chi2=63.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.17383053380404906,
+   "detail": "chi2=83.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.31015265125871727,
+   "detail": "chi2=77.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.21082361833641744,
+   "detail": "chi2=81.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.20496601757553878,
+   "detail": "chi2=81.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.39927503483202825,
+   "detail": "chi2=74.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.18767014009594452,
+   "detail": "chi2=2291.1, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.6484048594304914,
+   "detail": "chi2=2206.0, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.15884644402871606,
+   "detail": "chi2=2298.7, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.9340568835178237,
+   "detail": "chi2=2132.2, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number: hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.008646858123486277,
+   "detail": "701 vs 640.7 (x1.094)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.03614481201370905,
+   "detail": "3214 vs 3113.7 (z=+1.80)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.393593207294916,
+   "detail": "129 vs 126.0 (z=+0.27)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.8344854511546147,
+   "detail": "9.96% vs 10% (z=-0.97)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.0808515652095369,
+   "detail": "10.06% vs 10% (z=+1.40)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.4384250872794268,
+   "detail": "10.01% vs 10% (z=+0.15)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.22285122898470766,
+   "detail": "chi2=80.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.6030245149999478,
+   "detail": "chi2=68.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.20188681891550814,
+   "detail": "chi2=81.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.9921545030481248,
+   "detail": "chi2=46.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.9942266456650802,
+   "detail": "chi2=45.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.15501282226937962,
+   "detail": "chi2=84.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.35903956324251185,
+   "detail": "chi2=75.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.6941492206521487,
+   "detail": "chi2=65.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.38062690782281855,
+   "detail": "chi2=2251.7, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.4900499581963373,
+   "detail": "chi2=2233.0, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.227055392346964,
+   "detail": "chi2=2281.7, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.9490163364434195,
+   "detail": "chi2=2123.9, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number: hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.006113952649454803,
+   "detail": "696 vs 633.0 (x1.100)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.19900064809337825,
+   "detail": "3076 vs 3029.5 (z=+0.85)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.463440144172211,
+   "detail": "127 vs 126.0 (z=+0.09)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.24648406900314587,
+   "detail": "10.03% vs 10% (z=+0.69)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.9977513532858449,
+   "detail": "9.88% vs 10% (z=-2.84)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.16786124729037866,
+   "detail": "10.04% vs 10% (z=+0.96)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.4689943031516195,
+   "detail": "chi2=72.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.8678793473200924,
+   "detail": "chi2=58.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.9024624036422815,
+   "detail": "chi2=57.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.2687644216452995,
+   "detail": "chi2=78.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.4294904399630335,
+   "detail": "chi2=73.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5074561623996644,
+   "detail": "chi2=71.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.7755234084472525,
+   "detail": "chi2=62.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.9774647794461322,
+   "detail": "chi2=50.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.6413911630514016,
+   "detail": "2860 vs 2879.4 (z=-0.36)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.8128113624321853,
+   "detail": "116 vs 126.0 (z=-0.89)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.6270364236963714,
+   "detail": "9.99% vs 10% (z=-0.32)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.7150501148554631,
+   "detail": "9.98% vs 10% (z=-0.57)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.04198724100222935,
+   "detail": "10.07% vs 10% (z=+1.73)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.48266888766685906,
+   "detail": "chi2=71.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.48931296144645303,
+   "detail": "chi2=71.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.3282158344218371,
+   "detail": "chi2=76.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.4772960019164872,
+   "detail": "chi2=72.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.4623070455691718,
+   "detail": "chi2=72.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.05217346428120099,
+   "detail": "chi2=92.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.03575534615124009,
+   "detail": "chi2=95.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.8627113471401329,
+   "detail": "chi2=59.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.836550156348584,
+   "detail": "2826 vs 2878.6 (z=-0.98)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.3597737245270098,
+   "detail": "130 vs 126.0 (z=+0.36)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.19507580037782593,
+   "detail": "10.04% vs 10% (z=+0.86)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.5982734310058566,
+   "detail": "9.99% vs 10% (z=-0.25)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.7245373909820778,
+   "detail": "9.97% vs 10% (z=-0.60)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.5824263270411794,
+   "detail": "chi2=68.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.9700060379202032,
+   "detail": "chi2=51.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.05285063968623187,
+   "detail": "chi2=92.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.06303547700001755,
+   "detail": "chi2=91.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.3896780180905262,
+   "detail": "chi2=74.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.4891913267290313,
+   "detail": "chi2=71.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.4821075060971107,
+   "detail": "chi2=71.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.5232712377771027,
+   "detail": "chi2=70.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.28836942852887787,
+   "detail": "3126 vs 3094.9 (z=+0.56)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.32701836942608875,
+   "detail": "131 vs 126.0 (z=+0.45)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.914108238072542,
+   "detail": "9.94% vs 10% (z=-1.37)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.1220958583375561,
+   "detail": "10.05% vs 10% (z=+1.16)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.4644529994514952,
+   "detail": "10.00% vs 10% (z=+0.09)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.0055335573995867245,
+   "detail": "chi2=106.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.2399339945382202,
+   "detail": "chi2=80.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.7249400590665962,
+   "detail": "chi2=64.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.32938495504742604,
+   "detail": "chi2=76.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.7664669011487695,
+   "detail": "chi2=63.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5741049989562093,
+   "detail": "chi2=69.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.4879910192667249,
+   "detail": "chi2=71.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.6090648297400142,
+   "detail": "chi2=68.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.9940572228073267,
+   "detail": "3686 vs 3841.9 (z=-2.52)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.8569010086196407,
+   "detail": "114 vs 126.0 (z=-1.07)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.8889425495970182,
+   "detail": "9.95% vs 10% (z=-1.22)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.37296357630362864,
+   "detail": "10.01% vs 10% (z=+0.32)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.903328553214568,
+   "detail": "9.95% vs 10% (z=-1.30)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.9881427271860708,
+   "detail": "chi2=47.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.24131285558611196,
+   "detail": "chi2=80.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.27791264618339134,
+   "detail": "chi2=78.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.9370550718928294,
+   "detail": "chi2=54.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.6300615805957007,
+   "detail": "chi2=67.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.12661727368027378,
+   "detail": "chi2=85.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.929919117617688,
+   "detail": "chi2=55.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.7249265306019428,
+   "detail": "chi2=64.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.7707001361177223,
+   "detail": "2476 vs 2513.2 (z=-0.74)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.6382248174753722,
+   "detail": "122 vs 126.0 (z=-0.35)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.6323568211520751,
+   "detail": "9.99% vs 10% (z=-0.34)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.38009513803711326,
+   "detail": "10.01% vs 10% (z=+0.31)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.9743392737882923,
+   "detail": "9.92% vs 10% (z=-1.95)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.9005275788829684,
+   "detail": "chi2=57.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.026568171050569876,
+   "detail": "chi2=97.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.09405280407897114,
+   "detail": "chi2=88.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.21532484798729767,
+   "detail": "chi2=81.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.7609146030920014,
+   "detail": "chi2=63.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.6912217206475568,
+   "detail": "chi2=65.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.4960388805865044,
+   "detail": "chi2=71.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.187770142631619,
+   "detail": "chi2=82.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.5951498481733853,
+   "detail": "3439 vs 3453.2 (z=-0.24)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.4989336562230258,
+   "detail": "126 vs 126.0 (z=+0.00)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.3836764385684104,
+   "detail": "10.01% vs 10% (z=+0.30)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.11833387723484978,
+   "detail": "10.05% vs 10% (z=+1.18)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.903328553214568,
+   "detail": "9.95% vs 10% (z=-1.30)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.9385642901482592,
+   "detail": "chi2=54.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.7074836177653618,
+   "detail": "chi2=65.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.6357961475581224,
+   "detail": "chi2=67.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.299221636581358,
+   "detail": "chi2=77.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.2486458276026545,
+   "detail": "chi2=79.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.6175654022543067,
+   "detail": "chi2=67.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.28243396779522667,
+   "detail": "chi2=78.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.15563327432461244,
+   "detail": "chi2=84.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu KP number inside winners",
+   "operator": "Sports Toto",
+   "p": 0.6710128990031816,
+   "detail": "3060 vs 3084.6 (z=-0.44)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu KP number = last 3 digits",
+   "operator": "Sports Toto",
+   "p": 0.6382248174753722,
+   "detail": "122 vs 126.0 (z=-0.35)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sign lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.3818845247591118,
+   "detail": "10.01% vs 10% (z=+0.30)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.658561314131502,
+   "detail": "9.98% vs 10% (z=-0.41)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord number as digit",
+   "operator": "Sports Toto",
+   "p": 0.8844333110466918,
+   "detail": "9.95% vs 10% (z=-1.20)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.1694373890785403,
+   "detail": "chi2=83.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.4571621344918052,
+   "detail": "chi2=72.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.24693619609412298,
+   "detail": "chi2=79.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.46018942520242645,
+   "detail": "chi2=72.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.24188795530860113,
+   "detail": "chi2=80.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.8284943828066886,
+   "detail": "chi2=60.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.04302763259813457,
+   "detail": "chi2=93.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.6922926630716485,
+   "detail": "chi2=65.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.3375970654136082,
+   "detail": "3210 vs 3186.3 (z=+0.42)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.6330105218488219,
+   "detail": "128 vs 131.9 (z=-0.34)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.8648313917588153,
+   "detail": "9.95% vs 10% (z=-1.10)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.21255876698072732,
+   "detail": "10.03% vs 10% (z=+0.80)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.3536877858223705,
+   "detail": "10.02% vs 10% (z=+0.38)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.4635682507163663,
+   "detail": "chi2=72.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.4598947137909655,
+   "detail": "chi2=72.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.21684914494018528,
+   "detail": "chi2=81.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.6043981565014371,
+   "detail": "chi2=68.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.8612622099794582,
+   "detail": "chi2=59.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.2402689244832186,
+   "detail": "chi2=80.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.7230646266580686,
+   "detail": "chi2=64.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.08899438782279151,
+   "detail": "chi2=88.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.32133133653526386,
+   "detail": "chi2=2262.5, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.036367632482209485,
+   "detail": "chi2=2353.4, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.09159704881582913,
+   "detail": "chi2=2321.4, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.9737224951512198,
+   "detail": "chi2=2104.3, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number: hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.9778767353953297,
+   "detail": "593 vs 644.1 (x0.921)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.49684768513065086,
+   "detail": "3248 vs 3247.5 (z=+0.01)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.9027904281742087,
+   "detail": "117 vs 131.9 (z=-1.30)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.2401582349059984,
+   "detail": "10.03% vs 10% (z=+0.71)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.4729255645227269,
+   "detail": "10.00% vs 10% (z=+0.07)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.42753883158760964,
+   "detail": "10.01% vs 10% (z=+0.18)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.1956939962024303,
+   "detail": "chi2=82.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.8959227553257024,
+   "detail": "chi2=57.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.22926142962287366,
+   "detail": "chi2=80.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.27379074909127155,
+   "detail": "chi2=78.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.6231323915760995,
+   "detail": "chi2=67.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.032501281451162434,
+   "detail": "chi2=95.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.305501288376831,
+   "detail": "chi2=77.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.604843124011365,
+   "detail": "chi2=68.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.28112835215011434,
+   "detail": "chi2=2270.3, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.3978066481265689,
+   "detail": "chi2=2248.7, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.6999274940352056,
+   "detail": "chi2=2196.5, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.4831624754291828,
+   "detail": "chi2=2234.2, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number: hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.024667267978432883,
+   "detail": "687 vs 637.4 (x1.078)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.2950945875097369,
+   "detail": "3262 vs 3231.4 (z=+0.54)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.7808867632611094,
+   "detail": "123 vs 131.9 (z=-0.78)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.18814141573679918,
+   "detail": "10.04% vs 10% (z=+0.88)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.7879736361422377,
+   "detail": "9.97% vs 10% (z=-0.80)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.7488632917598796,
+   "detail": "9.97% vs 10% (z=-0.67)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.016134754865586423,
+   "detail": "chi2=100.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.4767675353087718,
+   "detail": "chi2=72.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.34290492783229676,
+   "detail": "chi2=76.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.4484053023751483,
+   "detail": "chi2=72.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.8497016857635655,
+   "detail": "chi2=59.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.05907690928461251,
+   "detail": "chi2=91.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.3497134471513202,
+   "detail": "chi2=76.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.44596127131060803,
+   "detail": "chi2=73.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.05760635082639745,
+   "detail": "3125 vs 3038.2 (z=+1.58)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.1669658144252763,
+   "detail": "143 vs 131.9 (z=+0.97)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.564163601475525,
+   "detail": "9.99% vs 10% (z=-0.16)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.19948429544634408,
+   "detail": "10.03% vs 10% (z=+0.84)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.3334336105427348,
+   "detail": "10.02% vs 10% (z=+0.43)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.13972449882566476,
+   "detail": "chi2=85.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.575836968042917,
+   "detail": "chi2=69.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.3351229553121177,
+   "detail": "chi2=76.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.5678706298748117,
+   "detail": "chi2=69.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.7025765170358823,
+   "detail": "chi2=65.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.06793708115566502,
+   "detail": "chi2=90.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.40411210163579414,
+   "detail": "chi2=74.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.1652087280864667,
+   "detail": "chi2=83.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.6181693659282265,
+   "detail": "3026 vs 3042.6 (z=-0.30)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.21415605280917005,
+   "detail": "141 vs 131.9 (z=+0.79)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.7853038268273107,
+   "detail": "9.97% vs 10% (z=-0.79)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.7575524656092986,
+   "detail": "9.97% vs 10% (z=-0.70)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.7561156722230854,
+   "detail": "9.97% vs 10% (z=-0.69)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.4992508250445654,
+   "detail": "chi2=71.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.9375862148503309,
+   "detail": "chi2=54.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.40187665601964256,
+   "detail": "chi2=74.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.8569681423210496,
+   "detail": "chi2=59.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.07419974893656868,
+   "detail": "chi2=90.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.5455609868638203,
+   "detail": "chi2=70.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.33130019799770466,
+   "detail": "chi2=76.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.9010439191837389,
+   "detail": "chi2=57.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.35941116530236494,
+   "detail": "3241 vs 3220.6 (z=+0.36)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.5997757132755283,
+   "detail": "129 vs 131.9 (z=-0.25)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.5369284620703801,
+   "detail": "10.00% vs 10% (z=-0.09)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.2928157526339582,
+   "detail": "10.02% vs 10% (z=+0.55)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.8999485927268112,
+   "detail": "9.95% vs 10% (z=-1.28)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.4690989177192173,
+   "detail": "chi2=72.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.9818251704525001,
+   "detail": "chi2=49.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.44530064872447656,
+   "detail": "chi2=73.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.2575898039828031,
+   "detail": "chi2=79.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.6667190564307979,
+   "detail": "chi2=66.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.005230850202370013,
+   "detail": "chi2=106.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.06223399043356817,
+   "detail": "chi2=91.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.15571643709134111,
+   "detail": "chi2=84.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.7858428007030043,
+   "detail": "3834 vs 3883.4 (z=-0.79)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.21415605280917005,
+   "detail": "141 vs 131.9 (z=+0.79)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.7078151085108432,
+   "detail": "9.98% vs 10% (z=-0.55)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.8618170195408621,
+   "detail": "9.96% vs 10% (z=-1.09)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.3918792776778759,
+   "detail": "10.01% vs 10% (z=+0.27)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.16869623093093367,
+   "detail": "chi2=83.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.8097967571538285,
+   "detail": "chi2=61.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.5036661672853904,
+   "detail": "chi2=71.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.09051041790207437,
+   "detail": "chi2=88.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.48222831753007916,
+   "detail": "chi2=71.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.5778404350645945,
+   "detail": "chi2=69.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.9385920132233432,
+   "detail": "chi2=54.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.7350836003868699,
+   "detail": "chi2=64.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.5179034699465961,
+   "detail": "2608 vs 2610.3 (z=-0.04)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.6652769250716514,
+   "detail": "127 vs 131.9 (z=-0.43)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.9914052040581341,
+   "detail": "9.90% vs 10% (z=-2.38)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.8048483443109705,
+   "detail": "9.96% vs 10% (z=-0.86)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.9785500086777816,
+   "detail": "9.92% vs 10% (z=-2.02)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.18600785510788487,
+   "detail": "chi2=82.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.3592283801410723,
+   "detail": "chi2=75.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.006587548011957061,
+   "detail": "chi2=105.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.37407221108553124,
+   "detail": "chi2=75.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.10834132626095587,
+   "detail": "chi2=87.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.2827481710842469,
+   "detail": "chi2=78.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.9408939666921022,
+   "detail": "chi2=54.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.21360282832184654,
+   "detail": "chi2=81.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.4380714712891439,
+   "detail": "3466 vs 3456.8 (z=+0.16)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.26830690112575134,
+   "detail": "139 vs 131.9 (z=+0.62)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.4007218428657716,
+   "detail": "10.01% vs 10% (z=+0.25)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.5623559077304215,
+   "detail": "9.99% vs 10% (z=-0.16)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.8819693223778022,
+   "detail": "9.95% vs 10% (z=-1.18)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.22111917642398757,
+   "detail": "chi2=80.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.19676016661192747,
+   "detail": "chi2=82.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.142674175350044,
+   "detail": "chi2=84.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.21847340334899662,
+   "detail": "chi2=81.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.5107253498845352,
+   "detail": "chi2=71.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.7848342486324064,
+   "detail": "chi2=62.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.5844464206998661,
+   "detail": "chi2=68.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.9753798994209781,
+   "detail": "chi2=50.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu KP number inside winners",
+   "operator": "Da Ma Cai",
+   "p": 0.8980259141339959,
+   "detail": "3197 vs 3269.6 (z=-1.27)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu KP number = last 3 digits",
+   "operator": "Da Ma Cai",
+   "p": 0.5997757132755283,
+   "detail": "129 vs 131.9 (z=-0.25)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sign lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.5496676716578375,
+   "detail": "9.99% vs 10% (z=-0.12)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.3954098843355621,
+   "detail": "10.01% vs 10% (z=+0.27)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord number as digit",
+   "operator": "Da Ma Cai",
+   "p": 0.7078151085108432,
+   "detail": "9.98% vs 10% (z=-0.55)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.19026964926566595,
+   "detail": "chi2=82.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.06772506628048833,
+   "detail": "chi2=90.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.09566153652449692,
+   "detail": "chi2=88.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.04279717371296145,
+   "detail": "chi2=93.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.2312138557493692,
+   "detail": "chi2=80.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.1356056318958083,
+   "detail": "chi2=85.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.7334087971476605,
+   "detail": "chi2=64.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.3494289538778419,
+   "detail": "chi2=76.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9018631975020499,
+   "detail": "2243 vs 2305.0 (z=-1.29)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.14596845819078874,
+   "detail": "108 vs 97.6 (z=+1.05)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9299888786040393,
+   "detail": "9.93% vs 10% (z=-1.48)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.14010704269990254,
+   "detail": "10.05% vs 10% (z=+1.08)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.4778757312707927,
+   "detail": "10.00% vs 10% (z=+0.06)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9702254654651651,
+   "detail": "chi2=51.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5280723846733518,
+   "detail": "chi2=70.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8355240245035804,
+   "detail": "chi2=60.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.15446077886188397,
+   "detail": "chi2=84.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8239537195347288,
+   "detail": "chi2=60.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6821738398963657,
+   "detail": "chi2=65.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9614215542126516,
+   "detail": "chi2=52.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9042163866031572,
+   "detail": "chi2=56.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9189151029931417,
+   "detail": "chi2=2139.3, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5919194665066674,
+   "detail": "chi2=2215.8, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6016937097952637,
+   "detail": "chi2=2214.2, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.644621038253569,
+   "detail": "chi2=2206.7, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ascendant KP number: hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9991150524502339,
+   "detail": "342 vs 404.9 (x0.845)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.44460547502594866,
+   "detail": "2404 vs 2397.2 (z=+0.14)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6788674421017353,
+   "detail": "93 vs 97.6 (z=-0.46)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9067473596773645,
+   "detail": "9.94% vs 10% (z=-1.32)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.15485839031537146,
+   "detail": "10.05% vs 10% (z=+1.02)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8589402852466481,
+   "detail": "9.95% vs 10% (z=-1.08)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8304097932653631,
+   "detail": "chi2=60.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5607739595046144,
+   "detail": "chi2=69.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.15757085024601,
+   "detail": "chi2=84.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9683535618123034,
+   "detail": "chi2=51.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.09529408265296822,
+   "detail": "chi2=88.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.14782124377542744,
+   "detail": "chi2=84.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8283770878479766,
+   "detail": "chi2=60.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.21417578843500606,
+   "detail": "chi2=81.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.955986233045326,
+   "detail": "chi2=2119.3, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5974096820252173,
+   "detail": "chi2=2214.9, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.04973267640369269,
+   "detail": "chi2=2343.2, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5397439905388689,
+   "detail": "chi2=2224.7, df=2232",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Moon KP number: hot numbers stay hot",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6895374831474315,
+   "detail": "389 vs 398.9 (x0.975)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7610839420065232,
+   "detail": "2379 vs 2413.9 (z=-0.71)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.22656748330884055,
+   "detail": "105 vs 97.6 (z=+0.75)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.283323251436158,
+   "detail": "10.03% vs 10% (z=+0.57)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.48000118707551337,
+   "detail": "10.00% vs 10% (z=+0.05)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6022939803613911,
+   "detail": "9.99% vs 10% (z=-0.26)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9888450637439659,
+   "detail": "chi2=47.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2982628400408841,
+   "detail": "chi2=77.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7999166729063776,
+   "detail": "chi2=61.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.1335693274200721,
+   "detail": "chi2=85.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7793823667052799,
+   "detail": "chi2=62.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.978372771056056,
+   "detail": "chi2=49.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2777170003637366,
+   "detail": "chi2=78.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Sun sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8253587559939397,
+   "detail": "chi2=60.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5151510320007433,
+   "detail": "2352 vs 2353.8 (z=-0.04)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6788674421017353,
+   "detail": "93 vs 97.6 (z=-0.46)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.11561190938704859,
+   "detail": "10.06% vs 10% (z=+1.20)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8975361130291488,
+   "detail": "9.94% vs 10% (z=-1.27)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.13774452146149072,
+   "detail": "10.05% vs 10% (z=+1.09)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.04930364385190906,
+   "detail": "chi2=92.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.4238208005803828,
+   "detail": "chi2=73.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5121080946151941,
+   "detail": "chi2=71.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5900970579999383,
+   "detail": "chi2=68.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.25519049351271555,
+   "detail": "chi2=79.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5107034471103222,
+   "detail": "chi2=71.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.3955560888570253,
+   "detail": "chi2=74.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mercury sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2685764298579633,
+   "detail": "chi2=79.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5675861352131439,
+   "detail": "2220 vs 2228.0 (z=-0.17)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5638945779722262,
+   "detail": "96 vs 97.6 (z=-0.16)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.1449142633821751,
+   "detail": "10.05% vs 10% (z=+1.06)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7061091190179938,
+   "detail": "9.97% vs 10% (z=-0.54)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7685620396372542,
+   "detail": "9.96% vs 10% (z=-0.73)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9028537165390041,
+   "detail": "chi2=56.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8691453829305906,
+   "detail": "chi2=58.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.21105455594005673,
+   "detail": "chi2=81.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9932585724083071,
+   "detail": "chi2=45.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.33811952037005166,
+   "detail": "chi2=76.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5753709656161042,
+   "detail": "chi2=69.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8102352523381775,
+   "detail": "chi2=61.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Venus sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8392989992814536,
+   "detail": "chi2=60.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5024578345061523,
+   "detail": "2080 vs 2080.3 (z=-0.01)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.024711067238433127,
+   "detail": "117 vs 97.6 (z=+1.96)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8012677141692299,
+   "detail": "9.96% vs 10% (z=-0.85)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9388347801153908,
+   "detail": "9.93% vs 10% (z=-1.55)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.4334787414823885,
+   "detail": "10.01% vs 10% (z=+0.17)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.11395117346784553,
+   "detail": "chi2=86.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5072537542730404,
+   "detail": "chi2=71.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9310585384428944,
+   "detail": "chi2=55.1, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7758428280726146,
+   "detail": "chi2=62.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8302640183831926,
+   "detail": "chi2=60.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.09213337601350378,
+   "detail": "chi2=88.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.20909792596814666,
+   "detail": "chi2=81.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Mars sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9081526525238479,
+   "detail": "chi2=56.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2756325207971811,
+   "detail": "3127 vs 3093.9 (z=+0.60)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.19726621856328597,
+   "detail": "106 vs 97.6 (z=+0.85)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6702795061467433,
+   "detail": "9.98% vs 10% (z=-0.44)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.20504071223237427,
+   "detail": "10.04% vs 10% (z=+0.82)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9806758574691679,
+   "detail": "9.90% vs 10% (z=-2.07)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.04953076423069244,
+   "detail": "chi2=92.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6018150465055803,
+   "detail": "chi2=68.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.4829313761285986,
+   "detail": "chi2=71.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8266519468705111,
+   "detail": "chi2=60.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6277786068187985,
+   "detail": "chi2=67.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.19082627131704102,
+   "detail": "chi2=82.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.2609834423447734,
+   "detail": "chi2=79.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Jupiter sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5434273273612382,
+   "detail": "chi2=70.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.34778583344957675,
+   "detail": "2564 vs 2544.3 (z=+0.39)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8987313772101695,
+   "detail": "85 vs 97.6 (z=-1.27)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.20808609394598715,
+   "detail": "10.04% vs 10% (z=+0.81)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5898963154588888,
+   "detail": "9.99% vs 10% (z=-0.23)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.44188819590740686,
+   "detail": "10.01% vs 10% (z=+0.15)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.08312957705477876,
+   "detail": "chi2=89.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.33166722868880166,
+   "detail": "chi2=76.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5879263481680375,
+   "detail": "chi2=68.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.4138098376182364,
+   "detail": "chi2=74.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.26203760585781116,
+   "detail": "chi2=79.2, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8911407920655633,
+   "detail": "chi2=57.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.872843432609507,
+   "detail": "chi2=58.6, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Saturn sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.20257905054161518,
+   "detail": "chi2=81.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.01122025370533923,
+   "detail": "2240 vs 2134.5 (z=+2.28)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.07231103863022977,
+   "detail": "112 vs 97.6 (z=+1.46)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9270777801557843,
+   "detail": "9.93% vs 10% (z=-1.45)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.12856718444150972,
+   "detail": "10.05% vs 10% (z=+1.13)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.10949404407513025,
+   "detail": "10.06% vs 10% (z=+1.23)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.49633515730445865,
+   "detail": "chi2=71.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9602174815409263,
+   "detail": "chi2=52.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.6841522105205804,
+   "detail": "chi2=65.8, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.1288371651516878,
+   "detail": "chi2=85.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.242505405210539,
+   "detail": "chi2=80.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5962799124569614,
+   "detail": "chi2=68.5, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5353085456857215,
+   "detail": "chi2=70.3, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Rahu sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5897157301425682,
+   "detail": "chi2=68.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu KP number inside winners",
+   "operator": "Magnum (fair periods)",
+   "p": 0.04293826666718476,
+   "detail": "2979 vs 2886.7 (z=+1.72)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu KP number = last 3 digits",
+   "operator": "Magnum (fair periods)",
+   "p": 0.19726621856328597,
+   "detail": "106 vs 97.6 (z=+0.85)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sign lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.283323251436158,
+   "detail": "10.03% vs 10% (z=+0.57)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.34178109818083824,
+   "detail": "10.02% vs 10% (z=+0.41)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord number as digit",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8624902266225243,
+   "detail": "9.95% vs 10% (z=-1.09)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.867123266391316,
+   "detail": "chi2=58.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.9470682051774716,
+   "detail": "chi2=53.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5132403093428334,
+   "detail": "chi2=70.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu star lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5899310428212672,
+   "detail": "chi2=68.7, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 1",
+   "operator": "Magnum (fair periods)",
+   "p": 0.5817533080215198,
+   "detail": "chi2=68.9, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 2",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7393930611242105,
+   "detail": "chi2=64.0, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 3",
+   "operator": "Magnum (fair periods)",
+   "p": 0.7564080238730968,
+   "detail": "chi2=63.4, df=72",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Ketu sub lord vs digit, position 4",
+   "operator": "Magnum (fair periods)",
+   "p": 0.8657583672276628,
+   "detail": "chi2=58.9, df=72",
+   "p_bonferroni": 1.0
+  }
+ ]
+}
