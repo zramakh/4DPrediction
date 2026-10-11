@@ -85,7 +85,58 @@ best, and even the most favourable historical period lost money.
   hit rate by 5% (68.96% of winners vs 65.61% of numbers) while the bias lasted,
   and by nothing afterwards.
 
-## 3. Predictive models (walk-forward backtest)
+## 3. Same date every year, moon phase and astrology
+
+`python3 analysis/seasonal_astro.py` (~25 s). Sun and Moon positions come from
+`analysis/ephemeris.py`, an implementation of Meeus' *Astronomical Algorithms*
+validated against published moon phases (within ~2 minutes), solar ingresses,
+Chinese New Year dates and leap-month festival dates. Draws are evaluated at
+19:00 Malaysia time. 118 tests were run; 5 had raw p < 0.05 (about 6 expected
+by chance) and **none survives correction**.
+
+**Numbers recurring near the same date in different years.** For every number,
+each pair of wins in different years within ±3 days of the same date was
+counted, both on the Gregorian calendar and on the Chinese lunar calendar,
+and compared with the count expected if numbers were random, given the real
+draw dates.
+
+| | Same calendar date | Same Chinese lunar date |
+|---|---|---|
+| Magnum | 22,963 vs 23,043 expected (z = −0.5) | 23,988 vs 24,035 (z = −0.3) |
+| Sports Toto | 14,856 vs 14,763 (z = +0.8) | 15,490 vs 15,449 (z = +0.3) |
+| Da Ma Cai | 16,061 vs 16,195 (z = −1.1) | 17,219 vs 16,902 (z = +2.4) |
+| All three pooled | 160,166 vs 159,986 (z = +0.5) | 167,369 vs 167,055 (z = +0.8) |
+
+The numbers that recur most (1024, 8231, 1841, 7748 and 3553, each with ~50
+near-date repeats across all operators) are what the luckiest of 10,000 numbers
+looks like by chance. Da Ma Cai's lunar z = +2.4 does not hold up: it fades
+with wider windows (+0.3 at ±10 days), is absent in 1992–2005 (z = −0.1), and
+is one of 118 tests. Predicting each draw from the numbers that won within ±3
+days of the same date in earlier years gave 0.99–1.02× random for every
+operator.
+
+*Method note:* a first version used a "shift each year randomly" null and
+showed a lunar effect at z = +6.9. That turned out to be the draw calendar
+itself (e.g. draw breaks around Chinese New Year line up in lunar time every
+year), not the numbers; the exact null above removes it.
+
+**Moon phase, Moon sign, Sun sign, Chinese lunar month/day and Chinese
+zodiac year.** For each grouping we tested whether digit frequencies differ
+between groups (4 positions each), and whether the 100 numbers most frequent
+in a group before 2010 stay frequent in that group from 2010 on:
+
+* Moon phase, Moon sign, Sun sign, lunar month, lunar day: no digit effect for
+  any operator (smallest p = 0.17), and group "hot numbers" won 0.95–1.04× as
+  often as random afterwards (all |z| < 1.4).
+* Chinese zodiac year: Magnum p = 0.006 on the first digit (0.67 after
+  correction). This is the Magnum digit bias of section 2 showing through
+  (zodiac years are year-level groups, and the bias changed by era), not an
+  effect of the zodiac itself; its hot numbers did not carry over (1.05×,
+  z = 1.2).
+* Draws within ±1.5 days of a full or new moon show the same rates of
+  repeated-digit numbers (e.g. 1123) and of recent repeats as other draws.
+
+## 4. Predictive models (walk-forward backtest)
 
 Each strategy picked 23 numbers per draw using only earlier draws, over the
 last 40% of each operator's history (2,191–2,731 draws). Hits are compared

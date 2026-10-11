@@ -1,0 +1,1370 @@
+{
+ "anniversary": {
+  "Magnum": {
+   "solar": {
+    "observed_pairs": 22963,
+    "expected": 23042.9,
+    "z": -0.53,
+    "p": 0.5984319047925031,
+    "top_numbers": [
+     [
+      "1841",
+      18
+     ],
+     [
+      "5810",
+      16
+     ],
+     [
+      "2301",
+      14
+     ],
+     [
+      "1024",
+      14
+     ],
+     [
+      "6771",
+      14
+     ]
+    ]
+   },
+   "lunar": {
+    "observed_pairs": 23988,
+    "expected": 24035.4,
+    "z": -0.31,
+    "p": 0.7600016181564468,
+    "top_numbers": [
+     [
+      "6980",
+      16
+     ],
+     [
+      "1914",
+      15
+     ],
+     [
+      "4409",
+      14
+     ],
+     [
+      "8183",
+      14
+     ],
+     [
+      "2638",
+      14
+     ]
+    ]
+   },
+   "solar_prediction": {
+    "hits": 13718,
+    "expected": 13769.8,
+    "lift": 0.996,
+    "z": -0.44,
+    "avg_numbers_picked_per_draw": 2115
+   },
+   "lunar_prediction": {
+    "hits": 14223,
+    "expected": 14295.3,
+    "lift": 0.995,
+    "z": -0.6,
+    "avg_numbers_picked_per_draw": 2196
+   }
+  },
+  "Sports Toto": {
+   "solar": {
+    "observed_pairs": 14856,
+    "expected": 14763.2,
+    "z": 0.76,
+    "p": 0.4450158207404531,
+    "top_numbers": [
+     [
+      "2085",
+      15
+     ],
+     [
+      "8992",
+      12
+     ],
+     [
+      "7200",
+      12
+     ],
+     [
+      "2330",
+      11
+     ],
+     [
+      "1317",
+      11
+     ]
+    ]
+   },
+   "lunar": {
+    "observed_pairs": 15490,
+    "expected": 15449.2,
+    "z": 0.33,
+    "p": 0.7424234434287983,
+    "top_numbers": [
+     [
+      "3576",
+      11
+     ],
+     [
+      "7497",
+      10
+     ],
+     [
+      "9684",
+      10
+     ],
+     [
+      "6008",
+      10
+     ],
+     [
+      "4563",
+      10
+     ]
+    ]
+   },
+   "solar_prediction": {
+    "hits": 10621,
+    "expected": 10527.9,
+    "lift": 1.009,
+    "z": 0.91,
+    "avg_numbers_picked_per_draw": 1637
+   },
+   "lunar_prediction": {
+    "hits": 10976,
+    "expected": 10980.3,
+    "lift": 1.0,
+    "z": -0.04,
+    "avg_numbers_picked_per_draw": 1707
+   }
+  },
+  "Da Ma Cai": {
+   "solar": {
+    "observed_pairs": 16061,
+    "expected": 16195.4,
+    "z": -1.06,
+    "p": 0.29104266314806926,
+    "top_numbers": [
+     [
+      "0329",
+      15
+     ],
+     [
+      "4984",
+      14
+     ],
+     [
+      "7253",
+      11
+     ],
+     [
+      "9632",
+      11
+     ],
+     [
+      "7048",
+      11
+     ]
+    ]
+   },
+   "lunar": {
+    "observed_pairs": 17219,
+    "expected": 16902.0,
+    "z": 2.44,
+    "p": 0.014757909091698327,
+    "top_numbers": [
+     [
+      "3973",
+      14
+     ],
+     [
+      "4595",
+      14
+     ],
+     [
+      "4308",
+      13
+     ],
+     [
+      "6691",
+      13
+     ],
+     [
+      "5124",
+      13
+     ]
+    ]
+   },
+   "solar_prediction": {
+    "hits": 11086,
+    "expected": 11164.4,
+    "lift": 0.993,
+    "z": -0.74,
+    "avg_numbers_picked_per_draw": 1731
+   },
+   "lunar_prediction": {
+    "hits": 11830,
+    "expected": 11591.7,
+    "lift": 1.021,
+    "z": 2.21,
+    "avg_numbers_picked_per_draw": 1797
+   }
+  },
+  "All three pooled": {
+   "solar": {
+    "observed_pairs": 160166,
+    "expected": 159986.1,
+    "z": 0.45,
+    "p": 0.6529570817921332,
+    "top_numbers": [
+     [
+      "1024",
+      54
+     ],
+     [
+      "8231",
+      53
+     ],
+     [
+      "1841",
+      51
+     ],
+     [
+      "7748",
+      50
+     ],
+     [
+      "3553",
+      48
+     ]
+    ]
+   },
+   "lunar": {
+    "observed_pairs": 167369,
+    "expected": 167055.3,
+    "z": 0.77,
+    "p": 0.44272137018895164,
+    "top_numbers": [
+     [
+      "1024",
+      67
+     ],
+     [
+      "3774",
+      57
+     ],
+     [
+      "2256",
+      54
+     ],
+     [
+      "1913",
+      52
+     ],
+     [
+      "9772",
+      52
+     ]
+    ]
+   },
+   "solar_prediction": {
+    "hits": 87484,
+    "expected": 87562.3,
+    "lift": 0.999,
+    "z": -0.26,
+    "avg_numbers_picked_per_draw": 4523
+   },
+   "lunar_prediction": {
+    "hits": 90284,
+    "expected": 90137.6,
+    "lift": 1.002,
+    "z": 0.49,
+    "avg_numbers_picked_per_draw": 4657
+   }
+  }
+ },
+ "astro": {
+  "Magnum": {
+   "moon phase (8)": {
+    "min_digit_p": 0.2853274150879503,
+    "hot_numbers": {
+     "hits": 651,
+     "expected": 651.1,
+     "lift": 1.0,
+     "z": -0.0
+    }
+   },
+   "moon sign (12)": {
+    "min_digit_p": 0.24073308186336106,
+    "hot_numbers": {
+     "hits": 638,
+     "expected": 651.1,
+     "lift": 0.98,
+     "z": -0.51
+    }
+   },
+   "sun sign (12)": {
+    "min_digit_p": 0.21874499939802883,
+    "hot_numbers": {
+     "hits": 623,
+     "expected": 651.1,
+     "lift": 0.957,
+     "z": -1.1
+    }
+   },
+   "Chinese zodiac year (12)": {
+    "min_digit_p": 0.005708502206699732,
+    "hot_numbers": {
+     "hits": 681,
+     "expected": 651.1,
+     "lift": 1.046,
+     "z": 1.17
+    }
+   },
+   "Chinese lunar month (12)": {
+    "min_digit_p": 0.32663786122477223,
+    "hot_numbers": {
+     "hits": 679,
+     "expected": 651.1,
+     "lift": 1.043,
+     "z": 1.09
+    }
+   },
+   "Chinese lunar day (1-30)": {
+    "min_digit_p": 0.3959551437771659,
+    "hot_numbers": {
+     "hits": 658,
+     "expected": 651.1,
+     "lift": 1.011,
+     "z": 0.27
+    }
+   }
+  },
+  "Sports Toto": {
+   "moon phase (8)": {
+    "min_digit_p": 0.18014713762363072,
+    "hot_numbers": {
+     "hits": 627,
+     "expected": 643.3,
+     "lift": 0.975,
+     "z": -0.64
+    }
+   },
+   "moon sign (12)": {
+    "min_digit_p": 0.26904927691418257,
+    "hot_numbers": {
+     "hits": 661,
+     "expected": 643.3,
+     "lift": 1.028,
+     "z": 0.7
+    }
+   },
+   "sun sign (12)": {
+    "min_digit_p": 0.3731439977718059,
+    "hot_numbers": {
+     "hits": 626,
+     "expected": 643.3,
+     "lift": 0.973,
+     "z": -0.68
+    }
+   },
+   "Chinese zodiac year (12)": {
+    "min_digit_p": 0.47642019512805117,
+    "hot_numbers": {
+     "hits": 649,
+     "expected": 643.3,
+     "lift": 1.009,
+     "z": 0.23
+    }
+   },
+   "Chinese lunar month (12)": {
+    "min_digit_p": 0.17350068035529229,
+    "hot_numbers": {
+     "hits": 634,
+     "expected": 643.3,
+     "lift": 0.986,
+     "z": -0.37
+    }
+   },
+   "Chinese lunar day (1-30)": {
+    "min_digit_p": 0.17133272588630147,
+    "hot_numbers": {
+     "hits": 608,
+     "expected": 643.3,
+     "lift": 0.945,
+     "z": -1.39
+    }
+   }
+  },
+  "Da Ma Cai": {
+   "moon phase (8)": {
+    "min_digit_p": 0.3430804112896949,
+    "hot_numbers": {
+     "hits": 625,
+     "expected": 645.2,
+     "lift": 0.969,
+     "z": -0.79
+    }
+   },
+   "moon sign (12)": {
+    "min_digit_p": 0.44262393086866314,
+    "hot_numbers": {
+     "hits": 647,
+     "expected": 645.2,
+     "lift": 1.003,
+     "z": 0.07
+    }
+   },
+   "sun sign (12)": {
+    "min_digit_p": 0.34512774650553946,
+    "hot_numbers": {
+     "hits": 640,
+     "expected": 645.2,
+     "lift": 0.992,
+     "z": -0.2
+    }
+   },
+   "Chinese zodiac year (12)": {
+    "min_digit_p": 0.0272543159287886,
+    "hot_numbers": {
+     "hits": 654,
+     "expected": 645.2,
+     "lift": 1.014,
+     "z": 0.35
+    }
+   },
+   "Chinese lunar month (12)": {
+    "min_digit_p": 0.3306921397541617,
+    "hot_numbers": {
+     "hits": 611,
+     "expected": 645.2,
+     "lift": 0.947,
+     "z": -1.34
+    }
+   },
+   "Chinese lunar day (1-30)": {
+    "min_digit_p": 0.45888114687604353,
+    "hot_numbers": {
+     "hits": 661,
+     "expected": 645.2,
+     "lift": 1.025,
+     "z": 0.62
+    }
+   }
+  }
+ },
+ "moon_windows": {
+  "Magnum": {
+   "full_moon_window": {
+    "has_repeated_digit": {
+     "inside": 0.4987,
+     "outside": 0.4959,
+     "z": 0.66
+    },
+    "recent_repeat": {
+     "inside": 0.0222,
+     "outside": 0.0228,
+     "z": -0.5
+    }
+   },
+   "new_moon_window": {
+    "has_repeated_digit": {
+     "inside": 0.4943,
+     "outside": 0.4964,
+     "z": -0.5
+    },
+    "recent_repeat": {
+     "inside": 0.0239,
+     "outside": 0.0227,
+     "z": 0.96
+    }
+   }
+  },
+  "Sports Toto": {
+   "full_moon_window": {
+    "has_repeated_digit": {
+     "inside": 0.5021,
+     "outside": 0.4956,
+     "z": 1.39
+    },
+    "recent_repeat": {
+     "inside": 0.0236,
+     "outside": 0.0234,
+     "z": 0.13
+    }
+   },
+   "new_moon_window": {
+    "has_repeated_digit": {
+     "inside": 0.4988,
+     "outside": 0.496,
+     "z": 0.59
+    },
+    "recent_repeat": {
+     "inside": 0.0234,
+     "outside": 0.0234,
+     "z": 0.02
+    }
+   }
+  },
+  "Da Ma Cai": {
+   "full_moon_window": {
+    "has_repeated_digit": {
+     "inside": 0.4891,
+     "outside": 0.4953,
+     "z": -1.36
+    },
+    "recent_repeat": {
+     "inside": 0.0239,
+     "outside": 0.0227,
+     "z": 0.91
+    }
+   },
+   "new_moon_window": {
+    "has_repeated_digit": {
+     "inside": 0.5015,
+     "outside": 0.494,
+     "z": 1.64
+    },
+    "recent_repeat": {
+     "inside": 0.023,
+     "outside": 0.0228,
+     "z": 0.16
+    }
+   }
+  }
+ },
+ "tests": [
+  {
+   "test": "Same calendar date recurrence (+-3 days, other years)",
+   "operator": "Magnum",
+   "p": 0.5984319047925031,
+   "detail": "22963 recurring pairs vs 23043 expected (z=-0.53)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Same Chinese lunar date recurrence (+-3 days, other years)",
+   "operator": "Magnum",
+   "p": 0.7600016181564468,
+   "detail": "23988 recurring pairs vs 24035 expected (z=-0.31)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Calendar 'same date last years' prediction",
+   "operator": "Magnum",
+   "p": 0.6704176492649969,
+   "detail": "13718 hits vs 13769.8 expected (x0.996)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Lunar 'same date last years' prediction",
+   "operator": "Magnum",
+   "p": 0.7272267753946061,
+   "detail": "14223 hits vs 14295.3 expected (x0.995)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.2853274150879503,
+   "detail": "chi2=68.9, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.9450436043352497,
+   "detail": "chi2=46.2, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.9337836917335105,
+   "detail": "chi2=47.0, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.7865125444872263,
+   "detail": "chi2=53.9, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8): group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.5010944444393894,
+   "detail": "651 hits vs 651.1 expected (x1.000)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.637619584918584,
+   "detail": "chi2=93.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.6061582811497069,
+   "detail": "chi2=94.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.24073308186336106,
+   "detail": "chi2=108.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.743772828466765,
+   "detail": "chi2=89.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12): group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.6957536279052993,
+   "detail": "638 hits vs 651.1 expected (x0.980)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.8339370215483404,
+   "detail": "chi2=85.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.21874499939802883,
+   "detail": "chi2=109.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.9423438211910691,
+   "detail": "chi2=77.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.7852948295421167,
+   "detail": "chi2=87.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12): group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.8643537398598241,
+   "detail": "623 hits vs 651.1 expected (x0.957)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.005708502206699732,
+   "detail": "chi2=138.2, df=99",
+   "p_bonferroni": 0.6736032603905684
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.4546215673498193,
+   "detail": "chi2=99.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.8168254456412547,
+   "detail": "chi2=86.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.06613014332007758,
+   "detail": "chi2=121.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12): group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.12040068508858326,
+   "detail": "681 hits vs 651.1 expected (x1.046)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.9548401444345023,
+   "detail": "chi2=76.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.32663786122477223,
+   "detail": "chi2=104.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.9567255149388916,
+   "detail": "chi2=76.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.3606356410940969,
+   "detail": "chi2=103.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12): group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.13684504660645685,
+   "detail": "679 hits vs 651.1 expected (x1.043)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 1",
+   "operator": "Magnum",
+   "p": 0.7704842457764243,
+   "detail": "chi2=243.8, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 2",
+   "operator": "Magnum",
+   "p": 0.588175261392079,
+   "detail": "chi2=255.3, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 3",
+   "operator": "Magnum",
+   "p": 0.5373969653886597,
+   "detail": "chi2=258.2, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 4",
+   "operator": "Magnum",
+   "p": 0.3959551437771659,
+   "detail": "chi2=266.4, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30): group's hot numbers stay hot",
+   "operator": "Magnum",
+   "p": 0.39296729400529457,
+   "detail": "658 hits vs 651.1 expected (x1.011)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "full moon window: has repeated digit",
+   "operator": "Magnum",
+   "p": 0.5108664291048041,
+   "detail": "49.87% inside vs 49.59% outside (z=+0.66)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "full moon window: recent repeat",
+   "operator": "Magnum",
+   "p": 0.6184319933945179,
+   "detail": "2.22% inside vs 2.28% outside (z=-0.50)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "new moon window: has repeated digit",
+   "operator": "Magnum",
+   "p": 0.6190734462284018,
+   "detail": "49.43% inside vs 49.64% outside (z=-0.50)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "new moon window: recent repeat",
+   "operator": "Magnum",
+   "p": 0.3365987887093906,
+   "detail": "2.39% inside vs 2.27% outside (z=+0.96)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Same calendar date recurrence (+-3 days, other years)",
+   "operator": "Sports Toto",
+   "p": 0.4450158207404531,
+   "detail": "14856 recurring pairs vs 14763 expected (z=+0.76)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Same Chinese lunar date recurrence (+-3 days, other years)",
+   "operator": "Sports Toto",
+   "p": 0.7424234434287983,
+   "detail": "15490 recurring pairs vs 15449 expected (z=+0.33)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Calendar 'same date last years' prediction",
+   "operator": "Sports Toto",
+   "p": 0.1821876116295505,
+   "detail": "10621 hits vs 10527.9 expected (x1.009)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Lunar 'same date last years' prediction",
+   "operator": "Sports Toto",
+   "p": 0.5165446330693894,
+   "detail": "10976 hits vs 10980.3 expected (x1.000)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.7931456288770231,
+   "detail": "chi2=53.7, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.18014713762363072,
+   "detail": "chi2=73.1, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.833548163179886,
+   "detail": "chi2=52.2, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.8318035096154499,
+   "detail": "chi2=52.2, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8): group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.739398298136366,
+   "detail": "627 hits vs 643.3 expected (x0.975)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.4262559496214604,
+   "detail": "chi2=101.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.26904927691418257,
+   "detail": "chi2=107.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.27226649947340725,
+   "detail": "chi2=107.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.5368043030490535,
+   "detail": "chi2=97.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12): group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.24225845741271584,
+   "detail": "661 hits vs 643.3 expected (x1.028)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.5141864435903905,
+   "detail": "chi2=97.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.731012369745216,
+   "detail": "chi2=90.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.3731439977718059,
+   "detail": "chi2=102.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.9466644380079439,
+   "detail": "chi2=77.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12): group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.7520387445673093,
+   "detail": "626 hits vs 643.3 expected (x0.973)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.47642019512805117,
+   "detail": "chi2=99.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.6090314140643626,
+   "detail": "chi2=94.5, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.6495940563852838,
+   "detail": "chi2=93.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.519792373384883,
+   "detail": "chi2=97.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12): group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.41063115477367856,
+   "detail": "649 hits vs 643.3 expected (x1.009)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.17350068035529229,
+   "detail": "chi2=112.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.5427442391663885,
+   "detail": "chi2=96.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.2959937924393789,
+   "detail": "chi2=106.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.5056208875641385,
+   "detail": "chi2=98.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12): group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.6426295474083684,
+   "detail": "634 hits vs 643.3 expected (x0.986)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 1",
+   "operator": "Sports Toto",
+   "p": 0.3335826050675511,
+   "detail": "chi2=270.3, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 2",
+   "operator": "Sports Toto",
+   "p": 0.17133272588630147,
+   "detail": "chi2=282.6, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 3",
+   "operator": "Sports Toto",
+   "p": 0.9578753521217414,
+   "detail": "chi2=222.9, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 4",
+   "operator": "Sports Toto",
+   "p": 0.8622175682747324,
+   "detail": "chi2=236.2, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30): group's hot numbers stay hot",
+   "operator": "Sports Toto",
+   "p": 0.9178298208284466,
+   "detail": "608 hits vs 643.3 expected (x0.945)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "full moon window: has repeated digit",
+   "operator": "Sports Toto",
+   "p": 0.1639103262201872,
+   "detail": "50.21% inside vs 49.56% outside (z=+1.39)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "full moon window: recent repeat",
+   "operator": "Sports Toto",
+   "p": 0.8993646685990373,
+   "detail": "2.36% inside vs 2.34% outside (z=+0.13)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "new moon window: has repeated digit",
+   "operator": "Sports Toto",
+   "p": 0.5523359362434079,
+   "detail": "49.88% inside vs 49.60% outside (z=+0.59)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "new moon window: recent repeat",
+   "operator": "Sports Toto",
+   "p": 0.9829309629749526,
+   "detail": "2.34% inside vs 2.34% outside (z=+0.02)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Same calendar date recurrence (+-3 days, other years)",
+   "operator": "Da Ma Cai",
+   "p": 0.29104266314806926,
+   "detail": "16061 recurring pairs vs 16195 expected (z=-1.06)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Same Chinese lunar date recurrence (+-3 days, other years)",
+   "operator": "Da Ma Cai",
+   "p": 0.014757909091698327,
+   "detail": "17219 recurring pairs vs 16902 expected (z=+2.44)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Calendar 'same date last years' prediction",
+   "operator": "Da Ma Cai",
+   "p": 0.7710294563368559,
+   "detail": "11086 hits vs 11164.4 expected (x0.993)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Lunar 'same date last years' prediction",
+   "operator": "Da Ma Cai",
+   "p": 0.013434982656457352,
+   "detail": "11830 hits vs 11591.7 expected (x1.021)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.594903776564214,
+   "detail": "chi2=59.7, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.3430804112896949,
+   "detail": "chi2=66.9, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.4622740332842275,
+   "detail": "chi2=63.4, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8) vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.6359672134761707,
+   "detail": "chi2=58.5, df=63",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon phase (8): group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.7862023261021152,
+   "detail": "625 hits vs 645.2 expected (x0.969)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.5927025192362522,
+   "detail": "chi2=95.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.60700903788863,
+   "detail": "chi2=94.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.44262393086866314,
+   "detail": "chi2=100.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12) vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.8131474531890093,
+   "detail": "chi2=86.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "moon sign (12): group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.47096862585548654,
+   "detail": "647 hits vs 645.2 expected (x1.003)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.34512774650553946,
+   "detail": "chi2=104.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.6755322442030636,
+   "detail": "chi2=92.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.9171878875197478,
+   "detail": "chi2=80.2, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12) vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.8761016050179105,
+   "detail": "chi2=83.0, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "sun sign (12): group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.5803377019841458,
+   "detail": "640 hits vs 645.2 expected (x0.992)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.0822626685283569,
+   "detail": "chi2=119.1, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.0272543159287886,
+   "detail": "chi2=127.8, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.04679335727040568,
+   "detail": "chi2=123.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12) vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.06062082927132137,
+   "detail": "chi2=121.7, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese zodiac year (12): group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.36375942731470556,
+   "detail": "654 hits vs 645.2 expected (x1.014)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.3306921397541617,
+   "detail": "chi2=104.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.9110620297982426,
+   "detail": "chi2=80.6, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.6936282345468474,
+   "detail": "chi2=91.4, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12) vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.8030872562740689,
+   "detail": "chi2=86.9, df=99",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar month (12): group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.9106063970186498,
+   "detail": "611 hits vs 645.2 expected (x0.947)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 1",
+   "operator": "Da Ma Cai",
+   "p": 0.8378576289661621,
+   "detail": "chi2=238.5, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 2",
+   "operator": "Da Ma Cai",
+   "p": 0.45888114687604353,
+   "detail": "chi2=262.7, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 3",
+   "operator": "Da Ma Cai",
+   "p": 0.8200761988113149,
+   "detail": "chi2=240.0, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30) vs digit, position 4",
+   "operator": "Da Ma Cai",
+   "p": 0.8450723287865878,
+   "detail": "chi2=237.9, df=261",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Chinese lunar day (1-30): group's hot numbers stay hot",
+   "operator": "Da Ma Cai",
+   "p": 0.26630703342079226,
+   "detail": "661 hits vs 645.2 expected (x1.025)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "full moon window: has repeated digit",
+   "operator": "Da Ma Cai",
+   "p": 0.17234575905526797,
+   "detail": "48.91% inside vs 49.53% outside (z=-1.36)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "full moon window: recent repeat",
+   "operator": "Da Ma Cai",
+   "p": 0.36338688742399117,
+   "detail": "2.39% inside vs 2.27% outside (z=+0.91)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "new moon window: has repeated digit",
+   "operator": "Da Ma Cai",
+   "p": 0.10186453191626936,
+   "detail": "50.15% inside vs 49.40% outside (z=+1.64)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "new moon window: recent repeat",
+   "operator": "Da Ma Cai",
+   "p": 0.8747078080681607,
+   "detail": "2.30% inside vs 2.28% outside (z=+0.16)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Same calendar date recurrence (+-3 days, other years)",
+   "operator": "All three pooled",
+   "p": 0.6529570817921332,
+   "detail": "160166 recurring pairs vs 159986 expected (z=+0.45)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Same Chinese lunar date recurrence (+-3 days, other years)",
+   "operator": "All three pooled",
+   "p": 0.44272137018895164,
+   "detail": "167369 recurring pairs vs 167055 expected (z=+0.77)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Calendar 'same date last years' prediction",
+   "operator": "All three pooled",
+   "p": 0.6042882373211383,
+   "detail": "87484 hits vs 87562.3 expected (x0.999)",
+   "p_bonferroni": 1.0
+  },
+  {
+   "test": "Lunar 'same date last years' prediction",
+   "operator": "All three pooled",
+   "p": 0.3129288628938911,
+   "detail": "90284 hits vs 90137.6 expected (x1.002)",
+   "p_bonferroni": 1.0
+  }
+ ]
+}
