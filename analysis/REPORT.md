@@ -57,6 +57,34 @@ Big Forecast pays about RM0.64 per RM1 for a random number, so a number has to
 win ~1.56× as often as chance to break even. The real effect is 1.05–1.2× at
 best, and even the most favourable historical period lost money.
 
+### Deep dive: Magnum, 2019–2025 (`python3 analysis/magnum_bias.py`)
+
+* **It is mainly a shortage of 7s.** Digit 7 was 6–9% under-represented in
+  *every* position (overall 9.23% instead of 10%, z = −8.0), in all three
+  prize tiers. 6, 8 and 9 ran slightly hot; 2 and 3 slightly cold. A
+  same-digit effect across all four positions is the signature of the balls
+  (e.g. the 7 balls in every drum differing slightly), not of chance.
+* **It had a clear start and end.** A change-point analysis puts it at
+  **2019-01-29 to 2025-11-05** (1,055 draws). Before and after, the draws are
+  fair: 7 share 10.23% before, 10.18% after; after-period chi-square 41.6 vs ~36
+  expected; the after-period pattern is unrelated to the old one (r = −0.05).
+  That points to the equipment being replaced around November 2025. *The bias
+  no longer exists.*
+* **It was stable while it lasted** (pattern correlation r = 0.49 between the first
+  and second halves), so it was genuinely predictable:
+
+| Digit model fitted on 2019–2022, frozen | Top 100 | Top 1,000 | RM1 Big on top 10 |
+|---|---|---|---|
+| Tested on 2023 – Nov 2025 (bias active) | 1.07× | 1.10× (z = 3.4) | RM0.78 |
+| Tested after Nov 2025 (bias gone) | 0.94× | 1.07× | RM0.12 |
+| Hindsight, in-sample 2019–2025 (best case) | 1.17× | 1.13× | RM0.70 |
+
+  Even with perfect hindsight, the best single number was only **1.20×** as
+  likely as average (top-ranked: 8806, 6806, 1806, 9806, …), against the
+  **1.56×** needed to break even. Avoiding every number containing a 7 raised the
+  hit rate by 5% (68.96% of winners vs 65.61% of numbers) while the bias lasted,
+  and by nothing afterwards.
+
 ## 3. Predictive models (walk-forward backtest)
 
 Each strategy picked 23 numbers per draw using only earlier draws, over the
