@@ -179,28 +179,27 @@ def main():
     merged = {
         op: [r for r in rows if r["date"] not in scanned] for op, rows in existing.items()
     }
+    # (operator, date) of every draw already collected, so a draw that shows up on
+    # more than one page is kept once. Numbers within a draw are kept as published,
+    # since old draws occasionally list the same number twice.
+    seen_draws = {(op, r["date"]) for op, rows in merged.items() for r in rows}
     failed = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
         futures = {pool.submit(fetch, d): d for d in days}
         for i, fut in enumerate(concurrent.futures.as_completed(futures), 1):
             day = futures[fut]
             try:
-                for row in parse(fut.result(), day):
-                    merged.setdefault(row["operator"], []).append(row)
+                page_rows = parse(fut.result(), day)
             except Exception as e:  # keep going; report at the end
                 failed.append((day, e))
+                page_rows = []
+            new_draws = {(r["operator"], r["date"]) for r in page_rows} - seen_draws
+            for row in page_rows:
+                if (row["operator"], row["date"]) in new_draws:
+                    merged.setdefault(row["operator"], []).append(row)
+            seen_draws |= new_draws
             if i % 500 == 0:
                 print(f"  {i}/{len(days)} days processed")
-
-    # A draw page fetched twice (e.g. via neighbouring dates) must not duplicate rows.
-    for op, rows in merged.items():
-        seen, unique = set(), []
-        for r in rows:
-            key = (r["date"], r["prize"], r["4d_number"])
-            if key not in seen:
-                seen.add(key)
-                unique.append(r)
-        merged[op] = unique
 
     write_csvs(merged)
     if failed:
