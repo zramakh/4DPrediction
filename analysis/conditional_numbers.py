@@ -12,7 +12,8 @@ each permutation group won (the sorted digits, as in an i-Box bet: 1234 and
    the best of 10,000 numbers in that cell.
 2. Is any of this beyond chance? The same search is repeated with the draw
    dates shuffled (each draw keeps its numbers but gets another date's
-   parameters). If real number/condition links existed, the real data would
+   parameters; dates are only swapped with dates on which the same operators
+   drew). If real number/condition links existed, the real data would
    give stronger "best associations" and more uneven cells than the shuffles.
 3. Do they repeat? The top numbers of each cell are learned on draws before
    2012 and checked on the same cell from 2012 on (and, separately, learned on
@@ -213,6 +214,24 @@ def replicate(cell, unit_ix, n_units, share, train, test):
 
 
 # ------------------------------------------------------------------ analysis
+def stratified_perms(data, n_dates, k, rng):
+    """k shuffles of the draw dates that only swap dates on which the same set
+    of operators drew. A plain shuffle would move e.g. a Wednesday with three
+    operators' results onto a weekday that really only has one operator's
+    special draws, changing the size of the cells and faking clustering."""
+    opset = np.zeros(n_dates, int)
+    for b, op in enumerate(OPERATORS):
+        opset[np.unique(data["date"][data["op"] == op])] |= 1 << b
+    out = []
+    for _ in range(k):
+        p = np.arange(n_dates)
+        for v in np.unique(opset):
+            ix = np.flatnonzero(opset == v)
+            p[ix] = rng.permutation(ix)
+        out.append(p)
+    return out
+
+
 def scopes_of(data):
     s = {op: data["op"] == op for op in OPERATORS}
     s["All operators"] = np.ones(len(data["num"]), bool)
@@ -221,7 +240,7 @@ def scopes_of(data):
 
 def analyse(data, codes, labels, n_dates):
     fsets = [(f,) for f in FACTORS] + list(itertools.combinations(FACTORS, 2))
-    perms = [RNG.permutation(n_dates) for _ in range(N_SHUFFLES)]
+    perms = stratified_perms(data, n_dates, N_SHUFFLES, RNG)
     results = {"settings": {"split_year": SPLIT_YEAR, "top_k": TOP_K, "shuffles": N_SHUFFLES,
                             "factors": FACTORS, "factor_sets": len(fsets)}, "scopes": {}}
     assoc = {u: [] for u in UNITS}

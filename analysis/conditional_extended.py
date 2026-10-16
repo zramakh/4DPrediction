@@ -135,8 +135,8 @@ def main():
     t0 = time.time()
     data, codes, labels, factors, n_dates = load()
     rng = np.random.default_rng(20261017)
-    G.update(data=data, codes=codes, labels=labels,
-             perms=[rng.permutation(n_dates) for _ in range(N_SHUFFLES)], calib=rng.permutation(n_dates))
+    perms = cn.stratified_perms(data, n_dates, N_SHUFFLES + 1, rng)
+    G.update(data=data, codes=codes, labels=labels, perms=perms[:-1], calib=perms[-1])
     fsets = [(f,) for f in factors] + list(itertools.combinations(factors, 2))
     scopes = list(cn.OPERATORS) + ["All operators"]
     chunks = [(s, fsets[i:i + 40]) for s in scopes for i in range(0, len(fsets), 40)]
