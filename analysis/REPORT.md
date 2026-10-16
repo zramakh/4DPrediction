@@ -288,7 +288,7 @@ numbers and 1 of 10 for i-Box groups.
 
 **2. No parameter set makes winners cluster.** For each set we counted how
 often the same number won in two different draws of the same cell, against
-shuffled dates. Across 3,654 sets per operator, 27–73 sets reached z > 3 (a
+shuffled dates. Across 3,654 sets per operator, 27–76 sets reached z > 3 (a
 shuffled copy of the data scored the same way gave 15–31). These sets
 overlap heavily (most pairs share a parameter) and none carries over to later
 years (point 3), so the difference is not a usable effect.
