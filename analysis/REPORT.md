@@ -226,6 +226,68 @@ None differs from random by more than |z| ≈ 2; random picking itself
 landed between 0.99× and 1.10× from noise alone. Guessing each digit of the
 next 1st prize: every method scored 9.7–10.4% against 10% for blind guessing.
 
+## 6. Specific numbers under specific conditions (single and paired parameters)
+
+`python3 analysis/conditional_numbers.py` (~5 min). Full output in
+`analysis/conditional_results.json`.
+
+This asks the question directly: is there a condition, or a combination of two
+conditions, under which a particular number (e.g. 7345) or permutation group
+(e.g. any order of 4458, i.e. an i-Box) wins unusually often? 13 parameters:
+weekday, month, day of month, 5-year era, moon phase, moon sign, sun sign,
+Chinese lunar month, lunar day, Chinese zodiac year, nakshatra, tithi and prize
+tier (top 3 / special / consolation). All 13 singles and all 78 pairs were
+scanned for each operator and for all operators pooled: 364 parameter sets,
+66,656 cells (e.g. "Magnum, day of month = 2 & tithi = 16"), and 10,000
+numbers plus 715 permutation groups in every cell.
+
+**The strongest associations look striking but are what chance produces.**
+
+| Operator | Condition | Number | Wins | Expected |
+|---|---|---|---|---|
+| Magnum | day of month 2 & tithi 16 | 7345 | 4 | 0.02 |
+| Sports Toto | Horse year & tithi 3 | 7380 | 4 | 0.03 |
+| Da Ma Cai | day of month 22 & Horse year | 6174 | 4 | 0.03 |
+| Sports Toto | Sun in Capricorn & Pig year | 9543 | 5 | 0.09 |
+| Magnum | October & lunar day 9 | 4458 (any order) | 8 | 0.47 |
+| Magnum | lunar month 9 & lunar day 9 | 4458 (any order) | 8 | 0.50 |
+| Da Ma Cai | first-quarter moon & Snake year | 0456 (any order) | 18 | 3.75 |
+
+Each looks like a 100–200× effect, but each is the best of 10,000 numbers in
+its cell and its cell is one of 66,656. Corrected for that search, every one is
+at p ≈ 0.84–1.00. As a direct check, the whole search was rerun 20 times
+with the draw dates shuffled (each draw keeps its numbers but gets another
+date's parameters, so no real link can exist). The shuffled data produced
+equally or more extreme "best associations" 65% of the time for single numbers
+and 50% for permutation groups.
+
+**No parameter set makes the winners cluster.** For each set, the overall
+unevenness of the number × cell table (beyond each number's overall frequency)
+was compared with the shuffled-date runs. Sports Toto, Da Ma Cai and the pooled
+data had no set above z = 3 for single numbers (median z ≈ 0). Magnum had a
+few (moon sign × prize 3.4; month × moon sign 3.1; and, for permutation groups,
+sets involving the 5-year era). The era sets are the known Magnum equipment
+drift (section 2). The others did not replicate (next point).
+
+**Nothing replicates.** The top 10 numbers of every cell were learned on one
+part of the data and checked in the same cell on the other part:
+
+| Test | Single numbers | Permutation groups |
+|---|---|---|
+| Learn before 2012, test 2012 onward (all sets, all operators) | 1.00–1.05× random | 0.99–1.03× |
+| Learn on even years, test on odd years | 1.00–1.01× | 1.00–1.01× |
+| Top 200 associations found before 2012, from 2012 onward | 20 wins vs 15.2 expected (z = 1.2) | 139 vs 145.7 (z = −0.6) |
+
+Almost every headline association found before 2012 scored **zero** wins in
+the same condition afterwards (e.g. Sports Toto 9586 on the 17th under a waning
+gibbous moon: 4 wins before 2012, 0 after; Magnum 6678 in any order on the 22nd
+in Rat years: 6 before, 0 after). Of 1,456 replication tests, 7 had z > 3
+(about 2 expected). None held in both splits.
+
+**Conclusion:** no single parameter or pair of parameters has a number or
+i-Box group that reliably wins more often. The "hot under condition X"
+numbers are selection effects from searching a very large space.
+
 ## Conclusion
 
 The draws are fair for practical purposes. Frequency, recency, "overdue",
