@@ -42,6 +42,8 @@ SPLIT_YEAR = 2012
 TOP_K = 10           # numbers learned per cell for the replication test
 N_SHUFFLES = 20
 RNG = np.random.default_rng(20261016)
+# 2015-01-09 repeats 22 of the 23 numbers of 2015-01-07 on the source site; a copy, not a draw
+EXCLUDE = {("Magnum", "2015-01-09")}
 
 DATE_FACTORS = ["weekday", "month", "day_of_month", "era_5yr", "moon_phase", "moon_sign",
                 "sun_sign", "lunar_month", "lunar_day", "chinese_zodiac", "nakshatra", "tithi"]
@@ -86,7 +88,8 @@ def load_rows():
     for op, stem in OPERATORS.items():
         with open(os.path.join(ROOT, "data", f"{stem}.csv"), newline="") as f:
             for r in csv.DictReader(f):
-                rows.append((op, r["date"], r["prize"], int(r["4d_number"])))
+                if (op, r["date"]) not in EXCLUDE:
+                    rows.append((op, r["date"], r["prize"], int(r["4d_number"])))
     dates = sorted({r[1] for r in rows})
     t = time.time()
     ctx = [date_context(d) for d in dates]
@@ -150,18 +153,33 @@ def sparse_counts(cell, unit_ix, n_units):
     return key // n_units, key % n_units, cnt
 
 
-def scan(cell, unit_ix, n_units, share, overall):
+def once_per_draw(date_ix, unit_ix, n_units):
+    """Mask keeping each number (or permutation group) once per draw.
+
+    Published draws occasionally repeat a number across prize slots; counted
+    twice, a single draw would look like a number "recurring" under its
+    conditions.
+    """
+    _, first = np.unique(date_ix * n_units + unit_ix, return_index=True)
+    keep = np.zeros(len(unit_ix), bool)
+    keep[first] = True
+    return keep
+
+
+def scan(cell, unit_ix, n_units, share):
     """Unevenness statistic and the most over-represented unit of every cell.
 
-    Unevenness is the chi-square of the (cell x unit) table against
-    expected = cell size x scope-wide frequency of the unit, so a unit that is
-    common everywhere (e.g. the Magnum digit bias) does not count; only
-    dependence on the cell does. Computed from non-zero entries:
-    sum (c-e)^2/e = sum c^2/e - N.
+    Rows must already be once-per-draw (see once_per_draw). Unevenness is
+    sum over cells and units of c(c-1) / (cell size x share): the number of
+    times the same number won in two different draws of the same cell,
+    weighted by how unlikely that is. Comparing it with shuffled dates (same
+    draws, parameters reassigned) shows whether numbers cluster under
+    particular conditions. Overall number/digit bias is the same in the
+    shuffles, so it cancels out.
     """
     c, u, cnt = sparse_counts(cell, unit_ix, n_units)
     n_cell = np.bincount(cell)
-    chi = float((cnt ** 2 / (n_cell[c] * overall[u])).sum() - len(cell))
+    chi = float((cnt * (cnt - 1) / (n_cell[c] * share[u])).sum())
     exp = n_cell[c] * share[u]
     z = (cnt - exp) / np.sqrt(exp)
     order = np.lexsort((-z, c))               # by cell, most over-represented first
@@ -220,8 +238,9 @@ def analyse(data, codes, labels, n_dates):
             entry = {}
             for u, (n_units, share, fmt) in UNITS.items():
                 ux = num if u == "number" else GROUP_OF[num]
-                overall = np.bincount(ux, minlength=n_units) / len(ux)
-                chi, cc, cu, ccnt, cexp, cp = scan(cell, ux, n_units, share, overall)
+                k1 = once_per_draw(data["date"][sel], ux, n_units)
+                ux, ucell = ux[k1], cell[k1]
+                chi, cc, cu, ccnt, cexp, cp = scan(ucell, ux, n_units, share)
                 total_cells[u] += len(cc)
                 for i in np.argsort(cp)[:3]:
                     assoc[u].append({"scope": scope, "factors": " x ".join(fset),
@@ -232,14 +251,14 @@ def analyse(data, codes, labels, n_dates):
                 if fset != ("prize",):  # prize is per row, shuffling dates does not move it
                     for s, perm in enumerate(perms):
                         pcell, _ = cell_codes(sel, perm[data["date"]], codes, data["prize"], fset)
-                        chi0, *_, p0 = scan(pcell, ux, n_units, share, overall)
+                        chi0, *_, p0 = scan(pcell[k1], ux, n_units, share)
                         null_chi.append(chi0)
                         null_best[u][s] = min(null_best[u][s], p0.min())
                 z = None
                 if null_chi:
                     z = round(float((chi - np.mean(null_chi)) / np.std(null_chi, ddof=1)), 2)
                 entry[u] = {"cells": len(cc), "unevenness_z_vs_shuffled": z,
-                            "replication": {k: replicate(cell, ux, n_units, share, tr, te)
+                            "replication": {k: replicate(ucell, ux, n_units, share, tr[k1], te[k1])
                                             for k, (tr, te) in splits.items()}}
             sr[" x ".join(fset)] = entry
         results["scopes"][scope] = sr
@@ -268,10 +287,13 @@ def discover_then_test(data, codes, labels):
         for scope, sel in scopes_of(data).items():
             num, years = data["num"][sel], data["year"][sel]
             ux = num if u == "number" else GROUP_OF[num]
+            k1 = once_per_draw(data["date"][sel], ux, n_units)
+            ux, years = ux[k1], years[k1]
             tr, te = years < SPLIT_YEAR, years >= SPLIT_YEAR
             for fset in fsets:
                 cell, sizes = cell_codes(sel, data["date"], codes, data["prize"], fset)
-                _, cc, cu, ccnt, cexp, _ = scan(cell[tr], ux[tr], n_units, share, np.full(n_units, 1 / n_units))
+                cell = cell[k1]
+                _, cc, cu, ccnt, cexp, _ = scan(cell[tr], ux[tr], n_units, share)
                 p = poisson_sf(ccnt, cexp)
                 n_te = np.bincount(cell[te], minlength=cell.max() + 1)
                 tk, tc = np.unique(cell[te] * n_units + ux[te], return_counts=True)

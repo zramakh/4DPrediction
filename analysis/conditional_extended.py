@@ -50,7 +50,8 @@ def load():
     for op, stem in cn.OPERATORS.items():
         with open(os.path.join(ROOT, "data", f"{stem}.csv"), newline="") as f:
             for r in csv.DictReader(f):
-                rows.append((op, r["date"], r["prize"], int(r["4d_number"])))
+                if (op, r["date"]) not in cn.EXCLUDE:
+                    rows.append((op, r["date"], r["prize"], int(r["4d_number"])))
     dates = sorted({r[1] for r in rows})
     t = time.time()
     with mp.Pool() as pool:
@@ -86,8 +87,9 @@ def task(args):
         entry = {}
         for u, (n_units, share, fmt) in cn.UNITS.items():
             ux = num if u == "number" else cn.GROUP_OF[num]
-            overall = np.bincount(ux, minlength=n_units) / len(ux)
-            chi, cc, cu, ccnt, cexp, cp = cn.scan(cell, ux, n_units, share, overall)
+            k1 = cn.once_per_draw(data["date"][sel], ux, n_units)
+            ux, ucell, uyears = ux[k1], cell[k1], years[k1]
+            chi, cc, cu, ccnt, cexp, cp = cn.scan(ucell, ux, n_units, share)
             out["cells"][u] += len(cc)
             for i in np.argsort(cp)[:3]:
                 out["assoc"][u].append({"scope": scope, "factors": name,
@@ -98,24 +100,24 @@ def task(args):
             if fset != ("prize",):
                 null = []
                 for s, pc in enumerate(shuffled):
-                    c0, *_, p0 = cn.scan(pc, ux, n_units, share, overall)
+                    c0, *_, p0 = cn.scan(pc[k1], ux, n_units, share)
                     null.append(c0)
                     out["null_best"][u][s] = min(out["null_best"][u][s], p0.min())
                 m, sd = np.mean(null), np.std(null, ddof=1)
                 z = round(float((chi - m) / sd), 2)
-                zc = round(float((cn.scan(ccal, ux, n_units, share, overall)[0] - m) / sd), 2)
+                zc = round(float((cn.scan(ccal[k1], ux, n_units, share)[0] - m) / sd), 2)
             entry[u] = {"cells": len(cc), "z": z, "z_shuffled_copy": zc,
-                        "replication": {k: cn.replicate(cell, ux, n_units, share, tr, te)
+                        "replication": {k: cn.replicate(ucell, ux, n_units, share, tr[k1], te[k1])
                                         for k, (tr, te) in splits.items()}}
             # discovery on draws before 2012 only, outcome from 2012 on
             if "era_5yr" not in fset:
-                tr, te = splits["before_vs_after_2012"]
-                _, dc, du, dcnt, dexp, _ = cn.scan(cell[tr], ux[tr], n_units, share, np.full(n_units, 1 / n_units))
-                n_te = np.bincount(cell[te], minlength=cell.max() + 1)
+                tr, te = uyears < SPLIT_YEAR, uyears >= SPLIT_YEAR
+                _, dc, du, dcnt, dexp, _ = cn.scan(ucell[tr], ux[tr], n_units, share)
+                n_te = np.bincount(ucell[te], minlength=ucell.max() + 1)
                 ok = n_te[dc] > 0
                 dc, du, dcnt, dexp = dc[ok], du[ok], dcnt[ok], dexp[ok]
                 p = cn.poisson_sf(dcnt, dexp)
-                tk, tcount = np.unique(cell[te] * n_units + ux[te], return_counts=True)
+                tk, tcount = np.unique(ucell[te] * n_units + ux[te], return_counts=True)
                 for i in np.argsort(p)[:5]:
                     key = dc[i] * n_units + du[i]
                     pos = min(np.searchsorted(tk, key), len(tk) - 1)
