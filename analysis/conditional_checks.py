@@ -95,8 +95,8 @@ def main():
             nh = sum(sum(r[5]) for r in rows) / N_NULL
             ne = sum(sum(r[6]) for r in rows) / N_NULL
             # per-set z against the shuffled versions of the same set
-            z = [(r[3] - r[4]) / math.sqrt(r[4]) for r in rows]
-            zn = [(r[5][0] - r[6][0]) / math.sqrt(r[6][0]) for r in rows]
+            z = [(r[3] - r[4]) / math.sqrt(r[4]) for r in rows if r[4] > 0]
+            zn = [(r[5][0] - r[6][0]) / math.sqrt(r[6][0]) for r in rows if r[6][0] > 0]
             res["replication_vs_shuffled"][f"{scope} | {u}"] = {
                 "sets": len(rows), "lift_real": round(h / e, 4), "lift_shuffled": round(nh / ne, 4),
                 "sets_z_gt_3_real": sum(x > 3 for x in z), "sets_z_gt_3_shuffled": sum(x > 3 for x in zn)}
