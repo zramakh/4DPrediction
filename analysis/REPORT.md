@@ -228,65 +228,110 @@ next 1st prize: every method scored 9.7–10.4% against 10% for blind guessing.
 
 ## 6. Specific numbers under specific conditions (single and paired parameters)
 
-`python3 analysis/conditional_numbers.py` (~5 min). Full output in
-`analysis/conditional_results.json`.
+Is there a condition, or a pair of conditions, under which a particular number
+(e.g. 7345) or i-Box group (e.g. any order of 4458) wins unusually often?
 
-This asks the question directly: is there a condition, or a combination of two
-conditions, under which a particular number (e.g. 7345) or permutation group
-(e.g. any order of 4458, i.e. an i-Box) wins unusually often? 13 parameters:
-weekday, month, day of month, 5-year era, moon phase, moon sign, sun sign,
-Chinese lunar month, lunar day, Chinese zodiac year, nakshatra, tithi and prize
-tier (top 3 / special / consolation). All 13 singles and all 78 pairs were
-scanned for each operator and for all operators pooled: 364 parameter sets,
-66,656 cells (e.g. "Magnum, day of month = 2 & tithi = 16"), and 10,000
-numbers plus 715 permutation groups in every cell.
+* `analysis/almanac.py` computes **84 parameters** for every draw date at
+  19:00 MYT. Its rules were checked against published almanac values
+  (2024-02-10: Jia Chen day, Di mansion, "Full" officer, Bing Yin month;
+  2000-01-01: Wu Wu day; Nine Star 2024 = 3 and Feb 2019 month = 2; 2024
+  samvatsara Krodhi; 2023 Adhika Shravana). The Yellow/Black path day gods follow
+  the standard Green Dragon rule but were not checked against an almanac.
+  * *Chinese:* year animal, stem, element, yin/yang and 60-year pillar;
+    lunar month, day and leap month; 24 solar terms; Ba Zi month branch, stem
+    and pillar; day stem, branch, element and 60-day pillar; Na Yin (30) and
+    its element; 19:00 hour stem; 12 Day Officers; 12 day gods and
+    Yellow/Black path; 28 mansions; day-vs-year branch (Tai Sui) relation;
+    year and month Nine Star.
+  * *Vedic/KP:* tithi, paksha, nakshatra, pada, nakshatra lord, yoga,
+    karana, hora lord; rashi and nakshatra of the Sun, Moon, Mars, Mercury,
+    Venus, Jupiter, Saturn and Rahu; lagna rashi and nakshatra; Moon navamsa;
+    retrograde and combust flags for Mercury to Saturn; planets in the Moon's
+    sign; masa, adhika masa, ritu, ayana, samvatsara; KP star and sub lord
+    and KP number of the Moon, Ascendant and Sun.
+  * *Other:* weekday, month, day of month, 5-year era, tropical Moon and Sun
+    sign, moon phase, prize tier.
+  * Not included: choghadiya, Rahu kalam, gulika and vara lord (at 19:00
+    these are fixed by the weekday or fall outside their periods), and the
+    daily Nine Star.
+* `analysis/conditional_extended.py` (~30 min on 4 cores) scans all 85
+  parameters and all 3,570 pairs, for each operator and pooled. That is
+  **4.2 million cells** (e.g. "Sports Toto, Rahu in Pushya & top-3 prizes"),
+  each with 10,000 numbers and 715 i-Box groups. `analysis/conditional_numbers.py`
+  is the same scan over 13 parameters. `analysis/conditional_checks.py` runs
+  the follow-up checks below.
 
-**The strongest associations look striking but are what chance produces.**
+**Method.** Each number counts at most once per draw (published draws
+occasionally repeat a number in two prize slots). The Magnum 2015-01-09
+result, which repeats 22 of the 23 numbers of 2015-01-07 on the source site,
+is excluded. The comparison is always with **shuffled dates**: every draw
+keeps its numbers but gets the parameters of another date on which the same
+operators drew. That keeps every real property of the draws (number and
+digit biases, era drift) and only breaks the link to the conditions.
+(Two earlier versions of this scan showed apparent clustering. Both were
+artefacts: repeated numbers within one draw counting as recurrence, and
+shuffles mixing dates with three operators' results and dates with one.)
 
-| Operator | Condition | Number | Wins | Expected |
+**1. The strongest associations are what chance produces.**
+
+| Operator | Condition | Value | Wins | Expected |
 |---|---|---|---|---|
-| Magnum | day of month 2 & tithi 16 | 7345 | 4 | 0.02 |
-| Sports Toto | Horse year & tithi 3 | 7380 | 4 | 0.03 |
-| Da Ma Cai | day of month 22 & Horse year | 6174 | 4 | 0.03 |
-| Sports Toto | Sun in Capricorn & Pig year | 9543 | 5 | 0.09 |
-| Magnum | October & lunar day 9 | 4458 (any order) | 8 | 0.47 |
-| Magnum | lunar month 9 & lunar day 9 | 4458 (any order) | 8 | 0.50 |
-| Da Ma Cai | first-quarter moon & Snake year | 0456 (any order) | 18 | 3.75 |
+| Magnum | nakshatra lord Mercury & Rahu in Shatabhisha | 4835 | 6 | 0.09 |
+| Sports Toto | Ren year & nakshatra lord Jupiter | 2444 | 7 | 0.17 |
+| Da Ma Cai | Shatabhisha pada 2 & Venus not combust | 0924 | 6 | 0.10 |
+| Sports Toto | Rahu in Pushya & top-3 prize | 3458 (any order) | 14 | 1.69 |
+| Magnum | Geng month & Di mansion | 0558 (any order) | 12 | 1.46 |
 
-Each looks like a 100–200× effect, but each is the best of 10,000 numbers in
-its cell and its cell is one of 66,656. Corrected for that search, every one is
-at p ≈ 0.84–1.00. As a direct check, the whole search was rerun 20 times
-with the draw dates shuffled (each draw keeps its numbers but gets another
-date's parameters, so no real link can exist). The shuffled data produced
-equally or more extreme "best associations" 65% of the time for single numbers
-and 50% for permutation groups.
+Corrected for the search, every one is at p = 1.00. The shuffled-date data
+gave an equally or more extreme best association in 6 of 10 shuffles for
+numbers and 1 of 10 for i-Box groups.
 
-**No parameter set makes the winners cluster.** For each set, the overall
-unevenness of the number × cell table (beyond each number's overall frequency)
-was compared with the shuffled-date runs. Sports Toto, Da Ma Cai and the pooled
-data had no set above z = 3 for single numbers (median z ≈ 0). Magnum had a
-few (moon sign × prize 3.4; month × moon sign 3.1; and, for permutation groups,
-sets involving the 5-year era). The era sets are the known Magnum equipment
-drift (section 2). The others did not replicate (next point).
+**2. No parameter set makes winners cluster.** For each set we counted how
+often the same number won in two different draws of the same cell, against
+shuffled dates. Across 3,654 sets per operator, 27–73 sets reached z > 3 (a
+shuffled copy of the data scored the same way gave 15–31). These sets
+overlap heavily (most pairs share a parameter) and none carries over to later
+years (point 3), so the difference is not a usable effect.
 
-**Nothing replicates.** The top 10 numbers of every cell were learned on one
-part of the data and checked in the same cell on the other part:
+**3. Nothing replicates.** Each cell's top 10 numbers or groups were learned
+from draws before 2012 and checked in the same cell from 2012 on, for every
+set, against the same test with shuffled conditions:
 
-| Test | Single numbers | Permutation groups |
+| | Real conditions | Shuffled conditions |
 |---|---|---|
-| Learn before 2012, test 2012 onward (all sets, all operators) | 1.00–1.05× random | 0.99–1.03× |
-| Learn on even years, test on odd years | 1.00–1.01× | 1.00–1.01× |
-| Top 200 associations found before 2012, from 2012 onward | 20 wins vs 15.2 expected (z = 1.2) | 139 vs 145.7 (z = −0.6) |
+| Single numbers (per operator / pooled) | 0.997–1.012× random | 0.985–1.006× |
+| i-Box groups (per operator / pooled) | 1.000–1.046× | 1.005–1.039× |
 
-Almost every headline association found before 2012 scored **zero** wins in
-the same condition afterwards (e.g. Sports Toto 9586 on the 17th under a waning
-gibbous moon: 4 wins before 2012, 0 after; Magnum 6678 in any order on the 22nd
-in Rat years: 6 before, 0 after). Of 1,456 replication tests, 7 had z > 3
-(about 2 expected). None held in both splits.
+Real and shuffled conditions give the same lift, so whatever small lift
+exists comes from some groups being slightly common overall (largely the
+Magnum digit bias), not from any condition. The 200 strongest number
+associations found before 2012 won 69 times from 2012 on against 51.3
+expected, but 53 of those wins come from a single number, 1024, which appears
+in 13 of the 200 entries; without it, 16 vs 19.9. The 200 strongest i-Box
+associations: 525 vs 531. Almost every headline association scored **zero**
+afterwards (Sports Toto 2222 in any order with the Sun in Vishakha: 4 wins
+before 2012, 0 after; Da Ma Cai 9732 with Hasta pada 1 and Mercury in Kanya:
+4 before, 0 after).
 
-**Conclusion:** no single parameter or pair of parameters has a number or
-i-Box group that reliably wins more often. The "hot under condition X"
-numbers are selection effects from searching a very large space.
+**One genuine outlier, not tied to any condition: 1024.** It is the most
+frequent number in the whole dataset: 79 wins against 41.5 expected, raised
+for all three operators and in both halves of the data:
+
+| | Before 2012 | From 2012 |
+|---|---|---|
+| Magnum | 22 (10.0 expected) | 13 (5.7) |
+| Sports Toto | 12 (6.9) | 7 (5.7) |
+| Da Ma Cai | 16 (7.5) | 9 (5.6) |
+
+Even as the best of 10,000 numbers this is unlikely by chance (p ≈ 0.0014),
+and it is the only one: the other nine most frequent numbers before 2012 won
+135 times afterwards against 153 expected. Most of its wins are Special or
+Consolation prizes (70 of 79). Two explanations are open: a fault in the
+source data (4dmoon.com could not be reached from this environment to check
+the original pages), or a real but unexplained effect. Either way it is about
+one number, not about dates, weekdays or astrological conditions, and it
+should be checked against the operators' official results before anything
+is read into it.
 
 ## Conclusion
 

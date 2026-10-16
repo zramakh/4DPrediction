@@ -1,0 +1,3756 @@
+{
+ "replication_vs_shuffled": {
+  "Magnum | number": {
+   "sets": 3653,
+   "lift_real": 0.9967,
+   "lift_shuffled": 0.9852,
+   "sets_z_gt_3_real": 9,
+   "sets_z_gt_3_shuffled": 1
+  },
+  "Magnum | perm_group": {
+   "sets": 3653,
+   "lift_real": 1.0265,
+   "lift_shuffled": 1.0227,
+   "sets_z_gt_3_real": 12,
+   "sets_z_gt_3_shuffled": 27
+  },
+  "Sports Toto | number": {
+   "sets": 3653,
+   "lift_real": 1.0107,
+   "lift_shuffled": 1.0064,
+   "sets_z_gt_3_real": 9,
+   "sets_z_gt_3_shuffled": 16
+  },
+  "Sports Toto | perm_group": {
+   "sets": 3653,
+   "lift_real": 1.0002,
+   "lift_shuffled": 1.0047,
+   "sets_z_gt_3_real": 10,
+   "sets_z_gt_3_shuffled": 7
+  },
+  "Da Ma Cai | number": {
+   "sets": 3653,
+   "lift_real": 1.0057,
+   "lift_shuffled": 0.9976,
+   "sets_z_gt_3_real": 19,
+   "sets_z_gt_3_shuffled": 8
+  },
+  "Da Ma Cai | perm_group": {
+   "sets": 3653,
+   "lift_real": 1.0174,
+   "lift_shuffled": 1.0166,
+   "sets_z_gt_3_real": 6,
+   "sets_z_gt_3_shuffled": 13
+  },
+  "All operators | number": {
+   "sets": 3653,
+   "lift_real": 1.0118,
+   "lift_shuffled": 0.9956,
+   "sets_z_gt_3_real": 16,
+   "sets_z_gt_3_shuffled": 4
+  },
+  "All operators | perm_group": {
+   "sets": 3653,
+   "lift_real": 1.0457,
+   "lift_shuffled": 1.0392,
+   "sets_z_gt_3_real": 157,
+   "sets_z_gt_3_shuffled": 95
+  }
+ },
+ "discoveries": {
+  "number": {
+   "wins_from_2012": 69,
+   "expected": 51.3,
+   "lift": 1.346,
+   "z": 2.48,
+   "distinct_values": 115,
+   "largest_contributors": [
+    {
+     "value": "1024",
+     "entries": 13,
+     "wins_from_2012": 53,
+     "expected": 31.34
+    },
+    {
+     "value": "1778",
+     "entries": 2,
+     "wins_from_2012": 6,
+     "expected": 3.42
+    },
+    {
+     "value": "3452",
+     "entries": 3,
+     "wins_from_2012": 1,
+     "expected": 0.03
+    },
+    {
+     "value": "7748",
+     "entries": 4,
+     "wins_from_2012": 2,
+     "expected": 1.07
+    },
+    {
+     "value": "6823",
+     "entries": 1,
+     "wins_from_2012": 1,
+     "expected": 0.07
+    }
+   ],
+   "list": [
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nakshatra_pada=Hasta 1 & mercury_rashi=Kanya",
+     "value": "9732",
+     "wins_before_2012": 4,
+     "expected_before": 0.014,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.009
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_sun_number=240 & prize=Special",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.014,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "All operators",
+     "cell": "month_pillar=Jia Xu & saturn_retrograde=False",
+     "value": "9787",
+     "wins_before_2012": 7,
+     "expected_before": 0.215,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.199
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_vs_year_branch=other & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.018,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.009
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "yellow_black_path=Yellow & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.021,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.018
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nakshatra=Magha & rahu_nakshatra=Purva Bhadrapada",
+     "value": "9984",
+     "wins_before_2012": 4,
+     "expected_before": 0.021,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.007
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Wood & paksha=Krishna",
+     "value": "1024",
+     "wins_before_2012": 16,
+     "expected_before": 2.451,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.629
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Water & ayana=Dakshinayana",
+     "value": "5092",
+     "wins_before_2012": 16,
+     "expected_before": 2.464,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.713
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month_branch=Zi & venus_rashi=Makara",
+     "value": "0372",
+     "wins_before_2012": 7,
+     "expected_before": 0.251,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.147
+    },
+    {
+     "scope": "Magnum",
+     "cell": "mercury_rashi=Kumbha & rahu_nakshatra=Ashwini",
+     "value": "2532",
+     "wins_before_2012": 5,
+     "expected_before": 0.067,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.018
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mansion_28=Bi & tithi=19",
+     "value": "2093",
+     "wins_before_2012": 4,
+     "expected_before": 0.023,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.018
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_vs_year_branch=other & kp_sun_number=125",
+     "value": "7257",
+     "wins_before_2012": 4,
+     "expected_before": 0.023,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "yoga=13 & jupiter_nakshatra=Hasta",
+     "value": "1150",
+     "wins_before_2012": 4,
+     "expected_before": 0.023,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.005
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nayin_element=Fire & nine_star_year=1",
+     "value": "1379",
+     "wins_before_2012": 6,
+     "expected_before": 0.147,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.131
+    },
+    {
+     "scope": "All operators",
+     "cell": "nakshatra_pada=Shatabhisha 3 & planets_with_moon=1",
+     "value": "6176",
+     "wins_before_2012": 5,
+     "expected_before": 0.069,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.021
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_branch=Chou & mercury_rashi=Kumbha",
+     "value": "3039",
+     "wins_before_2012": 5,
+     "expected_before": 0.069,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.044
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_officer=Danger & kp_moon_star_lord=Mercury",
+     "value": "1811",
+     "wins_before_2012": 6,
+     "expected_before": 0.149,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.227
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_officer=Danger & nakshatra_lord=Mercury",
+     "value": "1811",
+     "wins_before_2012": 6,
+     "expected_before": 0.151,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.234
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_pillar=Ren Zi & prize=Special",
+     "value": "7748",
+     "wins_before_2012": 5,
+     "expected_before": 0.073,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.039
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "venus_combust=False & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.025
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_branch=Zi & saturn_retrograde=False",
+     "value": "7748",
+     "wins_before_2012": 12,
+     "expected_before": 1.313,
+     "wins_from_2012": 2,
+     "expected_from_2012": 0.926
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mansion_28=Shen & mercury_nakshatra=Mula",
+     "value": "5654",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.016
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mansion_28=Shen & mercury_nakshatra=Rohini",
+     "value": "5540",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nayin=17 & kp_asc_sub_lord=Mars",
+     "value": "6698",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_of_month=13 & nine_star_year=6",
+     "value": "7895",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.021
+    },
+    {
+     "scope": "Magnum",
+     "cell": "rahu_nakshatra=Krittika & kp_moon_sub_lord=Mars",
+     "value": "8590",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Vishakha & jupiter_nakshatra=Hasta",
+     "value": "2222",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Vishakha & jupiter_rashi=Kanya",
+     "value": "2222",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "year_animal=Monkey & sun_nakshatra=Vishakha",
+     "value": "2222",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "All operators",
+     "cell": "lagna_nakshatra=Jyeshtha & adhika_masa=True",
+     "value": "9321",
+     "wins_before_2012": 5,
+     "expected_before": 0.074,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.069
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=13 & nine_star_year=6",
+     "value": "7895",
+     "wins_before_2012": 5,
+     "expected_before": 0.074,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.057
+    },
+    {
+     "scope": "All operators",
+     "cell": "year_element=Metal & sun_rashi=Vrishabha",
+     "value": "6051",
+     "wins_before_2012": 8,
+     "expected_before": 0.422,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.061
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Wood & mars_combust=False",
+     "value": "1024",
+     "wins_before_2012": 20,
+     "expected_before": 4.135,
+     "wins_from_2012": 4,
+     "expected_from_2012": 2.881
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_pillar=Gui Wei & kp_moon_sub_lord=Rahu",
+     "value": "8202",
+     "wins_before_2012": 5,
+     "expected_before": 0.076,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nayin=29 & karana=Vishti",
+     "value": "5656",
+     "wins_before_2012": 5,
+     "expected_before": 0.076,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_god=Grappling Hook & saturn_rashi=Kanya",
+     "value": "9859",
+     "wins_before_2012": 5,
+     "expected_before": 0.076,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.009
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Wood & planets_with_moon=1",
+     "value": "1024",
+     "wins_before_2012": 13,
+     "expected_before": 1.626,
+     "wins_from_2012": 3,
+     "expected_from_2012": 0.981
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_sun_number=83 & prize=Top 3",
+     "value": "1930",
+     "wins_before_2012": 3,
+     "expected_before": 0.005,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.005
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nakshatra=Hasta & mercury_rashi=Kanya",
+     "value": "9732",
+     "wins_before_2012": 4,
+     "expected_before": 0.028,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.018
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "venus_rashi=Tula & jupiter_nakshatra=Dhanishta",
+     "value": "2580",
+     "wins_before_2012": 4,
+     "expected_before": 0.028,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.018
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_vs_year_branch=other & kp_asc_number=2",
+     "value": "7257",
+     "wins_before_2012": 4,
+     "expected_before": 0.028,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_of_month=23 & masa=Ashadha",
+     "value": "7447",
+     "wins_before_2012": 4,
+     "expected_before": 0.028,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_of_month=17 & moon_phase=Waning gibbous",
+     "value": "9586",
+     "wins_before_2012": 4,
+     "expected_before": 0.028,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_moon_star_lord=Rahu & kp_asc_sub_lord=Sun",
+     "value": "6033",
+     "wins_before_2012": 4,
+     "expected_before": 0.028,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "nakshatra_lord=Rahu & kp_asc_sub_lord=Sun",
+     "value": "6033",
+     "wins_before_2012": 4,
+     "expected_before": 0.028,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "All operators",
+     "cell": "year_animal=Goat & kp_sun_star_lord=Jupiter",
+     "value": "5579",
+     "wins_before_2012": 6,
+     "expected_before": 0.165,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.117
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_sign_tropical=Aries & sun_nakshatra=Purva Phalguni",
+     "value": "6420",
+     "wins_before_2012": 5,
+     "expected_before": 0.08,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.069
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=1 & day_officer=Establish",
+     "value": "1021",
+     "wins_before_2012": 5,
+     "expected_before": 0.08,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.069
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_sign_tropical=Scorpio & mercury_nakshatra=Vishakha",
+     "value": "3708",
+     "wins_before_2012": 5,
+     "expected_before": 0.08,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.041
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_officer=Success & kp_moon_sub_lord=Mars",
+     "value": "2643",
+     "wins_before_2012": 5,
+     "expected_before": 0.08,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.075
+    },
+    {
+     "scope": "All operators",
+     "cell": "solar_term=Mangzhong & adhika_masa=True",
+     "value": "9321",
+     "wins_before_2012": 5,
+     "expected_before": 0.08,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.083
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Wood & adhika_masa=False",
+     "value": "1024",
+     "wins_before_2012": 21,
+     "expected_before": 4.69,
+     "wins_from_2012": 5,
+     "expected_from_2012": 3.259
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_pillar=Ren Zi & planets_with_moon=0",
+     "value": "7748",
+     "wins_before_2012": 5,
+     "expected_before": 0.083,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.039
+    },
+    {
+     "scope": "Magnum",
+     "cell": "mercury_rashi=Kumbha & rahu_rashi=Mesha",
+     "value": "2532",
+     "wins_before_2012": 5,
+     "expected_before": 0.083,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.018
+    },
+    {
+     "scope": "Magnum",
+     "cell": "year_animal=Ox & moon_rashi=Dhanu",
+     "value": "3452",
+     "wins_before_2012": 5,
+     "expected_before": 0.083,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.023
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nayin_element=Water & nakshatra=Rohini",
+     "value": "4319",
+     "wins_before_2012": 5,
+     "expected_before": 0.083,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.041
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_god=Grappling Hook & jupiter_rashi=Meena",
+     "value": "2494",
+     "wins_before_2012": 6,
+     "expected_before": 0.172,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.124
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "lagna_nakshatra=Hasta & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.03,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "lagna_nakshatra=Hasta & kp_sun_star_lord=Saturn",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.03,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_of_month=5 & nine_star_month=9",
+     "value": "2971",
+     "wins_before_2012": 4,
+     "expected_before": 0.03,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.023
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month=Jan & mercury_nakshatra=Jyeshtha",
+     "value": "8055",
+     "wins_before_2012": 4,
+     "expected_before": 0.03,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.016
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month=Jan & mercury_rashi=Vrischika",
+     "value": "8055",
+     "wins_before_2012": 4,
+     "expected_before": 0.03,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.016
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_stem=Geng & tithi=14",
+     "value": "6296",
+     "wins_before_2012": 4,
+     "expected_before": 0.03,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.016
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nakshatra_pada=Shatabhisha 3 & planets_with_moon=1",
+     "value": "6176",
+     "wins_before_2012": 4,
+     "expected_before": 0.03,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.007
+    },
+    {
+     "scope": "All operators",
+     "cell": "mansion_28=Wei3 & venus_rashi=Simha",
+     "value": "6786",
+     "wins_before_2012": 6,
+     "expected_before": 0.174,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.11
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nine_star_month=4 & mercury_combust=True",
+     "value": "3558",
+     "wins_before_2012": 8,
+     "expected_before": 0.464,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.264
+    },
+    {
+     "scope": "All operators",
+     "cell": "lunar_leap_month=False & day_element=Wood",
+     "value": "1024",
+     "wins_before_2012": 21,
+     "expected_before": 4.757,
+     "wins_from_2012": 5,
+     "expected_from_2012": 3.266
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_moon_number=199 & prize=Top 3",
+     "value": "7221",
+     "wins_before_2012": 3,
+     "expected_before": 0.006,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.004
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "hora_lord=Venus & kp_sun_sub_lord=Jupiter",
+     "value": "3598",
+     "wins_before_2012": 7,
+     "expected_before": 0.303,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.205
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_god=Heavenly Punishment & kp_asc_sub_lord=Saturn",
+     "value": "9595",
+     "wins_before_2012": 5,
+     "expected_before": 0.087,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.085
+    },
+    {
+     "scope": "Magnum",
+     "cell": "yoga=27 & ayana=Dakshinayana",
+     "value": "7287",
+     "wins_before_2012": 6,
+     "expected_before": 0.182,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.115
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "adhika_masa=False & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "ayana=Uttarayana & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_god=Bright Hall & saturn_nakshatra=Purva Bhadrapada",
+     "value": "3340",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_asc_star_lord=Moon & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_sun_star_lord=Saturn & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_sun_sub_lord=Jupiter & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "lagna_rashi=Kanya & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "lunar_leap_month=False & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "lunar_month=2 & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.025
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "month=Mar & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "month_branch=Mao & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "solar_term=Chunfen & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "solar_term=Chunfen & kp_sun_sub_lord=Jupiter",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Uttara Bhadrapada & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Uttara Bhadrapada & kp_sun_sub_lord=Jupiter",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Uttara Bhadrapada & lagna_nakshatra=Hasta",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_rashi=Meena & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_sign_tropical=Aries & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "venus_retrograde=False & kp_sun_number=240",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.025
+    },
+    {
+     "scope": "All operators",
+     "cell": "yoga=13 & lagna_nakshatra=Krittika",
+     "value": "5932",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nine_star_year=3 & mars_rashi=Tula",
+     "value": "3184",
+     "wins_before_2012": 5,
+     "expected_before": 0.089,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.051
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "nakshatra=Anuradha & mars_combust=True",
+     "value": "8062",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "yoga=13 & jupiter_rashi=Kanya",
+     "value": "1150",
+     "wins_before_2012": 4,
+     "expected_before": 0.032,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Magnum",
+     "cell": "hora_lord=Saturn & mercury_nakshatra=Uttara Phalguni",
+     "value": "5322",
+     "wins_before_2012": 5,
+     "expected_before": 0.09,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.064
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_month=10 & sun_nakshatra=Swati",
+     "value": "3702",
+     "wins_before_2012": 5,
+     "expected_before": 0.09,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.044
+    },
+    {
+     "scope": "Magnum",
+     "cell": "weekday=Sun & mercury_nakshatra=Uttara Phalguni",
+     "value": "5322",
+     "wins_before_2012": 5,
+     "expected_before": 0.09,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.064
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nine_star_month=5 & jupiter_nakshatra=Anuradha",
+     "value": "7465",
+     "wins_before_2012": 5,
+     "expected_before": 0.09,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Wood & mercury_retrograde=False",
+     "value": "1024",
+     "wins_before_2012": 19,
+     "expected_before": 3.974,
+     "wins_from_2012": 5,
+     "expected_from_2012": 2.709
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "ritu=Varsha & kp_moon_sub_lord=Venus",
+     "value": "0721",
+     "wins_before_2012": 6,
+     "expected_before": 0.186,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.152
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_rashi=Tula & mercury_nakshatra=Vishakha",
+     "value": "3708",
+     "wins_before_2012": 5,
+     "expected_before": 0.092,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_stem=Yi & mars_rashi=Karka",
+     "value": "7097",
+     "wins_before_2012": 5,
+     "expected_before": 0.092,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.037
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "moon_phase=Waxing crescent & day_stem=Yi",
+     "value": "7097",
+     "wins_before_2012": 5,
+     "expected_before": 0.092,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.076
+    },
+    {
+     "scope": "All operators",
+     "cell": "nakshatra_lord=Ketu & karana=Vanija",
+     "value": "9233",
+     "wins_before_2012": 7,
+     "expected_before": 0.321,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.234
+    },
+    {
+     "scope": "Magnum",
+     "cell": "rahu_nakshatra=Pushya & prize=Top 3",
+     "value": "1421",
+     "wins_before_2012": 4,
+     "expected_before": 0.034,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.037
+    },
+    {
+     "scope": "All operators",
+     "cell": "rahu_rashi=Mesha & kp_moon_number=25",
+     "value": "0325",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.021
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "hora_lord=Mercury & rahu_nakshatra=Krittika",
+     "value": "6512",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nayin_element=Fire & kp_asc_number=67",
+     "value": "2927",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.007
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "tithi=7 & venus_nakshatra=Purva Phalguni",
+     "value": "4203",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_pillar=Geng Yin & nakshatra=Mula",
+     "value": "1708",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.005
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_pillar=Ding Wei & venus_nakshatra=Krittika",
+     "value": "3548",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.002
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_stem=Xin & nakshatra_pada=Pushya 2",
+     "value": "4663",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.007
+    },
+    {
+     "scope": "Magnum",
+     "cell": "jupiter_rashi=Makara & kp_moon_number=180",
+     "value": "3452",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.002
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nakshatra_pada=Purva Ashadha 2 & jupiter_rashi=Makara",
+     "value": "3452",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.002
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nakshatra_pada=Pushya 2 & mercury_rashi=Kumbha",
+     "value": "4663",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.005
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_stem=Geng & kp_sun_number=83",
+     "value": "1930",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.005
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "yoga=1 & mercury_nakshatra=Rohini",
+     "value": "0172",
+     "wins_before_2012": 3,
+     "expected_before": 0.007,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.007
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nine_star_month=3 & mercury_combust=False",
+     "value": "1694",
+     "wins_before_2012": 8,
+     "expected_before": 0.492,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.349
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Wood",
+     "value": "1024",
+     "wins_before_2012": 21,
+     "expected_before": 4.883,
+     "wins_from_2012": 5,
+     "expected_from_2012": 3.363
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=6 & day_officer=Stable",
+     "value": "8711",
+     "wins_before_2012": 5,
+     "expected_before": 0.094,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.055
+    },
+    {
+     "scope": "All operators",
+     "cell": "karana=Vanija & kp_moon_star_lord=Ketu",
+     "value": "9233",
+     "wins_before_2012": 7,
+     "expected_before": 0.324,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.234
+    },
+    {
+     "scope": "All operators",
+     "cell": "year_stem=Yi & nakshatra=Revati",
+     "value": "7808",
+     "wins_before_2012": 5,
+     "expected_before": 0.094,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.103
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Uttara Bhadrapada & kp_asc_star_lord=Moon",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.034,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_pillar=Gui Wei & kp_moon_sub_lord=Rahu",
+     "value": "8202",
+     "wins_before_2012": 4,
+     "expected_before": 0.034,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.005
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_stem=Ji & nakshatra=Ardra",
+     "value": "7337",
+     "wins_before_2012": 4,
+     "expected_before": 0.034,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.023
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=Waxing crescent & rahu_nakshatra=Purva Phalguni",
+     "value": "6018",
+     "wins_before_2012": 4,
+     "expected_before": 0.034,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.041
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nayin=13 & nine_star_month=4",
+     "value": "7281",
+     "wins_before_2012": 4,
+     "expected_before": 0.034,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.023
+    },
+    {
+     "scope": "All operators",
+     "cell": "nayin=25 & saturn_rashi=Kumbha",
+     "value": "9564",
+     "wins_before_2012": 5,
+     "expected_before": 0.094,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.09
+    },
+    {
+     "scope": "All operators",
+     "cell": "nakshatra_lord=Saturn & mars_retrograde=False",
+     "value": "1778",
+     "wins_before_2012": 15,
+     "expected_before": 2.463,
+     "wins_from_2012": 3,
+     "expected_from_2012": 1.696
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "jupiter_nakshatra=Ashwini & kp_sun_sub_lord=Moon",
+     "value": "2363",
+     "wins_before_2012": 4,
+     "expected_before": 0.035,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.016
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "month=Nov & jupiter_nakshatra=Dhanishta",
+     "value": "2580",
+     "wins_before_2012": 4,
+     "expected_before": 0.035,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nakshatra_pada=Hasta 1 & ayana=Dakshinayana",
+     "value": "9732",
+     "wins_before_2012": 4,
+     "expected_before": 0.035,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_branch=Si & tithi=19",
+     "value": "5539",
+     "wins_before_2012": 4,
+     "expected_before": 0.035,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.016
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_of_month=21 & karana=Kaulava",
+     "value": "0069",
+     "wins_before_2012": 4,
+     "expected_before": 0.035,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.016
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "lunar_month=3 & kp_asc_sub_lord=Mercury",
+     "value": "7132",
+     "wins_before_2012": 5,
+     "expected_before": 0.094,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.069
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "weekday=Sat & kp_sun_sub_lord=Jupiter",
+     "value": "3598",
+     "wins_before_2012": 7,
+     "expected_before": 0.326,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.221
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "hora_lord=Venus & mercury_retrograde=True",
+     "value": "2571",
+     "wins_before_2012": 7,
+     "expected_before": 0.326,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.29
+    },
+    {
+     "scope": "All operators",
+     "cell": "month_pillar=Jia Xu & venus_retrograde=False",
+     "value": "9787",
+     "wins_before_2012": 7,
+     "expected_before": 0.328,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.296
+    },
+    {
+     "scope": "All operators",
+     "cell": "month_pillar=Jia Xu & mercury_retrograde=False",
+     "value": "9787",
+     "wins_before_2012": 7,
+     "expected_before": 0.328,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.213
+    },
+    {
+     "scope": "All operators",
+     "cell": "mars_retrograde=False & kp_moon_star_lord=Saturn",
+     "value": "1778",
+     "wins_before_2012": 15,
+     "expected_before": 2.479,
+     "wins_from_2012": 3,
+     "expected_from_2012": 1.722
+    },
+    {
+     "scope": "All operators",
+     "cell": "mercury_nakshatra=Ashwini & kp_moon_star_lord=Sun",
+     "value": "8561",
+     "wins_before_2012": 5,
+     "expected_before": 0.096,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.062
+    },
+    {
+     "scope": "All operators",
+     "cell": "nakshatra_lord=Sun & mercury_nakshatra=Ashwini",
+     "value": "8561",
+     "wins_before_2012": 5,
+     "expected_before": 0.096,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.062
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Wood & jupiter_combust=False",
+     "value": "1024",
+     "wins_before_2012": 20,
+     "expected_before": 4.5,
+     "wins_from_2012": 4,
+     "expected_from_2012": 3.087
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_element=Water & jupiter_retrograde=False",
+     "value": "5092",
+     "wins_before_2012": 10,
+     "expected_before": 0.947,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.822
+    },
+    {
+     "scope": "All operators",
+     "cell": "year_stem=Jia & nine_star_month=8",
+     "value": "8070",
+     "wins_before_2012": 6,
+     "expected_before": 0.197,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.316
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_phase=Waning crescent & ritu=Vasanta",
+     "value": "5433",
+     "wins_before_2012": 8,
+     "expected_before": 0.509,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.317
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "year_stem=Wu & nayin_element=Wood",
+     "value": "2942",
+     "wins_before_2012": 5,
+     "expected_before": 0.099,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.081
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_element=Fire & jupiter_nakshatra=Purva Phalguni",
+     "value": "6235",
+     "wins_before_2012": 5,
+     "expected_before": 0.099,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.053
+    },
+    {
+     "scope": "Magnum",
+     "cell": "karana=Balava & sun_rashi=Meena",
+     "value": "7748",
+     "wins_before_2012": 5,
+     "expected_before": 0.099,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.062
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_branch=Chen & mercury_nakshatra=Purva Phalguni",
+     "value": "3780",
+     "wins_before_2012": 4,
+     "expected_before": 0.037,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.009
+    },
+    {
+     "scope": "All operators",
+     "cell": "sun_rashi=Mesha & kp_sun_sub_lord=Ketu",
+     "value": "9838",
+     "wins_before_2012": 5,
+     "expected_before": 0.099,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.048
+    },
+    {
+     "scope": "All operators",
+     "cell": "nakshatra=Chitra & mercury_nakshatra=Ashwini",
+     "value": "4702",
+     "wins_before_2012": 4,
+     "expected_before": 0.037,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.007
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_vs_year_branch=other & nakshatra_pada=Hasta 1",
+     "value": "9732",
+     "wins_before_2012": 4,
+     "expected_before": 0.037,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_god=Heavenly Punishment & venus_nakshatra=Purva Ashadha",
+     "value": "2693",
+     "wins_before_2012": 4,
+     "expected_before": 0.037,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Magnum",
+     "cell": "year_element=Wood & mercury_nakshatra=Krittika",
+     "value": "9191",
+     "wins_before_2012": 4,
+     "expected_before": 0.037,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.037
+    },
+    {
+     "scope": "All operators",
+     "cell": "lunar_month=12 & day_god=Black Tortoise",
+     "value": "1586",
+     "wins_before_2012": 6,
+     "expected_before": 0.2,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.115
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mercury_nakshatra=Rohini & venus_nakshatra=Ardra",
+     "value": "0852",
+     "wins_before_2012": 4,
+     "expected_before": 0.037,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.027
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_officer=Success & kp_moon_sub_lord=Mars",
+     "value": "2643",
+     "wins_before_2012": 4,
+     "expected_before": 0.037,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.025
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nakshatra=Chitra & mars_rashi=Tula",
+     "value": "0313",
+     "wins_before_2012": 4,
+     "expected_before": 0.037,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.03
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_phase=Waning gibbous & mars_combust=False",
+     "value": "1024",
+     "wins_before_2012": 15,
+     "expected_before": 2.52,
+     "wins_from_2012": 5,
+     "expected_from_2012": 1.807
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_phase=Waning gibbous & year_yinyang=Yin",
+     "value": "1024",
+     "wins_before_2012": 12,
+     "expected_before": 1.52,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.027
+    },
+    {
+     "scope": "All operators",
+     "cell": "nayin=4 & venus_rashi=Meena",
+     "value": "7094",
+     "wins_before_2012": 5,
+     "expected_before": 0.101,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.055
+    },
+    {
+     "scope": "All operators",
+     "cell": "year_stem=Bing & lagna_nakshatra=Anuradha",
+     "value": "8691",
+     "wins_before_2012": 5,
+     "expected_before": 0.101,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.089
+    },
+    {
+     "scope": "All operators",
+     "cell": "nine_star_month=8 & jupiter_nakshatra=Swati",
+     "value": "5254",
+     "wins_before_2012": 7,
+     "expected_before": 0.342,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.11
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "solar_term=Dongzhi & venus_rashi=Makara",
+     "value": "6881",
+     "wins_before_2012": 5,
+     "expected_before": 0.101,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.085
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Wood & venus_retrograde=False",
+     "value": "1024",
+     "wins_before_2012": 20,
+     "expected_before": 4.569,
+     "wins_from_2012": 5,
+     "expected_from_2012": 3.122
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=3 & mars_retrograde=False",
+     "value": "7214",
+     "wins_before_2012": 9,
+     "expected_before": 0.732,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.541
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "month=Aug & kp_moon_sub_lord=Venus",
+     "value": "0721",
+     "wins_before_2012": 5,
+     "expected_before": 0.103,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.044
+    },
+    {
+     "scope": "All operators",
+     "cell": "samvatsara=25 & kp_moon_star_lord=Saturn",
+     "value": "5958",
+     "wins_before_2012": 5,
+     "expected_before": 0.103,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.014
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_month=10 & month_branch=Xu",
+     "value": "3702",
+     "wins_before_2012": 5,
+     "expected_before": 0.103,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.053
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_month=10 & solar_term=Shuangjiang",
+     "value": "3702",
+     "wins_before_2012": 5,
+     "expected_before": 0.103,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.053
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_phase=Waning gibbous & adhika_masa=False",
+     "value": "1024",
+     "wins_before_2012": 16,
+     "expected_before": 2.931,
+     "wins_from_2012": 5,
+     "expected_from_2012": 2.088
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=23 & lunar_day=15",
+     "value": "5821",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.007
+    },
+    {
+     "scope": "All operators",
+     "cell": "lunar_day=2 & mars_nakshatra=Bharani",
+     "value": "2832",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "All operators",
+     "cell": "nakshatra_pada=Hasta 1 & mercury_rashi=Kanya",
+     "value": "9732",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.027
+    },
+    {
+     "scope": "All operators",
+     "cell": "lunar_day=25 & yoga=13",
+     "value": "9161",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "All operators",
+     "cell": "solar_term=Dahan & nakshatra=Ashlesha",
+     "value": "2324",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.007
+    },
+    {
+     "scope": "All operators",
+     "cell": "tithi=25 & yoga=13",
+     "value": "9161",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=Waning crescent & nakshatra=Rohini",
+     "value": "4319",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.025
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nayin=11 & kp_sun_star_lord=Mars",
+     "value": "6183",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.018
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_phase=Waning gibbous & lunar_leap_month=False",
+     "value": "1024",
+     "wins_before_2012": 16,
+     "expected_before": 2.938,
+     "wins_from_2012": 5,
+     "expected_from_2012": 2.116
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_of_month=16 & ritu=Varsha",
+     "value": "8565",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "month_stem=Yi & jupiter_nakshatra=Ashwini",
+     "value": "2363",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.03
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_of_month=4 & planets_with_moon=2",
+     "value": "1815",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.016
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "moon_phase=Full & sun_nakshatra=Uttara Bhadrapada",
+     "value": "4731",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.023
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "year_stem=Wu & day_god=Grappling Hook",
+     "value": "4932",
+     "wins_before_2012": 4,
+     "expected_before": 0.039,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Water & mercury_nakshatra=Anuradha",
+     "value": "5092",
+     "wins_before_2012": 6,
+     "expected_before": 0.208,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.165
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=3 & saturn_combust=False",
+     "value": "7214",
+     "wins_before_2012": 9,
+     "expected_before": 0.741,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.55
+    },
+    {
+     "scope": "All operators",
+     "cell": "solar_term=Qiufen & day_element=Wood",
+     "value": "8348",
+     "wins_before_2012": 6,
+     "expected_before": 0.209,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.151
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Metal & mercury_rashi=Mesha",
+     "value": "4702",
+     "wins_before_2012": 7,
+     "expected_before": 0.351,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.252
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Uttara Bhadrapada & venus_combust=False",
+     "value": "4731",
+     "wins_before_2012": 6,
+     "expected_before": 0.209,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.151
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=23 & nine_star_year=7",
+     "value": "0889",
+     "wins_before_2012": 5,
+     "expected_before": 0.106,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.032
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=Waxing gibbous & day_god=Grappling Hook",
+     "value": "6823",
+     "wins_before_2012": 5,
+     "expected_before": 0.106,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.074
+    },
+    {
+     "scope": "All operators",
+     "cell": "sun_sign_tropical=Pisces & year_stem=Ding",
+     "value": "3880",
+     "wins_before_2012": 6,
+     "expected_before": 0.211,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.099
+    },
+    {
+     "scope": "All operators",
+     "cell": "year_stem=Ding & lagna_rashi=Simha",
+     "value": "3880",
+     "wins_before_2012": 6,
+     "expected_before": 0.211,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.099
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=3 & saturn_retrograde=False",
+     "value": "7214",
+     "wins_before_2012": 8,
+     "expected_before": 0.535,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.382
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_god=Golden Coffer & paksha=Shukla",
+     "value": "9234",
+     "wins_before_2012": 10,
+     "expected_before": 0.997,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.695
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_vs_year_branch=six harmony & mars_retrograde=False",
+     "value": "2582",
+     "wins_before_2012": 9,
+     "expected_before": 0.754,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.432
+    },
+    {
+     "scope": "Magnum",
+     "cell": "year_yinyang=Yang & venus_rashi=Makara",
+     "value": "3265",
+     "wins_before_2012": 7,
+     "expected_before": 0.359,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.276
+    }
+   ],
+   "without_top_contributor": {
+    "value": "1024",
+    "wins_from_2012": 16,
+    "expected": 19.9,
+    "z": -0.88
+   }
+  },
+  "perm_group": {
+   "wins_from_2012": 525,
+   "expected": 531.0,
+   "lift": 0.989,
+   "z": -0.26,
+   "distinct_values": 98,
+   "largest_contributors": [
+    {
+     "value": "1288 (any order)",
+     "entries": 11,
+     "wins_from_2012": 74,
+     "expected": 49.28
+    },
+    {
+     "value": "2258 (any order)",
+     "entries": 5,
+     "wins_from_2012": 28,
+     "expected": 22.18
+    },
+    {
+     "value": "1478 (any order)",
+     "entries": 2,
+     "wins_from_2012": 10,
+     "expected": 4.44
+    },
+    {
+     "value": "3447 (any order)",
+     "entries": 5,
+     "wins_from_2012": 13,
+     "expected": 7.46
+    },
+    {
+     "value": "3488 (any order)",
+     "entries": 6,
+     "wins_from_2012": 6,
+     "expected": 2.33
+    }
+   ],
+   "list": [
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Vishakha & jupiter_nakshatra=Hasta",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_nakshatra=Vishakha & jupiter_rashi=Kanya",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "year_animal=Monkey & sun_nakshatra=Vishakha",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.025,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.011
+    },
+    {
+     "scope": "All operators",
+     "cell": "mercury_combust=False & ritu=Grishma",
+     "value": "2778 (any order)",
+     "wins_before_2012": 64,
+     "expected_before": 29.308,
+     "wins_from_2012": 18,
+     "expected_from_2012": 19.247
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "year_element=Water & day_branch=Hai",
+     "value": "6788 (any order)",
+     "wins_before_2012": 12,
+     "expected_before": 1.388,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.625
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=Waning gibbous & karana=Bava",
+     "value": "3447 (any order)",
+     "wins_before_2012": 14,
+     "expected_before": 2.064,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.106
+    },
+    {
+     "scope": "Magnum",
+     "cell": "tithi=19 & karana=Bava",
+     "value": "3447 (any order)",
+     "wins_before_2012": 14,
+     "expected_before": 2.064,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.106
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_day=7 & venus_nakshatra=Shravana",
+     "value": "4555 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.036,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.027
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month_stem=Geng & mansion_28=Di",
+     "value": "0558 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 0.95,
+     "wins_from_2012": 2,
+     "expected_from_2012": 0.51
+    },
+    {
+     "scope": "All operators",
+     "cell": "mercury_combust=False & masa=Jyeshtha",
+     "value": "2778 (any order)",
+     "wins_before_2012": 40,
+     "expected_before": 15.07,
+     "wins_from_2012": 9,
+     "expected_from_2012": 9.581
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_stem=Jia & venus_rashi=Kumbha",
+     "value": "4488 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.739,
+     "wins_from_2012": 3,
+     "expected_from_2012": 0.989
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_branch=Yin & mars_rashi=Kumbha",
+     "value": "6678 (any order)",
+     "wins_before_2012": 13,
+     "expected_before": 1.874,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.027
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_day=7 & venus_rashi=Makara",
+     "value": "4555 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.108,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.064
+    },
+    {
+     "scope": "Magnum",
+     "cell": "hour_stem_19h=Geng & lagna_nakshatra=Hasta",
+     "value": "0389 (any order)",
+     "wins_before_2012": 12,
+     "expected_before": 1.572,
+     "wins_from_2012": 3,
+     "expected_from_2012": 0.972
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "nine_star_month=3 & rahu_rashi=Mesha",
+     "value": "3367 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.758,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.806
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "venus_rashi=Mesha & mercury_retrograde=False",
+     "value": "1336 (any order)",
+     "wins_before_2012": 21,
+     "expected_before": 5.194,
+     "wins_from_2012": 2,
+     "expected_from_2012": 3.545
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_officer=Stable & mansion_28=Zhen",
+     "value": "2399 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.564,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.408
+    },
+    {
+     "scope": "Magnum",
+     "cell": "mars_combust=False & ayana=Dakshinayana",
+     "value": "1347 (any order)",
+     "wins_before_2012": 152,
+     "expected_before": 97.128,
+     "wins_from_2012": 50,
+     "expected_from_2012": 55.258
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "year_yinyang=Yin & mercury_nakshatra=Krittika",
+     "value": "3399 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.795,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.314
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "venus_nakshatra=Uttara Ashadha & prize=Consolation",
+     "value": "2489 (any order)",
+     "wins_before_2012": 17,
+     "expected_before": 3.499,
+     "wins_from_2012": 2,
+     "expected_from_2012": 2.854
+    },
+    {
+     "scope": "All operators",
+     "cell": "sun_nakshatra=Swati & kp_moon_sub_lord=Venus",
+     "value": "3777 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.582,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.494
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_pillar=Wu Xu & nine_star_year=8",
+     "value": "1144 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.121,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.041
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lagna_rashi=Vrischika & mars_combust=False",
+     "value": "1288 (any order)",
+     "wins_before_2012": 29,
+     "expected_before": 9.367,
+     "wins_from_2012": 5,
+     "expected_from_2012": 4.45
+    },
+    {
+     "scope": "All operators",
+     "cell": "moon_phase=Full & mercury_rashi=Meena",
+     "value": "7888 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.816,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.682
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_stem=Ding & yoga=16",
+     "value": "3388 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.124,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.137
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lagna_rashi=Vrischika",
+     "value": "1288 (any order)",
+     "wins_before_2012": 31,
+     "expected_before": 10.525,
+     "wins_from_2012": 8,
+     "expected_from_2012": 5.507
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lagna_rashi=Vrischika & ayana=Uttarayana",
+     "value": "1288 (any order)",
+     "wins_before_2012": 31,
+     "expected_before": 10.525,
+     "wins_from_2012": 8,
+     "expected_from_2012": 5.507
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_stem=Yi & mercury_nakshatra=Revati",
+     "value": "4447 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.126,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.063
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_vs_year_branch=six harmony & mars_retrograde=False",
+     "value": "2258 (any order)",
+     "wins_before_2012": 28,
+     "expected_before": 8.888,
+     "wins_from_2012": 7,
+     "expected_from_2012": 5.09
+    },
+    {
+     "scope": "All operators",
+     "cell": "solar_term=Shuangjiang & kp_moon_sub_lord=Venus",
+     "value": "3777 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.6,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.494
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "year_animal=Tiger & month_stem=Geng",
+     "value": "1155 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.405,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.217
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_of_month=26 & mercury_combust=False",
+     "value": "0025 (any order)",
+     "wins_before_2012": 11,
+     "expected_before": 1.405,
+     "wins_from_2012": 2,
+     "expected_from_2012": 1.302
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "nakshatra_pada=Shatabhisha 3 & lagna_rashi=Makara",
+     "value": "1144 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.053,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_sign_tropical=Leo & nakshatra_pada=Shatabhisha 3",
+     "value": "1144 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.053,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.028
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "month=May & prize=Top 3",
+     "value": "2258 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.864,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.708
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_sign_tropical=Scorpio & jupiter_nakshatra=Hasta",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.054,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "venus_rashi=Mesha & mars_retrograde=False",
+     "value": "1336 (any order)",
+     "wins_before_2012": 21,
+     "expected_before": 5.488,
+     "wins_from_2012": 3,
+     "expected_from_2012": 3.984
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "nayin_element=Metal & kp_asc_star_lord=Moon",
+     "value": "3556 (any order)",
+     "wins_before_2012": 13,
+     "expected_before": 2.113,
+     "wins_from_2012": 4,
+     "expected_from_2012": 1.573
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "month=Nov & jupiter_nakshatra=Hasta",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.056,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "month=Nov & jupiter_rashi=Kanya",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.056,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "month=Nov & year_animal=Monkey",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.056,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_officer=Stable & jupiter_combust=True",
+     "value": "5567 (any order)",
+     "wins_before_2012": 12,
+     "expected_before": 1.777,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.126
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_branch=Si & ritu=Sharad",
+     "value": "1469 (any order)",
+     "wins_before_2012": 14,
+     "expected_before": 2.494,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.69
+    },
+    {
+     "scope": "Magnum",
+     "cell": "year_yinyang=Yang & lagna_rashi=Vrischika",
+     "value": "1288 (any order)",
+     "wins_before_2012": 20,
+     "expected_before": 5.058,
+     "wins_from_2012": 4,
+     "expected_from_2012": 2.876
+    },
+    {
+     "scope": "All operators",
+     "cell": "yellow_black_path=Black & kp_sun_star_lord=Sun",
+     "value": "2444 (any order)",
+     "wins_before_2012": 20,
+     "expected_before": 5.082,
+     "wins_from_2012": 2,
+     "expected_from_2012": 3.458
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_of_month=30 & jupiter_combust=True",
+     "value": "3567 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.65,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.221
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "mars_rashi=Tula & kp_sun_star_lord=Jupiter",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.059,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.056
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_sign_tropical=Scorpio & jupiter_rashi=Kanya",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.059,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "sun_sign_tropical=Scorpio & year_animal=Monkey",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.059,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.034
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "yoga=5 & prize=Special",
+     "value": "6888 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.447,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.375
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "kp_sun_sub_lord=Mercury & prize=Special",
+     "value": "0134 (any order)",
+     "wins_before_2012": 31,
+     "expected_before": 10.927,
+     "wins_from_2012": 5,
+     "expected_from_2012": 8.016
+    },
+    {
+     "scope": "Magnum",
+     "cell": "paksha=Krishna & lagna_rashi=Vrischika",
+     "value": "1288 (any order)",
+     "wins_before_2012": 20,
+     "expected_before": 5.136,
+     "wins_from_2012": 4,
+     "expected_from_2012": 2.687
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mars_rashi=Meena & rahu_rashi=Mithuna",
+     "value": "4779 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.454,
+     "wins_from_2012": 2,
+     "expected_from_2012": 0.731
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_day=6 & day_element=Fire",
+     "value": "7777 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.061,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.038
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lagna_rashi=Vrischika & mars_retrograde=False",
+     "value": "1288 (any order)",
+     "wins_before_2012": 29,
+     "expected_before": 9.818,
+     "wins_from_2012": 8,
+     "expected_from_2012": 5.076
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "lunar_day=10 & jupiter_combust=True",
+     "value": "4455 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.149,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.083
+    },
+    {
+     "scope": "All operators",
+     "cell": "mansion_28=Ji & mars_rashi=Dhanu",
+     "value": "1338 (any order)",
+     "wins_before_2012": 11,
+     "expected_before": 1.501,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.865
+    },
+    {
+     "scope": "Magnum",
+     "cell": "mercury_nakshatra=Magha & masa=Shravana",
+     "value": "0178 (any order)",
+     "wins_before_2012": 20,
+     "expected_before": 5.165,
+     "wins_from_2012": 4,
+     "expected_from_2012": 2.047
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "mercury_nakshatra=Uttara Phalguni & kp_asc_star_lord=Saturn",
+     "value": "0488 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.672,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.571
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_vs_year_branch=trine & jupiter_rashi=Mithuna",
+     "value": "1456 (any order)",
+     "wins_before_2012": 11,
+     "expected_before": 1.507,
+     "wins_from_2012": 0,
+     "expected_from_2012": 3.122
+    },
+    {
+     "scope": "Magnum",
+     "cell": "venus_nakshatra=Swati & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.062,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.045
+    },
+    {
+     "scope": "Magnum",
+     "cell": "venus_rashi=Tula & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.062,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.054
+    },
+    {
+     "scope": "Magnum",
+     "cell": "saturn_combust=False & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.153,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "All operators",
+     "cell": "mercury_nakshatra=Shravana & jupiter_retrograde=False",
+     "value": "4477 (any order)",
+     "wins_before_2012": 17,
+     "expected_before": 3.821,
+     "wins_from_2012": 0,
+     "expected_from_2012": 2.073
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "karana=Garaja & venus_nakshatra=Jyeshtha",
+     "value": "0018 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.464,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.218
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lagna_rashi=Vrischika & jupiter_combust=False",
+     "value": "1288 (any order)",
+     "wins_before_2012": 29,
+     "expected_before": 9.9,
+     "wins_from_2012": 7,
+     "expected_from_2012": 4.834
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "mars_nakshatra=Uttara Ashadha & planets_with_moon=1",
+     "value": "1399 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.682,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.732
+    },
+    {
+     "scope": "All operators",
+     "cell": "lunar_day=17 & kp_asc_star_lord=Moon",
+     "value": "0448 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.932,
+     "wins_from_2012": 2,
+     "expected_from_2012": 0.812
+    },
+    {
+     "scope": "All operators",
+     "cell": "mercury_nakshatra=Ardra & prize=Consolation",
+     "value": "0358 (any order)",
+     "wins_before_2012": 26,
+     "expected_before": 8.261,
+     "wins_from_2012": 0,
+     "expected_from_2012": 4.795
+    },
+    {
+     "scope": "All operators",
+     "cell": "mars_rashi=Dhanu & kp_asc_sub_lord=Jupiter",
+     "value": "3447 (any order)",
+     "wins_before_2012": 15,
+     "expected_before": 2.998,
+     "wins_from_2012": 2,
+     "expected_from_2012": 1.418
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nakshatra=Swati & yoga=13",
+     "value": "5588 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.065,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.04
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_stem=Yi & mercury_rashi=Meena",
+     "value": "4447 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.296,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.171
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_officer=Danger & kp_asc_sub_lord=Jupiter",
+     "value": "5999 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.296,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.238
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "year_animal=Monkey & kp_sun_star_lord=Jupiter",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.066,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.041
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_god=Grappling Hook & kp_sun_sub_lord=Saturn",
+     "value": "3555 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.234,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.835
+    },
+    {
+     "scope": "All operators",
+     "cell": "mercury_combust=False",
+     "value": "2778 (any order)",
+     "wins_before_2012": 222,
+     "expected_before": 157.544,
+     "wins_from_2012": 98,
+     "expected_from_2012": 107.657
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "mercury_nakshatra=Uttara Phalguni & lagna_nakshatra=Uttara Bhadrapada",
+     "value": "0488 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.7,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.571
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=7 & rahu_rashi=Mesha",
+     "value": "1155 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.481,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.356
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mars_nakshatra=Shatabhisha & venus_combust=True",
+     "value": "0778 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.241,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.08
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month_stem=Geng & day_god=Green Dragon",
+     "value": "0558 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.242,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.618
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "tithi=29 & kp_sun_star_lord=Ketu",
+     "value": "1167 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.3,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.274
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "lunar_day=5 & ritu=Shishira",
+     "value": "1129 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.482,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.46
+    },
+    {
+     "scope": "Magnum",
+     "cell": "masa=Bhadrapada & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.162,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.099
+    },
+    {
+     "scope": "Magnum",
+     "cell": "ritu=Varsha & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.162,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.099
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_branch=Si & day_officer=Danger",
+     "value": "1469 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.246,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.811
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_officer=Danger & day_god=Bright Hall",
+     "value": "1469 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.246,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.811
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "month_branch=Xu & day_branch=Si",
+     "value": "1469 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.246,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.811
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "month_branch=Xu & day_god=Bright Hall",
+     "value": "1469 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.246,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.811
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "month_branch=Xu & day_officer=Danger",
+     "value": "1469 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.246,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.811
+    },
+    {
+     "scope": "Magnum",
+     "cell": "yoga=2 & kp_sun_sub_lord=Venus",
+     "value": "1778 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.704,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.463
+    },
+    {
+     "scope": "Magnum",
+     "cell": "paksha=Krishna & karana=Bava",
+     "value": "3447 (any order)",
+     "wins_before_2012": 21,
+     "expected_before": 5.776,
+     "wins_from_2012": 7,
+     "expected_from_2012": 3.133
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_of_month=7 & solar_term=Dashu",
+     "value": "1377 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.162,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.083
+    },
+    {
+     "scope": "Magnum",
+     "cell": "tithi=14 & venus_nakshatra=Shatabhisha",
+     "value": "0078 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.162,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.107
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_month=8 & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.162,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=First quarter & month_branch=Shen",
+     "value": "1779 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.249,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.698
+    },
+    {
+     "scope": "Magnum",
+     "cell": "jupiter_nakshatra=Hasta & masa=Kartika",
+     "value": "3488 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.707,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.402
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_month=10 & jupiter_nakshatra=Hasta",
+     "value": "3488 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.707,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.376
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_vs_year_branch=trine & rahu_nakshatra=Mrigashira",
+     "value": "1456 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.965,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.809
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_pillar=Yi Hai & venus_rashi=Karka",
+     "value": "5779 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.163,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.082
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "venus_nakshatra=Uttara Ashadha & kp_moon_sub_lord=Ketu",
+     "value": "2457 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.487,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.377
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month_stem=Ding & jupiter_nakshatra=Ashwini",
+     "value": "3779 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.709,
+     "wins_from_2012": 2,
+     "expected_from_2012": 0.408
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=Full & kp_moon_star_lord=Venus",
+     "value": "5678 (any order)",
+     "wins_before_2012": 15,
+     "expected_before": 3.06,
+     "wins_from_2012": 0,
+     "expected_from_2012": 1.901
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=Full & nakshatra_lord=Venus",
+     "value": "5678 (any order)",
+     "wins_before_2012": 15,
+     "expected_before": 3.06,
+     "wins_from_2012": 0,
+     "expected_from_2012": 1.901
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nakshatra_lord=Saturn & sun_nakshatra=Krittika",
+     "value": "0479 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.967,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.437
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_nakshatra=Krittika & kp_moon_star_lord=Saturn",
+     "value": "0479 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.967,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.437
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "jupiter_nakshatra=Purva Ashadha & jupiter_retrograde=False",
+     "value": "2335 (any order)",
+     "wins_before_2012": 15,
+     "expected_before": 3.064,
+     "wins_from_2012": 0,
+     "expected_from_2012": 1.409
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "venus_rashi=Kumbha & kp_asc_sub_lord=Saturn",
+     "value": "2234 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.968,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.901
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nayin_element=Fire & kp_asc_number=156",
+     "value": "3359 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.164,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.052
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mercury_nakshatra=Pushya & jupiter_nakshatra=Swati",
+     "value": "0199 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.49,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mercury_nakshatra=Pushya & jupiter_rashi=Tula",
+     "value": "0199 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.49,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "year_animal=Dog & mercury_nakshatra=Pushya",
+     "value": "0199 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.49,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_vs_year_branch=six harmony & adhika_masa=False",
+     "value": "2258 (any order)",
+     "wins_before_2012": 28,
+     "expected_before": 9.512,
+     "wins_from_2012": 7,
+     "expected_from_2012": 5.441
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "mansion_28=Xing & ayana=Uttarayana",
+     "value": "1399 (any order)",
+     "wins_before_2012": 15,
+     "expected_before": 3.073,
+     "wins_from_2012": 1,
+     "expected_from_2012": 2.378
+    },
+    {
+     "scope": "All operators",
+     "cell": "weekday=Wed & mars_rashi=Dhanu",
+     "value": "1338 (any order)",
+     "wins_before_2012": 20,
+     "expected_before": 5.329,
+     "wins_from_2012": 4,
+     "expected_from_2012": 3.618
+    },
+    {
+     "scope": "Magnum",
+     "cell": "venus_rashi=Karka & venus_combust=True",
+     "value": "0189 (any order)",
+     "wins_before_2012": 15,
+     "expected_before": 3.084,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.315
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nayin_element=Water & kp_asc_sub_lord=Moon",
+     "value": "2459 (any order)",
+     "wins_before_2012": 17,
+     "expected_before": 3.948,
+     "wins_from_2012": 3,
+     "expected_from_2012": 2.417
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_rashi=Vrishabha & lagna_rashi=Vrischika",
+     "value": "1288 (any order)",
+     "wins_before_2012": 27,
+     "expected_before": 8.999,
+     "wins_from_2012": 8,
+     "expected_from_2012": 4.664
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_rashi=Kanya & mars_combust=False",
+     "value": "2488 (any order)",
+     "wins_before_2012": 25,
+     "expected_before": 7.912,
+     "wins_from_2012": 4,
+     "expected_from_2012": 4.688
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_officer=Destruction & nakshatra=Vishakha",
+     "value": "0689 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.982,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_rashi=Vrishabha & mars_combust=False",
+     "value": "1288 (any order)",
+     "wins_before_2012": 27,
+     "expected_before": 9.004,
+     "wins_from_2012": 6,
+     "expected_from_2012": 4.232
+    },
+    {
+     "scope": "All operators",
+     "cell": "yellow_black_path=Yellow & nine_star_year=9",
+     "value": "1222 (any order)",
+     "wins_before_2012": 19,
+     "expected_before": 4.882,
+     "wins_from_2012": 3,
+     "expected_from_2012": 2.358
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "moon_phase=First quarter & day_vs_year_branch=other",
+     "value": "0689 (any order)",
+     "wins_before_2012": 30,
+     "expected_before": 10.709,
+     "wins_from_2012": 6,
+     "expected_from_2012": 8.566
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_stem=Jia & masa=Margashirsha",
+     "value": "0018 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.726,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.566
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_leap_month=False & lagna_rashi=Vrischika",
+     "value": "1288 (any order)",
+     "wins_before_2012": 29,
+     "expected_before": 10.144,
+     "wins_from_2012": 8,
+     "expected_from_2012": 5.128
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_stem=Bing & mars_nakshatra=Purva Ashadha",
+     "value": "2666 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.072,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.054
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "year_yinyang=Yin & mercury_rashi=Vrishabha",
+     "value": "3399 (any order)",
+     "wins_before_2012": 11,
+     "expected_before": 1.602,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.045
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "day_branch=Zi & kp_asc_star_lord=Venus",
+     "value": "3447 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.73,
+     "wins_from_2012": 2,
+     "expected_from_2012": 0.698
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month_pillar=Xin Si & yellow_black_path=Black",
+     "value": "4467 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 0.991,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.377
+    },
+    {
+     "scope": "Magnum",
+     "cell": "adhika_masa=False & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.171,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.099
+    },
+    {
+     "scope": "Magnum",
+     "cell": "jupiter_combust=False & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.171,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.1
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_officer=Close & mercury_combust=False",
+     "value": "0038 (any order)",
+     "wins_before_2012": 17,
+     "expected_before": 3.978,
+     "wins_from_2012": 2,
+     "expected_from_2012": 3.05
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_god=Black Tortoise & rahu_nakshatra=Purva Phalguni",
+     "value": "1113 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.072,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.082
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month_branch=Wei & rahu_nakshatra=Dhanishta",
+     "value": "1128 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.732,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.053
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mars_rashi=Meena & jupiter_rashi=Mithuna",
+     "value": "4779 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.506,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.484
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mars_rashi=Meena & mercury_rashi=Makara",
+     "value": "4779 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.506,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.87
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mars_rashi=Meena & rahu_nakshatra=Mrigashira",
+     "value": "4779 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.506,
+     "wins_from_2012": 4,
+     "expected_from_2012": 1.758
+    },
+    {
+     "scope": "Magnum",
+     "cell": "jupiter_rashi=Kanya & masa=Kartika",
+     "value": "3488 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.734,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.402
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_month=10 & jupiter_rashi=Kanya",
+     "value": "3488 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.734,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.376
+    },
+    {
+     "scope": "Magnum",
+     "cell": "year_animal=Monkey & lunar_month=10",
+     "value": "3488 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.734,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.376
+    },
+    {
+     "scope": "Magnum",
+     "cell": "year_animal=Monkey & masa=Kartika",
+     "value": "3488 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.734,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.402
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "kp_moon_number=133 & prize=Consolation",
+     "value": "0699 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.173,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.127
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "day_element=Fire & rahu_rashi=Simha",
+     "value": "3378 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.292,
+     "wins_from_2012": 3,
+     "expected_from_2012": 1.382
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "sun_nakshatra=Dhanishta & jupiter_nakshatra=Jyeshtha",
+     "value": "1134 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.319,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.164
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "sun_nakshatra=Dhanishta & jupiter_rashi=Vrischika",
+     "value": "1134 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.319,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.164
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=28 & mercury_rashi=Mithuna",
+     "value": "4788 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.737,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.631
+    },
+    {
+     "scope": "Magnum",
+     "cell": "year_element=Wood & hour_stem_19h=Bing",
+     "value": "4789 (any order)",
+     "wins_before_2012": 26,
+     "expected_before": 8.527,
+     "wins_from_2012": 7,
+     "expected_from_2012": 7.546
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=Full & jupiter_combust=True",
+     "value": "1699 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 1.002,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.566
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "paksha=Shukla & kp_sun_number=180",
+     "value": "3449 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.322,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.19
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "year_animal=Rat & jupiter_retrograde=False",
+     "value": "2335 (any order)",
+     "wins_before_2012": 16,
+     "expected_before": 3.571,
+     "wins_from_2012": 0,
+     "expected_from_2012": 2.591
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "mercury_retrograde=True & kp_asc_star_lord=Saturn",
+     "value": "0488 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.302,
+     "wins_from_2012": 2,
+     "expected_from_2012": 1.441
+    },
+    {
+     "scope": "All operators",
+     "cell": "year_element=Earth & day_pillar=Ji Hai",
+     "value": "3357 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 1.007,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.386
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "nayin_element=Water & saturn_retrograde=True",
+     "value": "4589 (any order)",
+     "wins_before_2012": 32,
+     "expected_before": 11.981,
+     "wins_from_2012": 10,
+     "expected_from_2012": 9.324
+    },
+    {
+     "scope": "All operators",
+     "cell": "sun_nakshatra=Vishakha & jupiter_nakshatra=Hasta",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.074,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.035
+    },
+    {
+     "scope": "All operators",
+     "cell": "sun_nakshatra=Vishakha & jupiter_rashi=Kanya",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.074,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.035
+    },
+    {
+     "scope": "All operators",
+     "cell": "year_animal=Monkey & sun_nakshatra=Vishakha",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.074,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.035
+    },
+    {
+     "scope": "Magnum",
+     "cell": "moon_phase=Last quarter & ritu=Shishira",
+     "value": "4558 (any order)",
+     "wins_before_2012": 13,
+     "expected_before": 2.347,
+     "wins_from_2012": 0,
+     "expected_from_2012": 1.458
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "weekday=Wed & day_god=Heavenly Prison",
+     "value": "0079 (any order)",
+     "wins_before_2012": 13,
+     "expected_before": 2.348,
+     "wins_from_2012": 0,
+     "expected_from_2012": 1.669
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_element=Water & nakshatra=Pushya",
+     "value": "1399 (any order)",
+     "wins_before_2012": 12,
+     "expected_before": 1.978,
+     "wins_from_2012": 0,
+     "expected_from_2012": 1.714
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_day=28 & kp_sun_star_lord=Mercury",
+     "value": "3477 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.325,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.269
+    },
+    {
+     "scope": "All operators",
+     "cell": "lunar_month=4 & saturn_rashi=Vrischika",
+     "value": "4779 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.748,
+     "wins_from_2012": 3,
+     "expected_from_2012": 2.189
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_month=4 & saturn_rashi=Vrischika",
+     "value": "4779 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.748,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.756
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "mansion_28=Wei3 & karana=Bava",
+     "value": "0022 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.326,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.382
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_vs_year_branch=six harmony & venus_retrograde=False",
+     "value": "2258 (any order)",
+     "wins_before_2012": 27,
+     "expected_before": 9.133,
+     "wins_from_2012": 7,
+     "expected_from_2012": 5.311
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_officer=Balance & rahu_nakshatra=Mrigashira",
+     "value": "0339 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.328,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.292
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "venus_nakshatra=Anuradha & kp_moon_sub_lord=Mercury",
+     "value": "3559 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.328,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.433
+    },
+    {
+     "scope": "Magnum",
+     "cell": "ayana=Dakshinayana & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "kp_asc_star_lord=Jupiter & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "kp_sun_star_lord=Sun & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "kp_sun_sub_lord=Jupiter & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lagna_nakshatra=Purva Bhadrapada & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lagna_nakshatra=Purva Bhadrapada & kp_sun_sub_lord=Jupiter",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "lunar_leap_month=False & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "mars_retrograde=False & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.099
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month=Sep & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "month_branch=You & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "solar_term=Bailu & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_nakshatra=Uttara Phalguni & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_nakshatra=Uttara Phalguni & kp_sun_sub_lord=Jupiter",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_rashi=Kanya & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_sign_tropical=Virgo & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Magnum",
+     "cell": "venus_retrograde=False & kp_sun_number=107",
+     "value": "2226 (any order)",
+     "wins_before_2012": 5,
+     "expected_before": 0.18,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.108
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "nine_star_year=2 & kp_moon_star_lord=Ketu",
+     "value": "1478 (any order)",
+     "wins_before_2012": 12,
+     "expected_before": 1.999,
+     "wins_from_2012": 5,
+     "expected_from_2012": 2.275
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "nine_star_year=2 & nakshatra_lord=Ketu",
+     "value": "1478 (any order)",
+     "wins_before_2012": 12,
+     "expected_before": 1.999,
+     "wins_from_2012": 5,
+     "expected_from_2012": 2.165
+    },
+    {
+     "scope": "All operators",
+     "cell": "mansion_28=Mao & yoga=17",
+     "value": "3357 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 1.024,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.319
+    },
+    {
+     "scope": "Magnum",
+     "cell": "karana=Vanija & mercury_rashi=Dhanu",
+     "value": "1788 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.322,
+     "wins_from_2012": 1,
+     "expected_from_2012": 1.027
+    },
+    {
+     "scope": "All operators",
+     "cell": "lunar_leap_month=False & mercury_combust=False",
+     "value": "2778 (any order)",
+     "wins_before_2012": 216,
+     "expected_before": 153.98,
+     "wins_from_2012": 98,
+     "expected_from_2012": 104.202
+    },
+    {
+     "scope": "All operators",
+     "cell": "month=Jan & kp_moon_sub_lord=Saturn",
+     "value": "2444 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.326,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.985
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "month=Aug & year_stem=Geng",
+     "value": "2447 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.761,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.385
+    },
+    {
+     "scope": "Magnum",
+     "cell": "mercury_nakshatra=Pushya & kp_asc_sub_lord=Rahu",
+     "value": "6779 (any order)",
+     "wins_before_2012": 8,
+     "expected_before": 0.761,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.408
+    },
+    {
+     "scope": "Da Ma Cai",
+     "cell": "mercury_nakshatra=Krittika & mars_combust=False",
+     "value": "3399 (any order)",
+     "wins_before_2012": 10,
+     "expected_before": 1.331,
+     "wins_from_2012": 2,
+     "expected_from_2012": 0.843
+    },
+    {
+     "scope": "Magnum",
+     "cell": "sun_rashi=Vrishabha & venus_combust=False",
+     "value": "1288 (any order)",
+     "wins_before_2012": 26,
+     "expected_before": 8.646,
+     "wins_from_2012": 8,
+     "expected_from_2012": 4.319
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "mansion_28=Zhen & planets_with_moon=2",
+     "value": "0458 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 1.032,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.761
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_god=Golden Coffer & mars_retrograde=True",
+     "value": "1199 (any order)",
+     "wins_before_2012": 7,
+     "expected_before": 0.53,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.242
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_officer=Success & kp_asc_star_lord=Ketu",
+     "value": "4478 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 1.034,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.708
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_vs_year_branch=six harmony",
+     "value": "2258 (any order)",
+     "wins_before_2012": 28,
+     "expected_before": 9.784,
+     "wins_from_2012": 7,
+     "expected_from_2012": 5.633
+    },
+    {
+     "scope": "All operators",
+     "cell": "day_of_month=5 & day_officer=Close",
+     "value": "1116 (any order)",
+     "wins_before_2012": 6,
+     "expected_before": 0.336,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.13
+    },
+    {
+     "scope": "Sports Toto",
+     "cell": "jupiter_nakshatra=Hasta & kp_sun_star_lord=Jupiter",
+     "value": "2222 (any order)",
+     "wins_before_2012": 4,
+     "expected_before": 0.079,
+     "wins_from_2012": 0,
+     "expected_from_2012": 0.025
+    },
+    {
+     "scope": "Magnum",
+     "cell": "day_vs_year_branch=other & tithi=20",
+     "value": "4477 (any order)",
+     "wins_before_2012": 9,
+     "expected_before": 1.04,
+     "wins_from_2012": 1,
+     "expected_from_2012": 0.625
+    },
+    {
+     "scope": "Magnum",
+     "cell": "nayin=9 & paksha=Krishna",
+     "value": "0119 (any order)",
+     "wins_before_2012": 12,
+     "expected_before": 2.026,
+     "wins_from_2012": 0,
+     "expected_from_2012": 1.187
+    }
+   ],
+   "without_top_contributor": {
+    "value": "1288 (any order)",
+    "wins_from_2012": 451,
+    "expected": 481.7,
+    "z": -1.4
+   }
+  }
+ }
+}
