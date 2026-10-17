@@ -94,11 +94,15 @@ KINDS = ["num", "box", "dig", "num_op", "box_op", "dig_op"]
 class Counts:
     """Win counts by parameter value, pooled and per operator, updatable draw by draw."""
 
-    def __init__(self, factors, codes):
+    def __init__(self, factors, codes, num_factors=None):
+        """num_factors: factors that need number-level tables (default: all). Leaving large
+        joint-pair factors out saves V x 10000 floats per factor."""
         self.factors, self.codes = factors, codes
         self.V = {f: int(codes[f].max()) + 2 for f in factors}       # +1 spare row for unseen values
         z = np.zeros
-        self.num = {f: z((4, self.V[f], 10000), np.float32) for f in factors}   # [pooled, op0, op1, op2]
+        nf = set(factors if num_factors is None else num_factors)
+        self.num = {f: z((4, self.V[f], 10000), np.float32) if f in nf else None
+                    for f in factors}                                  # [pooled, op0, op1, op2]
         self.box = {f: z((4, self.V[f], NG), np.float32) for f in factors}
         self.dig = {f: z((4, self.V[f], 4, 10)) for f in factors}
         self.nv = {f: z((4, self.V[f])) for f in factors}
@@ -124,13 +128,15 @@ class Counts:
                 v = self.codes[f][d]
                 V = self.V[f]
                 if bulk:
-                    self.num[f][s] += np.bincount(v * 10000 + n, minlength=V * 10000).reshape(V, 10000)
+                    if self.num[f] is not None:
+                        self.num[f][s] += np.bincount(v * 10000 + n, minlength=V * 10000).reshape(V, 10000)
                     self.box[f][s] += np.bincount(v * NG + g, minlength=V * NG).reshape(V, NG)
                     self.nv[f][s] += np.bincount(v, minlength=V)
                     for p in range(4):
                         self.dig[f][s][:, p, :] += np.bincount(v * 10 + DIG[n, p], minlength=V * 10).reshape(V, 10)
                 else:
-                    np.add.at(self.num[f][s], (v, n), 1)
+                    if self.num[f] is not None:
+                        np.add.at(self.num[f][s], (v, n), 1)
                     np.add.at(self.box[f][s], (v, g), 1)
                     np.add.at(self.nv[f][s], v, 1)
                     for p in range(4):
@@ -183,8 +189,8 @@ def load():
     return data, codes, labels, rows, draws, date_year
 
 
-def counts_before(factors, codes, rows, year):
-    c = Counts(factors, codes)
+def counts_before(factors, codes, rows, year, num_factors=None):
+    c = Counts(factors, codes, num_factors)
     m = rows["year"] < year
     c.add(rows["date"][m], rows["op_ix"][m], rows["num"][m])
     return c
@@ -262,7 +268,8 @@ def rows_year(d):
 def forward_test(variant, formula, codes, rows, draws, seed=0):
     t0 = time.time()
     factors = sorted({f for f, _, _ in formula})
-    c = counts_before(factors, codes, rows, VALID_END)
+    num_f = sorted({f for f, k, _ in formula if k.split("_")[0] == "num"})
+    c = counts_before(factors, codes, rows, VALID_END, num_f)
     rng = np.random.default_rng(seed)
     test_dates = sorted({d for (d, _) in draws if rows_year(d) >= VALID_END})
     st = {k: {"draws": 0, "winners": 0, "gain": 0.0, **{f"h{K}": 0 for K in KS}, **{f"r{K}": 0 for K in KS},
