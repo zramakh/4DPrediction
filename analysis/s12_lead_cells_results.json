@@ -1,0 +1,597 @@
+{
+ "mercury_nakshatra": {
+  "rows": [
+   {
+    "value": "Purva Phalguni",
+    "hits_before": 26.0,
+    "exp_before": 14.347877792018991,
+    "hits_after": 13.0,
+    "exp_after": 9.371080307396698
+   },
+   {
+    "value": "Ashlesha",
+    "hits_before": 24.0,
+    "exp_before": 14.261245413120529,
+    "hits_after": 14.0,
+    "exp_after": 10.404058413650477
+   },
+   {
+    "value": "Pushya",
+    "hits_before": 21.0,
+    "exp_before": 14.81429155668532,
+    "hits_after": 15.0,
+    "exp_after": 10.328196339957293
+   },
+   {
+    "value": "Purva Ashadha",
+    "hits_before": 22.0,
+    "exp_before": 15.519840318377264,
+    "hits_after": 13.0,
+    "exp_after": 11.084637877769042
+   },
+   {
+    "value": "Vishakha",
+    "hits_before": 27.0,
+    "exp_before": 16.141675629005363,
+    "hits_after": 8.0,
+    "exp_after": 11.527124595616389
+   },
+   {
+    "value": "Krittika",
+    "hits_before": 20.0,
+    "exp_before": 12.763796512009854,
+    "hits_after": 7.0,
+    "exp_after": 7.996178002713751
+   },
+   {
+    "value": "Shravana",
+    "hits_before": 19.0,
+    "exp_before": 14.865871766499307,
+    "hits_after": 13.0,
+    "exp_after": 10.482243388628033
+   },
+   {
+    "value": "Hasta",
+    "hits_before": 17.0,
+    "exp_before": 15.516555636048322,
+    "hits_after": 15.0,
+    "exp_after": 10.224261980061737
+   },
+   {
+    "value": "Uttara Bhadrapada",
+    "hits_before": 15.0,
+    "exp_before": 12.741574333562909,
+    "hits_after": 14.0,
+    "exp_after": 10.64350009697889
+   },
+   {
+    "value": "Anuradha",
+    "hits_before": 25.0,
+    "exp_before": 16.483028069529247,
+    "hits_after": 10.0,
+    "exp_after": 12.2992172212382
+   },
+   {
+    "value": "Mula",
+    "hits_before": 20.0,
+    "exp_before": 15.52535181667567,
+    "hits_after": 12.0,
+    "exp_after": 10.60161410765899
+   },
+   {
+    "value": "Uttara Ashadha",
+    "hits_before": 13.0,
+    "exp_before": 14.844497975068464,
+    "hits_after": 19.0,
+    "exp_after": 11.942125826699346
+   },
+   {
+    "value": "Punarvasu",
+    "hits_before": 14.0,
+    "exp_before": 13.631056500098387,
+    "hits_after": 16.0,
+    "exp_after": 11.545094268163417
+   },
+   {
+    "value": "Magha",
+    "hits_before": 13.0,
+    "exp_before": 14.626352472438786,
+    "hits_after": 14.0,
+    "exp_after": 9.025552884373955
+   },
+   {
+    "value": "Jyeshtha",
+    "hits_before": 21.0,
+    "exp_before": 16.342784858160307,
+    "hits_after": 9.0,
+    "exp_after": 10.366997622471906
+   },
+   {
+    "value": "Revati",
+    "hits_before": 15.0,
+    "exp_before": 14.445885868683572,
+    "hits_after": 11.0,
+    "exp_after": 8.543837257971013
+   },
+   {
+    "value": "Dhanishta",
+    "hits_before": 15.0,
+    "exp_before": 14.849021896238916,
+    "hits_after": 13.0,
+    "exp_after": 10.180043560766883
+   },
+   {
+    "value": "Bharani",
+    "hits_before": 16.0,
+    "exp_before": 13.249168911378312,
+    "hits_after": 8.0,
+    "exp_after": 8.416796411650054
+   },
+   {
+    "value": "Swati",
+    "hits_before": 14.0,
+    "exp_before": 15.586908079122,
+    "hits_after": 15.0,
+    "exp_after": 11.005642706339117
+   },
+   {
+    "value": "Ashwini",
+    "hits_before": 17.0,
+    "exp_before": 13.329261633494232,
+    "hits_after": 7.0,
+    "exp_after": 9.239253958126463
+   },
+   {
+    "value": "Ardra",
+    "hits_before": 14.0,
+    "exp_before": 13.249464138758437,
+    "hits_after": 8.0,
+    "exp_after": 7.824695972643684
+   },
+   {
+    "value": "Rohini",
+    "hits_before": 11.0,
+    "exp_before": 11.224862914636363,
+    "hits_after": 8.0,
+    "exp_after": 8.287009237452565
+   },
+   {
+    "value": "Mrigashira",
+    "hits_before": 10.0,
+    "exp_before": 12.776738970943082,
+    "hits_after": 9.0,
+    "exp_after": 6.932710613197361
+   },
+   {
+    "value": "Shatabhisha",
+    "hits_before": 14.0,
+    "exp_before": 14.747653038688895,
+    "hits_after": 11.0,
+    "exp_after": 11.168970827481907
+   },
+   {
+    "value": "Purva Bhadrapada",
+    "hits_before": 13.0,
+    "exp_before": 14.497253359131099,
+    "hits_after": 11.0,
+    "exp_after": 11.66479819150818
+   },
+   {
+    "value": "Uttara Phalguni",
+    "hits_before": 12.0,
+    "exp_before": 15.21807920996952,
+    "hits_after": 9.0,
+    "exp_after": 10.260809088727434
+   },
+   {
+    "value": "Chitra",
+    "hits_before": 11.0,
+    "exp_before": 14.844509182061145,
+    "hits_after": 5.0,
+    "exp_after": 10.71754961793131
+   }
+  ],
+  "corr_before_after": -0.05254987316488291,
+  "chi2_after": 26.99228007821613,
+  "n": 27
+ },
+ "venus_rashi": {
+  "rows": [
+   {
+    "value": "Karka",
+    "hits_before": 42.0,
+    "exp_before": 31.7265171330841,
+    "hits_after": 31.0,
+    "exp_after": 25.019505011835648
+   },
+   {
+    "value": "Tula",
+    "hits_before": 53.0,
+    "exp_before": 43.210518302560494,
+    "hits_after": 32.0,
+    "exp_after": 24.50081682642177
+   },
+   {
+    "value": "Kumbha",
+    "hits_before": 33.0,
+    "exp_before": 26.943959677713377,
+    "hits_after": 28.0,
+    "exp_after": 20.567506170256358
+   },
+   {
+    "value": "Kanya",
+    "hits_before": 40.0,
+    "exp_before": 27.483291361886266,
+    "hits_after": 18.0,
+    "exp_after": 19.442070622881715
+   },
+   {
+    "value": "Vrischika",
+    "hits_before": 35.0,
+    "exp_before": 27.43114488201467,
+    "hits_after": 22.0,
+    "exp_after": 18.721338949761662
+   },
+   {
+    "value": "Vrishabha",
+    "hits_before": 38.0,
+    "exp_before": 35.39505367161528,
+    "hits_after": 35.0,
+    "exp_after": 25.786020091329615
+   },
+   {
+    "value": "Makara",
+    "hits_before": 40.0,
+    "exp_before": 32.99057325044019,
+    "hits_after": 25.0,
+    "exp_after": 22.36231210611606
+   },
+   {
+    "value": "Dhanu",
+    "hits_before": 37.0,
+    "exp_before": 32.9021018314328,
+    "hits_after": 29.0,
+    "exp_after": 25.833253858268627
+   },
+   {
+    "value": "Mesha",
+    "hits_before": 32.0,
+    "exp_before": 27.507270329081763,
+    "hits_after": 19.0,
+    "exp_after": 18.849448345333933
+   },
+   {
+    "value": "Mithuna",
+    "hits_before": 37.0,
+    "exp_before": 31.011279019344837,
+    "hits_after": 17.0,
+    "exp_after": 18.893248375939127
+   },
+   {
+    "value": "Simha",
+    "hits_before": 35.0,
+    "exp_before": 34.31263912865119,
+    "hits_after": 21.0,
+    "exp_after": 22.116449669189237
+   },
+   {
+    "value": "Meena",
+    "hits_before": 37.0,
+    "exp_before": 39.530259264579335,
+    "hits_after": 30.0,
+    "exp_after": 29.992030349840356
+   }
+  ],
+  "corr_before_after": 0.11696943373840726,
+  "chi2_after": 11.330895303639346,
+  "n": 12
+ },
+ "cells": {
+  "rows": [
+   {
+    "value": "Purva Phalguni + Karka",
+    "hits_before": 7.0,
+    "exp_before": 2.9149804803726687,
+    "hits_after": 8.0,
+    "exp_after": 3.969927997580545
+   },
+   {
+    "value": "Shravana + Makara",
+    "hits_before": 8.0,
+    "exp_before": 3.8549376032568756,
+    "hits_after": 6.0,
+    "exp_after": 2.57470187992025
+   },
+   {
+    "value": "Purva Ashadha + Dhanu",
+    "hits_before": 8.0,
+    "exp_before": 3.974387234463666,
+    "hits_after": 6.0,
+    "exp_after": 3.320189117430294
+   },
+   {
+    "value": "Swati + Tula",
+    "hits_before": 9.0,
+    "exp_before": 6.566613411201743,
+    "hits_after": 6.0,
+    "exp_after": 2.18594118689175
+   },
+   {
+    "value": "Ardra + Karka",
+    "hits_before": 8.0,
+    "exp_before": 5.223583064773685,
+    "hits_after": 2.0,
+    "exp_after": 0.9158834492490018
+   },
+   {
+    "value": "Pushya + Simha",
+    "hits_before": 10.0,
+    "exp_before": 5.615936232520778,
+    "hits_after": 1.0,
+    "exp_after": 1.3167157386277506
+   },
+   {
+    "value": "Purva Phalguni + Kanya",
+    "hits_before": 10.0,
+    "exp_before": 5.250689529665818,
+    "hits_after": 0.0,
+    "exp_after": 1.3116616038419084
+   },
+   {
+    "value": "Jyeshtha + Tula",
+    "hits_before": 7.0,
+    "exp_before": 4.842971518900579,
+    "hits_after": 3.0,
+    "exp_after": 1.9024490112788655
+   },
+   {
+    "value": "Vishakha + Tula",
+    "hits_before": 10.0,
+    "exp_before": 5.848589553553141,
+    "hits_after": 3.0,
+    "exp_after": 3.381611095029598
+   },
+   {
+    "value": "Pushya + Mithuna",
+    "hits_before": 4.0,
+    "exp_before": 2.33588775830926,
+    "hits_after": 6.0,
+    "exp_after": 4.740210396564851
+   },
+   {
+    "value": "Jyeshtha + Vrischika",
+    "hits_before": 7.0,
+    "exp_before": 4.35293170564297,
+    "hits_after": 2.0,
+    "exp_after": 2.225329620792447
+   },
+   {
+    "value": "Ashlesha + Simha",
+    "hits_before": 7.0,
+    "exp_before": 5.018078172081351,
+    "hits_after": 3.0,
+    "exp_after": 2.5373647182761716
+   },
+   {
+    "value": "Uttara Bhadrapada + Meena",
+    "hits_before": 6.0,
+    "exp_before": 4.698596128056701,
+    "hits_after": 5.0,
+    "exp_after": 3.796829782617814
+   },
+   {
+    "value": "Purva Bhadrapada + Kumbha",
+    "hits_before": 3.0,
+    "exp_before": 2.6503127724944604,
+    "hits_after": 5.0,
+    "exp_after": 3.53897535988615
+   },
+   {
+    "value": "Mula + Makara",
+    "hits_before": 7.0,
+    "exp_before": 4.890047655861439,
+    "hits_after": 2.0,
+    "exp_after": 2.3921709607615353
+   },
+   {
+    "value": "Uttara Ashadha + Dhanu",
+    "hits_before": 7.0,
+    "exp_before": 4.004031858525245,
+    "hits_after": 3.0,
+    "exp_after": 4.327680286260743
+   },
+   {
+    "value": "Rohini + Vrishabha",
+    "hits_before": 4.0,
+    "exp_before": 4.0081786143989175,
+    "hits_after": 3.0,
+    "exp_after": 2.047872246736641
+   },
+   {
+    "value": "Revati + Meena",
+    "hits_before": 6.0,
+    "exp_before": 5.043956904173583,
+    "hits_after": 3.0,
+    "exp_after": 2.9187427427322667
+   },
+   {
+    "value": "Ashwini + Vrishabha",
+    "hits_before": 6.0,
+    "exp_before": 4.6820171672475865,
+    "hits_after": 1.0,
+    "exp_after": 1.4157555254383263
+   },
+   {
+    "value": "Hasta + Simha",
+    "hits_before": 3.0,
+    "exp_before": 2.5118502520008303,
+    "hits_after": 4.0,
+    "exp_after": 3.5924750133640835
+   },
+   {
+    "value": "Uttara Phalguni + Karka",
+    "hits_before": 5.0,
+    "exp_before": 3.889519442313048,
+    "hits_after": 3.0,
+    "exp_after": 3.1526442642822508
+   },
+   {
+    "value": "Shatabhisha + Kumbha",
+    "hits_before": 7.0,
+    "exp_before": 4.146391221935172,
+    "hits_after": 0.0,
+    "exp_after": 2.0180088696146536
+   },
+   {
+    "value": "Shravana + Dhanu",
+    "hits_before": 6.0,
+    "exp_before": 4.780802824914671,
+    "hits_after": 2.0,
+    "exp_after": 2.695795266407576
+   },
+   {
+    "value": "Magha + Karka",
+    "hits_before": 5.0,
+    "exp_before": 4.358805402221148,
+    "hits_after": 3.0,
+    "exp_after": 3.335282602204358
+   },
+   {
+    "value": "Anuradha + Tula",
+    "hits_before": 6.0,
+    "exp_before": 4.070554700906506,
+    "hits_after": 3.0,
+    "exp_after": 4.678562760607047
+   },
+   {
+    "value": "Hasta + Tula",
+    "hits_before": 2.0,
+    "exp_before": 5.79003776295352,
+    "hits_after": 6.0,
+    "exp_after": 2.0484834958881
+   },
+   {
+    "value": "Punarvasu + Karka",
+    "hits_before": 2.0,
+    "exp_before": 2.3991537876247344,
+    "hits_after": 5.0,
+    "exp_after": 4.5404692485026885
+   },
+   {
+    "value": "Mrigashira + Vrishabha",
+    "hits_before": 3.0,
+    "exp_before": 3.836276176060339,
+    "hits_after": 4.0,
+    "exp_after": 3.241576530761161
+   },
+   {
+    "value": "Anuradha + Dhanu",
+    "hits_before": 6.0,
+    "exp_before": 5.2586943257073715,
+    "hits_after": 1.0,
+    "exp_after": 1.8485711157790243
+   },
+   {
+    "value": "Dhanishta + Meena",
+    "hits_before": 7.0,
+    "exp_before": 5.4703174883253105,
+    "hits_after": 0.0,
+    "exp_after": 1.8345648332367486
+   },
+   {
+    "value": "Vishakha + Vrischika",
+    "hits_before": 4.0,
+    "exp_before": 3.4449597968596817,
+    "hits_after": 3.0,
+    "exp_after": 3.879429732583069
+   },
+   {
+    "value": "Uttara Bhadrapada + Mesha",
+    "hits_before": 1.0,
+    "exp_before": 2.9155601412556575,
+    "hits_after": 5.0,
+    "exp_after": 3.5182653673376993
+   },
+   {
+    "value": "Shatabhisha + Meena",
+    "hits_before": 3.0,
+    "exp_before": 4.4561422544099285,
+    "hits_after": 6.0,
+    "exp_after": 5.264096192323076
+   },
+   {
+    "value": "Purva Ashadha + Makara",
+    "hits_before": 6.0,
+    "exp_before": 3.9888074266948106,
+    "hits_after": 1.0,
+    "exp_after": 3.7882166648881688
+   },
+   {
+    "value": "Bharani + Vrishabha",
+    "hits_before": 2.0,
+    "exp_before": 2.6040079502196787,
+    "hits_after": 3.0,
+    "exp_after": 3.640025144442448
+   },
+   {
+    "value": "Chitra + Tula",
+    "hits_before": 4.0,
+    "exp_before": 5.129548347055327,
+    "hits_after": 3.0,
+    "exp_after": 4.281713173220803
+   },
+   {
+    "value": "Chitra + Kanya",
+    "hits_before": 3.0,
+    "exp_before": 3.7351446037703093,
+    "hits_after": 1.0,
+    "exp_after": 2.4181667691373687
+   },
+   {
+    "value": "Jyeshtha + Dhanu",
+    "hits_before": 2.0,
+    "exp_before": 3.6862804510786567,
+    "hits_after": 3.0,
+    "exp_after": 3.6978053047265735
+   },
+   {
+    "value": "Uttara Phalguni + Simha",
+    "hits_before": 2.0,
+    "exp_before": 4.2894090057787215,
+    "hits_after": 2.0,
+    "exp_after": 2.2730438224960503
+   },
+   {
+    "value": "Ashwini + Meena",
+    "hits_before": 3.0,
+    "exp_before": 2.93837703810653,
+    "hits_after": 2.0,
+    "exp_after": 4.903737463443223
+   },
+   {
+    "value": "Punarvasu + Mithuna",
+    "hits_before": 2.0,
+    "exp_before": 4.438018391507492,
+    "hits_after": 1.0,
+    "exp_after": 1.9330540836216084
+   },
+   {
+    "value": "Purva Bhadrapada + Meena",
+    "hits_before": 1.0,
+    "exp_before": 4.552752473437735,
+    "hits_after": 2.0,
+    "exp_after": 3.311311870268936
+   }
+  ],
+  "corr_before_after": 0.0930848402137319,
+  "chi2_after": 43.395829382392655,
+  "n": 42
+ },
+ "forward_positive_cells": {
+  "n_cells": 81,
+  "hits": 173.0,
+  "exp": 156.61582124687425,
+  "other_hits": 134.0,
+  "other_exp": 115.46817913029986
+ }
+}
