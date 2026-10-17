@@ -276,9 +276,18 @@ class Tally:
 
 
 # ---------------------------------------------------------------- walk-forward
-def walk(predict_dates=None, k=10):
+def walk(predict_dates=None, k=10, before=None):
     t0 = time.time()
     data, codes, labels, rows, draws, year_of = am.load()
+    if before:  # use only draws strictly before this date (leak-free predictions for a past date)
+        import csv as _csv
+        dates = sorted({r["date"] for op, stem in cn.OPERATORS.items()
+                        for r in _csv.DictReader(open(os.path.join(ROOT, "data", f"{stem}.csv")))
+                        if (op, r["date"]) not in cn.EXCLUDE})
+        cut = sum(d < before for d in dates)
+        keep = rows["date"] < cut
+        rows = {key: v[keep] for key, v in rows.items()}
+        draws = {key: v for key, v in draws.items() if key[0] < cut}
     if predict_dates:   # append target dates' parameters as extra date indices
         extra = []
         for d in predict_dates:
@@ -367,9 +376,10 @@ def main():
     ap.add_argument("--date", action="append")
     ap.add_argument("--k", type=int, default=10)
     ap.add_argument("--log", action="store_true", help="append the picks to analysis/forward_log.csv")
+    ap.add_argument("--before", help="use only draws before this date (YYYY-MM-DD)")
     a = ap.parse_args()
     if a.mode == "predict":
-        res = walk(predict_dates=a.date or [dt.date.today().isoformat()], k=a.k)
+        res = walk(predict_dates=a.date or [dt.date.today().isoformat()], k=a.k, before=a.before)
         if a.log:
             import csv
             new = not os.path.exists(am.LOG)
