@@ -1,0 +1,412 @@
+{
+ "held_out": [
+  "2026-10-04",
+  "2026-10-07",
+  "2026-10-10",
+  "2026-10-11",
+  "2026-10-14"
+ ],
+ "pairs": [
+  {
+   "formula": "day_stem/box (+0.36) + mercury_rashi/box_op (-0.44)",
+   "validation_gain": 11.779376940509632,
+   "wf_top10_lift": 1.081,
+   "wf_z": 0.8,
+   "wf_big": 0.638,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "day_stem/box (+0.35) + sun_rashi/box_op (-0.41)",
+   "validation_gain": 10.951435145312669,
+   "wf_top10_lift": 1.102,
+   "wf_z": 1.0,
+   "wf_big": 0.78,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "day_stem/box (+0.35) + nine_star_month/num_op (+0.25)",
+   "validation_gain": 10.624105931690595,
+   "wf_top10_lift": 1.04,
+   "wf_z": 0.39,
+   "wf_big": 0.733,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [
+      "Magnum 9432 Special"
+     ],
+     "payout": 180
+    }
+   }
+  },
+  {
+   "formula": "mercury_rashi/box_op (-0.44) + nine_star_month/num_op (+0.25)",
+   "validation_gain": 10.10767019712307,
+   "wf_top10_lift": 0.738,
+   "wf_z": -2.57,
+   "wf_big": 0.512,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [
+      "Da Ma Cai 8926 Consolation"
+     ],
+     "payout": 60
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "day_stem/box (+0.35) + moon_navamsa/num (+0.17)",
+   "validation_gain": 10.093909232929683,
+   "wf_top10_lift": 0.925,
+   "wf_z": -0.73,
+   "wf_big": 0.48,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "mercury_rashi/box_op (-0.44) + day_element/box (+0.33)",
+   "validation_gain": 9.91803514509659,
+   "wf_top10_lift": 1.061,
+   "wf_z": 0.59,
+   "wf_big": 0.637,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "day_stem/box (+0.35) + venus_nakshatra/box (-0.31)",
+   "validation_gain": 9.617552793248798,
+   "wf_top10_lift": 1.009,
+   "wf_z": 0.08,
+   "wf_big": 0.525,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "day_stem/box (+0.35) + sun_rashi/box (-0.27)",
+   "validation_gain": 9.566847440151687,
+   "wf_top10_lift": 0.946,
+   "wf_z": -0.53,
+   "wf_big": 0.567,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "mercury_rashi/box_op (-0.44) + moon_navamsa/num (+0.17)",
+   "validation_gain": 9.536248789293667,
+   "wf_top10_lift": 0.936,
+   "wf_z": -0.63,
+   "wf_big": 0.419,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "day_stem/box (+0.35) + sun_nakshatra/box_op (-0.45)",
+   "validation_gain": 9.467156605009219,
+   "wf_top10_lift": 1.029,
+   "wf_z": 0.29,
+   "wf_big": 0.707,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  }
+ ],
+ "joint_top3": [
+  {
+   "formula": "venus_retrograde x day_element (joint box)",
+   "wf": {
+    "hits": 100,
+    "expected": 96.2,
+    "lift": 1.04,
+    "z": 0.39,
+    "random_picks_hits": 101
+   },
+   "big": 0.371,
+   "last5": {
+    "2026-10-04": {
+     "hits": [
+      "Sports Toto 9184 Special"
+     ],
+     "payout": 180
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [],
+     "payout": 0
+    }
+   }
+  },
+  {
+   "formula": "venus_retrograde x day_stem (joint box)",
+   "wf": {
+    "hits": 95,
+    "expected": 96.2,
+    "lift": 0.988,
+    "z": -0.12,
+    "random_picks_hits": 101
+   },
+   "big": 0.531,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [
+      "Magnum 9152 Special"
+     ],
+     "payout": 180
+    }
+   }
+  },
+  {
+   "formula": "day_stem x day_element (joint box)",
+   "wf": {
+    "hits": 100,
+    "expected": 96.2,
+    "lift": 1.04,
+    "z": 0.39,
+    "random_picks_hits": 101
+   },
+   "big": 0.629,
+   "last5": {
+    "2026-10-04": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-07": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-10": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-11": {
+     "hits": [],
+     "payout": 0
+    },
+    "2026-10-14": {
+     "hits": [
+      "Magnum 9432 Special"
+     ],
+     "payout": 180
+    }
+   }
+  }
+ ]
+}
