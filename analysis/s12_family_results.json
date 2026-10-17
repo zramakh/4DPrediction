@@ -1,0 +1,1314 @@
+{
+ "lead_versions": {
+  "S1_a_straight": {
+   "before 2012": {
+    "hits": 459.0,
+    "exp": 390.44460785240426,
+    "z": 3.4694601587808953
+   },
+   "2012-2026": {
+    "hits": 307.0,
+    "exp": 272.0840003771741,
+    "z": 2.1167666181673583
+   },
+   "all": {
+    "hits": 766.0,
+    "exp": 662.5286082295784,
+    "z": 4.019925205664497
+   }
+  },
+  "S1_a_reverse": {
+   "before 2012": {
+    "hits": 392.0,
+    "exp": 382.8472322703008,
+    "z": 0.4677778845170517
+   },
+   "2012-2026": {
+    "hits": 300.0,
+    "exp": 267.59619999339077,
+    "z": 1.9808699881549006
+   },
+   "all": {
+    "hits": 692.0,
+    "exp": 650.4434322636916,
+    "z": 1.6294269851885375
+   }
+  },
+  "S1_a_ibox": {
+   "before 2012": {
+    "hits": 6509.0,
+    "exp": 6345.248304422553,
+    "z": 2.055708325511274
+   },
+   "2012-2026": {
+    "hits": 4419.0,
+    "exp": 4462.82293133014,
+    "z": -0.6559890594880158
+   },
+   "all": {
+    "hits": 10928.0,
+    "exp": 10808.071235752694,
+    "z": 1.1535840947027876
+   }
+  },
+  "S1_b_straight": {
+   "before 2012": {
+    "hits": 395.0,
+    "exp": 388.15138330921525,
+    "z": 0.34761802741082054
+   },
+   "2012-2026": {
+    "hits": 262.0,
+    "exp": 273.9533962682783,
+    "z": -0.7221924978491734
+   },
+   "all": {
+    "hits": 657.0,
+    "exp": 662.1047795774936,
+    "z": -0.1983871930362132
+   }
+  },
+  "S1_b_reverse": {
+   "before 2012": {
+    "hits": 364.0,
+    "exp": 380.8427791262683,
+    "z": -0.8630598044966049
+   },
+   "2012-2026": {
+    "hits": 260.0,
+    "exp": 268.78310615598656,
+    "z": -0.5357314565367565
+   },
+   "all": {
+    "hits": 624.0,
+    "exp": 649.6258852822548,
+    "z": -1.0054192979759469
+   }
+  },
+  "S1_b_ibox": {
+   "before 2012": {
+    "hits": 6541.0,
+    "exp": 6444.34881850304,
+    "z": 1.2039754945101224
+   },
+   "2012-2026": {
+    "hits": 4575.0,
+    "exp": 4576.9355213191275,
+    "z": -0.028609519389787456
+   },
+   "all": {
+    "hits": 11116.0,
+    "exp": 11021.284339822167,
+    "z": 0.9022059505924626
+   }
+  },
+  "S2_a_straight": {
+   "before 2012": {
+    "hits": 393.0,
+    "exp": 376.7666572542711,
+    "z": 0.8363185452088662
+   },
+   "2012-2026": {
+    "hits": 267.0,
+    "exp": 270.5722123566727,
+    "z": -0.2171679201468935
+   },
+   "all": {
+    "hits": 660.0,
+    "exp": 647.3388696109438,
+    "z": 0.49763009686804455
+   }
+  },
+  "S2_a_reverse": {
+   "before 2012": {
+    "hits": 341.0,
+    "exp": 375.9203646443693,
+    "z": -1.8010710411293127
+   },
+   "2012-2026": {
+    "hits": 252.0,
+    "exp": 268.31327989471697,
+    "z": -0.9959102531414018
+   },
+   "all": {
+    "hits": 593.0,
+    "exp": 644.2336445390862,
+    "z": -2.018522291703211
+   }
+  },
+  "S2_a_ibox": {
+   "before 2012": {
+    "hits": 6119.0,
+    "exp": 6255.244539193103,
+    "z": -1.72264964171439
+   },
+   "2012-2026": {
+    "hits": 4438.0,
+    "exp": 4480.685672347726,
+    "z": -0.6376904119976405
+   },
+   "all": {
+    "hits": 10557.0,
+    "exp": 10735.93021154083,
+    "z": -1.7268866634821602
+   }
+  },
+  "S2_b_straight": {
+   "before 2012": {
+    "hits": 363.0,
+    "exp": 379.3100891489754,
+    "z": -0.837450483391866
+   },
+   "2012-2026": {
+    "hits": 276.0,
+    "exp": 268.7564862416946,
+    "z": 0.44184486503222997
+   },
+   "all": {
+    "hits": 639.0,
+    "exp": 648.06657539067,
+    "z": -0.3561504239960314
+   }
+  },
+  "S2_b_reverse": {
+   "before 2012": {
+    "hits": 419.0,
+    "exp": 378.24662951840867,
+    "z": 2.0954437117202627
+   },
+   "2012-2026": {
+    "hits": 248.0,
+    "exp": 267.79046911950184,
+    "z": -1.2093681615298784
+   },
+   "all": {
+    "hits": 667.0,
+    "exp": 646.0370986379105,
+    "z": 0.8247506411011482
+   }
+  },
+  "S2_b_ibox": {
+   "before 2012": {
+    "hits": 6261.0,
+    "exp": 6299.961599873584,
+    "z": -0.4908715147904399
+   },
+   "2012-2026": {
+    "hits": 4543.0,
+    "exp": 4536.439957466209,
+    "z": 0.09739778305832053
+   },
+   "all": {
+    "hits": 10804.0,
+    "exp": 10836.401557339796,
+    "z": -0.3112600189176292
+   }
+  }
+ },
+ "mercury_nakshatra_alone": {
+  "before 2012": 2.041691637462672,
+  "2012-2026": 1.05648854670319,
+  "all": 2.247006676203931
+ },
+ "venus_rashi_alone": {
+  "before 2012": -0.7834105066797745,
+  "2012-2026": 0.8775103638440901,
+  "all": -0.0488824103617753
+ },
+ "shift_check": {
+  "2012-2026": {
+   "real_z": 2.1167666181673583,
+   "shift_mean": 0.010855334285551615,
+   "shift_sd": 1.0223089882202863,
+   "share_as_high": 0.015
+  },
+  "all": {
+   "real_z": 4.019925205664497,
+   "shift_mean": -0.14826713930135368,
+   "shift_sd": 0.9663385315787358,
+   "share_as_high": 0.0
+  }
+ },
+ "by_operator": {
+  "Magnum": {
+   "before 2012": {
+    "hits": 198.0,
+    "exp": 157.71757086860785,
+    "z": 3.207566078363635
+   },
+   "2012-2026": {
+    "hits": 113.0,
+    "exp": 91.38885390075966,
+    "z": 2.2606388345191957
+   },
+   "all": {
+    "hits": 311.0,
+    "exp": 249.1064247693675,
+    "z": 3.9215080037158137
+   }
+  },
+  "Sports Toto": {
+   "before 2012": {
+    "hits": 125.0,
+    "exp": 111.72685772227315,
+    "z": 1.2557262051644438
+   },
+   "2012-2026": {
+    "hits": 105.0,
+    "exp": 90.83049327739822,
+    "z": 1.486753245525554
+   },
+   "all": {
+    "hits": 230.0,
+    "exp": 202.55735099967137,
+    "z": 1.9281997690631392
+   }
+  },
+  "Da Ma Cai": {
+   "before 2012": {
+    "hits": 136.0,
+    "exp": 121.74837091562172,
+    "z": 1.291614558141606
+   },
+   "2012-2026": {
+    "hits": 92.0,
+    "exp": 90.48305240504325,
+    "z": 0.15947292364535165
+   },
+   "all": {
+    "hits": 228.0,
+    "exp": 212.231423320665,
+    "z": 1.0823996695517608
+   }
+  }
+ },
+ "by_period": {
+  "1985-1994": {
+   "hits": 105.0,
+   "exp": 86.20577960804107,
+   "z": 2.0242125980911667
+  },
+  "1995-2004": {
+   "hits": 206.0,
+   "exp": 178.81784485009615,
+   "z": 2.032724205873404
+  },
+  "2005-2011": {
+   "hits": 148.0,
+   "exp": 125.4209833942671,
+   "z": 2.0161364536577304
+  },
+  "2012-2018": {
+   "hits": 169.0,
+   "exp": 137.67348120352503,
+   "z": 2.669850779604738
+  },
+  "2019-2026": {
+   "hits": 138.0,
+   "exp": 134.41051917364905,
+   "z": 0.3096100207840467
+  }
+ },
+ "families": {
+  "Mercury nakshatra x any": {
+   "n": 76,
+   "mean_z_before": 0.030124176823173594,
+   "mean_z_after": -0.05673430714599462,
+   "above0_after": 37,
+   "z_gt_2_after": 1,
+   "null_mean": -0.07309437591067007,
+   "null_sd": 0.18672074899083982,
+   "null_as_high": 7,
+   "members": {
+    "tithi x mercury_nakshatra": {
+     "before": -2.739356446925654,
+     "after": -0.1524568748776744
+    },
+    "paksha x mercury_nakshatra": {
+     "before": 0.030808834393554314,
+     "after": 0.033200288316044456
+    },
+    "nakshatra x mercury_nakshatra": {
+     "before": -2.7891942912050247,
+     "after": -1.0612576133724594
+    },
+    "nakshatra_lord x mercury_nakshatra": {
+     "before": -0.9419294706462199,
+     "after": -0.3829523584573038
+    },
+    "nakshatra_pada x mercury_nakshatra": {
+     "before": 0.09905367964259003,
+     "after": -1.1061588556168187
+    },
+    "yoga x mercury_nakshatra": {
+     "before": -0.4646075256978554,
+     "after": 0.1595470873536948
+    },
+    "karana x mercury_nakshatra": {
+     "before": -1.3295419399413984,
+     "after": -0.33949178330308893
+    },
+    "weekday x mercury_nakshatra": {
+     "before": -1.1844337313704745,
+     "after": 0.5756018297109812
+    },
+    "hora_lord x mercury_nakshatra": {
+     "before": -1.2700885974815628,
+     "after": 0.20380970376260316
+    },
+    "moon_rashi x mercury_nakshatra": {
+     "before": 0.27346036636685683,
+     "after": -0.09790915152518521
+    },
+    "sun_rashi x mercury_nakshatra": {
+     "before": -0.5705289977342538,
+     "after": 0.5980908300538013
+    },
+    "sun_nakshatra x mercury_nakshatra": {
+     "before": 0.5906561342372774,
+     "after": -0.5566465998341352
+    },
+    "mars_rashi x mercury_nakshatra": {
+     "before": 0.3740872288998153,
+     "after": -0.28941915549716746
+    },
+    "mars_nakshatra x mercury_nakshatra": {
+     "before": -0.3096094255871566,
+     "after": 0.8153155898589267
+    },
+    "mercury_rashi x mercury_nakshatra": {
+     "before": 1.0423744778236128,
+     "after": 0.560415115658719
+    },
+    "mercury_nakshatra x venus_nakshatra": {
+     "before": 2.29553471527181,
+     "after": 0.5943681751752548
+    },
+    "mercury_nakshatra x jupiter_rashi": {
+     "before": -0.1938958534851397,
+     "after": -1.1951022983927446
+    },
+    "mercury_nakshatra x jupiter_nakshatra": {
+     "before": -0.19323141944196837,
+     "after": -1.987153865852522
+    },
+    "mercury_nakshatra x saturn_rashi": {
+     "before": 1.320307786972944,
+     "after": -0.3961100231542424
+    },
+    "mercury_nakshatra x saturn_nakshatra": {
+     "before": 1.5651956423825497,
+     "after": -0.030101857749345227
+    },
+    "mercury_nakshatra x rahu_rashi": {
+     "before": 1.0189234019326099,
+     "after": -1.0705634658686827
+    },
+    "mercury_nakshatra x rahu_nakshatra": {
+     "before": 0.1901047114144154,
+     "after": -0.34814586504945044
+    },
+    "mercury_nakshatra x lagna_rashi": {
+     "before": 1.223903285742569,
+     "after": 1.558122900583423
+    },
+    "mercury_nakshatra x lagna_nakshatra": {
+     "before": 0.5485772393707368,
+     "after": -0.5140328546413926
+    },
+    "mercury_nakshatra x moon_navamsa": {
+     "before": -0.28927247572990344,
+     "after": 0.9449732741017051
+    },
+    "mercury_nakshatra x mercury_retrograde": {
+     "before": -0.427306912461768,
+     "after": 0.6882203549783461
+    },
+    "mercury_nakshatra x venus_retrograde": {
+     "before": 0.6243562002932792,
+     "after": 0.38490114808157955
+    },
+    "mercury_nakshatra x mars_retrograde": {
+     "before": 0.440008273944779,
+     "after": -1.4680694178661013
+    },
+    "mercury_nakshatra x jupiter_retrograde": {
+     "before": -1.58163850279677,
+     "after": 1.3138185263457132
+    },
+    "mercury_nakshatra x saturn_retrograde": {
+     "before": -0.711475613858601,
+     "after": -0.5086159796100829
+    },
+    "mercury_nakshatra x mercury_combust": {
+     "before": 0.548743477306951,
+     "after": 0.20042478842060374
+    },
+    "mercury_nakshatra x venus_combust": {
+     "before": 0.2902600431523726,
+     "after": 1.9147460214420202
+    },
+    "mercury_nakshatra x mars_combust": {
+     "before": 0.8429380497031876,
+     "after": -0.5690646335523601
+    },
+    "mercury_nakshatra x jupiter_combust": {
+     "before": 1.0122786675153232,
+     "after": 0.27292954354544213
+    },
+    "mercury_nakshatra x saturn_combust": {
+     "before": 0.3128562815652215,
+     "after": 3.028112809975006
+    },
+    "mercury_nakshatra x planets_with_moon": {
+     "before": 0.8284936126261566,
+     "after": 0.05196975352382229
+    },
+    "mercury_nakshatra x masa": {
+     "before": 1.865813380373488,
+     "after": -0.807884277546954
+    },
+    "mercury_nakshatra x adhika_masa": {
+     "before": 0.10540356097224299,
+     "after": 1.2453448594159606
+    },
+    "mercury_nakshatra x ritu": {
+     "before": 1.2146894986251922,
+     "after": -0.2744790280785513
+    },
+    "mercury_nakshatra x ayana": {
+     "before": 1.4251483231249493,
+     "after": 0.853297186214824
+    },
+    "mercury_nakshatra x samvatsara": {
+     "before": 0.24407943750306083,
+     "after": -1.5104813032268631
+    },
+    "mercury_nakshatra x kp_moon_star_lord": {
+     "before": -0.9459428478511093,
+     "after": -0.5087322373805608
+    },
+    "mercury_nakshatra x kp_moon_sub_lord": {
+     "before": 1.17849680629956,
+     "after": 0.40792399136054647
+    },
+    "mercury_nakshatra x kp_moon_number": {
+     "before": -0.23245354773875826,
+     "after": 0.27621815819700307
+    },
+    "mercury_nakshatra x kp_asc_star_lord": {
+     "before": 0.9121065069934751,
+     "after": -1.4861502891342846
+    },
+    "mercury_nakshatra x kp_asc_sub_lord": {
+     "before": -0.5640284661343643,
+     "after": 0.9386743551123539
+    },
+    "mercury_nakshatra x kp_asc_number": {
+     "before": -1.1579290083192535,
+     "after": -1.426404286430182
+    },
+    "mercury_nakshatra x kp_sun_star_lord": {
+     "before": 0.7489557310093786,
+     "after": -0.25516403423977235
+    },
+    "mercury_nakshatra x kp_sun_sub_lord": {
+     "before": -0.48908314658611723,
+     "after": -0.08197120355767602
+    },
+    "mercury_nakshatra x kp_sun_number": {
+     "before": 0.601129697352994,
+     "after": -0.9293969096894223
+    },
+    "mercury_nakshatra x year_animal": {
+     "before": 0.14204770609594894,
+     "after": -1.2335799848599336
+    },
+    "mercury_nakshatra x year_stem": {
+     "before": -0.03538324816920525,
+     "after": -0.6708232863872118
+    },
+    "mercury_nakshatra x year_element": {
+     "before": 0.25165590150874495,
+     "after": 0.3957485410190943
+    },
+    "mercury_nakshatra x year_yinyang": {
+     "before": 0.7743254563174502,
+     "after": 0.3228820377023905
+    },
+    "mercury_nakshatra x year_pillar": {
+     "before": 0.47326759117008843,
+     "after": -1.0838186667753409
+    },
+    "mercury_nakshatra x lunar_month": {
+     "before": 1.1917946555777905,
+     "after": 1.1055940883726751
+    },
+    "mercury_nakshatra x lunar_day": {
+     "before": -1.3650179306298242,
+     "after": -0.4443951220557175
+    },
+    "mercury_nakshatra x lunar_leap_month": {
+     "before": 2.113088279320402,
+     "after": 0.006020417088311974
+    },
+    "mercury_nakshatra x solar_term": {
+     "before": -1.0060089053544334,
+     "after": -0.15276160283001652
+    },
+    "mercury_nakshatra x month_branch": {
+     "before": -0.5606533070514468,
+     "after": 0.39499140031755153
+    },
+    "mercury_nakshatra x month_stem": {
+     "before": -1.0732413733933013,
+     "after": 0.3239513848140763
+    },
+    "mercury_nakshatra x month_pillar": {
+     "before": -1.298568381870148,
+     "after": 0.596491577597042
+    },
+    "mercury_nakshatra x day_stem": {
+     "before": 0.2164678047403532,
+     "after": 0.746075293408982
+    },
+    "mercury_nakshatra x day_branch": {
+     "before": -0.5238452492603097,
+     "after": -0.9562850014535119
+    },
+    "mercury_nakshatra x day_element": {
+     "before": 0.7229551036161089,
+     "after": 0.3897697050320154
+    },
+    "mercury_nakshatra x day_pillar": {
+     "before": 0.2661737009377315,
+     "after": 0.6652022704569835
+    },
+    "mercury_nakshatra x nayin": {
+     "before": -0.28718912434894023,
+     "after": 0.6169949132727663
+    },
+    "mercury_nakshatra x nayin_element": {
+     "before": -0.08252817862180312,
+     "after": -0.8156396385555713
+    },
+    "mercury_nakshatra x hour_stem_19h": {
+     "before": -0.16232082721304275,
+     "after": -0.200312368911689
+    },
+    "mercury_nakshatra x day_officer": {
+     "before": -1.1540674598068221,
+     "after": 0.7612162321173724
+    },
+    "mercury_nakshatra x day_god": {
+     "before": -1.2026271177339873,
+     "after": 0.240905781387617
+    },
+    "mercury_nakshatra x yellow_black_path": {
+     "before": 1.2076771809390714,
+     "after": -1.0523431109428325
+    },
+    "mercury_nakshatra x mansion_28": {
+     "before": -0.8916904189333712,
+     "after": 0.05714811886492256
+    },
+    "mercury_nakshatra x day_vs_year_branch": {
+     "before": 0.04960771339857636,
+     "after": -0.7525439235705557
+    },
+    "mercury_nakshatra x nine_star_year": {
+     "before": -1.0056960557233987,
+     "after": -0.8458598951054359
+    },
+    "mercury_nakshatra x nine_star_month": {
+     "before": 0.14601709122936252,
+     "after": -0.9925465707829257
+    }
+   }
+  },
+  "any x Venus rashi": {
+   "n": 76,
+   "mean_z_before": -0.11021270871218318,
+   "mean_z_after": -0.16428822260407613,
+   "above0_after": 30,
+   "z_gt_2_after": 1,
+   "null_mean": -0.09807071568604617,
+   "null_sd": 0.17939614102128346,
+   "null_as_high": 13,
+   "members": {
+    "tithi x venus_rashi": {
+     "before": 0.06309422652209326,
+     "after": -0.1971536130757222
+    },
+    "paksha x venus_rashi": {
+     "before": -1.933427841283863,
+     "after": 1.4085074124937058
+    },
+    "nakshatra x venus_rashi": {
+     "before": 1.2371346953123514,
+     "after": -1.3532488078506675
+    },
+    "nakshatra_lord x venus_rashi": {
+     "before": 1.990517833531859,
+     "after": -0.14409009966443675
+    },
+    "nakshatra_pada x venus_rashi": {
+     "before": -0.6155160301684283,
+     "after": 0.10682974753687516
+    },
+    "yoga x venus_rashi": {
+     "before": 1.4940455487796747,
+     "after": 0.3963913196702832
+    },
+    "karana x venus_rashi": {
+     "before": -0.6479102891393865,
+     "after": 0.7536108808572596
+    },
+    "weekday x venus_rashi": {
+     "before": -0.2957882358607225,
+     "after": 0.09999416410374862
+    },
+    "hora_lord x venus_rashi": {
+     "before": -0.7713027149144939,
+     "after": 0.4198773577814672
+    },
+    "moon_rashi x venus_rashi": {
+     "before": -1.256843554427578,
+     "after": 0.6399533018393149
+    },
+    "sun_rashi x venus_rashi": {
+     "before": 0.5783967505318902,
+     "after": -0.5415657231187819
+    },
+    "sun_nakshatra x venus_rashi": {
+     "before": 0.542273605028121,
+     "after": 0.9003888634571949
+    },
+    "mars_rashi x venus_rashi": {
+     "before": -0.63025913829914,
+     "after": -0.36849131615593
+    },
+    "mars_nakshatra x venus_rashi": {
+     "before": -0.6859626256824676,
+     "after": -1.2797871248696304
+    },
+    "mercury_rashi x venus_rashi": {
+     "before": -0.36285176658852814,
+     "after": 0.5317186574728197
+    },
+    "venus_rashi x venus_nakshatra": {
+     "before": -0.8462328146558846,
+     "after": -1.6471647578833934
+    },
+    "venus_rashi x jupiter_rashi": {
+     "before": -0.3612137588362289,
+     "after": 0.22431519972260752
+    },
+    "venus_rashi x jupiter_nakshatra": {
+     "before": -0.7909136630006649,
+     "after": -0.3788947011062626
+    },
+    "venus_rashi x saturn_rashi": {
+     "before": -0.10094462603497706,
+     "after": -0.719698038224198
+    },
+    "venus_rashi x saturn_nakshatra": {
+     "before": -0.6983230124411597,
+     "after": -0.7527434218312272
+    },
+    "venus_rashi x rahu_rashi": {
+     "before": -1.2588787254908855,
+     "after": -0.3559426351052642
+    },
+    "venus_rashi x rahu_nakshatra": {
+     "before": -0.8982022115965668,
+     "after": -0.1914881186254532
+    },
+    "venus_rashi x lagna_rashi": {
+     "before": 0.25384555573741463,
+     "after": -0.04388662428014739
+    },
+    "venus_rashi x lagna_nakshatra": {
+     "before": -0.6087439506178772,
+     "after": -0.5133975292021326
+    },
+    "venus_rashi x moon_navamsa": {
+     "before": -0.5133024112769666,
+     "after": -0.03597574800112894
+    },
+    "venus_rashi x mercury_retrograde": {
+     "before": 0.678385585704477,
+     "after": -0.3635202582244299
+    },
+    "venus_rashi x venus_retrograde": {
+     "before": -0.20226146231072925,
+     "after": 0.46409980244405685
+    },
+    "venus_rashi x mars_retrograde": {
+     "before": -0.7866671012193381,
+     "after": 0.6856729555041913
+    },
+    "venus_rashi x jupiter_retrograde": {
+     "before": 0.31689517867797845,
+     "after": 0.14328707109447433
+    },
+    "venus_rashi x saturn_retrograde": {
+     "before": 0.7443926585768691,
+     "after": -1.0371658456367234
+    },
+    "venus_rashi x mercury_combust": {
+     "before": 1.3110685666408914,
+     "after": 0.8751177235653828
+    },
+    "venus_rashi x venus_combust": {
+     "before": -0.41904258320404586,
+     "after": -1.1314959228993486
+    },
+    "venus_rashi x mars_combust": {
+     "before": 2.4219506441936054,
+     "after": 0.6768100768537697
+    },
+    "venus_rashi x jupiter_combust": {
+     "before": -0.5933838590187216,
+     "after": 0.16023811214727
+    },
+    "venus_rashi x saturn_combust": {
+     "before": -1.3650286753572305,
+     "after": -0.2962829472843207
+    },
+    "venus_rashi x planets_with_moon": {
+     "before": 0.659051058344859,
+     "after": -0.41386719473822353
+    },
+    "venus_rashi x masa": {
+     "before": 0.5994066087687032,
+     "after": -0.9708686236187302
+    },
+    "venus_rashi x adhika_masa": {
+     "before": 0.02853182829184828,
+     "after": 1.1136587122408712
+    },
+    "venus_rashi x ritu": {
+     "before": -0.284625367289748,
+     "after": -0.6928672075792794
+    },
+    "venus_rashi x ayana": {
+     "before": -0.5016572720339936,
+     "after": 0.2967205147944928
+    },
+    "venus_rashi x samvatsara": {
+     "before": 0.08300141115675085,
+     "after": -2.276427285861579
+    },
+    "venus_rashi x kp_moon_star_lord": {
+     "before": 1.739250675429786,
+     "after": 0.27732648047741715
+    },
+    "venus_rashi x kp_moon_sub_lord": {
+     "before": 0.4354764968553804,
+     "after": -0.5782649142798555
+    },
+    "venus_rashi x kp_moon_number": {
+     "before": -0.18439911252254204,
+     "after": 0.21574586798278683
+    },
+    "venus_rashi x kp_asc_star_lord": {
+     "before": 0.11564225407262822,
+     "after": 0.4894339540663072
+    },
+    "venus_rashi x kp_asc_sub_lord": {
+     "before": -0.0397963780955588,
+     "after": -0.8562132351007941
+    },
+    "venus_rashi x kp_asc_number": {
+     "before": 0.6853738732364529,
+     "after": -0.4201652957155133
+    },
+    "venus_rashi x kp_sun_star_lord": {
+     "before": 0.40277584205097106,
+     "after": 0.6551953359845367
+    },
+    "venus_rashi x kp_sun_sub_lord": {
+     "before": -1.314243994412517,
+     "after": -0.9285954015571304
+    },
+    "venus_rashi x kp_sun_number": {
+     "before": 0.4607604689111412,
+     "after": 0.4962904354895086
+    },
+    "venus_rashi x year_animal": {
+     "before": -0.5631088538958413,
+     "after": -0.20978776119591064
+    },
+    "venus_rashi x year_stem": {
+     "before": -2.9259423589119486,
+     "after": -0.4266041875982498
+    },
+    "venus_rashi x year_element": {
+     "before": -0.48474014264036147,
+     "after": -0.8377208666125558
+    },
+    "venus_rashi x year_yinyang": {
+     "before": 1.7188498376242314,
+     "after": -1.0230342746915093
+    },
+    "venus_rashi x year_pillar": {
+     "before": -0.8349662196335006,
+     "after": -1.5518709827165476
+    },
+    "venus_rashi x lunar_month": {
+     "before": -0.24172800752235662,
+     "after": -0.5769638367127077
+    },
+    "venus_rashi x lunar_day": {
+     "before": -0.05153599730549387,
+     "after": -0.2494127264231362
+    },
+    "venus_rashi x lunar_leap_month": {
+     "before": 0.44781234106646434,
+     "after": 1.1676125033020197
+    },
+    "venus_rashi x solar_term": {
+     "before": -0.5953231504347561,
+     "after": -0.23574066515770856
+    },
+    "venus_rashi x month_branch": {
+     "before": 0.3162153282668477,
+     "after": 0.8802709653835101
+    },
+    "venus_rashi x month_stem": {
+     "before": 0.8848018055560012,
+     "after": 1.2312415724280208
+    },
+    "venus_rashi x month_pillar": {
+     "before": -0.7547103883205405,
+     "after": 1.1762576070892659
+    },
+    "venus_rashi x day_stem": {
+     "before": 0.409396842242789,
+     "after": 2.138971605885793
+    },
+    "venus_rashi x day_branch": {
+     "before": -0.978485752920747,
+     "after": 0.3571268447577094
+    },
+    "venus_rashi x day_element": {
+     "before": 1.695998904308344,
+     "after": -1.0130207860167542
+    },
+    "venus_rashi x day_pillar": {
+     "before": -0.49735954282095607,
+     "after": -0.19737070591395456
+    },
+    "venus_rashi x nayin": {
+     "before": -1.4427158276493848,
+     "after": -0.3297531983705068
+    },
+    "venus_rashi x nayin_element": {
+     "before": -1.8331492855928224,
+     "after": -0.39629926031661816
+    },
+    "venus_rashi x hour_stem_19h": {
+     "before": 1.4909884715819868,
+     "after": 0.3606811397090321
+    },
+    "venus_rashi x day_officer": {
+     "before": -0.41633380975579465,
+     "after": -1.1607332390857352
+    },
+    "venus_rashi x day_god": {
+     "before": -0.054070072210364806,
+     "after": -0.37599305698602936
+    },
+    "venus_rashi x yellow_black_path": {
+     "before": -1.204584559410477,
+     "after": -1.0712350600334655
+    },
+    "venus_rashi x mansion_28": {
+     "before": 1.388896404859156,
+     "after": -0.5541442832504176
+    },
+    "venus_rashi x day_vs_year_branch": {
+     "before": -1.056823210358253,
+     "after": -0.8042014799180386
+    },
+    "venus_rashi x nine_star_year": {
+     "before": -1.1674830541140657,
+     "after": -0.9875072385025812
+    },
+    "venus_rashi x nine_star_month": {
+     "before": 0.5003862452904223,
+     "after": -1.3385951030527485
+    }
+   }
+  },
+  "body nakshatra x other body rashi": {
+   "n": 71,
+   "mean_z_before": -0.46749255522821875,
+   "mean_z_after": -0.17723759894521735,
+   "above0_after": 33,
+   "z_gt_2_after": 1,
+   "null_mean": -0.1921406099536528,
+   "null_sd": 0.15420841752636785,
+   "null_as_high": 6,
+   "members": {
+    "nakshatra x sun_rashi": {
+     "before": -2.260826033203459,
+     "after": 1.8162802150374084
+    },
+    "nakshatra x mars_rashi": {
+     "before": 1.044112576952483,
+     "after": 1.1304025838865535
+    },
+    "nakshatra x mercury_rashi": {
+     "before": -0.8674018755812826,
+     "after": -0.7556133331510005
+    },
+    "nakshatra x venus_rashi": {
+     "before": 1.2371346953123514,
+     "after": -1.3532488078506675
+    },
+    "nakshatra x jupiter_rashi": {
+     "before": -0.13946914084800646,
+     "after": -1.0160956496701614
+    },
+    "nakshatra x saturn_rashi": {
+     "before": 0.3395501668935555,
+     "after": -1.1943448654911164
+    },
+    "nakshatra x rahu_rashi": {
+     "before": -0.43138601234599566,
+     "after": 0.31122965232915295
+    },
+    "nakshatra x lagna_rashi": {
+     "before": -1.9993034753441714,
+     "after": 0.6411012926374395
+    },
+    "moon_rashi x sun_nakshatra": {
+     "before": -1.6958229686671533,
+     "after": -1.2974771495723552
+    },
+    "sun_nakshatra x mars_rashi": {
+     "before": -0.7423363909399611,
+     "after": 0.1706041524078742
+    },
+    "sun_nakshatra x mercury_rashi": {
+     "before": 2.1265453732781414,
+     "after": 0.1897516911459405
+    },
+    "sun_nakshatra x venus_rashi": {
+     "before": 0.542273605028121,
+     "after": 0.9003888634571949
+    },
+    "sun_nakshatra x jupiter_rashi": {
+     "before": -0.950154860580071,
+     "after": 0.2225446122287035
+    },
+    "sun_nakshatra x saturn_rashi": {
+     "before": -1.0239337046573789,
+     "after": 0.3942266589872954
+    },
+    "sun_nakshatra x rahu_rashi": {
+     "before": -1.1715651309397617,
+     "after": 1.7274119930039682
+    },
+    "sun_nakshatra x lagna_rashi": {
+     "before": 0.5402942814524132,
+     "after": 1.6066575470066333
+    },
+    "moon_rashi x mars_nakshatra": {
+     "before": 0.24461842275277934,
+     "after": 0.018317413075811795
+    },
+    "sun_rashi x mars_nakshatra": {
+     "before": -0.21241967403968598,
+     "after": -1.1988050265586432
+    },
+    "mars_nakshatra x mercury_rashi": {
+     "before": 0.25459030305580405,
+     "after": -1.110962455918802
+    },
+    "mars_nakshatra x venus_rashi": {
+     "before": -0.6859626256824676,
+     "after": -1.2797871248696304
+    },
+    "mars_nakshatra x jupiter_rashi": {
+     "before": -0.7467979342534671,
+     "after": 0.7754538500777496
+    },
+    "mars_nakshatra x saturn_rashi": {
+     "before": -0.9222406014411086,
+     "after": -0.39868735478091444
+    },
+    "mars_nakshatra x rahu_rashi": {
+     "before": -1.4164150427779592,
+     "after": -0.9885024068229669
+    },
+    "mars_nakshatra x lagna_rashi": {
+     "before": -0.7979727792921387,
+     "after": 0.8737660041236941
+    },
+    "moon_rashi x mercury_nakshatra": {
+     "before": 0.27346036636685683,
+     "after": -0.09790915152518521
+    },
+    "sun_rashi x mercury_nakshatra": {
+     "before": -0.5705289977342538,
+     "after": 0.5980908300538013
+    },
+    "mars_rashi x mercury_nakshatra": {
+     "before": 0.3740872288998153,
+     "after": -0.28941915549716746
+    },
+    "mercury_nakshatra x jupiter_rashi": {
+     "before": -0.1938958534851397,
+     "after": -1.1951022983927446
+    },
+    "mercury_nakshatra x saturn_rashi": {
+     "before": 1.320307786972944,
+     "after": -0.3961100231542424
+    },
+    "mercury_nakshatra x rahu_rashi": {
+     "before": 1.0189234019326099,
+     "after": -1.0705634658686827
+    },
+    "mercury_nakshatra x lagna_rashi": {
+     "before": 1.223903285742569,
+     "after": 1.558122900583423
+    },
+    "moon_rashi x venus_nakshatra": {
+     "before": 0.0015635879117741648,
+     "after": 0.10376242285012653
+    },
+    "sun_rashi x venus_nakshatra": {
+     "before": -0.5664905650748486,
+     "after": -0.5498986742388313
+    },
+    "mars_rashi x venus_nakshatra": {
+     "before": -1.1778635796698784,
+     "after": 1.3997173074774212
+    },
+    "mercury_rashi x venus_nakshatra": {
+     "before": -0.07452444029167782,
+     "after": 0.10988408268870091
+    },
+    "venus_nakshatra x jupiter_rashi": {
+     "before": -1.5188468322939688,
+     "after": 0.8760061313722493
+    },
+    "venus_nakshatra x saturn_rashi": {
+     "before": -0.09932513340041547,
+     "after": -1.2332397245775077
+    },
+    "venus_nakshatra x rahu_rashi": {
+     "before": -0.054021336096468496,
+     "after": -2.4357240544651853
+    },
+    "venus_nakshatra x lagna_rashi": {
+     "before": -1.2992846397066702,
+     "after": 2.2630030100771865
+    },
+    "moon_rashi x jupiter_nakshatra": {
+     "before": 0.042792906398953036,
+     "after": -0.4576163126178604
+    },
+    "sun_rashi x jupiter_nakshatra": {
+     "before": -1.9939732180825345,
+     "after": 0.03628793627897818
+    },
+    "mars_rashi x jupiter_nakshatra": {
+     "before": -0.29543089911699816,
+     "after": -1.3653391023479546
+    },
+    "mercury_rashi x jupiter_nakshatra": {
+     "before": -0.20520627646006398,
+     "after": -1.7292171297521965
+    },
+    "venus_rashi x jupiter_nakshatra": {
+     "before": -0.7909136630006649,
+     "after": -0.3788947011062626
+    },
+    "jupiter_nakshatra x saturn_rashi": {
+     "before": 0.10696576435280017,
+     "after": -1.9313551099641495
+    },
+    "jupiter_nakshatra x rahu_rashi": {
+     "before": -0.6119944858377786,
+     "after": -0.590031043299698
+    },
+    "jupiter_nakshatra x lagna_rashi": {
+     "before": -0.9943300008426799,
+     "after": 0.13176845995556835
+    },
+    "moon_rashi x saturn_nakshatra": {
+     "before": 0.3377725400034881,
+     "after": -0.9437066214602939
+    },
+    "sun_rashi x saturn_nakshatra": {
+     "before": -1.859214757184265,
+     "after": -1.2489049030485824
+    },
+    "mars_rashi x saturn_nakshatra": {
+     "before": -0.7512099050621582,
+     "after": -0.3834657252362723
+    },
+    "mercury_rashi x saturn_nakshatra": {
+     "before": -0.06566685470673543,
+     "after": 0.2636101092539694
+    },
+    "venus_rashi x saturn_nakshatra": {
+     "before": -0.6983230124411597,
+     "after": -0.7527434218312272
+    },
+    "jupiter_rashi x saturn_nakshatra": {
+     "before": -0.18328167838646658,
+     "after": -0.27565750820197205
+    },
+    "saturn_nakshatra x rahu_rashi": {
+     "before": 0.21338635556935795,
+     "after": 0.37757294132473074
+    },
+    "saturn_nakshatra x lagna_rashi": {
+     "before": -0.07555781155058297,
+     "after": 0.72716545908676
+    },
+    "moon_rashi x rahu_nakshatra": {
+     "before": 0.5296253673340747,
+     "after": 0.32502450030201063
+    },
+    "sun_rashi x rahu_nakshatra": {
+     "before": -1.8795598377426532,
+     "after": -0.9684376467199409
+    },
+    "mars_rashi x rahu_nakshatra": {
+     "before": -1.4724761300339984,
+     "after": -0.9528127861671465
+    },
+    "mercury_rashi x rahu_nakshatra": {
+     "before": -0.6506780548765931,
+     "after": 0.42873576513199496
+    },
+    "venus_rashi x rahu_nakshatra": {
+     "before": -0.8982022115965668,
+     "after": -0.1914881186254532
+    },
+    "jupiter_rashi x rahu_nakshatra": {
+     "before": -0.5537850687269371,
+     "after": 0.49093551354945764
+    },
+    "saturn_rashi x rahu_nakshatra": {
+     "before": -0.04211649036682208,
+     "after": -0.32043297992434694
+    },
+    "rahu_nakshatra x lagna_rashi": {
+     "before": -0.8539320508089455,
+     "after": -0.8499717300165214
+    },
+    "moon_rashi x lagna_nakshatra": {
+     "before": -0.8389852884234479,
+     "after": 0.10813857278789826
+    },
+    "sun_rashi x lagna_nakshatra": {
+     "before": -2.0564997869471755,
+     "after": 1.0905076976304293
+    },
+    "mars_rashi x lagna_nakshatra": {
+     "before": -2.0593220254625897,
+     "after": 0.001106285805587114
+    },
+    "mercury_rashi x lagna_nakshatra": {
+     "before": -0.6241256016782132,
+     "after": -1.2076956084660082
+    },
+    "venus_rashi x lagna_nakshatra": {
+     "before": -0.6087439506178772,
+     "after": -0.5133975292021326
+    },
+    "jupiter_rashi x lagna_nakshatra": {
+     "before": -1.2902874994647655,
+     "after": -0.611569947244754
+    },
+    "saturn_rashi x lagna_nakshatra": {
+     "before": -0.32731503383615307,
+     "after": 0.041357915137578534
+    },
+    "rahu_rashi x lagna_nakshatra": {
+     "before": -0.6639582158122151,
+     "after": -0.7585752482251434
+    }
+   }
+  },
+  "Mercury x Venus (rashi/nakshatra/retro/combust)": {
+   "n": 15,
+   "mean_z_before": 0.3788389891836761,
+   "mean_z_after": 0.21204645101013897,
+   "above0_after": 11,
+   "z_gt_2_after": 0,
+   "null_mean": -0.04650974500430512,
+   "null_sd": 0.28241806603465897,
+   "null_as_high": 3,
+   "members": {
+    "mercury_rashi x venus_rashi": {
+     "before": -0.36285176658852814,
+     "after": 0.5317186574728197
+    },
+    "mercury_rashi x venus_nakshatra": {
+     "before": -0.07452444029167782,
+     "after": 0.10988408268870091
+    },
+    "mercury_rashi x venus_retrograde": {
+     "before": -0.5697535565203127,
+     "after": 0.009633807346269951
+    },
+    "mercury_rashi x venus_combust": {
+     "before": -0.20492468787411572,
+     "after": 1.3926296718705262
+    },
+    "mercury_nakshatra x venus_nakshatra": {
+     "before": 2.29553471527181,
+     "after": 0.5943681751752548
+    },
+    "mercury_nakshatra x venus_retrograde": {
+     "before": 0.6243562002932792,
+     "after": 0.38490114808157955
+    },
+    "mercury_nakshatra x venus_combust": {
+     "before": 0.2902600431523726,
+     "after": 1.9147460214420202
+    },
+    "venus_rashi x mercury_retrograde": {
+     "before": 0.678385585704477,
+     "after": -0.3635202582244299
+    },
+    "venus_nakshatra x mercury_retrograde": {
+     "before": -1.254819352942714,
+     "after": 0.7679949380944834
+    },
+    "mercury_retrograde x venus_retrograde": {
+     "before": 0.5178880175918066,
+     "after": -2.127187084895747
+    },
+    "mercury_retrograde x venus_combust": {
+     "before": 1.8754116259544757,
+     "after": -0.7069076081230603
+    },
+    "venus_rashi x mercury_combust": {
+     "before": 1.3110685666408914,
+     "after": 0.8751177235653828
+    },
+    "venus_nakshatra x mercury_combust": {
+     "before": -1.382131434197171,
+     "after": 0.29322678309580863
+    },
+    "venus_retrograde x mercury_combust": {
+     "before": 1.0176563520202573,
+     "after": -0.9923744006160222
+    },
+    "mercury_combust x venus_combust": {
+     "before": 0.9210289695402903,
+     "after": 0.4964651081784964
+    }
+   }
+  }
+ }
+}
