@@ -4,7 +4,7 @@
     Points(position p, digit d) = sum over the chosen parameters f of
                                   TABLE_f[ value of f on the draw date ][p][d]
 
-    TABLE_f[v][p][d] = round( 100 * w_f * log[ p(d at p | f = v) / p(d at p) ] )
+    TABLE_f[v][p][d] = round( 10000 * w_f * log[ p(d at p | f = v) / p(d at p) ] )
     (digit frequencies among past winning numbers, all operators, smoothed with
     50 pseudo-draws so that rarely seen values stay close to 0)
 
@@ -38,6 +38,7 @@ ROOT = am.ROOT
 DIG = am.DIG
 BETA = 50.0
 N_PARAMS = 6
+SCALE = 10000   # points per unit of weighted log-lift; 100 rounded most cells to 0 (see REPORT section 10)
 OUT = os.path.join(ROOT, "analysis", "manual_formula.json")
 
 
@@ -60,7 +61,7 @@ def digit_tables(codes, rows, factors, before_year):
 def points(tables, weights, codes, date_ix):
     P = np.zeros((4, 10))
     for f, w in weights.items():
-        P += np.round(100 * w * tables[f][codes[f][date_ix]])
+        P += np.round(SCALE * w * tables[f][codes[f][date_ix]])
     return P
 
 
@@ -138,7 +139,7 @@ def main():
     print("\nforward test 2018-2026 (tables refreshed yearly):", json.dumps(res, indent=1))
     # tables from all draws, for manual use
     tab = digit_tables(codes, rows, list(weights), 10 ** 6)
-    tables = {f: {str(labels[f][v]): np.round(100 * w * tab[f][v]).astype(int).tolist()
+    tables = {f: {str(labels[f][v]): np.round(SCALE * w * tab[f][v]).astype(int).tolist()
                   for v in range(len(labels[f]))} for f, w in weights.items()}
     # calendar of parameter values for upcoming dates
     cal = []

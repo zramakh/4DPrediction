@@ -511,6 +511,41 @@ had the best test numbers but failed its validation period. It goes into the
 live forward log (`analysis/forward_log.csv`, variants `ml_*`) so that future
 draws, which no model has seen, can settle it.
 
+## 10. A hand-usable formula, and a correction
+
+`python3 analysis/manual_formula.py`, then `python3 analysis/build_manual_workbook.py`
+→ `analysis/manual_formula.xlsx`. Enter a date in the Predict sheet and the
+workbook shows the top 5 numbers.
+
+```
+Points(position p, digit d) = Σ over 6 parameters  TABLE_f[value on the date][p][d]
+TABLE_f[v][p][d] = round(10000 · w_f · log[p(d at p | f = v) / p(d at p)])
+Number #1 = best digit per position; #2–#5 = next best of the 16 best/2nd-best combinations
+```
+
+The six parameters, chosen on 2012–2017 by the likelihood of their digit term
+alone and then frozen: Chinese year yin/yang (w 0.3), Venus combust (0.3),
+Jupiter combust (0.3), masa (0.1), Chinese year stem (0.1) and Chinese lunar
+day (0.1).
+
+**Correction.** The first version used `round(100 · w · …)`. At that scale
+three of the six tables were entirely 0 and most other cells were 0. In 71% of
+digit positions the "best" digit was a tie, settled by the tie-break "higher
+digit wins", so the picks were mostly 9s (9999, 9989, 9899 …). That version
+appeared to do well on 2018–2026: top 5 1.37×, z = +2.6, RM1.05 per RM1. It
+even passed a random-swap check (p = 0.007). But the result belonged to the
+tie-break, not to the parameters, and it was not the formula as specified.
+With the tables at ×10000 (ties in 1.7% of positions):
+
+| | Wins (top 5) | Random | Lift | Big RM1 |
+|---|---|---|---|---|
+| Formula as specified (×10000) | 49 | 48.1 | 1.02× (z = +0.1) | RM0.63 |
+
+That is random-level performance. The 9-heavy result is not evidence of
+anything: it came from one of very many ways of choosing numbers that this
+project has now tried. Both versions' picks for 18 and 21 Oct are in the
+forward log (`manual` = first version, `manual_v2` = corrected).
+
 ## Conclusion
 
 The draws are fair for practical purposes. Frequency, recency, "overdue",

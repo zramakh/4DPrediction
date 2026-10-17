@@ -52,7 +52,7 @@ for f in PARAMS:
                 tb.cell(r, 4 + p * 10 + d, int(grid[p][d])).font = BLUE
         r += 1
 TB_LAST = r - 1
-tb.cell(r + 1, 1, "Points = round(100 x weight x log[ share of digit d at position p among past winners on dates "
+tb.cell(r + 1, 1, "Points = round(10000 x weight x log[ share of digit d at position p among past winners on dates "
                   "with this value / its overall share ]), from all Magnum, Sports Toto and Da Ma Cai draws "
                   f"1985 to {J['tables_all_draws_to']} (each number once per draw, smoothed with 50 pseudo-draws). "
                   "Source: data/*.csv, analysis/manual_formula.py.").font = Font(name=F, italic=True)
@@ -235,12 +235,11 @@ lines = [
     ("By operator (top 5): " + ", ".join(f"{op} {v['lift']}x" for op, v in t["top5_by_operator"].items()), NORM),
     ("", NORM),
     ("Read this before betting", BOLD),
-    ("This was about the 16th formula tested in this project. Allowing for that, a result this good happens by luck "
-     "roughly 1 time in 5-10.", NORM),
-    ("The picks are mostly 9-heavy numbers (9999, 9989, 9899, 9998, 8999 ...) and stay the same for weeks, "
-     "because most of the six parameters change only monthly or yearly.", NORM),
-    ("The return above RM1 comes from a handful of prizes (2 x 1st, 9 x 2nd in 4,186 draws) and can disappear with "
-     "the next few draws. Treat it as a hypothesis under forward test, not an edge.", NORM),
+    ("This formula performs like random picking on unseen draws. An earlier version of this workbook (points "
+     "x100) looked better (1.37x), but that came from a rounding artefact: most table cells were 0 and ties were "
+     "broken toward digit 9. With the tables at x10000 the result above is what is left.", NORM),
+    ("Most of the six parameters change only monthly or yearly, so the picks stay similar for weeks.", NORM),
+    ("Treat the numbers as a reproducible way of choosing, not as more likely winners.", NORM),
     ("Live forward test: analysis/forward_log.csv in the 4DPrediction repository.", NORM),
     ("", NORM),
     ("Legend: yellow = input cell; blue = fixed data (tables, calendar); green = looked up from another sheet; "
