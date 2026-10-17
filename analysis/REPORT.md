@@ -457,6 +457,60 @@ every logged pick that was made before its draw, once `scraper.py` has added
 that draw's results to `data/`. Picks for 2026-10-18 and 2026-10-21 were
 logged on 2026-10-17 00:47 UTC.
 
+## 9. Non-linear models (gradient-boosted trees, similar-days kernel, ensemble)
+
+`python3 analysis/ml_model.py` (~30 min, LightGBM). It is walk-forward: from
+2012 every model is retrained at the start of each year on earlier draws
+only. 2012–2017 is the validation period and 2018 – Oct 2026 the test
+period (4,180 draws). The selection rule was fixed before the run: the best
+validation log-likelihood.
+
+| Model | What it is |
+|---|---|
+| A_all | Gradient-boosted trees over (draw, number) pairs. Inputs: digits and pattern; the number's own history (all-time / last-200 / last-1000 wins, draws since last win, i-Box group counts, wins at any operator on the previous date, recent digit bias); aggregated Vedic and Chinese lifts; and 15 raw Vedic/Chinese parameters, so the trees can learn interactions such as digit × nakshatra |
+| A_astro | Same trees with only digits/pattern and the Vedic/Chinese inputs |
+| A_hist | Same trees with only digits/pattern and number history (control) |
+| C_digit | Four multiclass tree models, one per digit position, predicting each digit from the Vedic/Chinese parameters, operator and recent digit frequencies; P(number) = product |
+| B_kernel | "Similar days": past dates weighted by exp(β × number of the 78 Vedic + Chinese parameters they share with the target date), applied to i-Box group wins; β = 0.1, 0.3, 1.0 |
+| E_ens | Average of A_all, A_astro, C_digit and B_kernel(0.3) |
+
+**Test, all operators (wins of any prize / random expectation).**
+
+| Model | Validation top 10 | Test top 5 | Test top 10 | Test top 23 | Test top 100 | Big RM1, top 10 |
+|---|---|---|---|---|---|---|
+| **B_kernel β=0.1 (selected)** | 0.91× | 61/48.1 (1.27×, z = +1.9) | 115/96.2 (1.20×, z = +1.9) | 251/221.2 (1.13×, z = +2.0) | 1.01× | RM0.71 |
+| A_all | 1.03× | 1.19× | 1.13× | 1.14× (z = +2.1) | 1.06× | RM0.57 |
+| E_ens | 0.95× | 1.23× | 1.18× | 1.12× | 0.96× | RM0.71 |
+| B_kernel β=1.0 | 0.97× | 1.06× | 1.18× | 1.09× | 1.00× | RM0.86 |
+| A_astro | 1.03× | 1.04× | 1.03× | 1.08× | 1.01× | RM0.68 |
+| A_hist | 0.92× | 1.00× | 1.04× | 0.96× | 0.99× | RM0.65 |
+| C_digit | 0.96× | 1.00× | 0.97× | 0.98× | 1.00× | RM0.57 |
+| B_kernel β=0.3 | 0.99× | 1.04× | 1.06× | 1.08× | 1.00× | RM0.73 |
+
+**Reading it.**
+* No model gives the real winners a higher likelihood than "every number
+  equally likely", in either period. The models are confident in a way the
+  data does not support.
+* Several test lifts reach z ≈ 2. With 8 models × 4 pick sizes, a couple of
+  z ≈ 2 results are expected by chance (p ≈ 0.02 each, one-sided). None was
+  visible in the validation years: the selected kernel was *below* random
+  there (0.91×).
+* The gains move around between operators and models. B_kernel's test excess
+  is mostly Da Ma Cai; A_all's is Sports Toto and Magnum; E_ens's is Sports
+  Toto. Over 2012–2017 the same models were at 0.80–1.17× by operator. A real
+  effect would show up consistently.
+* Money: every model loses money. The best top-10 Big return is RM0.86 per
+  RM1. That is above a random number's long-run RM0.64 but well inside the
+  luck range of random picks over this many draws (RM0.16–2.89 in section 7).
+  The hit rates are far from the 1.56× needed to break even.
+
+**Verdict.** Non-linear trees, digit-position models, similar-days kernels
+and an ensemble, with Vedic, Chinese and history inputs combined, all perform
+like random picking on unseen draws. The selected model (B_kernel β=0.1)
+had the best test numbers but failed its validation period. It goes into the
+live forward log (`analysis/forward_log.csv`, variants `ml_*`) so that future
+draws, which no model has seen, can settle it.
+
 ## Conclusion
 
 The draws are fair for practical purposes. Frequency, recency, "overdue",

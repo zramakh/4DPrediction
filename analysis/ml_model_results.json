@@ -1,0 +1,2422 @@
+{
+ "selection_rule": "best validation (2012-2017) log-likelihood",
+ "selected": "B_kernel_b0.1",
+ "models": {
+  "A_all": {
+   "validation": {
+    "Magnum": {
+     "draws": 1080,
+     "loglik_millinats_per_winner": -0.863,
+     "top1": {
+      "hits": 2,
+      "expected": 2.5,
+      "lift": 0.806,
+      "z": -0.31
+     },
+     "top5": {
+      "hits": 15,
+      "expected": 12.4,
+      "lift": 1.209,
+      "z": 0.74
+     },
+     "top10": {
+      "hits": 30,
+      "expected": 24.8,
+      "lift": 1.209,
+      "z": 1.04
+     },
+     "top23": {
+      "hits": 64,
+      "expected": 57.1,
+      "lift": 1.121,
+      "z": 0.92
+     },
+     "top100": {
+      "hits": 275,
+      "expected": 248.1,
+      "lift": 1.108,
+      "z": 1.71
+     },
+     "big_top1_per_RM1": 0.222,
+     "big_top5_per_RM1": 0.963,
+     "big_top10_per_RM1": 0.702
+    },
+    "All": {
+     "draws": 3220,
+     "loglik_millinats_per_winner": -1.045,
+     "top1": {
+      "hits": 5,
+      "expected": 7.4,
+      "lift": 0.676,
+      "z": -0.88
+     },
+     "top5": {
+      "hits": 37,
+      "expected": 37.0,
+      "lift": 1.0,
+      "z": 0.0
+     },
+     "top10": {
+      "hits": 76,
+      "expected": 74.0,
+      "lift": 1.027,
+      "z": 0.24
+     },
+     "top23": {
+      "hits": 172,
+      "expected": 170.1,
+      "lift": 1.011,
+      "z": 0.14
+     },
+     "top100": {
+      "hits": 740,
+      "expected": 739.8,
+      "lift": 1.0,
+      "z": 0.01
+     },
+     "big_top1_per_RM1": 0.186,
+     "big_top5_per_RM1": 0.476,
+     "big_top10_per_RM1": 0.436
+    },
+    "Sports Toto": {
+     "draws": 1068,
+     "loglik_millinats_per_winner": -0.797,
+     "top1": {
+      "hits": 2,
+      "expected": 2.5,
+      "lift": 0.815,
+      "z": -0.29
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 12.3,
+      "lift": 1.386,
+      "z": 1.35
+     },
+     "top10": {
+      "hits": 29,
+      "expected": 24.5,
+      "lift": 1.182,
+      "z": 0.9
+     },
+     "top23": {
+      "hits": 50,
+      "expected": 56.4,
+      "lift": 0.886,
+      "z": -0.86
+     },
+     "top100": {
+      "hits": 242,
+      "expected": 245.3,
+      "lift": 0.986,
+      "z": -0.21
+     },
+     "big_top1_per_RM1": 0.281,
+     "big_top5_per_RM1": 0.382,
+     "big_top10_per_RM1": 0.326
+    },
+    "Da Ma Cai": {
+     "draws": 1072,
+     "loglik_millinats_per_winner": -1.474,
+     "top1": {
+      "hits": 1,
+      "expected": 2.5,
+      "lift": 0.406,
+      "z": -0.93
+     },
+     "top5": {
+      "hits": 5,
+      "expected": 12.3,
+      "lift": 0.406,
+      "z": -2.08
+     },
+     "top10": {
+      "hits": 17,
+      "expected": 24.6,
+      "lift": 0.69,
+      "z": -1.54
+     },
+     "top23": {
+      "hits": 58,
+      "expected": 56.6,
+      "lift": 1.024,
+      "z": 0.18
+     },
+     "top100": {
+      "hits": 223,
+      "expected": 246.3,
+      "lift": 0.905,
+      "z": -1.48
+     },
+     "big_top1_per_RM1": 0.056,
+     "big_top5_per_RM1": 0.078,
+     "big_top10_per_RM1": 0.278
+    }
+   },
+   "test": {
+    "Magnum": {
+     "draws": 1402,
+     "loglik_millinats_per_winner": -0.373,
+     "top1": {
+      "hits": 0,
+      "expected": 3.2,
+      "lift": 0.0,
+      "z": -1.79
+     },
+     "top5": {
+      "hits": 15,
+      "expected": 16.1,
+      "lift": 0.931,
+      "z": -0.28
+     },
+     "top10": {
+      "hits": 39,
+      "expected": 32.2,
+      "lift": 1.211,
+      "z": 1.2
+     },
+     "top23": {
+      "hits": 90,
+      "expected": 74.1,
+      "lift": 1.215,
+      "z": 1.85
+     },
+     "top100": {
+      "hits": 348,
+      "expected": 322.1,
+      "lift": 1.08,
+      "z": 1.44
+     },
+     "big_top1_per_RM1": 0.0,
+     "big_top5_per_RM1": 0.508,
+     "big_top10_per_RM1": 0.558
+    },
+    "All": {
+     "draws": 4186,
+     "loglik_millinats_per_winner": -0.536,
+     "top1": {
+      "hits": 7,
+      "expected": 9.6,
+      "lift": 0.728,
+      "z": -0.84
+     },
+     "top5": {
+      "hits": 57,
+      "expected": 48.1,
+      "lift": 1.185,
+      "z": 1.29
+     },
+     "top10": {
+      "hits": 109,
+      "expected": 96.2,
+      "lift": 1.133,
+      "z": 1.31
+     },
+     "top23": {
+      "hits": 252,
+      "expected": 221.2,
+      "lift": 1.139,
+      "z": 2.07
+     },
+     "top100": {
+      "hits": 1015,
+      "expected": 961.7,
+      "lift": 1.055,
+      "z": 1.72
+     },
+     "big_top1_per_RM1": 0.769,
+     "big_top5_per_RM1": 0.759,
+     "big_top10_per_RM1": 0.573
+    },
+    "Sports Toto": {
+     "draws": 1399,
+     "loglik_millinats_per_winner": -0.844,
+     "top1": {
+      "hits": 5,
+      "expected": 3.2,
+      "lift": 1.556,
+      "z": 1.0
+     },
+     "top5": {
+      "hits": 29,
+      "expected": 16.1,
+      "lift": 1.804,
+      "z": 3.23
+     },
+     "top10": {
+      "hits": 44,
+      "expected": 32.1,
+      "lift": 1.369,
+      "z": 2.09
+     },
+     "top23": {
+      "hits": 92,
+      "expected": 73.9,
+      "lift": 1.244,
+      "z": 2.1
+     },
+     "top100": {
+      "hits": 329,
+      "expected": 321.4,
+      "lift": 1.024,
+      "z": 0.42
+     },
+     "big_top1_per_RM1": 2.13,
+     "big_top5_per_RM1": 1.412,
+     "big_top10_per_RM1": 0.839
+    },
+    "Da Ma Cai": {
+     "draws": 1385,
+     "loglik_millinats_per_winner": -0.389,
+     "top1": {
+      "hits": 2,
+      "expected": 3.2,
+      "lift": 0.629,
+      "z": -0.66
+     },
+     "top5": {
+      "hits": 13,
+      "expected": 15.9,
+      "lift": 0.817,
+      "z": -0.73
+     },
+     "top10": {
+      "hits": 26,
+      "expected": 31.8,
+      "lift": 0.817,
+      "z": -1.03
+     },
+     "top23": {
+      "hits": 70,
+      "expected": 73.2,
+      "lift": 0.956,
+      "z": -0.37
+     },
+     "top100": {
+      "hits": 338,
+      "expected": 318.2,
+      "lift": 1.062,
+      "z": 1.11
+     },
+     "big_top1_per_RM1": 0.173,
+     "big_top5_per_RM1": 0.352,
+     "big_top10_per_RM1": 0.319
+    }
+   }
+  },
+  "A_astro": {
+   "validation": {
+    "Magnum": {
+     "draws": 1080,
+     "loglik_millinats_per_winner": -0.626,
+     "top1": {
+      "hits": 2,
+      "expected": 2.5,
+      "lift": 0.806,
+      "z": -0.31
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 12.4,
+      "lift": 1.37,
+      "z": 1.3
+     },
+     "top10": {
+      "hits": 24,
+      "expected": 24.8,
+      "lift": 0.967,
+      "z": -0.16
+     },
+     "top23": {
+      "hits": 67,
+      "expected": 57.1,
+      "lift": 1.174,
+      "z": 1.31
+     },
+     "top100": {
+      "hits": 269,
+      "expected": 248.1,
+      "lift": 1.084,
+      "z": 1.32
+     },
+     "big_top1_per_RM1": 0.222,
+     "big_top5_per_RM1": 0.626,
+     "big_top10_per_RM1": 0.45
+    },
+    "All": {
+     "draws": 3220,
+     "loglik_millinats_per_winner": -0.963,
+     "top1": {
+      "hits": 9,
+      "expected": 7.4,
+      "lift": 1.217,
+      "z": 0.59
+     },
+     "top5": {
+      "hits": 41,
+      "expected": 37.0,
+      "lift": 1.108,
+      "z": 0.66
+     },
+     "top10": {
+      "hits": 76,
+      "expected": 74.0,
+      "lift": 1.027,
+      "z": 0.24
+     },
+     "top23": {
+      "hits": 181,
+      "expected": 170.1,
+      "lift": 1.064,
+      "z": 0.83
+     },
+     "top100": {
+      "hits": 752,
+      "expected": 739.8,
+      "lift": 1.017,
+      "z": 0.45
+     },
+     "big_top1_per_RM1": 0.646,
+     "big_top5_per_RM1": 0.528,
+     "big_top10_per_RM1": 0.508
+    },
+    "Sports Toto": {
+     "draws": 1068,
+     "loglik_millinats_per_winner": -0.97,
+     "top1": {
+      "hits": 3,
+      "expected": 2.5,
+      "lift": 1.223,
+      "z": 0.35
+     },
+     "top5": {
+      "hits": 12,
+      "expected": 12.3,
+      "lift": 0.978,
+      "z": -0.08
+     },
+     "top10": {
+      "hits": 30,
+      "expected": 24.5,
+      "lift": 1.223,
+      "z": 1.1
+     },
+     "top23": {
+      "hits": 61,
+      "expected": 56.4,
+      "lift": 1.081,
+      "z": 0.61
+     },
+     "top100": {
+      "hits": 233,
+      "expected": 245.3,
+      "lift": 0.95,
+      "z": -0.79
+     },
+     "big_top1_per_RM1": 1.161,
+     "big_top5_per_RM1": 0.446,
+     "big_top10_per_RM1": 0.59
+    },
+    "Da Ma Cai": {
+     "draws": 1072,
+     "loglik_millinats_per_winner": -1.296,
+     "top1": {
+      "hits": 4,
+      "expected": 2.5,
+      "lift": 1.624,
+      "z": 0.98
+     },
+     "top5": {
+      "hits": 12,
+      "expected": 12.3,
+      "lift": 0.974,
+      "z": -0.09
+     },
+     "top10": {
+      "hits": 22,
+      "expected": 24.6,
+      "lift": 0.893,
+      "z": -0.53
+     },
+     "top23": {
+      "hits": 53,
+      "expected": 56.6,
+      "lift": 0.936,
+      "z": -0.48
+     },
+     "top100": {
+      "hits": 250,
+      "expected": 246.3,
+      "lift": 1.015,
+      "z": 0.24
+     },
+     "big_top1_per_RM1": 0.56,
+     "big_top5_per_RM1": 0.511,
+     "big_top10_per_RM1": 0.485
+    }
+   },
+   "test": {
+    "Magnum": {
+     "draws": 1402,
+     "loglik_millinats_per_winner": -0.781,
+     "top1": {
+      "hits": 0,
+      "expected": 3.2,
+      "lift": 0.0,
+      "z": -1.79
+     },
+     "top5": {
+      "hits": 13,
+      "expected": 16.1,
+      "lift": 0.807,
+      "z": -0.77
+     },
+     "top10": {
+      "hits": 30,
+      "expected": 32.2,
+      "lift": 0.931,
+      "z": -0.39
+     },
+     "top23": {
+      "hits": 78,
+      "expected": 74.1,
+      "lift": 1.053,
+      "z": 0.46
+     },
+     "top100": {
+      "hits": 337,
+      "expected": 322.1,
+      "lift": 1.046,
+      "z": 0.83
+     },
+     "big_top1_per_RM1": 0.0,
+     "big_top5_per_RM1": 0.636,
+     "big_top10_per_RM1": 0.442
+    },
+    "All": {
+     "draws": 4186,
+     "loglik_millinats_per_winner": -0.745,
+     "top1": {
+      "hits": 7,
+      "expected": 9.6,
+      "lift": 0.728,
+      "z": -0.84
+     },
+     "top5": {
+      "hits": 50,
+      "expected": 48.1,
+      "lift": 1.04,
+      "z": 0.28
+     },
+     "top10": {
+      "hits": 99,
+      "expected": 96.2,
+      "lift": 1.029,
+      "z": 0.29
+     },
+     "top23": {
+      "hits": 239,
+      "expected": 221.2,
+      "lift": 1.081,
+      "z": 1.2
+     },
+     "top100": {
+      "hits": 975,
+      "expected": 961.7,
+      "lift": 1.014,
+      "z": 0.43
+     },
+     "big_top1_per_RM1": 0.397,
+     "big_top5_per_RM1": 0.907,
+     "big_top10_per_RM1": 0.677
+    },
+    "Sports Toto": {
+     "draws": 1399,
+     "loglik_millinats_per_winner": -0.67,
+     "top1": {
+      "hits": 5,
+      "expected": 3.2,
+      "lift": 1.556,
+      "z": 1.0
+     },
+     "top5": {
+      "hits": 20,
+      "expected": 16.1,
+      "lift": 1.244,
+      "z": 0.98
+     },
+     "top10": {
+      "hits": 33,
+      "expected": 32.1,
+      "lift": 1.027,
+      "z": 0.15
+     },
+     "top23": {
+      "hits": 79,
+      "expected": 73.9,
+      "lift": 1.069,
+      "z": 0.59
+     },
+     "top100": {
+      "hits": 317,
+      "expected": 321.4,
+      "lift": 0.986,
+      "z": -0.25
+     },
+     "big_top1_per_RM1": 1.015,
+     "big_top5_per_RM1": 1.33,
+     "big_top10_per_RM1": 0.845
+    },
+    "Da Ma Cai": {
+     "draws": 1385,
+     "loglik_millinats_per_winner": -0.783,
+     "top1": {
+      "hits": 2,
+      "expected": 3.2,
+      "lift": 0.629,
+      "z": -0.66
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 15.9,
+      "lift": 1.068,
+      "z": 0.27
+     },
+     "top10": {
+      "hits": 36,
+      "expected": 31.8,
+      "lift": 1.131,
+      "z": 0.74
+     },
+     "top23": {
+      "hits": 82,
+      "expected": 73.2,
+      "lift": 1.12,
+      "z": 1.03
+     },
+     "top100": {
+      "hits": 321,
+      "expected": 318.2,
+      "lift": 1.009,
+      "z": 0.16
+     },
+     "big_top1_per_RM1": 0.173,
+     "big_top5_per_RM1": 0.754,
+     "big_top10_per_RM1": 0.747
+    }
+   }
+  },
+  "A_hist": {
+   "validation": {
+    "Magnum": {
+     "draws": 1080,
+     "loglik_millinats_per_winner": -0.625,
+     "top1": {
+      "hits": 3,
+      "expected": 2.5,
+      "lift": 1.209,
+      "z": 0.33
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 12.4,
+      "lift": 1.37,
+      "z": 1.3
+     },
+     "top10": {
+      "hits": 29,
+      "expected": 24.8,
+      "lift": 1.169,
+      "z": 0.84
+     },
+     "top23": {
+      "hits": 55,
+      "expected": 57.1,
+      "lift": 0.964,
+      "z": -0.27
+     },
+     "top100": {
+      "hits": 249,
+      "expected": 248.1,
+      "lift": 1.004,
+      "z": 0.06
+     },
+     "big_top1_per_RM1": 2.426,
+     "big_top5_per_RM1": 1.204,
+     "big_top10_per_RM1": 1.113
+    },
+    "All": {
+     "draws": 3220,
+     "loglik_millinats_per_winner": -0.755,
+     "top1": {
+      "hits": 7,
+      "expected": 7.4,
+      "lift": 0.946,
+      "z": -0.15
+     },
+     "top5": {
+      "hits": 35,
+      "expected": 37.0,
+      "lift": 0.946,
+      "z": -0.33
+     },
+     "top10": {
+      "hits": 68,
+      "expected": 74.0,
+      "lift": 0.919,
+      "z": -0.69
+     },
+     "top23": {
+      "hits": 153,
+      "expected": 170.1,
+      "lift": 0.899,
+      "z": -1.31
+     },
+     "top100": {
+      "hits": 745,
+      "expected": 739.8,
+      "lift": 1.007,
+      "z": 0.19
+     },
+     "big_top1_per_RM1": 1.0,
+     "big_top5_per_RM1": 0.56,
+     "big_top10_per_RM1": 0.539
+    },
+    "Sports Toto": {
+     "draws": 1068,
+     "loglik_millinats_per_winner": -0.587,
+     "top1": {
+      "hits": 1,
+      "expected": 2.5,
+      "lift": 0.408,
+      "z": -0.93
+     },
+     "top5": {
+      "hits": 9,
+      "expected": 12.3,
+      "lift": 0.734,
+      "z": -0.93
+     },
+     "top10": {
+      "hits": 17,
+      "expected": 24.5,
+      "lift": 0.693,
+      "z": -1.52
+     },
+     "top23": {
+      "hits": 49,
+      "expected": 56.4,
+      "lift": 0.868,
+      "z": -0.99
+     },
+     "top100": {
+      "hits": 242,
+      "expected": 245.3,
+      "lift": 0.986,
+      "z": -0.21
+     },
+     "big_top1_per_RM1": 0.169,
+     "big_top5_per_RM1": 0.258,
+     "big_top10_per_RM1": 0.23
+    },
+    "Da Ma Cai": {
+     "draws": 1072,
+     "loglik_millinats_per_winner": -1.054,
+     "top1": {
+      "hits": 3,
+      "expected": 2.5,
+      "lift": 1.218,
+      "z": 0.34
+     },
+     "top5": {
+      "hits": 9,
+      "expected": 12.3,
+      "lift": 0.731,
+      "z": -0.94
+     },
+     "top10": {
+      "hits": 22,
+      "expected": 24.6,
+      "lift": 0.893,
+      "z": -0.53
+     },
+     "top23": {
+      "hits": 49,
+      "expected": 56.6,
+      "lift": 0.865,
+      "z": -1.02
+     },
+     "top100": {
+      "hits": 254,
+      "expected": 246.3,
+      "lift": 1.031,
+      "z": 0.49
+     },
+     "big_top1_per_RM1": 0.392,
+     "big_top5_per_RM1": 0.213,
+     "big_top10_per_RM1": 0.269
+    }
+   },
+   "test": {
+    "Magnum": {
+     "draws": 1402,
+     "loglik_millinats_per_winner": -0.452,
+     "top1": {
+      "hits": 2,
+      "expected": 3.2,
+      "lift": 0.621,
+      "z": -0.68
+     },
+     "top5": {
+      "hits": 11,
+      "expected": 16.1,
+      "lift": 0.683,
+      "z": -1.27
+     },
+     "top10": {
+      "hits": 27,
+      "expected": 32.2,
+      "lift": 0.838,
+      "z": -0.92
+     },
+     "top23": {
+      "hits": 67,
+      "expected": 74.1,
+      "lift": 0.904,
+      "z": -0.82
+     },
+     "top100": {
+      "hits": 311,
+      "expected": 322.1,
+      "lift": 0.966,
+      "z": -0.62
+     },
+     "big_top1_per_RM1": 0.086,
+     "big_top5_per_RM1": 0.225,
+     "big_top10_per_RM1": 0.442
+    },
+    "All": {
+     "draws": 4186,
+     "loglik_millinats_per_winner": -0.608,
+     "top1": {
+      "hits": 6,
+      "expected": 9.6,
+      "lift": 0.624,
+      "z": -1.17
+     },
+     "top5": {
+      "hits": 48,
+      "expected": 48.1,
+      "lift": 0.998,
+      "z": -0.01
+     },
+     "top10": {
+      "hits": 100,
+      "expected": 96.2,
+      "lift": 1.04,
+      "z": 0.39
+     },
+     "top23": {
+      "hits": 212,
+      "expected": 221.2,
+      "lift": 0.958,
+      "z": -0.62
+     },
+     "top100": {
+      "hits": 955,
+      "expected": 961.7,
+      "lift": 0.993,
+      "z": -0.22
+     },
+     "big_top1_per_RM1": 0.368,
+     "big_top5_per_RM1": 0.608,
+     "big_top10_per_RM1": 0.651
+    },
+    "Sports Toto": {
+     "draws": 1399,
+     "loglik_millinats_per_winner": -0.836,
+     "top1": {
+      "hits": 0,
+      "expected": 3.2,
+      "lift": 0.0,
+      "z": -1.79
+     },
+     "top5": {
+      "hits": 18,
+      "expected": 16.1,
+      "lift": 1.12,
+      "z": 0.48
+     },
+     "top10": {
+      "hits": 39,
+      "expected": 32.1,
+      "lift": 1.213,
+      "z": 1.21
+     },
+     "top23": {
+      "hits": 75,
+      "expected": 73.9,
+      "lift": 1.015,
+      "z": 0.12
+     },
+     "top100": {
+      "hits": 313,
+      "expected": 321.4,
+      "lift": 0.974,
+      "z": -0.47
+     },
+     "big_top1_per_RM1": 0.0,
+     "big_top5_per_RM1": 0.792,
+     "big_top10_per_RM1": 0.979
+    },
+    "Da Ma Cai": {
+     "draws": 1385,
+     "loglik_millinats_per_winner": -0.537,
+     "top1": {
+      "hits": 4,
+      "expected": 3.2,
+      "lift": 1.257,
+      "z": 0.46
+     },
+     "top5": {
+      "hits": 19,
+      "expected": 15.9,
+      "lift": 1.194,
+      "z": 0.77
+     },
+     "top10": {
+      "hits": 34,
+      "expected": 31.8,
+      "lift": 1.068,
+      "z": 0.39
+     },
+     "top23": {
+      "hits": 70,
+      "expected": 73.2,
+      "lift": 0.956,
+      "z": -0.37
+     },
+     "top100": {
+      "hits": 331,
+      "expected": 318.2,
+      "lift": 1.04,
+      "z": 0.72
+     },
+     "big_top1_per_RM1": 1.025,
+     "big_top5_per_RM1": 0.809,
+     "big_top10_per_RM1": 0.53
+    }
+   }
+  },
+  "C_digit": {
+   "validation": {
+    "Magnum": {
+     "draws": 1080,
+     "loglik_millinats_per_winner": -32.164,
+     "top1": {
+      "hits": 4,
+      "expected": 2.5,
+      "lift": 1.612,
+      "z": 0.96
+     },
+     "top5": {
+      "hits": 18,
+      "expected": 12.4,
+      "lift": 1.451,
+      "z": 1.59
+     },
+     "top10": {
+      "hits": 31,
+      "expected": 24.8,
+      "lift": 1.249,
+      "z": 1.24
+     },
+     "top23": {
+      "hits": 57,
+      "expected": 57.1,
+      "lift": 0.999,
+      "z": -0.01
+     },
+     "top100": {
+      "hits": 248,
+      "expected": 248.1,
+      "lift": 0.999,
+      "z": -0.01
+     },
+     "big_top1_per_RM1": 0.333,
+     "big_top5_per_RM1": 0.485,
+     "big_top10_per_RM1": 0.393
+    },
+    "All": {
+     "draws": 3220,
+     "loglik_millinats_per_winner": -29.222,
+     "top1": {
+      "hits": 7,
+      "expected": 7.4,
+      "lift": 0.946,
+      "z": -0.15
+     },
+     "top5": {
+      "hits": 41,
+      "expected": 37.0,
+      "lift": 1.108,
+      "z": 0.66
+     },
+     "top10": {
+      "hits": 71,
+      "expected": 74.0,
+      "lift": 0.96,
+      "z": -0.35
+     },
+     "top23": {
+      "hits": 174,
+      "expected": 170.1,
+      "lift": 1.023,
+      "z": 0.3
+     },
+     "top100": {
+      "hits": 757,
+      "expected": 739.8,
+      "lift": 1.023,
+      "z": 0.63
+     },
+     "big_top1_per_RM1": 0.242,
+     "big_top5_per_RM1": 0.373,
+     "big_top10_per_RM1": 0.439
+    },
+    "Sports Toto": {
+     "draws": 1068,
+     "loglik_millinats_per_winner": -27.739,
+     "top1": {
+      "hits": 2,
+      "expected": 2.5,
+      "lift": 0.815,
+      "z": -0.29
+     },
+     "top5": {
+      "hits": 9,
+      "expected": 12.3,
+      "lift": 0.734,
+      "z": -0.93
+     },
+     "top10": {
+      "hits": 18,
+      "expected": 24.5,
+      "lift": 0.734,
+      "z": -1.32
+     },
+     "top23": {
+      "hits": 53,
+      "expected": 56.4,
+      "lift": 0.939,
+      "z": -0.46
+     },
+     "top100": {
+      "hits": 251,
+      "expected": 245.3,
+      "lift": 1.023,
+      "z": 0.36
+     },
+     "big_top1_per_RM1": 0.337,
+     "big_top5_per_RM1": 0.273,
+     "big_top10_per_RM1": 0.472
+    },
+    "Da Ma Cai": {
+     "draws": 1072,
+     "loglik_millinats_per_winner": -27.736,
+     "top1": {
+      "hits": 1,
+      "expected": 2.5,
+      "lift": 0.406,
+      "z": -0.93
+     },
+     "top5": {
+      "hits": 14,
+      "expected": 12.3,
+      "lift": 1.137,
+      "z": 0.48
+     },
+     "top10": {
+      "hits": 22,
+      "expected": 24.6,
+      "lift": 0.893,
+      "z": -0.53
+     },
+     "top23": {
+      "hits": 64,
+      "expected": 56.6,
+      "lift": 1.13,
+      "z": 0.98
+     },
+     "top100": {
+      "hits": 258,
+      "expected": 246.3,
+      "lift": 1.048,
+      "z": 0.75
+     },
+     "big_top1_per_RM1": 0.056,
+     "big_top5_per_RM1": 0.358,
+     "big_top10_per_RM1": 0.451
+    }
+   },
+   "test": {
+    "Magnum": {
+     "draws": 1402,
+     "loglik_millinats_per_winner": -25.272,
+     "top1": {
+      "hits": 1,
+      "expected": 3.2,
+      "lift": 0.31,
+      "z": -1.24
+     },
+     "top5": {
+      "hits": 14,
+      "expected": 16.1,
+      "lift": 0.869,
+      "z": -0.52
+     },
+     "top10": {
+      "hits": 25,
+      "expected": 32.2,
+      "lift": 0.776,
+      "z": -1.27
+     },
+     "top23": {
+      "hits": 72,
+      "expected": 74.1,
+      "lift": 0.972,
+      "z": -0.24
+     },
+     "top100": {
+      "hits": 316,
+      "expected": 322.1,
+      "lift": 0.981,
+      "z": -0.34
+     },
+     "big_top1_per_RM1": 1.783,
+     "big_top5_per_RM1": 0.668,
+     "big_top10_per_RM1": 0.429
+    },
+    "All": {
+     "draws": 4186,
+     "loglik_millinats_per_winner": -21.399,
+     "top1": {
+      "hits": 8,
+      "expected": 9.6,
+      "lift": 0.832,
+      "z": -0.52
+     },
+     "top5": {
+      "hits": 48,
+      "expected": 48.1,
+      "lift": 0.998,
+      "z": -0.01
+     },
+     "top10": {
+      "hits": 93,
+      "expected": 96.2,
+      "lift": 0.967,
+      "z": -0.32
+     },
+     "top23": {
+      "hits": 217,
+      "expected": 221.2,
+      "lift": 0.981,
+      "z": -0.28
+     },
+     "top100": {
+      "hits": 965,
+      "expected": 961.7,
+      "lift": 1.003,
+      "z": 0.11
+     },
+     "big_top1_per_RM1": 0.755,
+     "big_top5_per_RM1": 0.685,
+     "big_top10_per_RM1": 0.574
+    },
+    "Sports Toto": {
+     "draws": 1399,
+     "loglik_millinats_per_winner": -19.019,
+     "top1": {
+      "hits": 2,
+      "expected": 3.2,
+      "lift": 0.622,
+      "z": -0.68
+     },
+     "top5": {
+      "hits": 15,
+      "expected": 16.1,
+      "lift": 0.933,
+      "z": -0.27
+     },
+     "top10": {
+      "hits": 33,
+      "expected": 32.1,
+      "lift": 1.027,
+      "z": 0.15
+     },
+     "top23": {
+      "hits": 67,
+      "expected": 73.9,
+      "lift": 0.906,
+      "z": -0.81
+     },
+     "top100": {
+      "hits": 323,
+      "expected": 321.4,
+      "lift": 1.005,
+      "z": 0.09
+     },
+     "big_top1_per_RM1": 0.172,
+     "big_top5_per_RM1": 0.58,
+     "big_top10_per_RM1": 0.518
+    },
+    "Da Ma Cai": {
+     "draws": 1385,
+     "loglik_millinats_per_winner": -19.883,
+     "top1": {
+      "hits": 5,
+      "expected": 3.2,
+      "lift": 1.571,
+      "z": 1.02
+     },
+     "top5": {
+      "hits": 19,
+      "expected": 15.9,
+      "lift": 1.194,
+      "z": 0.77
+     },
+     "top10": {
+      "hits": 35,
+      "expected": 31.8,
+      "lift": 1.1,
+      "z": 0.56
+     },
+     "top23": {
+      "hits": 78,
+      "expected": 73.2,
+      "lift": 1.066,
+      "z": 0.56
+     },
+     "top100": {
+      "hits": 326,
+      "expected": 318.2,
+      "lift": 1.024,
+      "z": 0.44
+     },
+     "big_top1_per_RM1": 0.303,
+     "big_top5_per_RM1": 0.809,
+     "big_top10_per_RM1": 0.778
+    }
+   }
+  },
+  "B_kernel_b0.1": {
+   "validation": {
+    "Magnum": {
+     "draws": 1080,
+     "loglik_millinats_per_winner": -0.304,
+     "top1": {
+      "hits": 1,
+      "expected": 2.5,
+      "lift": 0.403,
+      "z": -0.94
+     },
+     "top5": {
+      "hits": 9,
+      "expected": 12.4,
+      "lift": 0.725,
+      "z": -0.97
+     },
+     "top10": {
+      "hits": 23,
+      "expected": 24.8,
+      "lift": 0.927,
+      "z": -0.36
+     },
+     "top23": {
+      "hits": 62,
+      "expected": 57.1,
+      "lift": 1.086,
+      "z": 0.65
+     },
+     "top100": {
+      "hits": 236,
+      "expected": 248.1,
+      "lift": 0.951,
+      "z": -0.77
+     },
+     "big_top1_per_RM1": 0.167,
+     "big_top5_per_RM1": 0.685,
+     "big_top10_per_RM1": 0.898
+    },
+    "All": {
+     "draws": 3220,
+     "loglik_millinats_per_winner": -0.703,
+     "top1": {
+      "hits": 4,
+      "expected": 7.4,
+      "lift": 0.541,
+      "z": -1.25
+     },
+     "top5": {
+      "hits": 40,
+      "expected": 37.0,
+      "lift": 1.081,
+      "z": 0.5
+     },
+     "top10": {
+      "hits": 67,
+      "expected": 74.0,
+      "lift": 0.906,
+      "z": -0.81
+     },
+     "top23": {
+      "hits": 156,
+      "expected": 170.1,
+      "lift": 0.917,
+      "z": -1.08
+     },
+     "top100": {
+      "hits": 700,
+      "expected": 739.8,
+      "lift": 0.946,
+      "z": -1.46
+     },
+     "big_top1_per_RM1": 0.186,
+     "big_top5_per_RM1": 0.809,
+     "big_top10_per_RM1": 0.68
+    },
+    "Sports Toto": {
+     "draws": 1068,
+     "loglik_millinats_per_winner": -0.754,
+     "top1": {
+      "hits": 2,
+      "expected": 2.5,
+      "lift": 0.815,
+      "z": -0.29
+     },
+     "top5": {
+      "hits": 14,
+      "expected": 12.3,
+      "lift": 1.141,
+      "z": 0.49
+     },
+     "top10": {
+      "hits": 21,
+      "expected": 24.5,
+      "lift": 0.856,
+      "z": -0.71
+     },
+     "top23": {
+      "hits": 45,
+      "expected": 56.4,
+      "lift": 0.797,
+      "z": -1.52
+     },
+     "top100": {
+      "hits": 235,
+      "expected": 245.3,
+      "lift": 0.958,
+      "z": -0.66
+     },
+     "big_top1_per_RM1": 0.225,
+     "big_top5_per_RM1": 0.88,
+     "big_top10_per_RM1": 0.554
+    },
+    "Da Ma Cai": {
+     "draws": 1072,
+     "loglik_millinats_per_winner": -1.055,
+     "top1": {
+      "hits": 1,
+      "expected": 2.5,
+      "lift": 0.406,
+      "z": -0.93
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 12.3,
+      "lift": 1.38,
+      "z": 1.34
+     },
+     "top10": {
+      "hits": 23,
+      "expected": 24.6,
+      "lift": 0.934,
+      "z": -0.33
+     },
+     "top23": {
+      "hits": 49,
+      "expected": 56.6,
+      "lift": 0.865,
+      "z": -1.02
+     },
+     "top100": {
+      "hits": 229,
+      "expected": 246.3,
+      "lift": 0.93,
+      "z": -1.1
+     },
+     "big_top1_per_RM1": 0.168,
+     "big_top5_per_RM1": 0.862,
+     "big_top10_per_RM1": 0.586
+    }
+   },
+   "test": {
+    "Magnum": {
+     "draws": 1402,
+     "loglik_millinats_per_winner": -0.388,
+     "top1": {
+      "hits": 7,
+      "expected": 3.2,
+      "lift": 2.173,
+      "z": 2.11
+     },
+     "top5": {
+      "hits": 20,
+      "expected": 16.1,
+      "lift": 1.242,
+      "z": 0.97
+     },
+     "top10": {
+      "hits": 38,
+      "expected": 32.2,
+      "lift": 1.18,
+      "z": 1.02
+     },
+     "top23": {
+      "hits": 84,
+      "expected": 74.1,
+      "lift": 1.134,
+      "z": 1.15
+     },
+     "top100": {
+      "hits": 322,
+      "expected": 322.1,
+      "lift": 1.0,
+      "z": -0.0
+     },
+     "big_top1_per_RM1": 2.382,
+     "big_top5_per_RM1": 0.976,
+     "big_top10_per_RM1": 0.683
+    },
+    "All": {
+     "draws": 4186,
+     "loglik_millinats_per_winner": -0.348,
+     "top1": {
+      "hits": 17,
+      "expected": 9.6,
+      "lift": 1.768,
+      "z": 2.38
+     },
+     "top5": {
+      "hits": 61,
+      "expected": 48.1,
+      "lift": 1.269,
+      "z": 1.86
+     },
+     "top10": {
+      "hits": 115,
+      "expected": 96.2,
+      "lift": 1.196,
+      "z": 1.92
+     },
+     "top23": {
+      "hits": 251,
+      "expected": 221.2,
+      "lift": 1.135,
+      "z": 2.0
+     },
+     "top100": {
+      "hits": 968,
+      "expected": 961.7,
+      "lift": 1.007,
+      "z": 0.2
+     },
+     "big_top1_per_RM1": 1.161,
+     "big_top5_per_RM1": 0.901,
+     "big_top10_per_RM1": 0.711
+    },
+    "Sports Toto": {
+     "draws": 1399,
+     "loglik_millinats_per_winner": -0.546,
+     "top1": {
+      "hits": 2,
+      "expected": 3.2,
+      "lift": 0.622,
+      "z": -0.68
+     },
+     "top5": {
+      "hits": 13,
+      "expected": 16.1,
+      "lift": 0.809,
+      "z": -0.77
+     },
+     "top10": {
+      "hits": 26,
+      "expected": 32.1,
+      "lift": 0.809,
+      "z": -1.08
+     },
+     "top23": {
+      "hits": 74,
+      "expected": 73.9,
+      "lift": 1.001,
+      "z": 0.01
+     },
+     "top100": {
+      "hits": 313,
+      "expected": 321.4,
+      "lift": 0.974,
+      "z": -0.47
+     },
+     "big_top1_per_RM1": 0.4,
+     "big_top5_per_RM1": 0.592,
+     "big_top10_per_RM1": 0.426
+    },
+    "Da Ma Cai": {
+     "draws": 1385,
+     "loglik_millinats_per_winner": -0.107,
+     "top1": {
+      "hits": 8,
+      "expected": 3.2,
+      "lift": 2.514,
+      "z": 2.7
+     },
+     "top5": {
+      "hits": 28,
+      "expected": 15.9,
+      "lift": 1.76,
+      "z": 3.03
+     },
+     "top10": {
+      "hits": 51,
+      "expected": 31.8,
+      "lift": 1.603,
+      "z": 3.4
+     },
+     "top23": {
+      "hits": 93,
+      "expected": 73.2,
+      "lift": 1.271,
+      "z": 2.32
+     },
+     "top100": {
+      "hits": 333,
+      "expected": 318.2,
+      "lift": 1.046,
+      "z": 0.83
+     },
+     "big_top1_per_RM1": 0.693,
+     "big_top5_per_RM1": 1.138,
+     "big_top10_per_RM1": 1.028
+    }
+   }
+  },
+  "B_kernel_b0.3": {
+   "validation": {
+    "Magnum": {
+     "draws": 1080,
+     "loglik_millinats_per_winner": -120.421,
+     "top1": {
+      "hits": 1,
+      "expected": 2.5,
+      "lift": 0.403,
+      "z": -0.94
+     },
+     "top5": {
+      "hits": 6,
+      "expected": 12.4,
+      "lift": 0.484,
+      "z": -1.82
+     },
+     "top10": {
+      "hits": 22,
+      "expected": 24.8,
+      "lift": 0.887,
+      "z": -0.56
+     },
+     "top23": {
+      "hits": 62,
+      "expected": 57.1,
+      "lift": 1.086,
+      "z": 0.65
+     },
+     "top100": {
+      "hits": 266,
+      "expected": 248.1,
+      "lift": 1.072,
+      "z": 1.13
+     },
+     "big_top1_per_RM1": 0.056,
+     "big_top5_per_RM1": 0.607,
+     "big_top10_per_RM1": 0.691
+    },
+    "All": {
+     "draws": 3220,
+     "loglik_millinats_per_winner": -121.603,
+     "top1": {
+      "hits": 6,
+      "expected": 7.4,
+      "lift": 0.811,
+      "z": -0.51
+     },
+     "top5": {
+      "hits": 36,
+      "expected": 37.0,
+      "lift": 0.973,
+      "z": -0.16
+     },
+     "top10": {
+      "hits": 73,
+      "expected": 74.0,
+      "lift": 0.987,
+      "z": -0.11
+     },
+     "top23": {
+      "hits": 167,
+      "expected": 170.1,
+      "lift": 0.982,
+      "z": -0.24
+     },
+     "top100": {
+      "hits": 744,
+      "expected": 739.8,
+      "lift": 1.006,
+      "z": 0.16
+     },
+     "big_top1_per_RM1": 0.478,
+     "big_top5_per_RM1": 0.708,
+     "big_top10_per_RM1": 0.639
+    },
+    "Sports Toto": {
+     "draws": 1068,
+     "loglik_millinats_per_winner": -118.796,
+     "top1": {
+      "hits": 1,
+      "expected": 2.5,
+      "lift": 0.408,
+      "z": -0.93
+     },
+     "top5": {
+      "hits": 14,
+      "expected": 12.3,
+      "lift": 1.141,
+      "z": 0.49
+     },
+     "top10": {
+      "hits": 22,
+      "expected": 24.5,
+      "lift": 0.897,
+      "z": -0.51
+     },
+     "top23": {
+      "hits": 48,
+      "expected": 56.4,
+      "lift": 0.851,
+      "z": -1.12
+     },
+     "top100": {
+      "hits": 241,
+      "expected": 245.3,
+      "lift": 0.982,
+      "z": -0.28
+     },
+     "big_top1_per_RM1": 0.056,
+     "big_top5_per_RM1": 0.772,
+     "big_top10_per_RM1": 0.494
+    },
+    "Da Ma Cai": {
+     "draws": 1072,
+     "loglik_millinats_per_winner": -125.589,
+     "top1": {
+      "hits": 4,
+      "expected": 2.5,
+      "lift": 1.624,
+      "z": 0.98
+     },
+     "top5": {
+      "hits": 16,
+      "expected": 12.3,
+      "lift": 1.299,
+      "z": 1.05
+     },
+     "top10": {
+      "hits": 29,
+      "expected": 24.6,
+      "lift": 1.177,
+      "z": 0.88
+     },
+     "top23": {
+      "hits": 57,
+      "expected": 56.6,
+      "lift": 1.006,
+      "z": 0.05
+     },
+     "top100": {
+      "hits": 237,
+      "expected": 246.3,
+      "lift": 0.962,
+      "z": -0.59
+     },
+     "big_top1_per_RM1": 1.325,
+     "big_top5_per_RM1": 0.746,
+     "big_top10_per_RM1": 0.729
+    }
+   },
+   "test": {
+    "Magnum": {
+     "draws": 1402,
+     "loglik_millinats_per_winner": -102.157,
+     "top1": {
+      "hits": 5,
+      "expected": 3.2,
+      "lift": 1.552,
+      "z": 0.99
+     },
+     "top5": {
+      "hits": 14,
+      "expected": 16.1,
+      "lift": 0.869,
+      "z": -0.52
+     },
+     "top10": {
+      "hits": 30,
+      "expected": 32.2,
+      "lift": 0.931,
+      "z": -0.39
+     },
+     "top23": {
+      "hits": 77,
+      "expected": 74.1,
+      "lift": 1.039,
+      "z": 0.34
+     },
+     "top100": {
+      "hits": 313,
+      "expected": 322.1,
+      "lift": 0.972,
+      "z": -0.51
+     },
+     "big_top1_per_RM1": 1.141,
+     "big_top5_per_RM1": 0.491,
+     "big_top10_per_RM1": 0.632
+    },
+    "All": {
+     "draws": 4186,
+     "loglik_millinats_per_winner": -101.276,
+     "top1": {
+      "hits": 15,
+      "expected": 9.6,
+      "lift": 1.56,
+      "z": 1.74
+     },
+     "top5": {
+      "hits": 50,
+      "expected": 48.1,
+      "lift": 1.04,
+      "z": 0.28
+     },
+     "top10": {
+      "hits": 102,
+      "expected": 96.2,
+      "lift": 1.061,
+      "z": 0.59
+     },
+     "top23": {
+      "hits": 239,
+      "expected": 221.2,
+      "lift": 1.081,
+      "z": 1.2
+     },
+     "top100": {
+      "hits": 957,
+      "expected": 961.7,
+      "lift": 0.995,
+      "z": -0.15
+     },
+     "big_top1_per_RM1": 1.223,
+     "big_top5_per_RM1": 0.625,
+     "big_top10_per_RM1": 0.731
+    },
+    "Sports Toto": {
+     "draws": 1399,
+     "loglik_millinats_per_winner": -100.638,
+     "top1": {
+      "hits": 2,
+      "expected": 3.2,
+      "lift": 0.622,
+      "z": -0.68
+     },
+     "top5": {
+      "hits": 18,
+      "expected": 16.1,
+      "lift": 1.12,
+      "z": 0.48
+     },
+     "top10": {
+      "hits": 40,
+      "expected": 32.1,
+      "lift": 1.244,
+      "z": 1.39
+     },
+     "top23": {
+      "hits": 95,
+      "expected": 73.9,
+      "lift": 1.285,
+      "z": 2.45
+     },
+     "top100": {
+      "hits": 327,
+      "expected": 321.4,
+      "lift": 1.017,
+      "z": 0.31
+     },
+     "big_top1_per_RM1": 0.172,
+     "big_top5_per_RM1": 0.372,
+     "big_top10_per_RM1": 0.58
+    },
+    "Da Ma Cai": {
+     "draws": 1385,
+     "loglik_millinats_per_winner": -101.027,
+     "top1": {
+      "hits": 8,
+      "expected": 3.2,
+      "lift": 2.514,
+      "z": 2.7
+     },
+     "top5": {
+      "hits": 18,
+      "expected": 15.9,
+      "lift": 1.131,
+      "z": 0.52
+     },
+     "top10": {
+      "hits": 32,
+      "expected": 31.8,
+      "lift": 1.006,
+      "z": 0.03
+     },
+     "top23": {
+      "hits": 67,
+      "expected": 73.2,
+      "lift": 0.915,
+      "z": -0.72
+     },
+     "top100": {
+      "hits": 317,
+      "expected": 318.2,
+      "lift": 0.996,
+      "z": -0.07
+     },
+     "big_top1_per_RM1": 2.368,
+     "big_top5_per_RM1": 1.017,
+     "big_top10_per_RM1": 0.982
+    }
+   }
+  },
+  "B_kernel_b1.0": {
+   "validation": {
+    "Magnum": {
+     "draws": 1080,
+     "loglik_millinats_per_winner": -366.249,
+     "top1": {
+      "hits": 2,
+      "expected": 2.5,
+      "lift": 0.806,
+      "z": -0.31
+     },
+     "top5": {
+      "hits": 10,
+      "expected": 12.4,
+      "lift": 0.806,
+      "z": -0.68
+     },
+     "top10": {
+      "hits": 25,
+      "expected": 24.8,
+      "lift": 1.008,
+      "z": 0.04
+     },
+     "top23": {
+      "hits": 66,
+      "expected": 57.1,
+      "lift": 1.156,
+      "z": 1.18
+     },
+     "top100": {
+      "hits": 273,
+      "expected": 248.1,
+      "lift": 1.1,
+      "z": 1.58
+     },
+     "big_top1_per_RM1": 0.333,
+     "big_top5_per_RM1": 1.23,
+     "big_top10_per_RM1": 0.933
+    },
+    "All": {
+     "draws": 3220,
+     "loglik_millinats_per_winner": -367.353,
+     "top1": {
+      "hits": 6,
+      "expected": 7.4,
+      "lift": 0.811,
+      "z": -0.51
+     },
+     "top5": {
+      "hits": 33,
+      "expected": 37.0,
+      "lift": 0.892,
+      "z": -0.66
+     },
+     "top10": {
+      "hits": 72,
+      "expected": 74.0,
+      "lift": 0.973,
+      "z": -0.23
+     },
+     "top23": {
+      "hits": 170,
+      "expected": 170.1,
+      "lift": 0.999,
+      "z": -0.01
+     },
+     "top100": {
+      "hits": 771,
+      "expected": 739.8,
+      "lift": 1.042,
+      "z": 1.15
+     },
+     "big_top1_per_RM1": 0.261,
+     "big_top5_per_RM1": 0.697,
+     "big_top10_per_RM1": 0.709
+    },
+    "Sports Toto": {
+     "draws": 1068,
+     "loglik_millinats_per_winner": -362.071,
+     "top1": {
+      "hits": 2,
+      "expected": 2.5,
+      "lift": 0.815,
+      "z": -0.29
+     },
+     "top5": {
+      "hits": 10,
+      "expected": 12.3,
+      "lift": 0.815,
+      "z": -0.65
+     },
+     "top10": {
+      "hits": 22,
+      "expected": 24.5,
+      "lift": 0.897,
+      "z": -0.51
+     },
+     "top23": {
+      "hits": 51,
+      "expected": 56.4,
+      "lift": 0.904,
+      "z": -0.72
+     },
+     "top100": {
+      "hits": 260,
+      "expected": 245.3,
+      "lift": 1.06,
+      "z": 0.94
+     },
+     "big_top1_per_RM1": 0.225,
+     "big_top5_per_RM1": 0.247,
+     "big_top10_per_RM1": 0.528
+    },
+    "Da Ma Cai": {
+     "draws": 1072,
+     "loglik_millinats_per_winner": -373.728,
+     "top1": {
+      "hits": 2,
+      "expected": 2.5,
+      "lift": 0.812,
+      "z": -0.29
+     },
+     "top5": {
+      "hits": 13,
+      "expected": 12.3,
+      "lift": 1.056,
+      "z": 0.2
+     },
+     "top10": {
+      "hits": 25,
+      "expected": 24.6,
+      "lift": 1.015,
+      "z": 0.07
+     },
+     "top23": {
+      "hits": 53,
+      "expected": 56.6,
+      "lift": 0.936,
+      "z": -0.48
+     },
+     "top100": {
+      "hits": 238,
+      "expected": 246.3,
+      "lift": 0.966,
+      "z": -0.53
+     },
+     "big_top1_per_RM1": 0.224,
+     "big_top5_per_RM1": 0.608,
+     "big_top10_per_RM1": 0.662
+    }
+   },
+   "test": {
+    "Magnum": {
+     "draws": 1402,
+     "loglik_millinats_per_winner": -365.679,
+     "top1": {
+      "hits": 4,
+      "expected": 3.2,
+      "lift": 1.242,
+      "z": 0.43
+     },
+     "top5": {
+      "hits": 12,
+      "expected": 16.1,
+      "lift": 0.745,
+      "z": -1.02
+     },
+     "top10": {
+      "hits": 36,
+      "expected": 32.2,
+      "lift": 1.118,
+      "z": 0.67
+     },
+     "top23": {
+      "hits": 77,
+      "expected": 74.1,
+      "lift": 1.039,
+      "z": 0.34
+     },
+     "top100": {
+      "hits": 322,
+      "expected": 322.1,
+      "lift": 1.0,
+      "z": -0.0
+     },
+     "big_top1_per_RM1": 1.013,
+     "big_top5_per_RM1": 0.439,
+     "big_top10_per_RM1": 0.434
+    },
+    "All": {
+     "draws": 4186,
+     "loglik_millinats_per_winner": -363.989,
+     "top1": {
+      "hits": 18,
+      "expected": 9.6,
+      "lift": 1.872,
+      "z": 2.7
+     },
+     "top5": {
+      "hits": 51,
+      "expected": 48.1,
+      "lift": 1.061,
+      "z": 0.42
+     },
+     "top10": {
+      "hits": 113,
+      "expected": 96.2,
+      "lift": 1.175,
+      "z": 1.72
+     },
+     "top23": {
+      "hits": 241,
+      "expected": 221.2,
+      "lift": 1.09,
+      "z": 1.33
+     },
+     "top100": {
+      "hits": 964,
+      "expected": 961.7,
+      "lift": 1.002,
+      "z": 0.07
+     },
+     "big_top1_per_RM1": 1.548,
+     "big_top5_per_RM1": 0.566,
+     "big_top10_per_RM1": 0.857
+    },
+    "Sports Toto": {
+     "draws": 1399,
+     "loglik_millinats_per_winner": -362.04,
+     "top1": {
+      "hits": 5,
+      "expected": 3.2,
+      "lift": 1.556,
+      "z": 1.0
+     },
+     "top5": {
+      "hits": 19,
+      "expected": 16.1,
+      "lift": 1.182,
+      "z": 0.73
+     },
+     "top10": {
+      "hits": 44,
+      "expected": 32.1,
+      "lift": 1.369,
+      "z": 2.09
+     },
+     "top23": {
+      "hits": 93,
+      "expected": 73.9,
+      "lift": 1.258,
+      "z": 2.22
+     },
+     "top100": {
+      "hits": 322,
+      "expected": 321.4,
+      "lift": 1.002,
+      "z": 0.03
+     },
+     "big_top1_per_RM1": 0.386,
+     "big_top5_per_RM1": 0.363,
+     "big_top10_per_RM1": 0.988
+    },
+    "Da Ma Cai": {
+     "draws": 1385,
+     "loglik_millinats_per_winner": -364.247,
+     "top1": {
+      "hits": 9,
+      "expected": 3.2,
+      "lift": 2.828,
+      "z": 3.26
+     },
+     "top5": {
+      "hits": 20,
+      "expected": 15.9,
+      "lift": 1.257,
+      "z": 1.03
+     },
+     "top10": {
+      "hits": 33,
+      "expected": 31.8,
+      "lift": 1.037,
+      "z": 0.21
+     },
+     "top23": {
+      "hits": 71,
+      "expected": 73.2,
+      "lift": 0.97,
+      "z": -0.26
+     },
+     "top100": {
+      "hits": 320,
+      "expected": 318.2,
+      "lift": 1.006,
+      "z": 0.1
+     },
+     "big_top1_per_RM1": 3.264,
+     "big_top5_per_RM1": 0.898,
+     "big_top10_per_RM1": 1.154
+    }
+   }
+  },
+  "E_ens": {
+   "validation": {
+    "Magnum": {
+     "draws": 1080,
+     "loglik_millinats_per_winner": -8.677,
+     "top1": {
+      "hits": 0,
+      "expected": 2.5,
+      "lift": 0.0,
+      "z": -1.58
+     },
+     "top5": {
+      "hits": 8,
+      "expected": 12.4,
+      "lift": 0.645,
+      "z": -1.25
+     },
+     "top10": {
+      "hits": 27,
+      "expected": 24.8,
+      "lift": 1.088,
+      "z": 0.44
+     },
+     "top23": {
+      "hits": 63,
+      "expected": 57.1,
+      "lift": 1.104,
+      "z": 0.78
+     },
+     "top100": {
+      "hits": 246,
+      "expected": 248.1,
+      "lift": 0.991,
+      "z": -0.14
+     },
+     "big_top1_per_RM1": 0.0,
+     "big_top5_per_RM1": 0.711,
+     "big_top10_per_RM1": 0.852
+    },
+    "All": {
+     "draws": 3220,
+     "loglik_millinats_per_winner": -8.403,
+     "top1": {
+      "hits": 8,
+      "expected": 7.4,
+      "lift": 1.081,
+      "z": 0.22
+     },
+     "top5": {
+      "hits": 33,
+      "expected": 37.0,
+      "lift": 0.892,
+      "z": -0.66
+     },
+     "top10": {
+      "hits": 70,
+      "expected": 74.0,
+      "lift": 0.946,
+      "z": -0.46
+     },
+     "top23": {
+      "hits": 173,
+      "expected": 170.1,
+      "lift": 1.017,
+      "z": 0.22
+     },
+     "top100": {
+      "hits": 745,
+      "expected": 739.8,
+      "lift": 1.007,
+      "z": 0.19
+     },
+     "big_top1_per_RM1": 1.348,
+     "big_top5_per_RM1": 0.643,
+     "big_top10_per_RM1": 0.663
+    },
+    "Sports Toto": {
+     "draws": 1068,
+     "loglik_millinats_per_winner": -7.252,
+     "top1": {
+      "hits": 4,
+      "expected": 2.5,
+      "lift": 1.63,
+      "z": 0.99
+     },
+     "top5": {
+      "hits": 12,
+      "expected": 12.3,
+      "lift": 0.978,
+      "z": -0.08
+     },
+     "top10": {
+      "hits": 22,
+      "expected": 24.5,
+      "lift": 0.897,
+      "z": -0.51
+     },
+     "top23": {
+      "hits": 50,
+      "expected": 56.4,
+      "lift": 0.886,
+      "z": -0.86
+     },
+     "top100": {
+      "hits": 251,
+      "expected": 245.3,
+      "lift": 1.023,
+      "z": 0.36
+     },
+     "big_top1_per_RM1": 0.562,
+     "big_top5_per_RM1": 0.247,
+     "big_top10_per_RM1": 0.243
+    },
+    "Da Ma Cai": {
+     "draws": 1072,
+     "loglik_millinats_per_winner": -9.272,
+     "top1": {
+      "hits": 4,
+      "expected": 2.5,
+      "lift": 1.624,
+      "z": 0.98
+     },
+     "top5": {
+      "hits": 13,
+      "expected": 12.3,
+      "lift": 1.056,
+      "z": 0.2
+     },
+     "top10": {
+      "hits": 21,
+      "expected": 24.6,
+      "lift": 0.853,
+      "z": -0.73
+     },
+     "top23": {
+      "hits": 60,
+      "expected": 56.6,
+      "lift": 1.059,
+      "z": 0.45
+     },
+     "top100": {
+      "hits": 248,
+      "expected": 246.3,
+      "lift": 1.007,
+      "z": 0.11
+     },
+     "big_top1_per_RM1": 3.489,
+     "big_top5_per_RM1": 0.97,
+     "big_top10_per_RM1": 0.89
+    }
+   },
+   "test": {
+    "Magnum": {
+     "draws": 1402,
+     "loglik_millinats_per_winner": -7.263,
+     "top1": {
+      "hits": 1,
+      "expected": 3.2,
+      "lift": 0.31,
+      "z": -1.24
+     },
+     "top5": {
+      "hits": 18,
+      "expected": 16.1,
+      "lift": 1.118,
+      "z": 0.47
+     },
+     "top10": {
+      "hits": 37,
+      "expected": 32.2,
+      "lift": 1.149,
+      "z": 0.84
+     },
+     "top23": {
+      "hits": 73,
+      "expected": 74.1,
+      "lift": 0.985,
+      "z": -0.13
+     },
+     "top100": {
+      "hits": 303,
+      "expected": 322.1,
+      "lift": 0.941,
+      "z": -1.06
+     },
+     "big_top1_per_RM1": 0.128,
+     "big_top5_per_RM1": 0.274,
+     "big_top10_per_RM1": 0.362
+    },
+    "All": {
+     "draws": 4186,
+     "loglik_millinats_per_winner": -6.545,
+     "top1": {
+      "hits": 11,
+      "expected": 9.6,
+      "lift": 1.144,
+      "z": 0.45
+     },
+     "top5": {
+      "hits": 59,
+      "expected": 48.1,
+      "lift": 1.227,
+      "z": 1.57
+     },
+     "top10": {
+      "hits": 113,
+      "expected": 96.2,
+      "lift": 1.175,
+      "z": 1.72
+     },
+     "top23": {
+      "hits": 248,
+      "expected": 221.2,
+      "lift": 1.121,
+      "z": 1.8
+     },
+     "top100": {
+      "hits": 927,
+      "expected": 961.7,
+      "lift": 0.964,
+      "z": -1.12
+     },
+     "big_top1_per_RM1": 0.96,
+     "big_top5_per_RM1": 0.74,
+     "big_top10_per_RM1": 0.71
+    },
+    "Sports Toto": {
+     "draws": 1399,
+     "loglik_millinats_per_winner": -5.916,
+     "top1": {
+      "hits": 6,
+      "expected": 3.2,
+      "lift": 1.867,
+      "z": 1.55
+     },
+     "top5": {
+      "hits": 20,
+      "expected": 16.1,
+      "lift": 1.244,
+      "z": 0.98
+     },
+     "top10": {
+      "hits": 40,
+      "expected": 32.1,
+      "lift": 1.244,
+      "z": 1.39
+     },
+     "top23": {
+      "hits": 95,
+      "expected": 73.9,
+      "lift": 1.285,
+      "z": 2.45
+     },
+     "top100": {
+      "hits": 313,
+      "expected": 321.4,
+      "lift": 0.974,
+      "z": -0.47
+     },
+     "big_top1_per_RM1": 2.573,
+     "big_top5_per_RM1": 0.772,
+     "big_top10_per_RM1": 0.872
+    },
+    "Da Ma Cai": {
+     "draws": 1385,
+     "loglik_millinats_per_winner": -6.456,
+     "top1": {
+      "hits": 4,
+      "expected": 3.2,
+      "lift": 1.257,
+      "z": 0.46
+     },
+     "top5": {
+      "hits": 21,
+      "expected": 15.9,
+      "lift": 1.32,
+      "z": 1.28
+     },
+     "top10": {
+      "hits": 36,
+      "expected": 31.8,
+      "lift": 1.131,
+      "z": 0.74
+     },
+     "top23": {
+      "hits": 80,
+      "expected": 73.2,
+      "lift": 1.093,
+      "z": 0.8
+     },
+     "top100": {
+      "hits": 311,
+      "expected": 318.2,
+      "lift": 0.977,
+      "z": -0.4
+     },
+     "big_top1_per_RM1": 0.173,
+     "big_top5_per_RM1": 1.178,
+     "big_top10_per_RM1": 0.9
+    }
+   }
+  }
+ }
+}
