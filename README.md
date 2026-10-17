@@ -25,3 +25,11 @@ python3 scraper.py --full   # rebuild everything from April 1985
 ```
 
 Standard library only (Python 3.9+). Downloaded pages are cached in `.cache/`.
+
+If 4dmoon.com cannot be reached directly, fetch the pages with TinyFish
+(`fetch_content`, format `html`) and import them:
+
+```sh
+python3 tinyfish_import.py page.html [more.html ...]   # or the saved JSON response
+python3 -m unittest tests/test_tinyfish_import.py
+```
