@@ -298,7 +298,7 @@ def walk(predict_dates=None, k=10):
             if not predict_dates and y >= VALID_START and trained_for != y:
                 models = fit_all(Xs, ys, yrs, D, Dyr, y)
                 trained_for = y
-                print(f"  models for {y} trained on {sum(int(v < y) for v in yrs)} rows "
+                print(f"  models for {y} trained on {sum(int((v < y).sum()) for v in yrs)} rows "
                       f"({time.time() - t0:.0f}s)", flush=True)
             lifts = hist.lifts(d)
             kern_lp = kern.logp(d) if (not predict_dates and y >= VALID_START) else None
