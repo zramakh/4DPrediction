@@ -1,0 +1,504 @@
+{
+ "formula": {
+  "weights": {
+   "dig_h300": 0.05,
+   "cbox_a50": 0.02,
+   "cdig_b50": 0.25
+  },
+  "validation_gain_millinats_per_winner": 0.006809698211234464,
+  "single_component": {
+   "dig_h300": {
+    "weight": 0.05,
+    "gain_millinats": 0.0036147277845830638
+   },
+   "dig_h0": {
+    "weight": 0.02,
+    "gain_millinats": 0.00018284543335192168
+   },
+   "cbox_a2": {
+    "weight": 0.05,
+    "gain_millinats": 0.0018996524158865213
+   },
+   "cbox_a10": {
+    "weight": 0.1,
+    "gain_millinats": 0.00294087384827435
+   },
+   "cbox_a50": {
+    "weight": 0.02,
+    "gain_millinats": 0.0173094030469656
+   },
+   "cdig_b50": {
+    "weight": 0.25,
+    "gain_millinats": 0.0026666670367008843
+   },
+   "cdig_b500": {
+    "weight": 0.25,
+    "gain_millinats": 0.0017357591112057758
+   }
+  },
+  "train_before": 2012,
+  "validate": [
+   2012,
+   2017
+  ]
+ },
+ "test_years": [
+  2018,
+  2026
+ ],
+ "test": {
+  "Magnum": {
+   "draws": 1400,
+   "loglik_gain_millinats_per_winner": 0.065,
+   "top1": {
+    "hits": 7,
+    "expected": 3.2,
+    "lift": 2.176,
+    "z": 2.11,
+    "random_picks_hits": 3
+   },
+   "top5": {
+    "hits": 16,
+    "expected": 16.1,
+    "lift": 0.995,
+    "z": -0.02,
+    "random_picks_hits": 12
+   },
+   "top10": {
+    "hits": 33,
+    "expected": 32.2,
+    "lift": 1.026,
+    "z": 0.15,
+    "random_picks_hits": 24
+   },
+   "top23": {
+    "hits": 74,
+    "expected": 74.0,
+    "lift": 1.0,
+    "z": 0.0,
+    "random_picks_hits": 64
+   },
+   "top100": {
+    "hits": 318,
+    "expected": 321.6,
+    "lift": 0.989,
+    "z": -0.2,
+    "random_picks_hits": 297
+   },
+   "big_return_top1": {
+    "per_RM1": 2.571,
+    "random_picks_per_RM1": 0.443
+   },
+   "big_return_top5": {
+    "per_RM1": 0.757,
+    "random_picks_per_RM1": 0.377
+   },
+   "big_return_top10": {
+    "per_RM1": 0.569,
+    "random_picks_per_RM1": 0.367
+   }
+  },
+  "Sports Toto": {
+   "draws": 1397,
+   "loglik_gain_millinats_per_winner": -0.003,
+   "top1": {
+    "hits": 0,
+    "expected": 3.2,
+    "lift": 0.0,
+    "z": -1.79,
+    "random_picks_hits": 4
+   },
+   "top5": {
+    "hits": 15,
+    "expected": 16.0,
+    "lift": 0.935,
+    "z": -0.26,
+    "random_picks_hits": 13
+   },
+   "top10": {
+    "hits": 39,
+    "expected": 32.1,
+    "lift": 1.215,
+    "z": 1.22,
+    "random_picks_hits": 27
+   },
+   "top23": {
+    "hits": 84,
+    "expected": 73.8,
+    "lift": 1.138,
+    "z": 1.18,
+    "random_picks_hits": 55
+   },
+   "top100": {
+    "hits": 335,
+    "expected": 321.0,
+    "lift": 1.044,
+    "z": 0.78,
+    "random_picks_hits": 307
+   },
+   "big_return_top1": {
+    "per_RM1": 0.0,
+    "random_picks_per_RM1": 0.573
+   },
+   "big_return_top5": {
+    "per_RM1": 0.429,
+    "random_picks_per_RM1": 0.278
+   },
+   "big_return_top10": {
+    "per_RM1": 0.855,
+    "random_picks_per_RM1": 0.316
+   }
+  },
+  "Da Ma Cai": {
+   "draws": 1383,
+   "loglik_gain_millinats_per_winner": 0.001,
+   "top1": {
+    "hits": 6,
+    "expected": 3.2,
+    "lift": 1.888,
+    "z": 1.58,
+    "random_picks_hits": 4
+   },
+   "top5": {
+    "hits": 23,
+    "expected": 15.9,
+    "lift": 1.448,
+    "z": 1.78,
+    "random_picks_hits": 25
+   },
+   "top10": {
+    "hits": 39,
+    "expected": 31.8,
+    "lift": 1.227,
+    "z": 1.28,
+    "random_picks_hits": 44
+   },
+   "top23": {
+    "hits": 85,
+    "expected": 73.1,
+    "lift": 1.163,
+    "z": 1.39,
+    "random_picks_hits": 81
+   },
+   "top100": {
+    "hits": 310,
+    "expected": 317.8,
+    "lift": 0.976,
+    "z": -0.43,
+    "random_picks_hits": 325
+   },
+   "big_return_top1": {
+    "per_RM1": 0.694,
+    "random_picks_per_RM1": 0.434
+   },
+   "big_return_top5": {
+    "per_RM1": 0.625,
+    "random_picks_per_RM1": 0.772
+   },
+   "big_return_top10": {
+    "per_RM1": 0.469,
+    "random_picks_per_RM1": 0.606
+   }
+  },
+  "All": {
+   "draws": 4180,
+   "loglik_gain_millinats_per_winner": 0.021,
+   "top1": {
+    "hits": 13,
+    "expected": 9.6,
+    "lift": 1.354,
+    "z": 1.1,
+    "random_picks_hits": 11
+   },
+   "top5": {
+    "hits": 54,
+    "expected": 48.0,
+    "lift": 1.125,
+    "z": 0.86,
+    "random_picks_hits": 50
+   },
+   "top10": {
+    "hits": 111,
+    "expected": 96.0,
+    "lift": 1.156,
+    "z": 1.53,
+    "random_picks_hits": 95
+   },
+   "top23": {
+    "hits": 243,
+    "expected": 220.9,
+    "lift": 1.1,
+    "z": 1.49,
+    "random_picks_hits": 200
+   },
+   "top100": {
+    "hits": 963,
+    "expected": 960.3,
+    "lift": 1.003,
+    "z": 0.09,
+    "random_picks_hits": 929
+   },
+   "big_return_top1": {
+    "per_RM1": 1.091,
+    "random_picks_per_RM1": 0.483
+   },
+   "big_return_top5": {
+    "per_RM1": 0.604,
+    "random_picks_per_RM1": 0.475
+   },
+   "big_return_top10": {
+    "per_RM1": 0.631,
+    "random_picks_per_RM1": 0.429
+   }
+  }
+ },
+ "test_by_year": {
+  "2018": {
+   "hits@10": 13,
+   "expected@10": 12.3
+  },
+  "2019": {
+   "hits@10": 12,
+   "expected@10": 11.5
+  },
+  "2020": {
+   "hits@10": 18,
+   "expected@10": 8.7
+  },
+  "2021": {
+   "hits@10": 8,
+   "expected@10": 8.4
+  },
+  "2022": {
+   "hits@10": 11,
+   "expected@10": 12.3
+  },
+  "2023": {
+   "hits@10": 15,
+   "expected@10": 11.4
+  },
+  "2024": {
+   "hits@10": 10,
+   "expected@10": 11.3
+  },
+  "2025": {
+   "hits@10": 14,
+   "expected@10": 11.4
+  },
+  "2026": {
+   "hits@10": 10,
+   "expected@10": 8.7
+  }
+ },
+ "baseline_hot_only": {
+  "weights": {
+   "pool_a10": 1.0
+  },
+  "test": {
+   "Magnum": {
+    "draws": 1400,
+    "loglik_gain_millinats_per_winner": -7.853,
+    "top1": {
+     "hits": 8,
+     "expected": 3.2,
+     "lift": 2.487,
+     "z": 2.67,
+     "random_picks_hits": 6
+    },
+    "top5": {
+     "hits": 18,
+     "expected": 16.1,
+     "lift": 1.119,
+     "z": 0.48,
+     "random_picks_hits": 17
+    },
+    "top10": {
+     "hits": 33,
+     "expected": 32.2,
+     "lift": 1.026,
+     "z": 0.15,
+     "random_picks_hits": 41
+    },
+    "top23": {
+     "hits": 81,
+     "expected": 74.0,
+     "lift": 1.095,
+     "z": 0.82,
+     "random_picks_hits": 81
+    },
+    "top100": {
+     "hits": 322,
+     "expected": 321.6,
+     "lift": 1.001,
+     "z": 0.02,
+     "random_picks_hits": 335
+    },
+    "big_return_top1": {
+     "per_RM1": 0.771,
+     "random_picks_per_RM1": 1.1
+    },
+    "big_return_top5": {
+     "per_RM1": 0.291,
+     "random_picks_per_RM1": 0.731
+    },
+    "big_return_top10": {
+     "per_RM1": 0.346,
+     "random_picks_per_RM1": 0.586
+    }
+   },
+   "Sports Toto": {
+    "draws": 1397,
+    "loglik_gain_millinats_per_winner": -9.502,
+    "top1": {
+     "hits": 4,
+     "expected": 3.2,
+     "lift": 1.246,
+     "z": 0.44,
+     "random_picks_hits": 7
+    },
+    "top5": {
+     "hits": 21,
+     "expected": 16.0,
+     "lift": 1.309,
+     "z": 1.24,
+     "random_picks_hits": 24
+    },
+    "top10": {
+     "hits": 32,
+     "expected": 32.1,
+     "lift": 0.997,
+     "z": -0.02,
+     "random_picks_hits": 40
+    },
+    "top23": {
+     "hits": 76,
+     "expected": 73.8,
+     "lift": 1.03,
+     "z": 0.25,
+     "random_picks_hits": 84
+    },
+    "top100": {
+     "hits": 331,
+     "expected": 321.0,
+     "lift": 1.031,
+     "z": 0.56,
+     "random_picks_hits": 329
+    },
+    "big_return_top1": {
+     "per_RM1": 0.515,
+     "random_picks_per_RM1": 2.892
+    },
+    "big_return_top5": {
+     "per_RM1": 0.719,
+     "random_picks_per_RM1": 2.107
+    },
+    "big_return_top10": {
+     "per_RM1": 0.49,
+     "random_picks_per_RM1": 1.523
+    }
+   },
+   "Da Ma Cai": {
+    "draws": 1383,
+    "loglik_gain_millinats_per_winner": -8.212,
+    "top1": {
+     "hits": 7,
+     "expected": 3.2,
+     "lift": 2.203,
+     "z": 2.14,
+     "random_picks_hits": 5
+    },
+    "top5": {
+     "hits": 12,
+     "expected": 15.9,
+     "lift": 0.755,
+     "z": -0.98,
+     "random_picks_hits": 10
+    },
+    "top10": {
+     "hits": 32,
+     "expected": 31.8,
+     "lift": 1.007,
+     "z": 0.04,
+     "random_picks_hits": 23
+    },
+    "top23": {
+     "hits": 66,
+     "expected": 73.1,
+     "lift": 0.903,
+     "z": -0.83,
+     "random_picks_hits": 59
+    },
+    "top100": {
+     "hits": 314,
+     "expected": 317.8,
+     "lift": 0.988,
+     "z": -0.21,
+     "random_picks_hits": 297
+    },
+    "big_return_top1": {
+     "per_RM1": 0.651,
+     "random_picks_per_RM1": 0.477
+    },
+    "big_return_top5": {
+     "per_RM1": 0.26,
+     "random_picks_per_RM1": 0.156
+    },
+    "big_return_top10": {
+     "per_RM1": 0.521,
+     "random_picks_per_RM1": 0.314
+    }
+   },
+   "All": {
+    "draws": 4180,
+    "loglik_gain_millinats_per_winner": -8.523,
+    "top1": {
+     "hits": 19,
+     "expected": 9.6,
+     "lift": 1.978,
+     "z": 3.03,
+     "random_picks_hits": 18
+    },
+    "top5": {
+     "hits": 51,
+     "expected": 48.0,
+     "lift": 1.062,
+     "z": 0.43,
+     "random_picks_hits": 51
+    },
+    "top10": {
+     "hits": 97,
+     "expected": 96.0,
+     "lift": 1.01,
+     "z": 0.1,
+     "random_picks_hits": 104
+    },
+    "top23": {
+     "hits": 223,
+     "expected": 220.9,
+     "lift": 1.01,
+     "z": 0.14,
+     "random_picks_hits": 224
+    },
+    "top100": {
+     "hits": 967,
+     "expected": 960.3,
+     "lift": 1.007,
+     "z": 0.22,
+     "random_picks_hits": 961
+    },
+    "big_return_top1": {
+     "per_RM1": 0.646,
+     "random_picks_per_RM1": 1.493
+    },
+    "big_return_top5": {
+     "per_RM1": 0.424,
+     "random_picks_per_RM1": 1.001
+    },
+    "big_return_top10": {
+     "per_RM1": 0.452,
+     "random_picks_per_RM1": 0.809
+    }
+   }
+  }
+ }
+}

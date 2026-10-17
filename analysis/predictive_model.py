@@ -311,7 +311,7 @@ def predict(date, operators, k):
     data, codes, labels, factors, dates = load()
     ctx = ce.date_context(date)
     # append the target date as a new date index
-    new = len(dates)
+    new = len(codes[factors[0]])
     codes2 = {}
     for f in factors:
         lab = ctx[f]

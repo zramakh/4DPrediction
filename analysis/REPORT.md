@@ -333,6 +333,71 @@ one number, not about dates, weekdays or astrological conditions, and it
 should be checked against the operators' official results before anything
 is read into it.
 
+## 7. A predictive formula, tested on draws it never saw
+
+`python3 analysis/predictive_model.py` (~2 min) builds, tunes and tests it.
+`python3 analysis/predictive_model.py predict --date YYYY-MM-DD [--operator Magnum] [--k 5]`
+prints the top K numbers for any future draw.
+
+**The formula.** For a draw of operator *op* on date *t*, every number *n* gets
+
+```
+score(n) = w_hot  * log[(wins_op(n) + a) / (expected + a)]                 overall hot number
+         + w_pool * (same, all operators pooled)
+         + w_dig  * Σ_pos log[p_op(pos, digit) / 0.1]                       recent digit bias (half-life 300 draws)
+         + w_cdig / 84 * Σ_f Σ_pos log[p(pos, digit | f = f(t)) / p(pos, digit)]
+         + w_cnum / 84 * Σ_f log[(wins(n | f = f(t)) + a) / (expected + a)]
+         + w_cbox / 84 * Σ_f log[(wins(i-Box(n) | f = f(t)) + a) / (expected + a)]
+```
+
+f runs over all 84 date parameters (section 6). The picks are the K
+top-scoring numbers.
+
+**Protocol.**
+1. Count from draws before 2012.
+2. Choose the weights and smoothing on 2012–2017 by the likelihood the
+   formula gives the real winners (74,000 of them).
+3. Freeze the formula.
+4. Test it on 2018 – Oct 2026 (4,180 draws). For each test year, re-learn
+   the counts from all earlier draws only.
+
+**Tuning outcome.** Most ingredients made the validation predictions *worse*
+at every weight tried. That includes hot numbers (1024 among them), pooled hot
+numbers, and the number-level "wins under this condition" signal. Only tiny
+weights on the recent digit bias, the conditional digit signal and the
+conditional i-Box signal helped, by 0.007 thousandths of a nat per winner,
+effectively nothing. Frozen formula: `w_dig = 0.05, w_cdig = 0.25,
+w_cbox = 0.02`, all others 0 (`analysis/predictive_model_config.json`).
+
+**Test on unseen draws (2018–2026, all operators).**
+
+| Picks per draw | Wins (any prize) | Random expectation | Lift | z |
+|---|---|---|---|---|
+| Top 5 | 54 | 48.0 | 1.13× | +0.9 |
+| Top 10 | 111 | 96.0 | 1.16× | +1.5 |
+| Top 23 | 243 | 220.9 | 1.10× | +1.5 |
+| Top 100 | 963 | 960.3 | 1.00× | +0.1 |
+
+Per operator, top 10: Magnum 1.03×, Sports Toto 1.22×, Da Ma Cai 1.23× (all
+|z| < 1.5). None of this is statistically distinguishable from random
+picking. The year-by-year top-10 counts swing from 2 to 22 hits against ~9–12
+expected.
+
+Big Forecast returns per RM1 in the test: top 1 RM1.09, top 5 RM0.60, top
+10 RM0.63. A random number returns RM0.64 on average. Returns over a few
+thousand draws are dominated by whether a 1st/2nd prize happened to land:
+the simulated random picks run alongside the test returned anywhere from
+RM0.16 to RM2.89 per RM1. The top-1 figure is one lucky top-prize hit, not
+an edge. Breaking even needs about 1.56× the random hit rate *sustained*.
+The formula's 1.0–1.16× is within noise of 1.0.
+
+The hot-number baseline did no better (1.01× for top 10 and top 23).
+
+**Bottom line.** Combining every parameter we have into one tuned formula,
+and testing it honestly on later draws, gives results consistent with random
+picking. The formula is kept as a tool: it produces numbers for any date,
+but no claim is made that they are more likely to win.
+
 ## Conclusion
 
 The draws are fair for practical purposes. Frequency, recency, "overdue",
