@@ -67,6 +67,23 @@ def score(picks_by_op, win):
             "hits": hits}
 
 
+def ml_picks_multi(path):
+    """{date: {model: {op: picks}}} from a multi-date ml_model.py predict log."""
+    out, cur = {}, None
+    for line in open(path):
+        m = re.match(r"Picks for (\d{4}-\d{2}-\d{2})", line)
+        if m:
+            cur = out.setdefault(m.group(1), {})
+            continue
+        m = re.match(r"\s+(\S+)\s+(Magnum|Sports Toto|Da Ma Cai)\s+([\d ]+)$", line.rstrip())
+        if m and cur is not None:
+            cur.setdefault(f"ML {m.group(1)}", {})[m.group(2)] = [int(x) for x in m.group(3).split()]
+    return out
+
+
+SELECTED = ["single jupiter_nakshatra / num_op", "single yellow_black_path / num_op", "single month_branch / dig_op"]
+
+
 def ml_picks(path):
     out = {}
     for line in open(path):
@@ -80,8 +97,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int, default=3)
     ap.add_argument("--ml", action="append", default=[])
+    ap.add_argument("--ml-multi", help="one ml_model.py predict log holding several dates")
+    ap.add_argument("--frozen", action="store_true",
+                    help="train once on draws before the first held-out date (no updating between held-out draws)")
     a = ap.parse_args()
     ml_logs = dict(x.split("=", 1) for x in a.ml)
+    ml_multi = ml_picks_multi(a.ml_multi) if a.ml_multi else {}
 
     data, codes, labels, rows, draws, year_of = am.load()
     am._YEAR = year_of
@@ -94,12 +115,17 @@ def main():
     rng = np.random.default_rng(2026)
     table = {}          # formula -> {date: score}
     random_scores = {}
+    cache = {}
     for D in held:
         di = dates.index(D)
         win = results(D)
-        m = rows["date"] < di
-        c = am.Counts(am.VEDIC + am.CHINESE, codes)
-        c.add(rows["date"][m], rows["op_ix"][m], rows["num"][m])
+        cut = dates.index(held[0]) if a.frozen else di      # training uses draws before `cut` only
+        m = rows["date"] < cut
+        if cut not in cache:
+            c = am.Counts(am.VEDIC + am.CHINESE, codes)
+            c.add(rows["date"][m], rows["op_ix"][m], rows["num"][m])
+            cache = {cut: c}
+        c = cache[cut]
         # 468 single-parameter formulas
         for f in am.VEDIC + am.CHINESE:
             for kind in am.KINDS:
@@ -114,7 +140,7 @@ def main():
             picks = {op: np.argsort(-am.score(c, formula, di, o))[:10].tolist() for o, op in enumerate(OPS)}
             table.setdefault(f"S8 {v} formula", {})[D] = score(picks, win)
         # section-7 digit formula
-        tab7 = pm.Tables(pdata, pcodes, pfactors, pdata["date"] < di,
+        tab7 = pm.Tables(pdata, pcodes, pfactors, pdata["date"] < cut,
                          alphas=sorted({int(k.split("_a")[1]) for k in pweights if "_a" in k}) or [10],
                          betas=sorted({int(k.split("_b")[1]) for k in pweights if "_b" in k}) or [50],
                          half_lives=sorted({int(k.split("_h")[1]) for k in pweights if "_h" in k}) or [0])
@@ -133,6 +159,8 @@ def main():
         if D in ml_logs:
             for name, picks in ml_picks(ml_logs[D]).items():
                 table.setdefault(name, {})[D] = score(picks, win)
+        for name, picks in ml_multi.get(D, {}).items():
+            table.setdefault(name, {})[D] = score(picks, win)
         # random baseline: 468 sets of 30 picks
         random_scores[D] = [score({op: rng.choice(10000, 10, replace=False).tolist() for op in OPS}, win)
                             for _ in range(468)]
@@ -143,7 +171,8 @@ def main():
         return (sum(x["straight"] for x in sc.values()), sum(x["payout"] for x in sc.values()),
                 sum(x["ibox"] for x in sc.values()), sum(x["picks"] for x in sc.values()))
     singles = {k: v for k, v in table.items() if k.startswith("single")}
-    print(f"\nHeld-out draws: {', '.join(held)} (each predicted from earlier draws only)")
+    mode = f"trained once on draws before {held[0]}" if a.frozen else "each predicted from all earlier draws"
+    print(f"\nHeld-out draws: {', '.join(held)} ({mode})")
     for D in held:
         fs = [v[D]["straight"] for v in singles.values()]
         rs = [x["straight"] for x in random_scores[D]]
@@ -165,10 +194,23 @@ def main():
         st, pay, ib, npk = tot(v)
         print(f"  {k:<36} {st} hits, RM{pay} / RM{npk}  " +
               "; ".join(h for D in held for h in v[D]["hits"]))
-    out = {"held_out": held, "formulas": table,
+    print("\nSelected formulas, draw by draw:")
+    for k in SELECTED:
+        st, pay, ib, npk = tot(table[k])
+        print(f"  {k}: total {st} straight hits, {ib} i-Box, Big RM{pay} back on RM{npk}")
+        for D in held:
+            x = table[k][D]
+            print(f"    {D}: {x['straight']} hit(s) {x['hits'] or ''}  i-Box {x['ibox']}  RM{x['payout']} / RM{x['picks']}")
+    rs_tot = [sum(random_scores[D][i]["straight"] for D in held) for i in range(468)]
+    rp_tot = [sum(random_scores[D][i]["payout"] for D in held) for i in range(468)]
+    print(f"\nRandom baseline over these draws (468 sets of 30 picks per draw): straight hits per set "
+          f"mean {np.mean(rs_tot):.2f}, {np.mean(np.array(rs_tot) >= 1):.0%} of sets got at least one, "
+          f"{np.mean(np.array(rs_tot) >= 2):.0%} got two or more; mean Big return RM{np.mean(rp_tot):.0f} on RM{30 * len(held)}")
+    out = {"held_out": held, "frozen": a.frozen, "formulas": table,
            "random_baseline": {D: {"sets_with_hit": sum(x["straight"] > 0 for x in random_scores[D]),
                                    "sets": 468} for D in held}}
-    with open(os.path.join(ROOT, "analysis", "last_draws_results.json"), "w") as fh:
+    name = f"last{len(held)}_{'frozen' if a.frozen else 'rolling'}_results.json"
+    with open(os.path.join(ROOT, "analysis", name), "w") as fh:
         json.dump(out, fh, indent=1)
 
 
