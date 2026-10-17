@@ -1,0 +1,8232 @@
+{
+ "selected": "knn[52 params] beta=0.1",
+ "best_alpha": 1000,
+ "held_out": [
+  "2026-10-04",
+  "2026-10-07",
+  "2026-10-10",
+  "2026-10-11",
+  "2026-10-14"
+ ],
+ "models": {
+  "global": {
+   "validation": {
+    "ll": -31.39979483355914,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 2680.0,
+    "hot16_hits": 124,
+    "hot16_pay": 34640.0,
+    "cold1_hits": 11,
+    "cold1_pay": 3700.0,
+    "cold16_hits": 115,
+    "cold16_pay": 31160.0
+   },
+   "test": {
+    "ll": -50.40476880867362,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 3240.0,
+    "hot16_hits": 157,
+    "hot16_pay": 46900.0,
+    "cold1_hits": 21,
+    "cold1_pay": 14420.0,
+    "cold16_hits": 167,
+    "cold16_pay": 48660.0
+   },
+   "last5": {
+    "ll": -0.22325564946481524,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[hora_lord] a=50": {
+   "validation": {
+    "ll": -129.71681052021933,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 4000.0,
+    "hot16_hits": 106,
+    "hot16_pay": 31480.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1020.0,
+    "cold16_hits": 128,
+    "cold16_pay": 24700.0
+   },
+   "test": {
+    "ll": -126.94819844942191,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 4180.0,
+    "hot16_hits": 178,
+    "hot16_pay": 42760.0,
+    "cold1_hits": 10,
+    "cold1_pay": 6080.0,
+    "cold16_hits": 148,
+    "cold16_pay": 40260.0
+   },
+   "last5": {
+    "ll": -0.044284632915480904,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-10 Da Ma Cai 2759"
+    ]
+   }
+  },
+  "match[moon_rashi] a=50": {
+   "validation": {
+    "ll": -181.11309623427042,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 2380.0,
+    "hot16_hits": 109,
+    "hot16_pay": 34440.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1100.0,
+    "cold16_hits": 129,
+    "cold16_pay": 28420.0
+   },
+   "test": {
+    "ll": -213.57333136815743,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 5300.0,
+    "hot16_hits": 150,
+    "hot16_pay": 45500.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1020.0,
+    "cold16_hits": 152,
+    "cold16_pay": 31000.0
+   },
+   "last5": {
+    "ll": -0.5378959459207973,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[nine_star_year] a=50": {
+   "validation": {
+    "ll": -146.7458968647774,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 2780.0,
+    "hot16_hits": 123,
+    "hot16_pay": 33200.0,
+    "cold1_hits": 6,
+    "cold1_pay": 840.0,
+    "cold16_hits": 109,
+    "cold16_pay": 31220.0
+   },
+   "test": {
+    "ll": -194.89919568008602,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 2000.0,
+    "hot16_hits": 155,
+    "hot16_pay": 39860.0,
+    "cold1_hits": 10,
+    "cold1_pay": 4700.0,
+    "cold16_hits": 140,
+    "cold16_pay": 42900.0
+   },
+   "last5": {
+    "ll": -1.8839539133471732,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[day_element] a=50": {
+   "validation": {
+    "ll": -90.78499896893612,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 3940.0,
+    "hot16_hits": 115,
+    "hot16_pay": 36160.0,
+    "cold1_hits": 4,
+    "cold1_pay": 600.0,
+    "cold16_hits": 125,
+    "cold16_pay": 34620.0
+   },
+   "test": {
+    "ll": -116.33247678808641,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 6700.0,
+    "hot16_hits": 171,
+    "hot16_pay": 54320.0,
+    "cold1_hits": 7,
+    "cold1_pay": 2980.0,
+    "cold16_hits": 171,
+    "cold16_pay": 68220.0
+   },
+   "last5": {
+    "ll": -0.722765603349083,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[lagna_rashi] a=50": {
+   "validation": {
+    "ll": -165.59680008833016,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 1260.0,
+    "hot16_hits": 122,
+    "hot16_pay": 34280.0,
+    "cold1_hits": 9,
+    "cold1_pay": 4280.0,
+    "cold16_hits": 123,
+    "cold16_pay": 28940.0
+   },
+   "test": {
+    "ll": -210.82260845978794,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 4240.0,
+    "hot16_hits": 171,
+    "hot16_pay": 51600.0,
+    "cold1_hits": 8,
+    "cold1_pay": 840.0,
+    "cold16_hits": 148,
+    "cold16_pay": 56620.0
+   },
+   "last5": {
+    "ll": 0.09521731765456332,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 500.0,
+    "detail": [
+     "cold 10-07 Da Ma Cai 3106"
+    ]
+   }
+  },
+  "match[saturn_nakshatra] a=50": {
+   "validation": {
+    "ll": -1716.1916123356027,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 720.0,
+    "hot16_hits": 98,
+    "hot16_pay": 25000.0,
+    "cold1_hits": 6,
+    "cold1_pay": 480.0,
+    "cold16_hits": 115,
+    "cold16_pay": 32820.0
+   },
+   "test": {
+    "ll": -1016.9562621268252,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 3820.0,
+    "hot16_hits": 167,
+    "hot16_pay": 51300.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3840.0,
+    "cold16_hits": 170,
+    "cold16_pay": 50000.0
+   },
+   "last5": {
+    "ll": -1.0141102646132982,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 9641"
+    ]
+   }
+  },
+  "match[hora_lord] a=200": {
+   "validation": {
+    "ll": -124.24660760930973,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 4000.0,
+    "hot16_hits": 106,
+    "hot16_pay": 31480.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1020.0,
+    "cold16_hits": 128,
+    "cold16_pay": 24700.0
+   },
+   "test": {
+    "ll": -123.58987965740808,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 4180.0,
+    "hot16_hits": 178,
+    "hot16_pay": 42760.0,
+    "cold1_hits": 10,
+    "cold1_pay": 6080.0,
+    "cold16_hits": 148,
+    "cold16_pay": 40260.0
+   },
+   "last5": {
+    "ll": -0.044192095184070246,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-10 Da Ma Cai 2759"
+    ]
+   }
+  },
+  "match[moon_rashi] a=200": {
+   "validation": {
+    "ll": -174.9725927812324,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 2380.0,
+    "hot16_hits": 109,
+    "hot16_pay": 34440.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1100.0,
+    "cold16_hits": 129,
+    "cold16_pay": 28420.0
+   },
+   "test": {
+    "ll": -208.71154693747735,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 5300.0,
+    "hot16_hits": 150,
+    "hot16_pay": 45500.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1020.0,
+    "cold16_hits": 152,
+    "cold16_pay": 31000.0
+   },
+   "last5": {
+    "ll": -0.5272889545961634,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[nine_star_year] a=200": {
+   "validation": {
+    "ll": -141.7882469556703,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 2780.0,
+    "hot16_hits": 123,
+    "hot16_pay": 33200.0,
+    "cold1_hits": 6,
+    "cold1_pay": 840.0,
+    "cold16_hits": 109,
+    "cold16_pay": 31220.0
+   },
+   "test": {
+    "ll": -190.92123431747297,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 2000.0,
+    "hot16_hits": 155,
+    "hot16_pay": 39860.0,
+    "cold1_hits": 10,
+    "cold1_pay": 4700.0,
+    "cold16_hits": 140,
+    "cold16_pay": 42900.0
+   },
+   "last5": {
+    "ll": -1.8607334792024635,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[day_element] a=200": {
+   "validation": {
+    "ll": -89.83329240895031,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 3940.0,
+    "hot16_hits": 115,
+    "hot16_pay": 36160.0,
+    "cold1_hits": 4,
+    "cold1_pay": 600.0,
+    "cold16_hits": 125,
+    "cold16_pay": 34620.0
+   },
+   "test": {
+    "ll": -115.58145609290082,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 6700.0,
+    "hot16_hits": 171,
+    "hot16_pay": 54320.0,
+    "cold1_hits": 7,
+    "cold1_pay": 2980.0,
+    "cold16_hits": 171,
+    "cold16_pay": 68220.0
+   },
+   "last5": {
+    "ll": -0.7188093621701439,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[lagna_rashi] a=200": {
+   "validation": {
+    "ll": -160.0460624950356,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 1260.0,
+    "hot16_hits": 122,
+    "hot16_pay": 34280.0,
+    "cold1_hits": 9,
+    "cold1_pay": 4280.0,
+    "cold16_hits": 122,
+    "cold16_pay": 28880.0
+   },
+   "test": {
+    "ll": -206.1921835120263,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 4240.0,
+    "hot16_hits": 171,
+    "hot16_pay": 51600.0,
+    "cold1_hits": 8,
+    "cold1_pay": 840.0,
+    "cold16_hits": 148,
+    "cold16_pay": 56620.0
+   },
+   "last5": {
+    "ll": 0.09720833513300248,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 500.0,
+    "detail": [
+     "cold 10-07 Da Ma Cai 3106"
+    ]
+   }
+  },
+  "match[saturn_nakshatra] a=200": {
+   "validation": {
+    "ll": -829.7541700419397,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 720.0,
+    "hot16_hits": 98,
+    "hot16_pay": 25000.0,
+    "cold1_hits": 7,
+    "cold1_pay": 540.0,
+    "cold16_hits": 115,
+    "cold16_pay": 32820.0
+   },
+   "test": {
+    "ll": -591.0685634497559,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 3820.0,
+    "hot16_hits": 167,
+    "hot16_pay": 51300.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3840.0,
+    "cold16_hits": 170,
+    "cold16_pay": 50000.0
+   },
+   "last5": {
+    "ll": -0.966038447699235,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 9641"
+    ]
+   }
+  },
+  "match[hora_lord] a=1000": {
+   "validation": {
+    "ll": -102.97367179175664,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 4000.0,
+    "hot16_hits": 105,
+    "hot16_pay": 31740.0,
+    "cold1_hits": 8,
+    "cold1_pay": 1080.0,
+    "cold16_hits": 132,
+    "cold16_pay": 25500.0
+   },
+   "test": {
+    "ll": -109.546827846212,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 4060.0,
+    "hot16_hits": 173,
+    "hot16_pay": 42020.0,
+    "cold1_hits": 9,
+    "cold1_pay": 5900.0,
+    "cold16_hits": 150,
+    "cold16_pay": 38860.0
+   },
+   "last5": {
+    "ll": -0.043826624712709455,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-10 Da Ma Cai 2759"
+    ]
+   }
+  },
+  "match[moon_rashi] a=1000": {
+   "validation": {
+    "ll": -147.8095584131853,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 2140.0,
+    "hot16_hits": 111,
+    "hot16_pay": 31800.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1100.0,
+    "cold16_hits": 132,
+    "cold16_pay": 29440.0
+   },
+   "test": {
+    "ll": -186.1829189171433,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 4940.0,
+    "hot16_hits": 153,
+    "hot16_pay": 47180.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1700.0,
+    "cold16_hits": 152,
+    "cold16_pay": 30240.0
+   },
+   "last5": {
+    "ll": -0.4775397209876663,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[nine_star_year] a=1000": {
+   "validation": {
+    "ll": -119.95886068534203,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 2780.0,
+    "hot16_hits": 121,
+    "hot16_pay": 30760.0,
+    "cold1_hits": 6,
+    "cold1_pay": 840.0,
+    "cold16_hits": 105,
+    "cold16_pay": 29920.0
+   },
+   "test": {
+    "ll": -172.36295970344494,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 2120.0,
+    "hot16_hits": 153,
+    "hot16_pay": 39620.0,
+    "cold1_hits": 10,
+    "cold1_pay": 4700.0,
+    "cold16_hits": 140,
+    "cold16_pay": 42080.0
+   },
+   "last5": {
+    "ll": -1.7471040130920492,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[day_element] a=1000": {
+   "validation": {
+    "ll": -85.14714538740402,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 3760.0,
+    "hot16_hits": 128,
+    "hot16_pay": 44740.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1840.0,
+    "cold16_hits": 121,
+    "cold16_pay": 32880.0
+   },
+   "test": {
+    "ll": -111.80472679343245,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 6700.0,
+    "hot16_hits": 168,
+    "hot16_pay": 53460.0,
+    "cold1_hits": 7,
+    "cold1_pay": 2980.0,
+    "cold16_hits": 172,
+    "cold16_pay": 65720.0
+   },
+   "last5": {
+    "ll": -0.6986409371165059,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[lagna_rashi] a=1000": {
+   "validation": {
+    "ll": -135.5291542250215,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 1200.0,
+    "hot16_hits": 117,
+    "hot16_pay": 33380.0,
+    "cold1_hits": 9,
+    "cold1_pay": 4400.0,
+    "cold16_hits": 125,
+    "cold16_pay": 31180.0
+   },
+   "test": {
+    "ll": -184.7178448105013,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 4060.0,
+    "hot16_hits": 169,
+    "hot16_pay": 53680.0,
+    "cold1_hits": 5,
+    "cold1_pay": 300.0,
+    "cold16_hits": 147,
+    "cold16_pay": 51460.0
+   },
+   "last5": {
+    "ll": 0.10432124299478934,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 500.0,
+    "detail": [
+     "cold 10-07 Da Ma Cai 3106"
+    ]
+   }
+  },
+  "match[saturn_nakshatra] a=1000": {
+   "validation": {
+    "ll": -279.1074058363752,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 720.0,
+    "hot16_hits": 112,
+    "hot16_pay": 34720.0,
+    "cold1_hits": 7,
+    "cold1_pay": 780.0,
+    "cold16_hits": 112,
+    "cold16_pay": 32700.0
+   },
+   "test": {
+    "ll": -378.5010259044787,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 3700.0,
+    "hot16_hits": 165,
+    "hot16_pay": 50180.0,
+    "cold1_hits": 12,
+    "cold1_pay": 4320.0,
+    "cold16_hits": 161,
+    "cold16_pay": 48540.0
+   },
+   "last5": {
+    "ll": -0.766390648220696,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 9641"
+    ]
+   }
+  },
+  "match[rahu_nakshatra] a=1000": {
+   "validation": {
+    "ll": -300.7465799150525,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 840.0,
+    "hot16_hits": 113,
+    "hot16_pay": 26660.0,
+    "cold1_hits": 3,
+    "cold1_pay": 740.0,
+    "cold16_hits": 114,
+    "cold16_pay": 45460.0
+   },
+   "test": {
+    "ll": -457.5328134873797,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1020.0,
+    "hot16_hits": 149,
+    "hot16_pay": 43240.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1380.0,
+    "cold16_hits": 164,
+    "cold16_pay": 49100.0
+   },
+   "last5": {
+    "ll": 0.4835606763619781,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-11 Magnum 6225"
+    ]
+   }
+  },
+  "match[month_pillar] a=1000": {
+   "validation": {
+    "ll": -364.15946160388984,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 1540.0,
+    "hot16_hits": 117,
+    "hot16_pay": 29920.0,
+    "cold1_hits": 6,
+    "cold1_pay": 600.0,
+    "cold16_hits": 115,
+    "cold16_pay": 26500.0
+   },
+   "test": {
+    "ll": -444.7490899439297,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 1820.0,
+    "hot16_hits": 167,
+    "hot16_pay": 36000.0,
+    "cold1_hits": 7,
+    "cold1_pay": 980.0,
+    "cold16_hits": 140,
+    "cold16_pay": 39600.0
+   },
+   "last5": {
+    "ll": -1.4589579566569644,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-11 Magnum 6709"
+    ]
+   }
+  },
+  "match[kp_asc_sub_lord] a=1000": {
+   "validation": {
+    "ll": -106.91485843302,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 4400.0,
+    "hot16_hits": 125,
+    "hot16_pay": 52280.0,
+    "cold1_hits": 4,
+    "cold1_pay": 5360.0,
+    "cold16_hits": 110,
+    "cold16_pay": 38600.0
+   },
+   "test": {
+    "ll": -148.13667932245565,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 2940.0,
+    "hot16_hits": 164,
+    "hot16_pay": 41980.0,
+    "cold1_hits": 8,
+    "cold1_pay": 8600.0,
+    "cold16_hits": 137,
+    "cold16_pay": 44460.0
+   },
+   "last5": {
+    "ll": -1.220677259371663,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-14 Sports Toto 2131",
+     "cold 10-04 Magnum 1167"
+    ]
+   }
+  },
+  "match[karana] a=1000": {
+   "validation": {
+    "ll": -146.7353895555334,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 3640.0,
+    "hot16_hits": 115,
+    "hot16_pay": 39900.0,
+    "cold1_hits": 7,
+    "cold1_pay": 5980.0,
+    "cold16_hits": 125,
+    "cold16_pay": 31040.0
+   },
+   "test": {
+    "ll": -165.66542075147694,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 2120.0,
+    "hot16_hits": 160,
+    "hot16_pay": 48140.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1320.0,
+    "cold16_hits": 167,
+    "cold16_pay": 51940.0
+   },
+   "last5": {
+    "ll": -1.2235760693632765,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[saturn_nakshatra x saturn_retrograde] a=1000": {
+   "validation": {
+    "ll": -225.5486152066572,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 480.0,
+    "hot16_hits": 116,
+    "hot16_pay": 36840.0,
+    "cold1_hits": 7,
+    "cold1_pay": 3340.0,
+    "cold16_hits": 111,
+    "cold16_pay": 37840.0
+   },
+   "test": {
+    "ll": -450.02810063363836,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 2500.0,
+    "hot16_hits": 168,
+    "hot16_pay": 28320.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1720.0,
+    "cold16_hits": 164,
+    "cold16_pay": 51520.0
+   },
+   "last5": {
+    "ll": -1.6847344998169405,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 3043"
+    ]
+   }
+  },
+  "match[kp_moon_number x nayin] a=1000": {
+   "validation": {
+    "ll": -53.78565353984479,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 4980.0,
+    "hot16_hits": 110,
+    "hot16_pay": 36640.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3760.0,
+    "cold16_hits": 133,
+    "cold16_pay": 37960.0
+   },
+   "test": {
+    "ll": -65.6423749985789,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 4180.0,
+    "hot16_hits": 161,
+    "hot16_pay": 50220.0,
+    "cold1_hits": 20,
+    "cold1_pay": 8460.0,
+    "cold16_hits": 174,
+    "cold16_pay": 48360.0
+   },
+   "last5": {
+    "ll": -0.6590591327768223,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[yoga x mercury_retrograde] a=1000": {
+   "validation": {
+    "ll": -298.6999947042925,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 1640.0,
+    "hot16_hits": 120,
+    "hot16_pay": 36540.0,
+    "cold1_hits": 5,
+    "cold1_pay": 540.0,
+    "cold16_hits": 111,
+    "cold16_pay": 26700.0
+   },
+   "test": {
+    "ll": -391.41784577240935,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 17,
+    "hot1_pay": 3740.0,
+    "hot16_hits": 150,
+    "hot16_pay": 45340.0,
+    "cold1_hits": 8,
+    "cold1_pay": 3160.0,
+    "cold16_hits": 162,
+    "cold16_pay": 50300.0
+   },
+   "last5": {
+    "ll": 0.39581527387818916,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[karana x mercury_retrograde] a=1000": {
+   "validation": {
+    "ll": -190.8750739682533,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 13,
+    "hot1_pay": 1940.0,
+    "hot16_hits": 114,
+    "hot16_pay": 35240.0,
+    "cold1_hits": 14,
+    "cold1_pay": 4760.0,
+    "cold16_hits": 118,
+    "cold16_pay": 37700.0
+   },
+   "test": {
+    "ll": -233.55312203621668,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 2940.0,
+    "hot16_hits": 162,
+    "hot16_pay": 43660.0,
+    "cold1_hits": 12,
+    "cold1_pay": 1880.0,
+    "cold16_hits": 152,
+    "cold16_pay": 36820.0
+   },
+   "last5": {
+    "ll": -1.4493587712452434,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-11 Sports Toto 7072"
+    ]
+   }
+  },
+  "match[mercury_nakshatra x year_pillar] a=1000": {
+   "validation": {
+    "ll": -33.44156465015069,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 2980.0,
+    "hot16_hits": 123,
+    "hot16_pay": 39020.0,
+    "cold1_hits": 11,
+    "cold1_pay": 3700.0,
+    "cold16_hits": 117,
+    "cold16_pay": 33220.0
+   },
+   "test": {
+    "ll": -66.5373355111794,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 2740.0,
+    "hot16_hits": 160,
+    "hot16_pay": 49560.0,
+    "cold1_hits": 21,
+    "cold1_pay": 15360.0,
+    "cold16_hits": 166,
+    "cold16_pay": 50800.0
+   },
+   "last5": {
+    "ll": -0.6176942711191398,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 240.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-04 Magnum 3144",
+     "hot 10-14 Magnum 7484",
+     "cold 10-07 Da Ma Cai 8612"
+    ]
+   }
+  },
+  "match[saturn_nakshatra x mars_retrograde] a=1000": {
+   "validation": {
+    "ll": -238.87103618460443,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 1200.0,
+    "hot16_hits": 113,
+    "hot16_pay": 28460.0,
+    "cold1_hits": 5,
+    "cold1_pay": 540.0,
+    "cold16_hits": 109,
+    "cold16_pay": 30900.0
+   },
+   "test": {
+    "ll": -382.9497849284195,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 10820.0,
+    "hot16_hits": 170,
+    "hot16_pay": 50840.0,
+    "cold1_hits": 10,
+    "cold1_pay": 2020.0,
+    "cold16_hits": 149,
+    "cold16_pay": 32440.0
+   },
+   "last5": {
+    "ll": -0.8128523147996407,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-11 Magnum 3775"
+    ]
+   }
+  },
+  "match[saturn_nakshatra x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -276.1597929057705,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 1220.0,
+    "hot16_hits": 112,
+    "hot16_pay": 34920.0,
+    "cold1_hits": 10,
+    "cold1_pay": 4340.0,
+    "cold16_hits": 115,
+    "cold16_pay": 34300.0
+   },
+   "test": {
+    "ll": -369.4175673167212,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 3520.0,
+    "hot16_hits": 169,
+    "hot16_pay": 55880.0,
+    "cold1_hits": 12,
+    "cold1_pay": 4700.0,
+    "cold16_hits": 156,
+    "cold16_pay": 49400.0
+   },
+   "last5": {
+    "ll": -0.5593770659982457,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 9641"
+    ]
+   }
+  },
+  "match[lagna_rashi x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -141.23419080413103,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 1820.0,
+    "hot16_hits": 123,
+    "hot16_pay": 32980.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1020.0,
+    "cold16_hits": 126,
+    "cold16_pay": 31720.0
+   },
+   "test": {
+    "ll": -197.04613542285816,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 4060.0,
+    "hot16_hits": 159,
+    "hot16_pay": 48520.0,
+    "cold1_hits": 7,
+    "cold1_pay": 4040.0,
+    "cold16_hits": 166,
+    "cold16_pay": 57000.0
+   },
+   "last5": {
+    "ll": -0.06433494060053627,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 500.0,
+    "detail": [
+     "cold 10-07 Da Ma Cai 3106"
+    ]
+   }
+  },
+  "match[saturn_combust x solar_term] a=1000": {
+   "validation": {
+    "ll": -243.74764612552698,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 15,
+    "hot1_pay": 3320.0,
+    "hot16_hits": 131,
+    "hot16_pay": 37440.0,
+    "cold1_hits": 6,
+    "cold1_pay": 720.0,
+    "cold16_hits": 121,
+    "cold16_pay": 42920.0
+   },
+   "test": {
+    "ll": -328.4429974848234,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 4060.0,
+    "hot16_hits": 168,
+    "hot16_pay": 51660.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1320.0,
+    "cold16_hits": 162,
+    "cold16_pay": 47460.0
+   },
+   "last5": {
+    "ll": 1.05907582943315,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 9852"
+    ]
+   }
+  },
+  "match[day_god x nine_star_month] a=1000": {
+   "validation": {
+    "ll": -376.7360719203316,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 4180.0,
+    "hot16_hits": 118,
+    "hot16_pay": 28240.0,
+    "cold1_hits": 10,
+    "cold1_pay": 4220.0,
+    "cold16_hits": 109,
+    "cold16_pay": 24080.0
+   },
+   "test": {
+    "ll": -427.47355057944384,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 17,
+    "hot1_pay": 5100.0,
+    "hot16_hits": 166,
+    "hot16_pay": 49300.0,
+    "cold1_hits": 8,
+    "cold1_pay": 1160.0,
+    "cold16_hits": 146,
+    "cold16_pay": 50120.0
+   },
+   "last5": {
+    "ll": -1.6154395514448368,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Sports Toto 5484"
+    ]
+   }
+  },
+  "match[day_element x masa x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -54.83118900976944,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 7400.0,
+    "hot16_hits": 115,
+    "hot16_pay": 38440.0,
+    "cold1_hits": 4,
+    "cold1_pay": 2680.0,
+    "cold16_hits": 120,
+    "cold16_pay": 31100.0
+   },
+   "test": {
+    "ll": -97.38570619063267,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 1620.0,
+    "hot16_hits": 153,
+    "hot16_pay": 38320.0,
+    "cold1_hits": 11,
+    "cold1_pay": 4140.0,
+    "cold16_hits": 138,
+    "cold16_pay": 41900.0
+   },
+   "last5": {
+    "ll": 0.0840771468031406,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[adhika_masa x nayin x venus_retrograde] a=1000": {
+   "validation": {
+    "ll": -273.8468655457851,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 1760.0,
+    "hot16_hits": 114,
+    "hot16_pay": 23780.0,
+    "cold1_hits": 13,
+    "cold1_pay": 1820.0,
+    "cold16_hits": 127,
+    "cold16_pay": 32760.0
+   },
+   "test": {
+    "ll": -373.62693129889675,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 2280.0,
+    "hot16_hits": 166,
+    "hot16_pay": 39420.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1600.0,
+    "cold16_hits": 173,
+    "cold16_pay": 46460.0
+   },
+   "last5": {
+    "ll": -1.9925416194203227,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 680.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-10 Da Ma Cai 2270",
+     "hot 10-14 Magnum 8480"
+    ]
+   }
+  },
+  "match[day_element x mars_rashi x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -57.5339827655162,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 660.0,
+    "hot16_hits": 115,
+    "hot16_pay": 31360.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1140.0,
+    "cold16_hits": 128,
+    "cold16_pay": 25520.0
+   },
+   "test": {
+    "ll": -84.57784751198919,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 1880.0,
+    "hot16_hits": 165,
+    "hot16_pay": 43220.0,
+    "cold1_hits": 17,
+    "cold1_pay": 10580.0,
+    "cold16_hits": 142,
+    "cold16_pay": 31460.0
+   },
+   "last5": {
+    "ll": -0.2941836116717279,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 3,
+    "hot16_pay": 300.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-10 Magnum 8384",
+     "hot 10-11 Da Ma Cai 9424",
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[saturn_combust x nayin x venus_combust] a=1000": {
+   "validation": {
+    "ll": -300.1080197464295,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 4340.0,
+    "hot16_hits": 126,
+    "hot16_pay": 37180.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3960.0,
+    "cold16_hits": 136,
+    "cold16_pay": 31380.0
+   },
+   "test": {
+    "ll": -425.10234248893744,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 18,
+    "hot1_pay": 2740.0,
+    "hot16_hits": 171,
+    "hot16_pay": 45520.0,
+    "cold1_hits": 16,
+    "cold1_pay": 4680.0,
+    "cold16_hits": 173,
+    "cold16_pay": 48740.0
+   },
+   "last5": {
+    "ll": -1.738755216686044,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[saturn_combust x venus_retrograde x mars_nakshatra] a=1000": {
+   "validation": {
+    "ll": -260.84908779708076,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 3960.0,
+    "hot16_hits": 144,
+    "hot16_pay": 51600.0,
+    "cold1_hits": 6,
+    "cold1_pay": 3360.0,
+    "cold16_hits": 119,
+    "cold16_pay": 32680.0
+   },
+   "test": {
+    "ll": -341.5978605161939,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 7080.0,
+    "hot16_hits": 164,
+    "hot16_pay": 43300.0,
+    "cold1_hits": 17,
+    "cold1_pay": 3100.0,
+    "cold16_hits": 175,
+    "cold16_pay": 49240.0
+   },
+   "last5": {
+    "ll": -0.8997383491566979,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 1000.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-07 Da Ma Cai 4925"
+    ]
+   }
+  },
+  "match[nayin x jupiter_retrograde x mars_rashi] a=1000": {
+   "validation": {
+    "ll": -188.44273674612316,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 1340.0,
+    "hot16_hits": 132,
+    "hot16_pay": 33900.0,
+    "cold1_hits": 4,
+    "cold1_pay": 360.0,
+    "cold16_hits": 104,
+    "cold16_pay": 28940.0
+   },
+   "test": {
+    "ll": -277.8816430335638,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 18,
+    "hot1_pay": 4520.0,
+    "hot16_hits": 169,
+    "hot16_pay": 57100.0,
+    "cold1_hits": 11,
+    "cold1_pay": 2060.0,
+    "cold16_hits": 163,
+    "cold16_pay": 42000.0
+   },
+   "last5": {
+    "ll": -1.0778943349757144,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-10 Sports Toto 7728"
+    ]
+   }
+  },
+  "match[nayin x masa x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -34.95627254158996,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 2800.0,
+    "hot16_hits": 118,
+    "hot16_pay": 34980.0,
+    "cold1_hits": 8,
+    "cold1_pay": 3280.0,
+    "cold16_hits": 113,
+    "cold16_pay": 27980.0
+   },
+   "test": {
+    "ll": -55.26476113275517,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 2120.0,
+    "hot16_hits": 149,
+    "hot16_pay": 42360.0,
+    "cold1_hits": 21,
+    "cold1_pay": 12220.0,
+    "cold16_hits": 163,
+    "cold16_pay": 44220.0
+   },
+   "last5": {
+    "ll": -0.09596624643710383,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[nayin x nakshatra_pada x lunar_month] a=1000": {
+   "validation": {
+    "ll": -36.19005324781293,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 2920.0,
+    "hot16_hits": 121,
+    "hot16_pay": 34220.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3520.0,
+    "cold16_hits": 114,
+    "cold16_pay": 29800.0
+   },
+   "test": {
+    "ll": -57.39995084187494,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 3240.0,
+    "hot16_hits": 153,
+    "hot16_pay": 43160.0,
+    "cold1_hits": 19,
+    "cold1_pay": 11740.0,
+    "cold16_hits": 158,
+    "cold16_pay": 45640.0
+   },
+   "last5": {
+    "ll": -0.22325564946481524,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[venus_retrograde x mars_rashi x moon_rashi] a=1000": {
+   "validation": {
+    "ll": -299.24988597319714,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 15,
+    "hot1_pay": 4740.0,
+    "hot16_hits": 114,
+    "hot16_pay": 35400.0,
+    "cold1_hits": 11,
+    "cold1_pay": 7600.0,
+    "cold16_hits": 126,
+    "cold16_pay": 48200.0
+   },
+   "test": {
+    "ll": -440.05333086300874,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 1020.0,
+    "hot16_hits": 161,
+    "hot16_pay": 44060.0,
+    "cold1_hits": 15,
+    "cold1_pay": 5260.0,
+    "cold16_hits": 180,
+    "cold16_pay": 46300.0
+   },
+   "last5": {
+    "ll": 2.0289783384834337,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Sports Toto 6901"
+    ]
+   }
+  },
+  "match[day_element x mars_nakshatra x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -47.336776642390234,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 2980.0,
+    "hot16_hits": 130,
+    "hot16_pay": 36820.0,
+    "cold1_hits": 9,
+    "cold1_pay": 3580.0,
+    "cold16_hits": 121,
+    "cold16_pay": 29100.0
+   },
+   "test": {
+    "ll": -70.32695867894816,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 2180.0,
+    "hot16_hits": 156,
+    "hot16_pay": 35120.0,
+    "cold1_hits": 17,
+    "cold1_pay": 8940.0,
+    "cold16_hits": 165,
+    "cold16_pay": 37300.0
+   },
+   "last5": {
+    "ll": -0.2831025840093203,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 120.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-10 Magnum 8384",
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[nayin] a=1000": {
+   "validation": {
+    "ll": -280.15282764964394,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 142,
+    "hot16_pay": 39120.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1260.0,
+    "cold16_hits": 128,
+    "cold16_pay": 36580.0
+   },
+   "test": {
+    "ll": -376.3002527392966,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 6500.0,
+    "hot16_hits": 167,
+    "hot16_pay": 49720.0,
+    "cold1_hits": 11,
+    "cold1_pay": 4140.0,
+    "cold16_hits": 151,
+    "cold16_pay": 41040.0
+   },
+   "last5": {
+    "ll": -1.872948306265044,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[nine_star_month] a=1000": {
+   "validation": {
+    "ll": -125.95584064998243,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 1780.0,
+    "hot16_hits": 128,
+    "hot16_pay": 32920.0,
+    "cold1_hits": 16,
+    "cold1_pay": 4240.0,
+    "cold16_hits": 123,
+    "cold16_pay": 45860.0
+   },
+   "test": {
+    "ll": -169.60826819618507,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 7,
+    "hot1_pay": 660.0,
+    "hot16_hits": 174,
+    "hot16_pay": 45600.0,
+    "cold1_hits": 10,
+    "cold1_pay": 9100.0,
+    "cold16_hits": 170,
+    "cold16_pay": 54260.0
+   },
+   "last5": {
+    "ll": 0.5490550856359835,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-11 Magnum 0365"
+    ]
+   }
+  },
+  "match[nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -339.26515141548015,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 1540.0,
+    "hot16_hits": 133,
+    "hot16_pay": 36920.0,
+    "cold1_hits": 11,
+    "cold1_pay": 4340.0,
+    "cold16_hits": 136,
+    "cold16_pay": 46020.0
+   },
+   "test": {
+    "ll": -426.0585618947764,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 2180.0,
+    "hot16_hits": 169,
+    "hot16_pay": 56420.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1480.0,
+    "cold16_hits": 134,
+    "cold16_pay": 51480.0
+   },
+   "last5": {
+    "ll": -3.24325548357897,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[mercury_combust] a=1000": {
+   "validation": {
+    "ll": -55.266646085481305,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 2020.0,
+    "hot16_hits": 128,
+    "hot16_pay": 39620.0,
+    "cold1_hits": 9,
+    "cold1_pay": 4280.0,
+    "cold16_hits": 121,
+    "cold16_pay": 35380.0
+   },
+   "test": {
+    "ll": -62.602661204778336,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 4140.0,
+    "hot16_hits": 171,
+    "hot16_pay": 48020.0,
+    "cold1_hits": 13,
+    "cold1_pay": 4760.0,
+    "cold16_hits": 164,
+    "cold16_pay": 54060.0
+   },
+   "last5": {
+    "ll": -0.3289449487024044,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 120.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 2,
+    "cold16_pay": 560.0,
+    "detail": [
+     "hot 10-07 Sports Toto 1311",
+     "hot 10-14 Magnum 7484",
+     "cold 10-04 Sports Toto 9067",
+     "cold 10-10 Magnum 0262"
+    ]
+   }
+  },
+  "match[saturn_combust] a=1000": {
+   "validation": {
+    "ll": -41.0947103997572,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 4760.0,
+    "hot16_hits": 128,
+    "hot16_pay": 28420.0,
+    "cold1_hits": 11,
+    "cold1_pay": 3940.0,
+    "cold16_hits": 119,
+    "cold16_pay": 34000.0
+   },
+   "test": {
+    "ll": -61.35445695290136,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 19,
+    "hot1_pay": 2780.0,
+    "hot16_hits": 166,
+    "hot16_pay": 49900.0,
+    "cold1_hits": 16,
+    "cold1_pay": 1680.0,
+    "cold16_hits": 166,
+    "cold16_pay": 38600.0
+   },
+   "last5": {
+    "ll": -0.12152621677818129,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[kp_asc_star_lord] a=1000": {
+   "validation": {
+    "ll": -130.25085042489644,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 13,
+    "hot1_pay": 1820.0,
+    "hot16_hits": 141,
+    "hot16_pay": 30400.0,
+    "cold1_hits": 9,
+    "cold1_pay": 4640.0,
+    "cold16_hits": 117,
+    "cold16_pay": 36820.0
+   },
+   "test": {
+    "ll": -155.92793485094543,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 3460.0,
+    "hot16_hits": 164,
+    "hot16_pay": 34440.0,
+    "cold1_hits": 5,
+    "cold1_pay": 660.0,
+    "cold16_hits": 165,
+    "cold16_pay": 41940.0
+   },
+   "last5": {
+    "ll": 0.3317808018147994,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-07 Da Ma Cai 7926"
+    ]
+   }
+  },
+  "match[day_god] a=1000": {
+   "validation": {
+    "ll": -148.69058769463422,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 5840.0,
+    "hot16_hits": 125,
+    "hot16_pay": 46900.0,
+    "cold1_hits": 4,
+    "cold1_pay": 480.0,
+    "cold16_hits": 113,
+    "cold16_pay": 41640.0
+   },
+   "test": {
+    "ll": -178.62184631386913,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 4160.0,
+    "hot16_hits": 165,
+    "hot16_pay": 44320.0,
+    "cold1_hits": 13,
+    "cold1_pay": 4760.0,
+    "cold16_hits": 140,
+    "cold16_pay": 53800.0
+   },
+   "last5": {
+    "ll": -0.6675299846580234,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 2,
+    "cold16_pay": 120.0,
+    "detail": [
+     "cold 10-11 Magnum 4601",
+     "cold 10-11 Da Ma Cai 9919"
+    ]
+   }
+  },
+  "match[day_pillar] a=1000": {
+   "validation": {
+    "ll": -361.8111235865744,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 13,
+    "hot1_pay": 1500.0,
+    "hot16_hits": 128,
+    "hot16_pay": 38940.0,
+    "cold1_hits": 4,
+    "cold1_pay": 3040.0,
+    "cold16_hits": 123,
+    "cold16_pay": 35960.0
+   },
+   "test": {
+    "ll": -479.7572463417979,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 2140.0,
+    "hot16_hits": 169,
+    "hot16_pay": 41940.0,
+    "cold1_hits": 19,
+    "cold1_pay": 3480.0,
+    "cold16_hits": 175,
+    "cold16_pay": 52860.0
+   },
+   "last5": {
+    "ll": -3.626891985328289,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-14 Da Ma Cai 4482"
+    ]
+   }
+  },
+  "match[kp_moon_star_lord] a=1000": {
+   "validation": {
+    "ll": -128.87738323633718,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 3040.0,
+    "hot16_hits": 110,
+    "hot16_pay": 29440.0,
+    "cold1_hits": 9,
+    "cold1_pay": 2660.0,
+    "cold16_hits": 126,
+    "cold16_pay": 35620.0
+   },
+   "test": {
+    "ll": -156.90722270744902,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 3040.0,
+    "hot16_hits": 157,
+    "hot16_pay": 34500.0,
+    "cold1_hits": 9,
+    "cold1_pay": 3100.0,
+    "cold16_hits": 169,
+    "cold16_pay": 51680.0
+   },
+   "last5": {
+    "ll": -0.6438642004190521,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[lunar_leap_month x nayin] a=1000": {
+   "validation": {
+    "ll": -282.48654466417713,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 1240.0,
+    "hot16_hits": 142,
+    "hot16_pay": 40120.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1440.0,
+    "cold16_hits": 129,
+    "cold16_pay": 32940.0
+   },
+   "test": {
+    "ll": -383.4402036454104,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 4000.0,
+    "hot16_hits": 185,
+    "hot16_pay": 54760.0,
+    "cold1_hits": 11,
+    "cold1_pay": 7020.0,
+    "cold16_hits": 153,
+    "cold16_pay": 41900.0
+   },
+   "last5": {
+    "ll": -2.0108487762275704,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[venus_combust x day_element] a=1000": {
+   "validation": {
+    "ll": -111.10518681606781,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 420.0,
+    "hot16_hits": 137,
+    "hot16_pay": 47880.0,
+    "cold1_hits": 9,
+    "cold1_pay": 2080.0,
+    "cold16_hits": 127,
+    "cold16_pay": 41500.0
+   },
+   "test": {
+    "ll": -158.85329249672318,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 3780.0,
+    "hot16_hits": 176,
+    "hot16_pay": 49020.0,
+    "cold1_hits": 14,
+    "cold1_pay": 7260.0,
+    "cold16_hits": 164,
+    "cold16_pay": 60200.0
+   },
+   "last5": {
+    "ll": -1.2602334922810292,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[kp_sun_sub_lord x nayin] a=1000": {
+   "validation": {
+    "ll": -264.33473552444224,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 780.0,
+    "hot16_hits": 136,
+    "hot16_pay": 40380.0,
+    "cold1_hits": 7,
+    "cold1_pay": 540.0,
+    "cold16_hits": 139,
+    "cold16_pay": 45740.0
+   },
+   "test": {
+    "ll": -436.81631072190595,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 3760.0,
+    "hot16_hits": 171,
+    "hot16_pay": 49480.0,
+    "cold1_hits": 13,
+    "cold1_pay": 8820.0,
+    "cold16_hits": 154,
+    "cold16_pay": 46800.0
+   },
+   "last5": {
+    "ll": -0.476005711478932,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[jupiter_nakshatra x hour_stem_19h] a=1000": {
+   "validation": {
+    "ll": -314.30304018418906,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 1140.0,
+    "hot16_hits": 145,
+    "hot16_pay": 48680.0,
+    "cold1_hits": 8,
+    "cold1_pay": 3840.0,
+    "cold16_hits": 133,
+    "cold16_pay": 40380.0
+   },
+   "test": {
+    "ll": -444.2384625008182,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 3400.0,
+    "hot16_hits": 172,
+    "hot16_pay": 40720.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1080.0,
+    "cold16_hits": 167,
+    "cold16_pay": 47740.0
+   },
+   "last5": {
+    "ll": -1.559661429274301,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-07 Da Ma Cai 6721"
+    ]
+   }
+  },
+  "match[saturn_rashi x day_god] a=1000": {
+   "validation": {
+    "ll": -257.7152528361518,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 4100.0,
+    "hot16_hits": 133,
+    "hot16_pay": 37260.0,
+    "cold1_hits": 3,
+    "cold1_pay": 860.0,
+    "cold16_hits": 100,
+    "cold16_pay": 31780.0
+   },
+   "test": {
+    "ll": -504.9585360599417,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 4520.0,
+    "hot16_hits": 164,
+    "hot16_pay": 40040.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1840.0,
+    "cold16_hits": 168,
+    "cold16_pay": 49300.0
+   },
+   "last5": {
+    "ll": -2.2897501000923883,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-10 Sports Toto 2640"
+    ]
+   }
+  },
+  "match[mars_nakshatra x saturn_combust] a=1000": {
+   "validation": {
+    "ll": -244.8599767640384,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 5,
+    "hot1_pay": 980.0,
+    "hot16_hits": 127,
+    "hot16_pay": 40420.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1340.0,
+    "cold16_hits": 118,
+    "cold16_pay": 32400.0
+   },
+   "test": {
+    "ll": -326.58553219830003,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 6660.0,
+    "hot16_hits": 181,
+    "hot16_pay": 50380.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1100.0,
+    "cold16_hits": 150,
+    "cold16_pay": 49620.0
+   },
+   "last5": {
+    "ll": -0.9812691874552804,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[yoga x kp_asc_number] a=1000": {
+   "validation": {
+    "ll": -44.29688418677078,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 5,
+    "hot1_pay": 3920.0,
+    "hot16_hits": 144,
+    "hot16_pay": 34340.0,
+    "cold1_hits": 6,
+    "cold1_pay": 5360.0,
+    "cold16_hits": 133,
+    "cold16_pay": 41260.0
+   },
+   "test": {
+    "ll": -90.769907840198,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 2640.0,
+    "hot16_hits": 166,
+    "hot16_pay": 45500.0,
+    "cold1_hits": 8,
+    "cold1_pay": 960.0,
+    "cold16_hits": 153,
+    "cold16_pay": 36040.0
+   },
+   "last5": {
+    "ll": -0.6105131221517481,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[mars_combust x saturn_combust] a=1000": {
+   "validation": {
+    "ll": -63.29882235604663,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 2,
+    "hot1_pay": 240.0,
+    "hot16_hits": 134,
+    "hot16_pay": 31340.0,
+    "cold1_hits": 7,
+    "cold1_pay": 2980.0,
+    "cold16_hits": 119,
+    "cold16_pay": 29880.0
+   },
+   "test": {
+    "ll": -74.83293303933206,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 18,
+    "hot1_pay": 3420.0,
+    "hot16_hits": 173,
+    "hot16_pay": 62480.0,
+    "cold1_hits": 17,
+    "cold1_pay": 5200.0,
+    "cold16_hits": 185,
+    "cold16_pay": 56740.0
+   },
+   "last5": {
+    "ll": -0.20359064448632855,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[lunar_leap_month x nayin_element] a=1000": {
+   "validation": {
+    "ll": -101.73802216831658,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 1960.0,
+    "hot16_hits": 140,
+    "hot16_pay": 33380.0,
+    "cold1_hits": 8,
+    "cold1_pay": 1280.0,
+    "cold16_hits": 134,
+    "cold16_pay": 32660.0
+   },
+   "test": {
+    "ll": -128.80280748248808,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 2000.0,
+    "hot16_hits": 178,
+    "hot16_pay": 53940.0,
+    "cold1_hits": 13,
+    "cold1_pay": 3700.0,
+    "cold16_hits": 142,
+    "cold16_pay": 53960.0
+   },
+   "last5": {
+    "ll": -0.2150191520062038,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-07 Da Ma Cai 1195"
+    ]
+   }
+  },
+  "match[paksha x month_pillar] a=1000": {
+   "validation": {
+    "ll": -377.6425351133678,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 5,
+    "hot1_pay": 300.0,
+    "hot16_hits": 129,
+    "hot16_pay": 31760.0,
+    "cold1_hits": 5,
+    "cold1_pay": 540.0,
+    "cold16_hits": 110,
+    "cold16_pay": 22520.0
+   },
+   "test": {
+    "ll": -473.79573737274796,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1500.0,
+    "hot16_hits": 154,
+    "hot16_pay": 41500.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3880.0,
+    "cold16_hits": 134,
+    "cold16_pay": 34900.0
+   },
+   "last5": {
+    "ll": -2.697926361487335,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[day_element x nayin x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -282.48654466417713,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 1240.0,
+    "hot16_hits": 142,
+    "hot16_pay": 40120.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1440.0,
+    "cold16_hits": 129,
+    "cold16_pay": 32940.0
+   },
+   "test": {
+    "ll": -383.4402036454104,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 4000.0,
+    "hot16_hits": 185,
+    "hot16_pay": 54760.0,
+    "cold1_hits": 11,
+    "cold1_pay": 7020.0,
+    "cold16_hits": 153,
+    "cold16_pay": 41900.0
+   },
+   "last5": {
+    "ll": -2.0108487762275704,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[adhika_masa x nayin x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -277.89935994930784,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 780.0,
+    "hot16_hits": 141,
+    "hot16_pay": 42300.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1200.0,
+    "cold16_hits": 113,
+    "cold16_pay": 31520.0
+   },
+   "test": {
+    "ll": -387.18994447736605,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 4060.0,
+    "hot16_hits": 178,
+    "hot16_pay": 52820.0,
+    "cold1_hits": 11,
+    "cold1_pay": 6700.0,
+    "cold16_hits": 167,
+    "cold16_pay": 49420.0
+   },
+   "last5": {
+    "ll": -2.1525107932972345,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[kp_moon_star_lord x mars_nakshatra x lunar_month] a=1000": {
+   "validation": {
+    "ll": -59.15494233780325,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 4220.0,
+    "hot16_hits": 109,
+    "hot16_pay": 30260.0,
+    "cold1_hits": 7,
+    "cold1_pay": 780.0,
+    "cold16_hits": 112,
+    "cold16_pay": 23200.0
+   },
+   "test": {
+    "ll": -97.92151668669935,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 2520.0,
+    "hot16_hits": 179,
+    "hot16_pay": 50380.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1200.0,
+    "cold16_hits": 158,
+    "cold16_pay": 41860.0
+   },
+   "last5": {
+    "ll": 0.40978658102791427,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-04 Da Ma Cai 0126"
+    ]
+   }
+  },
+  "match[hour_stem_19h x venus_retrograde x masa] a=1000": {
+   "validation": {
+    "ll": -293.8575868963647,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 2380.0,
+    "hot16_hits": 122,
+    "hot16_pay": 27360.0,
+    "cold1_hits": 2,
+    "cold1_pay": 240.0,
+    "cold16_hits": 121,
+    "cold16_pay": 41120.0
+   },
+   "test": {
+    "ll": -382.3882279078557,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 1740.0,
+    "hot16_hits": 170,
+    "hot16_pay": 38900.0,
+    "cold1_hits": 12,
+    "cold1_pay": 6960.0,
+    "cold16_hits": 169,
+    "cold16_pay": 57280.0
+   },
+   "last5": {
+    "ll": -1.8591323555449124,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 2,
+    "cold16_pay": 680.0,
+    "detail": [
+     "cold 10-04 Sports Toto 9655",
+     "cold 10-10 Magnum 0262"
+    ]
+   }
+  },
+  "match[hour_stem_19h x masa x yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -306.683318661669,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 5060.0,
+    "hot16_hits": 151,
+    "hot16_pay": 40600.0,
+    "cold1_hits": 8,
+    "cold1_pay": 1900.0,
+    "cold16_hits": 147,
+    "cold16_pay": 49400.0
+   },
+   "test": {
+    "ll": -447.19333741319633,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 1440.0,
+    "hot16_hits": 175,
+    "hot16_pay": 38900.0,
+    "cold1_hits": 11,
+    "cold1_pay": 6840.0,
+    "cold16_hits": 153,
+    "cold16_pay": 47600.0
+   },
+   "last5": {
+    "ll": -4.960143773120005,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[hour_stem_19h x masa x lunar_month] a=1000": {
+   "validation": {
+    "ll": -302.0333803000975,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 3580.0,
+    "hot16_hits": 137,
+    "hot16_pay": 38300.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3280.0,
+    "cold16_hits": 124,
+    "cold16_pay": 37200.0
+   },
+   "test": {
+    "ll": -397.2230219435878,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 5,
+    "hot1_pay": 660.0,
+    "hot16_hits": 160,
+    "hot16_pay": 45120.0,
+    "cold1_hits": 7,
+    "cold1_pay": 2040.0,
+    "cold16_hits": 153,
+    "cold16_pay": 43860.0
+   },
+   "last5": {
+    "ll": -4.188652633346032,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 9601"
+    ]
+   }
+  },
+  "match[mars_nakshatra x nakshatra_lord x lunar_month] a=1000": {
+   "validation": {
+    "ll": -61.499026728752085,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 4220.0,
+    "hot16_hits": 109,
+    "hot16_pay": 30260.0,
+    "cold1_hits": 7,
+    "cold1_pay": 780.0,
+    "cold16_hits": 111,
+    "cold16_pay": 23140.0
+   },
+   "test": {
+    "ll": -97.63232449061941,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 2520.0,
+    "hot16_hits": 177,
+    "hot16_pay": 48880.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1140.0,
+    "cold16_hits": 158,
+    "cold16_pay": 44420.0
+   },
+   "last5": {
+    "ll": 0.40978658102791427,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-04 Da Ma Cai 0126"
+    ]
+   }
+  },
+  "match[nayin x yellow_black_path x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -44.30604326742318,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 6680.0,
+    "hot16_hits": 120,
+    "hot16_pay": 41360.0,
+    "cold1_hits": 9,
+    "cold1_pay": 3900.0,
+    "cold16_hits": 114,
+    "cold16_pay": 26600.0
+   },
+   "test": {
+    "ll": -78.73071456689527,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 4800.0,
+    "hot16_hits": 165,
+    "hot16_pay": 36600.0,
+    "cold1_hits": 21,
+    "cold1_pay": 10600.0,
+    "cold16_hits": 171,
+    "cold16_pay": 59000.0
+   },
+   "last5": {
+    "ll": -0.35183285857816504,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "match[venus_combust x yellow_black_path x lunar_month] a=1000": {
+   "validation": {
+    "ll": -240.48773616681964,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 2140.0,
+    "hot16_hits": 155,
+    "hot16_pay": 40720.0,
+    "cold1_hits": 4,
+    "cold1_pay": 720.0,
+    "cold16_hits": 128,
+    "cold16_pay": 32300.0
+   },
+   "test": {
+    "ll": -331.23963786998434,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 3280.0,
+    "hot16_hits": 178,
+    "hot16_pay": 49600.0,
+    "cold1_hits": 17,
+    "cold1_pay": 4620.0,
+    "cold16_hits": 162,
+    "cold16_pay": 62980.0
+   },
+   "last5": {
+    "ll": -1.3357246397902247,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[adhika_masa x saturn_combust x masa] a=1000": {
+   "validation": {
+    "ll": -176.86091534633726,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 1340.0,
+    "hot16_hits": 134,
+    "hot16_pay": 34720.0,
+    "cold1_hits": 7,
+    "cold1_pay": 4400.0,
+    "cold16_hits": 118,
+    "cold16_pay": 40740.0
+   },
+   "test": {
+    "ll": -244.00874459801386,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1960.0,
+    "hot16_hits": 163,
+    "hot16_pay": 39960.0,
+    "cold1_hits": 10,
+    "cold1_pay": 5960.0,
+    "cold16_hits": 168,
+    "cold16_pay": 52780.0
+   },
+   "last5": {
+    "ll": -1.9807004230837122,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[jupiter_retrograde] a=1000": {
+   "validation": {
+    "ll": -43.469517367003526,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 1380.0,
+    "hot16_hits": 126,
+    "hot16_pay": 30960.0,
+    "cold1_hits": 13,
+    "cold1_pay": 5700.0,
+    "cold16_hits": 121,
+    "cold16_pay": 40540.0
+   },
+   "test": {
+    "ll": -66.38891606942063,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 4060.0,
+    "hot16_hits": 156,
+    "hot16_pay": 49820.0,
+    "cold1_hits": 15,
+    "cold1_pay": 6380.0,
+    "cold16_hits": 166,
+    "cold16_pay": 47380.0
+   },
+   "last5": {
+    "ll": -0.41115193117561455,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 3,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-07 Magnum 6335",
+     "cold 10-07 Sports Toto 7578",
+     "cold 10-11 Magnum 0365"
+    ]
+   }
+  },
+  "match[mercury_retrograde] a=1000": {
+   "validation": {
+    "ll": -43.83122720070269,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 360.0,
+    "hot16_hits": 139,
+    "hot16_pay": 30680.0,
+    "cold1_hits": 11,
+    "cold1_pay": 4400.0,
+    "cold16_hits": 119,
+    "cold16_pay": 41180.0
+   },
+   "test": {
+    "ll": -67.48765896764355,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 4200.0,
+    "hot16_hits": 146,
+    "hot16_pay": 35940.0,
+    "cold1_hits": 18,
+    "cold1_pay": 6680.0,
+    "cold16_hits": 160,
+    "cold16_pay": 45100.0
+   },
+   "last5": {
+    "ll": -0.15338651948808762,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 3,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-14 Magnum 7484",
+     "cold 10-07 Magnum 6335",
+     "cold 10-07 Sports Toto 7578",
+     "cold 10-11 Magnum 0365"
+    ]
+   }
+  },
+  "match[ayana] a=1000": {
+   "validation": {
+    "ll": -42.262507626487285,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 780.0,
+    "hot16_hits": 120,
+    "hot16_pay": 25460.0,
+    "cold1_hits": 11,
+    "cold1_pay": 4140.0,
+    "cold16_hits": 127,
+    "cold16_pay": 29800.0
+   },
+   "test": {
+    "ll": -64.32444399102306,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 2380.0,
+    "hot16_hits": 160,
+    "hot16_pay": 55660.0,
+    "cold1_hits": 14,
+    "cold1_pay": 5060.0,
+    "cold16_hits": 152,
+    "cold16_pay": 59520.0
+   },
+   "last5": {
+    "ll": -0.016652872142270375,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[jupiter_combust] a=1000": {
+   "validation": {
+    "ll": -40.624023117696936,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 900.0,
+    "hot16_hits": 130,
+    "hot16_pay": 34380.0,
+    "cold1_hits": 11,
+    "cold1_pay": 3580.0,
+    "cold16_hits": 115,
+    "cold16_pay": 30220.0
+   },
+   "test": {
+    "ll": -61.310877496500865,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 3680.0,
+    "hot16_hits": 141,
+    "hot16_pay": 40800.0,
+    "cold1_hits": 14,
+    "cold1_pay": 4240.0,
+    "cold16_hits": 175,
+    "cold16_pay": 46640.0
+   },
+   "last5": {
+    "ll": -0.26858766555302815,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -38.21453744678484,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 600.0,
+    "hot16_hits": 116,
+    "hot16_pay": 26420.0,
+    "cold1_hits": 14,
+    "cold1_pay": 6200.0,
+    "cold16_hits": 130,
+    "cold16_pay": 35100.0
+   },
+   "test": {
+    "ll": -62.70367305454504,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 2040.0,
+    "hot16_hits": 165,
+    "hot16_pay": 40860.0,
+    "cold1_hits": 12,
+    "cold1_pay": 6520.0,
+    "cold16_hits": 167,
+    "cold16_pay": 49640.0
+   },
+   "last5": {
+    "ll": -0.5989264359768921,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[venus_retrograde] a=1000": {
+   "validation": {
+    "ll": -43.70354136815093,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 180.0,
+    "hot16_hits": 129,
+    "hot16_pay": 35700.0,
+    "cold1_hits": 10,
+    "cold1_pay": 5840.0,
+    "cold16_hits": 107,
+    "cold16_pay": 32840.0
+   },
+   "test": {
+    "ll": -61.55542329851216,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 18,
+    "hot1_pay": 3100.0,
+    "hot16_hits": 153,
+    "hot16_pay": 43500.0,
+    "cold1_hits": 13,
+    "cold1_pay": 6500.0,
+    "cold16_hits": 168,
+    "cold16_pay": 50380.0
+   },
+   "last5": {
+    "ll": -0.35681994387547206,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-04 Sports Toto 8855"
+    ]
+   }
+  },
+  "match[mars_retrograde] a=1000": {
+   "validation": {
+    "ll": -47.966315214745585,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 480.0,
+    "hot16_hits": 120,
+    "hot16_pay": 30520.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3520.0,
+    "cold16_hits": 107,
+    "cold16_pay": 27920.0
+   },
+   "test": {
+    "ll": -65.46130291320101,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1960.0,
+    "hot16_hits": 173,
+    "hot16_pay": 46160.0,
+    "cold1_hits": 14,
+    "cold1_pay": 6440.0,
+    "cold16_hits": 153,
+    "cold16_pay": 47500.0
+   },
+   "last5": {
+    "ll": -0.28426287344390155,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[saturn_retrograde] a=1000": {
+   "validation": {
+    "ll": -45.22149676907064,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 2000.0,
+    "hot16_hits": 122,
+    "hot16_pay": 32360.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3400.0,
+    "cold16_hits": 105,
+    "cold16_pay": 20780.0
+   },
+   "test": {
+    "ll": -62.94981329464956,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 3700.0,
+    "hot16_hits": 153,
+    "hot16_pay": 36660.0,
+    "cold1_hits": 14,
+    "cold1_pay": 10380.0,
+    "cold16_hits": 169,
+    "cold16_pay": 60520.0
+   },
+   "last5": {
+    "ll": -0.23478574715964232,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 120.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 9601",
+     "hot 10-11 Sports Toto 3841",
+     "cold 10-10 Da Ma Cai 0828"
+    ]
+   }
+  },
+  "match[sun_nakshatra] a=1000": {
+   "validation": {
+    "ll": -241.5727946071291,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 3160.0,
+    "hot16_hits": 107,
+    "hot16_pay": 27640.0,
+    "cold1_hits": 6,
+    "cold1_pay": 600.0,
+    "cold16_hits": 119,
+    "cold16_pay": 30840.0
+   },
+   "test": {
+    "ll": -308.21862997886296,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 4,
+    "hot1_pay": 1040.0,
+    "hot16_hits": 156,
+    "hot16_pay": 42680.0,
+    "cold1_hits": 14,
+    "cold1_pay": 5140.0,
+    "cold16_hits": 156,
+    "cold16_pay": 41560.0
+   },
+   "last5": {
+    "ll": 0.8045606908406111,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 180.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 9852"
+    ]
+   }
+  },
+  "match[mars_retrograde x nine_star_month] a=1000": {
+   "validation": {
+    "ll": -162.6001218426409,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 780.0,
+    "hot16_hits": 120,
+    "hot16_pay": 24440.0,
+    "cold1_hits": 14,
+    "cold1_pay": 4700.0,
+    "cold16_hits": 129,
+    "cold16_pay": 40180.0
+   },
+   "test": {
+    "ll": -212.79944759475097,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 6400.0,
+    "hot16_hits": 143,
+    "hot16_pay": 39760.0,
+    "cold1_hits": 16,
+    "cold1_pay": 6760.0,
+    "cold16_hits": 150,
+    "cold16_pay": 49420.0
+   },
+   "last5": {
+    "ll": 0.41563914145175906,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[mercury_combust x mars_combust] a=1000": {
+   "validation": {
+    "ll": -78.21749446830816,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 5,
+    "hot1_pay": 780.0,
+    "hot16_hits": 121,
+    "hot16_pay": 33200.0,
+    "cold1_hits": 13,
+    "cold1_pay": 4180.0,
+    "cold16_hits": 120,
+    "cold16_pay": 45240.0
+   },
+   "test": {
+    "ll": -87.95287099199604,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 3760.0,
+    "hot16_hits": 160,
+    "hot16_pay": 40920.0,
+    "cold1_hits": 16,
+    "cold1_pay": 7940.0,
+    "cold16_hits": 148,
+    "cold16_pay": 51000.0
+   },
+   "last5": {
+    "ll": -0.4658457646803125,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-04 Sports Toto 9067"
+    ]
+   }
+  },
+  "match[masa x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -136.2769656090638,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 720.0,
+    "hot16_hits": 116,
+    "hot16_pay": 28960.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3640.0,
+    "cold16_hits": 120,
+    "cold16_pay": 34500.0
+   },
+   "test": {
+    "ll": -194.80824230341221,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 2100.0,
+    "hot16_hits": 156,
+    "hot16_pay": 41520.0,
+    "cold1_hits": 16,
+    "cold1_pay": 10760.0,
+    "cold16_hits": 159,
+    "cold16_pay": 49820.0
+   },
+   "last5": {
+    "ll": -1.609623662285558,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-11 Da Ma Cai 3619"
+    ]
+   }
+  },
+  "match[kp_moon_number x kp_sun_sub_lord] a=1000": {
+   "validation": {
+    "ll": -103.10373479370196,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 660.0,
+    "hot16_hits": 121,
+    "hot16_pay": 37940.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1720.0,
+    "cold16_hits": 115,
+    "cold16_pay": 32580.0
+   },
+   "test": {
+    "ll": -165.39276213934141,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 780.0,
+    "hot16_hits": 153,
+    "hot16_pay": 38420.0,
+    "cold1_hits": 15,
+    "cold1_pay": 4660.0,
+    "cold16_hits": 160,
+    "cold16_pay": 41960.0
+   },
+   "last5": {
+    "ll": -0.6749263358148847,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[moon_rashi x mars_rashi] a=1000": {
+   "validation": {
+    "ll": -325.9584935797367,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 2520.0,
+    "hot16_hits": 126,
+    "hot16_pay": 35200.0,
+    "cold1_hits": 12,
+    "cold1_pay": 8600.0,
+    "cold16_hits": 127,
+    "cold16_pay": 44360.0
+   },
+   "test": {
+    "ll": -457.43469006649804,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1840.0,
+    "hot16_hits": 146,
+    "hot16_pay": 35520.0,
+    "cold1_hits": 17,
+    "cold1_pay": 5760.0,
+    "cold16_hits": 170,
+    "cold16_pay": 52440.0
+   },
+   "last5": {
+    "ll": 0.4524547766161964,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[lagna_rashi x hour_stem_19h] a=1000": {
+   "validation": {
+    "ll": -294.6735817801164,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 2160.0,
+    "hot16_hits": 124,
+    "hot16_pay": 38820.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1260.0,
+    "cold16_hits": 120,
+    "cold16_pay": 27720.0
+   },
+   "test": {
+    "ll": -423.3250855686848,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 3880.0,
+    "hot16_hits": 163,
+    "hot16_pay": 40260.0,
+    "cold1_hits": 12,
+    "cold1_pay": 7460.0,
+    "cold16_hits": 156,
+    "cold16_pay": 57480.0
+   },
+   "last5": {
+    "ll": -1.5911368017620129,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[masa x day_stem] a=1000": {
+   "validation": {
+    "ll": -333.07549701611043,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 10420.0,
+    "hot16_hits": 111,
+    "hot16_pay": 36520.0,
+    "cold1_hits": 12,
+    "cold1_pay": 2500.0,
+    "cold16_hits": 125,
+    "cold16_pay": 28560.0
+   },
+   "test": {
+    "ll": -426.1966591010275,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 17,
+    "hot1_pay": 3160.0,
+    "hot16_hits": 148,
+    "hot16_pay": 35240.0,
+    "cold1_hits": 19,
+    "cold1_pay": 9420.0,
+    "cold16_hits": 170,
+    "cold16_pay": 53000.0
+   },
+   "last5": {
+    "ll": -5.870916647267432,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 3,
+    "cold16_pay": 1240.0,
+    "detail": [
+     "cold 10-07 Magnum 5539",
+     "cold 10-14 Da Ma Cai 7100",
+     "cold 10-14 Da Ma Cai 7120"
+    ]
+   }
+  },
+  "match[ritu x kp_sun_star_lord] a=1000": {
+   "validation": {
+    "ll": -253.18799597082793,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 5,
+    "hot1_pay": 2980.0,
+    "hot16_hits": 111,
+    "hot16_pay": 28460.0,
+    "cold1_hits": 13,
+    "cold1_pay": 3460.0,
+    "cold16_hits": 107,
+    "cold16_pay": 23580.0
+   },
+   "test": {
+    "ll": -330.33876122939614,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 2780.0,
+    "hot16_hits": 138,
+    "hot16_pay": 39640.0,
+    "cold1_hits": 12,
+    "cold1_pay": 4580.0,
+    "cold16_hits": 177,
+    "cold16_pay": 47480.0
+   },
+   "last5": {
+    "ll": -0.7091590410744694,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 1,
+    "cold1_pay": 60.0,
+    "cold16_hits": 2,
+    "cold16_pay": 120.0,
+    "detail": [
+     "cold 10-07 Magnum 2624",
+     "cold 10-07 Da Ma Cai 7926"
+    ]
+   }
+  },
+  "match[ritu x yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -121.58994246824327,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 3760.0,
+    "hot16_hits": 121,
+    "hot16_pay": 39960.0,
+    "cold1_hits": 11,
+    "cold1_pay": 5900.0,
+    "cold16_hits": 118,
+    "cold16_pay": 37920.0
+   },
+   "test": {
+    "ll": -191.1971725434941,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 2380.0,
+    "hot16_hits": 146,
+    "hot16_pay": 39740.0,
+    "cold1_hits": 19,
+    "cold1_pay": 3720.0,
+    "cold16_hits": 166,
+    "cold16_pay": 43320.0
+   },
+   "last5": {
+    "ll": -1.3591494348761055,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[nakshatra x kp_moon_sub_lord] a=1000": {
+   "validation": {
+    "ll": -314.6093470501984,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 14,
+    "hot1_pay": 5620.0,
+    "hot16_hits": 130,
+    "hot16_pay": 36360.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1840.0,
+    "cold16_hits": 110,
+    "cold16_pay": 24920.0
+   },
+   "test": {
+    "ll": -418.78166198510445,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 960.0,
+    "hot16_hits": 159,
+    "hot16_pay": 46740.0,
+    "cold1_hits": 8,
+    "cold1_pay": 2020.0,
+    "cold16_hits": 151,
+    "cold16_pay": 47220.0
+   },
+   "last5": {
+    "ll": -2.2395385710998417,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[kp_moon_star_lord x yellow_black_path x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -286.6914458244097,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 2160.0,
+    "hot16_hits": 130,
+    "hot16_pay": 41660.0,
+    "cold1_hits": 14,
+    "cold1_pay": 2700.0,
+    "cold16_hits": 121,
+    "cold16_pay": 34580.0
+   },
+   "test": {
+    "ll": -400.1442212493297,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 17,
+    "hot1_pay": 7540.0,
+    "hot16_hits": 179,
+    "hot16_pay": 47960.0,
+    "cold1_hits": 11,
+    "cold1_pay": 2200.0,
+    "cold16_hits": 156,
+    "cold16_pay": 34140.0
+   },
+   "last5": {
+    "ll": -1.3947977378412706,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[kp_moon_star_lord x venus_retrograde x nakshatra_lord] a=1000": {
+   "validation": {
+    "ll": -153.69025110156187,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 300.0,
+    "hot16_hits": 112,
+    "hot16_pay": 23500.0,
+    "cold1_hits": 14,
+    "cold1_pay": 3320.0,
+    "cold16_hits": 123,
+    "cold16_pay": 34940.0
+   },
+   "test": {
+    "ll": -186.8760918992038,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 2820.0,
+    "hot16_hits": 142,
+    "hot16_pay": 36540.0,
+    "cold1_hits": 13,
+    "cold1_pay": 3260.0,
+    "cold16_hits": 165,
+    "cold16_pay": 48360.0
+   },
+   "last5": {
+    "ll": 1.521569667516219,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-14 Sports Toto 3036",
+     "cold 10-11 Da Ma Cai 3619"
+    ]
+   }
+  },
+  "match[day_element x hour_stem_19h x masa] a=1000": {
+   "validation": {
+    "ll": -333.07549701611043,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 10420.0,
+    "hot16_hits": 111,
+    "hot16_pay": 36520.0,
+    "cold1_hits": 12,
+    "cold1_pay": 2500.0,
+    "cold16_hits": 125,
+    "cold16_pay": 28560.0
+   },
+   "test": {
+    "ll": -426.1966591010275,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 17,
+    "hot1_pay": 3160.0,
+    "hot16_hits": 148,
+    "hot16_pay": 35240.0,
+    "cold1_hits": 19,
+    "cold1_pay": 9420.0,
+    "cold16_hits": 170,
+    "cold16_pay": 53000.0
+   },
+   "last5": {
+    "ll": -5.870916647267432,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 3,
+    "cold16_pay": 1240.0,
+    "detail": [
+     "cold 10-07 Magnum 5539",
+     "cold 10-14 Da Ma Cai 7100",
+     "cold 10-14 Da Ma Cai 7120"
+    ]
+   }
+  },
+  "match[saturn_combust x venus_retrograde x mars_retrograde] a=1000": {
+   "validation": {
+    "ll": -80.01376773156802,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 600.0,
+    "hot16_hits": 122,
+    "hot16_pay": 40600.0,
+    "cold1_hits": 12,
+    "cold1_pay": 6200.0,
+    "cold16_hits": 106,
+    "cold16_pay": 25780.0
+   },
+   "test": {
+    "ll": -98.75265064800512,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 5180.0,
+    "hot16_hits": 163,
+    "hot16_pay": 50640.0,
+    "cold1_hits": 14,
+    "cold1_pay": 3760.0,
+    "cold16_hits": 145,
+    "cold16_pay": 45080.0
+   },
+   "last5": {
+    "ll": -0.10623636296788375,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-04 Magnum 7720",
+     "cold 10-04 Sports Toto 8855"
+    ]
+   }
+  },
+  "match[venus_retrograde x yellow_black_path x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -266.1936916940509,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 7220.0,
+    "hot16_hits": 136,
+    "hot16_pay": 36560.0,
+    "cold1_hits": 8,
+    "cold1_pay": 2540.0,
+    "cold16_hits": 129,
+    "cold16_pay": 35120.0
+   },
+   "test": {
+    "ll": -385.43939066703666,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 7220.0,
+    "hot16_hits": 169,
+    "hot16_pay": 50860.0,
+    "cold1_hits": 14,
+    "cold1_pay": 2620.0,
+    "cold16_hits": 153,
+    "cold16_pay": 36500.0
+   },
+   "last5": {
+    "ll": -0.10830322931580805,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[masa x yellow_black_path x lunar_month] a=1000": {
+   "validation": {
+    "ll": -271.6558703274262,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 1760.0,
+    "hot16_hits": 132,
+    "hot16_pay": 31820.0,
+    "cold1_hits": 14,
+    "cold1_pay": 3100.0,
+    "cold16_hits": 126,
+    "cold16_pay": 43440.0
+   },
+   "test": {
+    "ll": -337.13264618072617,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 4,
+    "hot1_pay": 480.0,
+    "hot16_hits": 158,
+    "hot16_pay": 57060.0,
+    "cold1_hits": 16,
+    "cold1_pay": 3440.0,
+    "cold16_hits": 157,
+    "cold16_pay": 57520.0
+   },
+   "last5": {
+    "ll": -2.472570385392361,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[hour_stem_19h x venus_retrograde x lunar_month] a=1000": {
+   "validation": {
+    "ll": -288.4054799266145,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 600.0,
+    "hot16_hits": 114,
+    "hot16_pay": 27220.0,
+    "cold1_hits": 12,
+    "cold1_pay": 4000.0,
+    "cold16_hits": 104,
+    "cold16_pay": 28760.0
+   },
+   "test": {
+    "ll": -412.5052324536757,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 920.0,
+    "hot16_hits": 170,
+    "hot16_pay": 38260.0,
+    "cold1_hits": 12,
+    "cold1_pay": 4580.0,
+    "cold16_hits": 169,
+    "cold16_pay": 46320.0
+   },
+   "last5": {
+    "ll": -2.3653451786698314,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-04 Sports Toto 9655"
+    ]
+   }
+  },
+  "match[lunar_leap_month x venus_combust x mercury_combust] a=1000": {
+   "validation": {
+    "ll": -79.90139545817419,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 900.0,
+    "hot16_hits": 118,
+    "hot16_pay": 21600.0,
+    "cold1_hits": 12,
+    "cold1_pay": 7260.0,
+    "cold16_hits": 142,
+    "cold16_pay": 47960.0
+   },
+   "test": {
+    "ll": -103.70411715342541,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 3240.0,
+    "hot16_hits": 148,
+    "hot16_pay": 49480.0,
+    "cold1_hits": 14,
+    "cold1_pay": 6440.0,
+    "cold16_hits": 163,
+    "cold16_pay": 50400.0
+   },
+   "last5": {
+    "ll": -0.2951053108072322,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 1,
+    "cold1_pay": 500.0,
+    "cold16_hits": 3,
+    "cold16_pay": 1180.0,
+    "detail": [
+     "hot 10-14 Magnum 7484",
+     "cold 10-10 Magnum 0262",
+     "cold 10-10 Sports Toto 9069",
+     "cold 10-10 Sports Toto 5709"
+    ]
+   }
+  },
+  "match[mars_nakshatra x mars_rashi x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -84.99038171882155,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 720.0,
+    "hot16_hits": 130,
+    "hot16_pay": 42120.0,
+    "cold1_hits": 7,
+    "cold1_pay": 900.0,
+    "cold16_hits": 135,
+    "cold16_pay": 32340.0
+   },
+   "test": {
+    "ll": -115.33904791088072,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 2860.0,
+    "hot16_hits": 141,
+    "hot16_pay": 42800.0,
+    "cold1_hits": 11,
+    "cold1_pay": 3580.0,
+    "cold16_hits": 163,
+    "cold16_pay": 41200.0
+   },
+   "last5": {
+    "ll": 0.9543651020563082,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-10 Magnum 5009"
+    ]
+   }
+  },
+  "match[nakshatra_lord] a=1000": {
+   "validation": {
+    "ll": -129.61566198056823,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 2800.0,
+    "hot16_hits": 119,
+    "hot16_pay": 30960.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3660.0,
+    "cold16_hits": 139,
+    "cold16_pay": 34920.0
+   },
+   "test": {
+    "ll": -161.06062475326274,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 3600.0,
+    "hot16_hits": 159,
+    "hot16_pay": 44660.0,
+    "cold1_hits": 8,
+    "cold1_pay": 1400.0,
+    "cold16_hits": 178,
+    "cold16_pay": 54560.0
+   },
+   "last5": {
+    "ll": -0.5961214345268571,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[hour_stem_19h] a=1000": {
+   "validation": {
+    "ll": -82.19187975942404,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 2220.0,
+    "hot16_hits": 132,
+    "hot16_pay": 38180.0,
+    "cold1_hits": 3,
+    "cold1_pay": 300.0,
+    "cold16_hits": 145,
+    "cold16_pay": 35120.0
+   },
+   "test": {
+    "ll": -101.75702112159713,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 780.0,
+    "hot16_hits": 143,
+    "hot16_pay": 29680.0,
+    "cold1_hits": 7,
+    "cold1_pay": 5540.0,
+    "cold16_hits": 160,
+    "cold16_pay": 46260.0
+   },
+   "last5": {
+    "ll": -0.9737437697571099,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-11 Da Ma Cai 6329"
+    ]
+   }
+  },
+  "match[weekday] a=1000": {
+   "validation": {
+    "ll": -73.50263757519883,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 3900.0,
+    "hot16_hits": 107,
+    "hot16_pay": 33100.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1500.0,
+    "cold16_hits": 128,
+    "cold16_pay": 40640.0
+   },
+   "test": {
+    "ll": -75.72753724021298,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 1020.0,
+    "hot16_hits": 159,
+    "hot16_pay": 38180.0,
+    "cold1_hits": 7,
+    "cold1_pay": 540.0,
+    "cold16_hits": 181,
+    "cold16_pay": 45440.0
+   },
+   "last5": {
+    "ll": -0.005312351726768513,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-10 Da Ma Cai 2759"
+    ]
+   }
+  },
+  "match[mars_combust] a=1000": {
+   "validation": {
+    "ll": -52.27557076471658,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 540.0,
+    "hot16_hits": 123,
+    "hot16_pay": 29280.0,
+    "cold1_hits": 7,
+    "cold1_pay": 3100.0,
+    "cold16_hits": 133,
+    "cold16_pay": 31480.0
+   },
+   "test": {
+    "ll": -58.096039578128234,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 18,
+    "hot1_pay": 3420.0,
+    "hot16_hits": 156,
+    "hot16_pay": 55940.0,
+    "cold1_hits": 11,
+    "cold1_pay": 6020.0,
+    "cold16_hits": 188,
+    "cold16_pay": 57140.0
+   },
+   "last5": {
+    "ll": -0.28780387460651813,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-14 Magnum 7484",
+     "cold 10-11 Magnum 0365"
+    ]
+   }
+  },
+  "match[sun_rashi] a=1000": {
+   "validation": {
+    "ll": -132.47081359233073,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 3160.0,
+    "hot16_hits": 111,
+    "hot16_pay": 28600.0,
+    "cold1_hits": 11,
+    "cold1_pay": 900.0,
+    "cold16_hits": 145,
+    "cold16_pay": 39780.0
+   },
+   "test": {
+    "ll": -196.96823807659567,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 6200.0,
+    "hot16_hits": 152,
+    "hot16_pay": 49080.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1240.0,
+    "cold16_hits": 165,
+    "cold16_pay": 48180.0
+   },
+   "last5": {
+    "ll": -0.15492760160260372,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-10 Sports Toto 7895"
+    ]
+   }
+  },
+  "match[mansion_28] a=1000": {
+   "validation": {
+    "ll": -200.44065114752541,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 900.0,
+    "hot16_hits": 121,
+    "hot16_pay": 32400.0,
+    "cold1_hits": 4,
+    "cold1_pay": 720.0,
+    "cold16_hits": 125,
+    "cold16_pay": 34580.0
+   },
+   "test": {
+    "ll": -212.69984724805713,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 3400.0,
+    "hot16_hits": 165,
+    "hot16_pay": 65940.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1700.0,
+    "cold16_hits": 160,
+    "cold16_pay": 37020.0
+   },
+   "last5": {
+    "ll": 0.16808906795590003,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[solar_term] a=1000": {
+   "validation": {
+    "ll": -236.97673047529415,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 800.0,
+    "hot16_hits": 112,
+    "hot16_pay": 25620.0,
+    "cold1_hits": 9,
+    "cold1_pay": 3780.0,
+    "cold16_hits": 127,
+    "cold16_pay": 36080.0
+   },
+   "test": {
+    "ll": -299.3859922373866,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 6440.0,
+    "hot16_hits": 158,
+    "hot16_pay": 41320.0,
+    "cold1_hits": 15,
+    "cold1_pay": 2420.0,
+    "cold16_hits": 157,
+    "cold16_pay": 37620.0
+   },
+   "last5": {
+    "ll": 0.8178534787310932,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 180.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 9852"
+    ]
+   }
+  },
+  "match[day_element x nine_star_year] a=1000": {
+   "validation": {
+    "ll": -344.43423804581937,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 960.0,
+    "hot16_hits": 117,
+    "hot16_pay": 33420.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1460.0,
+    "cold16_hits": 134,
+    "cold16_pay": 29060.0
+   },
+   "test": {
+    "ll": -430.92627021593955,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 7140.0,
+    "hot16_hits": 139,
+    "hot16_pay": 35980.0,
+    "cold1_hits": 11,
+    "cold1_pay": 2080.0,
+    "cold16_hits": 182,
+    "cold16_pay": 37360.0
+   },
+   "last5": {
+    "ll": -3.788363066599793,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-11 Da Ma Cai 6536"
+    ]
+   }
+  },
+  "match[lunar_month x nine_star_year] a=1000": {
+   "validation": {
+    "ll": -308.2609046374016,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 780.0,
+    "hot16_hits": 135,
+    "hot16_pay": 34480.0,
+    "cold1_hits": 2,
+    "cold1_pay": 240.0,
+    "cold16_hits": 131,
+    "cold16_pay": 56600.0
+   },
+   "test": {
+    "ll": -472.4292976215557,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 1900.0,
+    "hot16_hits": 162,
+    "hot16_pay": 39240.0,
+    "cold1_hits": 12,
+    "cold1_pay": 4900.0,
+    "cold16_hits": 164,
+    "cold16_pay": 40100.0
+   },
+   "last5": {
+    "ll": -3.379025809769178,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[nakshatra_lord x adhika_masa] a=1000": {
+   "validation": {
+    "ll": -139.4083184555479,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 3220.0,
+    "hot16_hits": 129,
+    "hot16_pay": 33320.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3780.0,
+    "cold16_hits": 145,
+    "cold16_pay": 42400.0
+   },
+   "test": {
+    "ll": -176.50935868514688,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1460.0,
+    "hot16_hits": 164,
+    "hot16_pay": 47260.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1700.0,
+    "cold16_hits": 169,
+    "cold16_pay": 50640.0
+   },
+   "last5": {
+    "ll": -0.6387090770003534,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[venus_rashi x kp_sun_sub_lord] a=1000": {
+   "validation": {
+    "ll": -331.76375662320885,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 5,
+    "hot1_pay": 540.0,
+    "hot16_hits": 106,
+    "hot16_pay": 23540.0,
+    "cold1_hits": 7,
+    "cold1_pay": 3340.0,
+    "cold16_hits": 121,
+    "cold16_pay": 41660.0
+   },
+   "test": {
+    "ll": -451.89864116876555,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 1520.0,
+    "hot16_hits": 141,
+    "hot16_pay": 29580.0,
+    "cold1_hits": 13,
+    "cold1_pay": 6580.0,
+    "cold16_hits": 174,
+    "cold16_pay": 44440.0
+   },
+   "last5": {
+    "ll": -0.6340160707598321,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Da Ma Cai 1777"
+    ]
+   }
+  },
+  "match[paksha x moon_rashi] a=1000": {
+   "validation": {
+    "ll": -244.5679275960664,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 16,
+    "hot1_pay": 3880.0,
+    "hot16_hits": 109,
+    "hot16_pay": 31260.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1720.0,
+    "cold16_hits": 141,
+    "cold16_pay": 47900.0
+   },
+   "test": {
+    "ll": -281.1618783284141,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 1160.0,
+    "hot16_hits": 125,
+    "hot16_pay": 32680.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1340.0,
+    "cold16_hits": 162,
+    "cold16_pay": 57000.0
+   },
+   "last5": {
+    "ll": -0.806239097817876,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-11 Magnum 7786"
+    ]
+   }
+  },
+  "match[karana x kp_moon_star_lord] a=1000": {
+   "validation": {
+    "ll": -364.6411792269348,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 2860.0,
+    "hot16_hits": 124,
+    "hot16_pay": 44380.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1700.0,
+    "cold16_hits": 140,
+    "cold16_pay": 49260.0
+   },
+   "test": {
+    "ll": -449.5002467949141,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 4780.0,
+    "hot16_hits": 181,
+    "hot16_pay": 54020.0,
+    "cold1_hits": 14,
+    "cold1_pay": 5760.0,
+    "cold16_hits": 171,
+    "cold16_pay": 40540.0
+   },
+   "last5": {
+    "ll": -3.9437375067934823,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[rahu_rashi x venus_combust] a=1000": {
+   "validation": {
+    "ll": -217.68423815734198,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 840.0,
+    "hot16_hits": 117,
+    "hot16_pay": 28760.0,
+    "cold1_hits": 4,
+    "cold1_pay": 1420.0,
+    "cold16_hits": 139,
+    "cold16_pay": 34840.0
+   },
+   "test": {
+    "ll": -305.7090060636014,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 3580.0,
+    "hot16_hits": 162,
+    "hot16_pay": 45240.0,
+    "cold1_hits": 8,
+    "cold1_pay": 960.0,
+    "cold16_hits": 176,
+    "cold16_pay": 52640.0
+   },
+   "last5": {
+    "ll": -2.644463677939899,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-11 Sports Toto 3841"
+    ]
+   }
+  },
+  "match[paksha x kp_asc_sub_lord] a=1000": {
+   "validation": {
+    "ll": -174.4399787482103,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 1400.0,
+    "hot16_hits": 123,
+    "hot16_pay": 39780.0,
+    "cold1_hits": 8,
+    "cold1_pay": 3280.0,
+    "cold16_hits": 137,
+    "cold16_pay": 36080.0
+   },
+   "test": {
+    "ll": -236.72479404494794,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 1380.0,
+    "hot16_hits": 154,
+    "hot16_pay": 33480.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1140.0,
+    "cold16_hits": 185,
+    "cold16_pay": 55440.0
+   },
+   "last5": {
+    "ll": -1.089037555828903,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-14 Da Ma Cai 1710"
+    ]
+   }
+  },
+  "match[jupiter_combust x yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -55.306986287770144,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 1020.0,
+    "hot16_hits": 116,
+    "hot16_pay": 29300.0,
+    "cold1_hits": 12,
+    "cold1_pay": 3640.0,
+    "cold16_hits": 133,
+    "cold16_pay": 28540.0
+   },
+   "test": {
+    "ll": -81.38349121188146,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 2800.0,
+    "hot16_hits": 155,
+    "hot16_pay": 35380.0,
+    "cold1_hits": 6,
+    "cold1_pay": 5600.0,
+    "cold16_hits": 176,
+    "cold16_pay": 56760.0
+   },
+   "last5": {
+    "ll": -0.6558125532251007,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-07 Sports Toto 1311",
+     "cold 10-07 Magnum 6335"
+    ]
+   }
+  },
+  "match[kp_asc_star_lord x day_god] a=1000": {
+   "validation": {
+    "ll": -333.77797951945456,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 540.0,
+    "hot16_hits": 111,
+    "hot16_pay": 34720.0,
+    "cold1_hits": 6,
+    "cold1_pay": 2920.0,
+    "cold16_hits": 130,
+    "cold16_pay": 34780.0
+   },
+   "test": {
+    "ll": -475.3327529939342,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 3040.0,
+    "hot16_hits": 143,
+    "hot16_pay": 39180.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3760.0,
+    "cold16_hits": 180,
+    "cold16_pay": 61740.0
+   },
+   "last5": {
+    "ll": -0.608753121008578,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 2,
+    "cold16_pay": 240.0,
+    "detail": [
+     "cold 10-10 Sports Toto 7078",
+     "cold 10-11 Da Ma Cai 7208"
+    ]
+   }
+  },
+  "match[hour_stem_19h x kp_moon_star_lord x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -333.0113692424069,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 1520.0,
+    "hot16_hits": 130,
+    "hot16_pay": 25240.0,
+    "cold1_hits": 8,
+    "cold1_pay": 4660.0,
+    "cold16_hits": 125,
+    "cold16_pay": 30260.0
+   },
+   "test": {
+    "ll": -395.5196776351834,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 4,
+    "hot1_pay": 600.0,
+    "hot16_hits": 142,
+    "hot16_pay": 34860.0,
+    "cold1_hits": 16,
+    "cold1_pay": 3880.0,
+    "cold16_hits": 201,
+    "cold16_pay": 48580.0
+   },
+   "last5": {
+    "ll": -1.359264607889092,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 8406"
+    ]
+   }
+  },
+  "match[lunar_leap_month x mars_rashi x yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -243.45969179415135,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 4960.0,
+    "hot16_hits": 120,
+    "hot16_pay": 35980.0,
+    "cold1_hits": 9,
+    "cold1_pay": 2080.0,
+    "cold16_hits": 139,
+    "cold16_pay": 27540.0
+   },
+   "test": {
+    "ll": -291.42625170400436,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 2080.0,
+    "hot16_hits": 150,
+    "hot16_pay": 45680.0,
+    "cold1_hits": 8,
+    "cold1_pay": 1640.0,
+    "cold16_hits": 186,
+    "cold16_pay": 49300.0
+   },
+   "last5": {
+    "ll": -0.7242377657210939,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 8253"
+    ]
+   }
+  },
+  "match[mars_rashi x yellow_black_path x mars_retrograde] a=1000": {
+   "validation": {
+    "ll": -271.30434868577345,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 900.0,
+    "hot16_hits": 111,
+    "hot16_pay": 29800.0,
+    "cold1_hits": 14,
+    "cold1_pay": 2000.0,
+    "cold16_hits": 145,
+    "cold16_pay": 30540.0
+   },
+   "test": {
+    "ll": -287.62693792434106,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 4000.0,
+    "hot16_hits": 165,
+    "hot16_pay": 46580.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1140.0,
+    "cold16_hits": 178,
+    "cold16_pay": 41000.0
+   },
+   "last5": {
+    "ll": -1.3984589999690722,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-10 Da Ma Cai 0591"
+    ]
+   }
+  },
+  "match[hour_stem_19h x lunar_leap_month x nakshatra_lord] a=1000": {
+   "validation": {
+    "ll": -333.95971644272606,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 1400.0,
+    "hot16_hits": 136,
+    "hot16_pay": 28260.0,
+    "cold1_hits": 10,
+    "cold1_pay": 4580.0,
+    "cold16_hits": 128,
+    "cold16_pay": 33000.0
+   },
+   "test": {
+    "ll": -397.0549302721086,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 1780.0,
+    "hot16_hits": 138,
+    "hot16_pay": 40100.0,
+    "cold1_hits": 18,
+    "cold1_pay": 4120.0,
+    "cold16_hits": 200,
+    "cold16_pay": 51020.0
+   },
+   "last5": {
+    "ll": -1.1473842984982903,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 3,
+    "hot16_pay": 420.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 8406",
+     "hot 10-11 Magnum 7786",
+     "hot 10-11 Sports Toto 9696"
+    ]
+   }
+  },
+  "match[day_element x yellow_black_path x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -131.96878022144693,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 5,
+    "hot1_pay": 3420.0,
+    "hot16_hits": 119,
+    "hot16_pay": 29100.0,
+    "cold1_hits": 7,
+    "cold1_pay": 660.0,
+    "cold16_hits": 127,
+    "cold16_pay": 22200.0
+   },
+   "test": {
+    "ll": -211.02588319272755,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 1780.0,
+    "hot16_hits": 141,
+    "hot16_pay": 37940.0,
+    "cold1_hits": 11,
+    "cold1_pay": 3820.0,
+    "cold16_hits": 176,
+    "cold16_pay": 40740.0
+   },
+   "last5": {
+    "ll": -0.9491108009466547,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 0398",
+     "cold 10-14 Sports Toto 5213"
+    ]
+   }
+  },
+  "match[adhika_masa x kp_moon_star_lord x mercury_combust] a=1000": {
+   "validation": {
+    "ll": -224.63756125009803,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 13,
+    "hot1_pay": 4320.0,
+    "hot16_hits": 123,
+    "hot16_pay": 30960.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1480.0,
+    "cold16_hits": 140,
+    "cold16_pay": 36880.0
+   },
+   "test": {
+    "ll": -270.8834421908453,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 2680.0,
+    "hot16_hits": 133,
+    "hot16_pay": 45180.0,
+    "cold1_hits": 6,
+    "cold1_pay": 600.0,
+    "cold16_hits": 168,
+    "cold16_pay": 34980.0
+   },
+   "last5": {
+    "ll": -1.1130220059721352,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[day_element x saturn_combust x venus_retrograde] a=1000": {
+   "validation": {
+    "ll": -137.86766452610374,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 1700.0,
+    "hot16_hits": 132,
+    "hot16_pay": 27820.0,
+    "cold1_hits": 7,
+    "cold1_pay": 780.0,
+    "cold16_hits": 132,
+    "cold16_pay": 34440.0
+   },
+   "test": {
+    "ll": -173.0746456224642,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 3780.0,
+    "hot16_hits": 159,
+    "hot16_pay": 50460.0,
+    "cold1_hits": 13,
+    "cold1_pay": 2400.0,
+    "cold16_hits": 178,
+    "cold16_pay": 46320.0
+   },
+   "last5": {
+    "ll": -2.2538853505954184,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-04 Da Ma Cai 3442"
+    ]
+   }
+  },
+  "match[saturn_combust x mars_rashi x yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -259.22807224623534,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 2160.0,
+    "hot16_hits": 107,
+    "hot16_pay": 26180.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1520.0,
+    "cold16_hits": 123,
+    "cold16_pay": 29740.0
+   },
+   "test": {
+    "ll": -301.6188931765898,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 720.0,
+    "hot16_hits": 149,
+    "hot16_pay": 55140.0,
+    "cold1_hits": 7,
+    "cold1_pay": 3340.0,
+    "cold16_hits": 178,
+    "cold16_pay": 40680.0
+   },
+   "last5": {
+    "ll": -0.5372782461257349,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 8253"
+    ]
+   }
+  },
+  "match[mars_nakshatra x mars_rashi x mercury_combust] a=1000": {
+   "validation": {
+    "ll": -310.6628221293019,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 780.0,
+    "hot16_hits": 111,
+    "hot16_pay": 26800.0,
+    "cold1_hits": 5,
+    "cold1_pay": 540.0,
+    "cold16_hits": 138,
+    "cold16_pay": 39760.0
+   },
+   "test": {
+    "ll": -436.05547176989154,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 4520.0,
+    "hot16_hits": 113,
+    "hot16_pay": 36040.0,
+    "cold1_hits": 11,
+    "cold1_pay": 2220.0,
+    "cold16_hits": 154,
+    "cold16_pay": 43620.0
+   },
+   "last5": {
+    "ll": 0.40222043078107794,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "match[day_element x saturn_combust x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -130.96925447105139,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 2520.0,
+    "hot16_hits": 126,
+    "hot16_pay": 35400.0,
+    "cold1_hits": 8,
+    "cold1_pay": 600.0,
+    "cold16_hits": 135,
+    "cold16_pay": 38420.0
+   },
+   "test": {
+    "ll": -162.06906340425607,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 8600.0,
+    "hot16_hits": 158,
+    "hot16_pay": 45960.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1340.0,
+    "cold16_hits": 180,
+    "cold16_pay": 61000.0
+   },
+   "last5": {
+    "ll": -0.6399715972021144,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-14 Magnum 7484",
+     "cold 10-11 Da Ma Cai 6329"
+    ]
+   }
+  },
+  "backoff[day_element x masa x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -389.5263746841148,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 800.0,
+    "hot16_hits": 129,
+    "hot16_pay": 41600.0,
+    "cold1_hits": 5,
+    "cold1_pay": 980.0,
+    "cold16_hits": 118,
+    "cold16_pay": 26120.0
+   },
+   "test": {
+    "ll": -479.1779505283213,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 2360.0,
+    "hot16_hits": 150,
+    "hot16_pay": 39580.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1140.0,
+    "cold16_hits": 139,
+    "cold16_pay": 28600.0
+   },
+   "last5": {
+    "ll": -4.53912188443246,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 2,
+    "cold16_pay": 360.0,
+    "detail": [
+     "cold 10-04 Magnum 2306",
+     "cold 10-11 Sports Toto 9089"
+    ]
+   }
+  },
+  "backoff[adhika_masa x nayin x venus_retrograde] a=1000": {
+   "validation": {
+    "ll": -444.60356719611616,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 14,
+    "hot1_pay": 2320.0,
+    "hot16_hits": 125,
+    "hot16_pay": 26900.0,
+    "cold1_hits": 10,
+    "cold1_pay": 4080.0,
+    "cold16_hits": 124,
+    "cold16_pay": 29200.0
+   },
+   "test": {
+    "ll": -548.4309644117916,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 2040.0,
+    "hot16_hits": 172,
+    "hot16_pay": 46380.0,
+    "cold1_hits": 5,
+    "cold1_pay": 1480.0,
+    "cold16_hits": 165,
+    "cold16_pay": 42640.0
+   },
+   "last5": {
+    "ll": -3.508528395748545,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-04 Da Ma Cai 9945"
+    ]
+   }
+  },
+  "backoff[day_element x mars_rashi x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -436.4197386939769,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 1780.0,
+    "hot16_hits": 114,
+    "hot16_pay": 37840.0,
+    "cold1_hits": 3,
+    "cold1_pay": 1120.0,
+    "cold16_hits": 123,
+    "cold16_pay": 40700.0
+   },
+   "test": {
+    "ll": -530.7001027709757,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 3660.0,
+    "hot16_hits": 158,
+    "hot16_pay": 55220.0,
+    "cold1_hits": 13,
+    "cold1_pay": 3700.0,
+    "cold16_hits": 152,
+    "cold16_pay": 47660.0
+   },
+   "last5": {
+    "ll": -2.2962490343022868,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[saturn_combust x nayin x venus_combust] a=1000": {
+   "validation": {
+    "ll": -509.8183315192279,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 2380.0,
+    "hot16_hits": 127,
+    "hot16_pay": 33200.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1100.0,
+    "cold16_hits": 138,
+    "cold16_pay": 34400.0
+   },
+   "test": {
+    "ll": -675.1706063204556,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 19,
+    "hot1_pay": 3040.0,
+    "hot16_hits": 170,
+    "hot16_pay": 45260.0,
+    "cold1_hits": 13,
+    "cold1_pay": 1940.0,
+    "cold16_hits": 171,
+    "cold16_pay": 43680.0
+   },
+   "last5": {
+    "ll": -2.19985940317031,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[saturn_combust x venus_retrograde x mars_nakshatra] a=1000": {
+   "validation": {
+    "ll": -285.41166798589074,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 13,
+    "hot1_pay": 1940.0,
+    "hot16_hits": 136,
+    "hot16_pay": 43000.0,
+    "cold1_hits": 4,
+    "cold1_pay": 800.0,
+    "cold16_hits": 114,
+    "cold16_pay": 27980.0
+   },
+   "test": {
+    "ll": -368.5612205002745,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 7260.0,
+    "hot16_hits": 163,
+    "hot16_pay": 45000.0,
+    "cold1_hits": 15,
+    "cold1_pay": 2620.0,
+    "cold16_hits": 149,
+    "cold16_pay": 43720.0
+   },
+   "last5": {
+    "ll": -1.0297865000378879,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Sports Toto 1949"
+    ]
+   }
+  },
+  "backoff[nayin x jupiter_retrograde x mars_rashi] a=1000": {
+   "validation": {
+    "ll": -682.6923949189614,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 3480.0,
+    "hot16_hits": 121,
+    "hot16_pay": 28000.0,
+    "cold1_hits": 9,
+    "cold1_pay": 3100.0,
+    "cold16_hits": 103,
+    "cold16_pay": 26040.0
+   },
+   "test": {
+    "ll": -873.234598976453,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 3940.0,
+    "hot16_hits": 160,
+    "hot16_pay": 36160.0,
+    "cold1_hits": 5,
+    "cold1_pay": 5860.0,
+    "cold16_hits": 155,
+    "cold16_pay": 41480.0
+   },
+   "last5": {
+    "ll": -3.341285656517766,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-04 Da Ma Cai 9945"
+    ]
+   }
+  },
+  "backoff[nayin x masa x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -486.12721147756156,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 2200.0,
+    "hot16_hits": 123,
+    "hot16_pay": 40200.0,
+    "cold1_hits": 5,
+    "cold1_pay": 2860.0,
+    "cold16_hits": 117,
+    "cold16_pay": 28280.0
+   },
+   "test": {
+    "ll": -692.2437551121466,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 1260.0,
+    "hot16_hits": 170,
+    "hot16_pay": 40880.0,
+    "cold1_hits": 8,
+    "cold1_pay": 960.0,
+    "cold16_hits": 152,
+    "cold16_pay": 39760.0
+   },
+   "last5": {
+    "ll": -4.8033558111328425,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-07 Sports Toto 7580",
+     "cold 10-11 Sports Toto 7072"
+    ]
+   }
+  },
+  "backoff[nayin x nakshatra_pada x lunar_month] a=1000": {
+   "validation": {
+    "ll": -326.54072431008103,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 240.0,
+    "hot16_hits": 134,
+    "hot16_pay": 33900.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1620.0,
+    "cold16_hits": 124,
+    "cold16_pay": 28460.0
+   },
+   "test": {
+    "ll": -450.08473267983385,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 2360.0,
+    "hot16_hits": 160,
+    "hot16_pay": 40700.0,
+    "cold1_hits": 9,
+    "cold1_pay": 3220.0,
+    "cold16_hits": 144,
+    "cold16_pay": 41960.0
+   },
+   "last5": {
+    "ll": -2.4053331706591594,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[venus_retrograde x mars_rashi x moon_rashi] a=1000": {
+   "validation": {
+    "ll": -463.95031102616406,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 7340.0,
+    "hot16_hits": 114,
+    "hot16_pay": 33080.0,
+    "cold1_hits": 5,
+    "cold1_pay": 3180.0,
+    "cold16_hits": 107,
+    "cold16_pay": 33660.0
+   },
+   "test": {
+    "ll": -592.9975289174504,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 2920.0,
+    "hot16_hits": 130,
+    "hot16_pay": 40500.0,
+    "cold1_hits": 13,
+    "cold1_pay": 2020.0,
+    "cold16_hits": 150,
+    "cold16_pay": 40960.0
+   },
+   "last5": {
+    "ll": -0.9109692250129326,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 3,
+    "hot16_pay": 420.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-04 Magnum 3043",
+     "hot 10-04 Sports Toto 1943",
+     "hot 10-07 Da Ma Cai 0165",
+     "cold 10-07 Magnum 6335"
+    ]
+   }
+  },
+  "backoff[day_element x mars_nakshatra x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -381.35792545348795,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 1160.0,
+    "hot16_hits": 133,
+    "hot16_pay": 42140.0,
+    "cold1_hits": 7,
+    "cold1_pay": 1340.0,
+    "cold16_hits": 116,
+    "cold16_pay": 24540.0
+   },
+   "test": {
+    "ll": -559.3101138659968,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 1420.0,
+    "hot16_hits": 140,
+    "hot16_pay": 39960.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1380.0,
+    "cold16_hits": 149,
+    "cold16_pay": 36680.0
+   },
+   "last5": {
+    "ll": -4.16892014569383,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 1000.0,
+    "detail": [
+     "cold 10-07 Sports Toto 0857"
+    ]
+   }
+  },
+  "backoff[day_element x nayin x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -436.5235718851068,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 480.0,
+    "hot16_hits": 141,
+    "hot16_pay": 35340.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1380.0,
+    "cold16_hits": 121,
+    "cold16_pay": 31600.0
+   },
+   "test": {
+    "ll": -526.658198536475,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 6260.0,
+    "hot16_hits": 183,
+    "hot16_pay": 55400.0,
+    "cold1_hits": 13,
+    "cold1_pay": 7260.0,
+    "cold16_hits": 165,
+    "cold16_pay": 47700.0
+   },
+   "last5": {
+    "ll": -2.501977515270691,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[adhika_masa x nayin x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -440.1849102851017,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 660.0,
+    "hot16_hits": 139,
+    "hot16_pay": 37540.0,
+    "cold1_hits": 7,
+    "cold1_pay": 900.0,
+    "cold16_hits": 112,
+    "cold16_pay": 27140.0
+   },
+   "test": {
+    "ll": -553.1357947922493,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 16,
+    "hot1_pay": 4240.0,
+    "hot16_hits": 178,
+    "hot16_pay": 54680.0,
+    "cold1_hits": 11,
+    "cold1_pay": 6260.0,
+    "cold16_hits": 164,
+    "cold16_pay": 45380.0
+   },
+   "last5": {
+    "ll": -2.677600798263077,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[kp_moon_star_lord x mars_nakshatra x lunar_month] a=1000": {
+   "validation": {
+    "ll": -443.4307014545906,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 6660.0,
+    "hot16_hits": 124,
+    "hot16_pay": 48200.0,
+    "cold1_hits": 6,
+    "cold1_pay": 840.0,
+    "cold16_hits": 111,
+    "cold16_pay": 24860.0
+   },
+   "test": {
+    "ll": -597.2270325942923,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 4080.0,
+    "hot16_hits": 173,
+    "hot16_pay": 45880.0,
+    "cold1_hits": 14,
+    "cold1_pay": 4440.0,
+    "cold16_hits": 164,
+    "cold16_pay": 37800.0
+   },
+   "last5": {
+    "ll": 0.07939054378646793,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-04 Da Ma Cai 9601"
+    ]
+   }
+  },
+  "backoff[hour_stem_19h x venus_retrograde x masa] a=1000": {
+   "validation": {
+    "ll": -362.77684098678117,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 4280.0,
+    "hot16_hits": 132,
+    "hot16_pay": 29320.0,
+    "cold1_hits": 6,
+    "cold1_pay": 720.0,
+    "cold16_hits": 121,
+    "cold16_pay": 50700.0
+   },
+   "test": {
+    "ll": -448.8837514379285,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1140.0,
+    "hot16_hits": 175,
+    "hot16_pay": 41860.0,
+    "cold1_hits": 10,
+    "cold1_pay": 6720.0,
+    "cold16_hits": 172,
+    "cold16_pay": 55500.0
+   },
+   "last5": {
+    "ll": -5.765798742912832,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 1,
+    "cold1_pay": 60.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-04 Sports Toto 4638"
+    ]
+   }
+  },
+  "backoff[hour_stem_19h x masa x yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -660.5516963026976,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 4340.0,
+    "hot16_hits": 137,
+    "hot16_pay": 39600.0,
+    "cold1_hits": 13,
+    "cold1_pay": 4060.0,
+    "cold16_hits": 139,
+    "cold16_pay": 38440.0
+   },
+   "test": {
+    "ll": -822.1241641223764,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 1020.0,
+    "hot16_hits": 170,
+    "hot16_pay": 35540.0,
+    "cold1_hits": 5,
+    "cold1_pay": 980.0,
+    "cold16_hits": 170,
+    "cold16_pay": 57620.0
+   },
+   "last5": {
+    "ll": -7.276403332625838,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[hour_stem_19h x masa x lunar_month] a=1000": {
+   "validation": {
+    "ll": -643.2816276905139,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 2080.0,
+    "hot16_hits": 139,
+    "hot16_pay": 46520.0,
+    "cold1_hits": 8,
+    "cold1_pay": 920.0,
+    "cold16_hits": 127,
+    "cold16_pay": 49240.0
+   },
+   "test": {
+    "ll": -751.1501370412326,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 720.0,
+    "hot16_hits": 157,
+    "hot16_pay": 34920.0,
+    "cold1_hits": 5,
+    "cold1_pay": 660.0,
+    "cold16_hits": 149,
+    "cold16_pay": 37020.0
+   },
+   "last5": {
+    "ll": -6.231616789660965,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[mars_nakshatra x nakshatra_lord x lunar_month] a=1000": {
+   "validation": {
+    "ll": -586.5377546599586,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 4880.0,
+    "hot16_hits": 117,
+    "hot16_pay": 41760.0,
+    "cold1_hits": 3,
+    "cold1_pay": 300.0,
+    "cold16_hits": 127,
+    "cold16_pay": 28480.0
+   },
+   "test": {
+    "ll": -776.511418254261,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 2080.0,
+    "hot16_hits": 168,
+    "hot16_pay": 48760.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1760.0,
+    "cold16_hits": 161,
+    "cold16_pay": 36480.0
+   },
+   "last5": {
+    "ll": -0.1505133719509213,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[nayin x yellow_black_path x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -585.8234019218105,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 2220.0,
+    "hot16_hits": 134,
+    "hot16_pay": 43680.0,
+    "cold1_hits": 7,
+    "cold1_pay": 4160.0,
+    "cold16_hits": 121,
+    "cold16_pay": 36380.0
+   },
+   "test": {
+    "ll": -701.795574357662,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 1920.0,
+    "hot16_hits": 154,
+    "hot16_pay": 43500.0,
+    "cold1_hits": 12,
+    "cold1_pay": 2260.0,
+    "cold16_hits": 149,
+    "cold16_pay": 41260.0
+   },
+   "last5": {
+    "ll": -3.380999014237869,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-10 Sports Toto 7127"
+    ]
+   }
+  },
+  "backoff[venus_combust x yellow_black_path x lunar_month] a=1000": {
+   "validation": {
+    "ll": -265.5892607682904,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 1780.0,
+    "hot16_hits": 150,
+    "hot16_pay": 38180.0,
+    "cold1_hits": 8,
+    "cold1_pay": 2220.0,
+    "cold16_hits": 134,
+    "cold16_pay": 39520.0
+   },
+   "test": {
+    "ll": -359.9052554455255,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 960.0,
+    "hot16_hits": 179,
+    "hot16_pay": 52440.0,
+    "cold1_hits": 11,
+    "cold1_pay": 3900.0,
+    "cold16_hits": 167,
+    "cold16_pay": 61620.0
+   },
+   "last5": {
+    "ll": -1.4527958260493423,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[adhika_masa x saturn_combust x masa] a=1000": {
+   "validation": {
+    "ll": -196.99190996555365,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 1400.0,
+    "hot16_hits": 141,
+    "hot16_pay": 36100.0,
+    "cold1_hits": 8,
+    "cold1_pay": 4580.0,
+    "cold16_hits": 110,
+    "cold16_pay": 37660.0
+   },
+   "test": {
+    "ll": -263.5679746526852,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 1780.0,
+    "hot16_hits": 153,
+    "hot16_pay": 34880.0,
+    "cold1_hits": 11,
+    "cold1_pay": 6260.0,
+    "cold16_hits": 162,
+    "cold16_pay": 48620.0
+   },
+   "last5": {
+    "ll": -1.976574740742408,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[kp_moon_star_lord x yellow_black_path x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -483.0683764218875,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 1660.0,
+    "hot16_hits": 133,
+    "hot16_pay": 36740.0,
+    "cold1_hits": 12,
+    "cold1_pay": 2260.0,
+    "cold16_hits": 117,
+    "cold16_pay": 39020.0
+   },
+   "test": {
+    "ll": -597.9283858020543,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 4700.0,
+    "hot16_hits": 146,
+    "hot16_pay": 45180.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1260.0,
+    "cold16_hits": 149,
+    "cold16_pay": 35240.0
+   },
+   "last5": {
+    "ll": -1.7973165353239697,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 2500.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-14 Sports Toto 9332"
+    ]
+   }
+  },
+  "backoff[kp_moon_star_lord x venus_retrograde x nakshatra_lord] a=1000": {
+   "validation": {
+    "ll": -214.45573413341276,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 300.0,
+    "hot16_hits": 110,
+    "hot16_pay": 23840.0,
+    "cold1_hits": 13,
+    "cold1_pay": 3140.0,
+    "cold16_hits": 123,
+    "cold16_pay": 35820.0
+   },
+   "test": {
+    "ll": -243.8577418288355,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 3580.0,
+    "hot16_hits": 145,
+    "hot16_pay": 33500.0,
+    "cold1_hits": 16,
+    "cold1_pay": 3560.0,
+    "cold16_hits": 166,
+    "cold16_pay": 50980.0
+   },
+   "last5": {
+    "ll": 1.219137475793648,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-14 Sports Toto 3036",
+     "cold 10-11 Da Ma Cai 3619"
+    ]
+   }
+  },
+  "backoff[day_element x hour_stem_19h x masa] a=1000": {
+   "validation": {
+    "ll": -436.97785842900123,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 13480.0,
+    "hot16_hits": 115,
+    "hot16_pay": 35220.0,
+    "cold1_hits": 10,
+    "cold1_pay": 5160.0,
+    "cold16_hits": 118,
+    "cold16_pay": 33860.0
+   },
+   "test": {
+    "ll": -518.405725678329,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 19,
+    "hot1_pay": 3480.0,
+    "hot16_hits": 143,
+    "hot16_pay": 33220.0,
+    "cold1_hits": 14,
+    "cold1_pay": 5180.0,
+    "cold16_hits": 161,
+    "cold16_pay": 56440.0
+   },
+   "last5": {
+    "ll": -6.584441482916036,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[saturn_combust x venus_retrograde x mars_retrograde] a=1000": {
+   "validation": {
+    "ll": -88.30118261783792,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 600.0,
+    "hot16_hits": 122,
+    "hot16_pay": 38280.0,
+    "cold1_hits": 11,
+    "cold1_pay": 3700.0,
+    "cold16_hits": 108,
+    "cold16_pay": 28460.0
+   },
+   "test": {
+    "ll": -112.35214778594293,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 5180.0,
+    "hot16_hits": 164,
+    "hot16_pay": 51520.0,
+    "cold1_hits": 15,
+    "cold1_pay": 6260.0,
+    "cold16_hits": 146,
+    "cold16_pay": 48020.0
+   },
+   "last5": {
+    "ll": -0.1627625585747033,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-04 Magnum 7720",
+     "cold 10-04 Sports Toto 8855"
+    ]
+   }
+  },
+  "backoff[venus_retrograde x yellow_black_path x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -295.70298968647126,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 7340.0,
+    "hot16_hits": 131,
+    "hot16_pay": 32640.0,
+    "cold1_hits": 7,
+    "cold1_pay": 2160.0,
+    "cold16_hits": 129,
+    "cold16_pay": 37480.0
+   },
+   "test": {
+    "ll": -415.9093112311216,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 6880.0,
+    "hot16_hits": 149,
+    "hot16_pay": 38560.0,
+    "cold1_hits": 17,
+    "cold1_pay": 2920.0,
+    "cold16_hits": 146,
+    "cold16_pay": 31200.0
+   },
+   "last5": {
+    "ll": -0.6879710102718357,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-07 Sports Toto 2485"
+    ]
+   }
+  },
+  "backoff[masa x yellow_black_path x lunar_month] a=1000": {
+   "validation": {
+    "ll": -420.3009891410838,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 13,
+    "hot1_pay": 1940.0,
+    "hot16_hits": 131,
+    "hot16_pay": 30140.0,
+    "cold1_hits": 11,
+    "cold1_pay": 2320.0,
+    "cold16_hits": 128,
+    "cold16_pay": 40420.0
+   },
+   "test": {
+    "ll": -474.1374385743841,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 3360.0,
+    "hot16_hits": 150,
+    "hot16_pay": 49140.0,
+    "cold1_hits": 15,
+    "cold1_pay": 5820.0,
+    "cold16_hits": 170,
+    "cold16_pay": 57100.0
+   },
+   "last5": {
+    "ll": -3.7086219462954757,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[hour_stem_19h x venus_retrograde x lunar_month] a=1000": {
+   "validation": {
+    "ll": -356.4384905448647,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 3100.0,
+    "hot16_hits": 135,
+    "hot16_pay": 34480.0,
+    "cold1_hits": 7,
+    "cold1_pay": 660.0,
+    "cold16_hits": 116,
+    "cold16_pay": 35520.0
+   },
+   "test": {
+    "ll": -479.67655398544906,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1780.0,
+    "hot16_hits": 162,
+    "hot16_pay": 39840.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1840.0,
+    "cold16_hits": 182,
+    "cold16_pay": 51320.0
+   },
+   "last5": {
+    "ll": -6.1605489771262505,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 1,
+    "cold1_pay": 60.0,
+    "cold16_hits": 2,
+    "cold16_pay": 120.0,
+    "detail": [
+     "cold 10-04 Sports Toto 4638",
+     "cold 10-10 Magnum 8216"
+    ]
+   }
+  },
+  "backoff[lunar_leap_month x venus_combust x mercury_combust] a=1000": {
+   "validation": {
+    "ll": -102.01688097294652,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 720.0,
+    "hot16_hits": 117,
+    "hot16_pay": 21780.0,
+    "cold1_hits": 11,
+    "cold1_pay": 4760.0,
+    "cold16_hits": 145,
+    "cold16_pay": 47000.0
+   },
+   "test": {
+    "ll": -114.5430110690154,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 3240.0,
+    "hot16_hits": 147,
+    "hot16_pay": 49180.0,
+    "cold1_hits": 13,
+    "cold1_pay": 6380.0,
+    "cold16_hits": 162,
+    "cold16_pay": 52440.0
+   },
+   "last5": {
+    "ll": -0.29862418865651186,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 1,
+    "cold1_pay": 500.0,
+    "cold16_hits": 3,
+    "cold16_pay": 1180.0,
+    "detail": [
+     "hot 10-14 Magnum 7484",
+     "cold 10-10 Magnum 0262",
+     "cold 10-10 Sports Toto 9069",
+     "cold 10-10 Sports Toto 5709"
+    ]
+   }
+  },
+  "backoff[mars_nakshatra x mars_rashi x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -454.2888843156433,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 3040.0,
+    "hot16_hits": 110,
+    "hot16_pay": 43400.0,
+    "cold1_hits": 13,
+    "cold1_pay": 7440.0,
+    "cold16_hits": 119,
+    "cold16_pay": 26600.0
+   },
+   "test": {
+    "ll": -548.2334049286886,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 7,
+    "hot1_pay": 900.0,
+    "hot16_hits": 132,
+    "hot16_pay": 27660.0,
+    "cold1_hits": 3,
+    "cold1_pay": 180.0,
+    "cold16_hits": 164,
+    "cold16_pay": 38500.0
+   },
+   "last5": {
+    "ll": -0.13693573534322445,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 240.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-10 Magnum 5009",
+     "hot 10-14 Sports Toto 5484"
+    ]
+   }
+  },
+  "backoff[hour_stem_19h x kp_moon_star_lord x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -582.35828551573,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 1700.0,
+    "hot16_hits": 126,
+    "hot16_pay": 30700.0,
+    "cold1_hits": 6,
+    "cold1_pay": 1980.0,
+    "cold16_hits": 137,
+    "cold16_pay": 36700.0
+   },
+   "test": {
+    "ll": -623.7584507504334,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 840.0,
+    "hot16_hits": 155,
+    "hot16_pay": 43060.0,
+    "cold1_hits": 15,
+    "cold1_pay": 2440.0,
+    "cold16_hits": 199,
+    "cold16_pay": 53440.0
+   },
+   "last5": {
+    "ll": -1.9201417092384472,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 360.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 8406",
+     "hot 10-11 Magnum 7786"
+    ]
+   }
+  },
+  "backoff[lunar_leap_month x mars_rashi x yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -335.773275329904,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 12,
+    "hot1_pay": 6080.0,
+    "hot16_hits": 129,
+    "hot16_pay": 28840.0,
+    "cold1_hits": 10,
+    "cold1_pay": 2020.0,
+    "cold16_hits": 121,
+    "cold16_pay": 28900.0
+   },
+   "test": {
+    "ll": -356.8192922313981,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 1840.0,
+    "hot16_hits": 138,
+    "hot16_pay": 39920.0,
+    "cold1_hits": 8,
+    "cold1_pay": 1760.0,
+    "cold16_hits": 181,
+    "cold16_pay": 48320.0
+   },
+   "last5": {
+    "ll": -0.7699936679598782,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 8253"
+    ]
+   }
+  },
+  "backoff[mars_rashi x yellow_black_path x mars_retrograde] a=1000": {
+   "validation": {
+    "ll": -415.5417219526116,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 1340.0,
+    "hot16_hits": 118,
+    "hot16_pay": 29420.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1780.0,
+    "cold16_hits": 130,
+    "cold16_pay": 24960.0
+   },
+   "test": {
+    "ll": -419.72869602406456,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 14,
+    "hot1_pay": 5180.0,
+    "hot16_hits": 157,
+    "hot16_pay": 45720.0,
+    "cold1_hits": 6,
+    "cold1_pay": 840.0,
+    "cold16_hits": 173,
+    "cold16_pay": 45260.0
+   },
+   "last5": {
+    "ll": -1.5792998344604134,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 8253"
+    ]
+   }
+  },
+  "backoff[hour_stem_19h x lunar_leap_month x nakshatra_lord] a=1000": {
+   "validation": {
+    "ll": -391.45545606816256,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 11,
+    "hot1_pay": 2280.0,
+    "hot16_hits": 133,
+    "hot16_pay": 27700.0,
+    "cold1_hits": 9,
+    "cold1_pay": 2080.0,
+    "cold16_hits": 132,
+    "cold16_pay": 36800.0
+   },
+   "test": {
+    "ll": -434.98749514917444,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 1900.0,
+    "hot16_hits": 149,
+    "hot16_pay": 42680.0,
+    "cold1_hits": 16,
+    "cold1_pay": 3560.0,
+    "cold16_hits": 179,
+    "cold16_pay": 52100.0
+   },
+   "last5": {
+    "ll": -1.3686692319436702,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 3,
+    "hot16_pay": 420.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 8406",
+     "hot 10-11 Magnum 7786",
+     "hot 10-11 Sports Toto 9696"
+    ]
+   }
+  },
+  "backoff[day_element x yellow_black_path x nakshatra_pada] a=1000": {
+   "validation": {
+    "ll": -259.00078738118816,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 5,
+    "hot1_pay": 660.0,
+    "hot16_hits": 117,
+    "hot16_pay": 27260.0,
+    "cold1_hits": 12,
+    "cold1_pay": 1320.0,
+    "cold16_hits": 142,
+    "cold16_pay": 44140.0
+   },
+   "test": {
+    "ll": -335.32989242992477,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 7,
+    "hot1_pay": 2860.0,
+    "hot16_hits": 142,
+    "hot16_pay": 28180.0,
+    "cold1_hits": 12,
+    "cold1_pay": 2620.0,
+    "cold16_hits": 161,
+    "cold16_pay": 45520.0
+   },
+   "last5": {
+    "ll": -2.6510387857941295,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 560.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Magnum 2399",
+     "hot 10-07 Magnum 8187"
+    ]
+   }
+  },
+  "backoff[adhika_masa x kp_moon_star_lord x mercury_combust] a=1000": {
+   "validation": {
+    "ll": -278.8594614679034,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 13,
+    "hot1_pay": 4760.0,
+    "hot16_hits": 120,
+    "hot16_pay": 36740.0,
+    "cold1_hits": 6,
+    "cold1_pay": 1540.0,
+    "cold16_hits": 132,
+    "cold16_pay": 36340.0
+   },
+   "test": {
+    "ll": -327.62292024779265,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 10,
+    "hot1_pay": 2500.0,
+    "hot16_hits": 134,
+    "hot16_pay": 38620.0,
+    "cold1_hits": 7,
+    "cold1_pay": 780.0,
+    "cold16_hits": 166,
+    "cold16_pay": 43940.0
+   },
+   "last5": {
+    "ll": -1.189635031497331,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[day_element x saturn_combust x venus_retrograde] a=1000": {
+   "validation": {
+    "ll": -174.6523682427951,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 8,
+    "hot1_pay": 3520.0,
+    "hot16_hits": 127,
+    "hot16_pay": 34500.0,
+    "cold1_hits": 8,
+    "cold1_pay": 840.0,
+    "cold16_hits": 131,
+    "cold16_pay": 35880.0
+   },
+   "test": {
+    "ll": -207.17486694033818,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 3660.0,
+    "hot16_hits": 158,
+    "hot16_pay": 52140.0,
+    "cold1_hits": 14,
+    "cold1_pay": 2700.0,
+    "cold16_hits": 183,
+    "cold16_pay": 51240.0
+   },
+   "last5": {
+    "ll": -2.3744191959262038,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 2,
+    "cold16_pay": 1180.0,
+    "detail": [
+     "hot 10-11 Da Ma Cai 3366",
+     "cold 10-04 Da Ma Cai 3442",
+     "cold 10-10 Da Ma Cai 1233"
+    ]
+   }
+  },
+  "backoff[saturn_combust x mars_rashi x yellow_black_path] a=1000": {
+   "validation": {
+    "ll": -378.33084973976315,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 1040.0,
+    "hot16_hits": 113,
+    "hot16_pay": 27660.0,
+    "cold1_hits": 11,
+    "cold1_pay": 1580.0,
+    "cold16_hits": 130,
+    "cold16_pay": 32240.0
+   },
+   "test": {
+    "ll": -413.9348743417859,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 7,
+    "hot1_pay": 780.0,
+    "hot16_hits": 147,
+    "hot16_pay": 48740.0,
+    "cold1_hits": 8,
+    "cold1_pay": 1320.0,
+    "cold16_hits": 161,
+    "cold16_pay": 42520.0
+   },
+   "last5": {
+    "ll": -0.5495503087370892,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-04 Da Ma Cai 8253"
+    ]
+   }
+  },
+  "backoff[mars_nakshatra x mars_rashi x mercury_combust] a=1000": {
+   "validation": {
+    "ll": -608.3925484887891,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 420.0,
+    "hot16_hits": 114,
+    "hot16_pay": 33460.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1640.0,
+    "cold16_hits": 131,
+    "cold16_pay": 39200.0
+   },
+   "test": {
+    "ll": -731.6314789806097,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 7,
+    "hot1_pay": 3340.0,
+    "hot16_hits": 148,
+    "hot16_pay": 37300.0,
+    "cold1_hits": 10,
+    "cold1_pay": 1720.0,
+    "cold16_hits": 149,
+    "cold16_pay": 43100.0
+   },
+   "last5": {
+    "ll": 0.03809611936706547,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "backoff[day_element x saturn_combust x lunar_leap_month] a=1000": {
+   "validation": {
+    "ll": -164.88837159069928,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 1320.0,
+    "hot16_hits": 122,
+    "hot16_pay": 37160.0,
+    "cold1_hits": 9,
+    "cold1_pay": 780.0,
+    "cold16_hits": 134,
+    "cold16_pay": 39300.0
+   },
+   "test": {
+    "ll": -192.28347210882364,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 8780.0,
+    "hot16_hits": 158,
+    "hot16_pay": 43960.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1220.0,
+    "cold16_hits": 180,
+    "cold16_pay": 58240.0
+   },
+   "last5": {
+    "ll": -0.660048436916533,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 1,
+    "hot1_pay": 60.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-14 Magnum 7484",
+     "cold 10-11 Da Ma Cai 6329"
+    ]
+   }
+  },
+  "knn[52 params] beta=0.1": {
+   "validation": {
+    "ll": -30.999422387952393,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 600.0,
+    "hot16_hits": 132,
+    "hot16_pay": 42080.0,
+    "cold1_hits": 10,
+    "cold1_pay": 4220.0,
+    "cold16_hits": 125,
+    "cold16_pay": 37500.0
+   },
+   "test": {
+    "ll": -54.206686157307274,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 12,
+    "hot1_pay": 2700.0,
+    "hot16_hits": 154,
+    "hot16_pay": 45960.0,
+    "cold1_hits": 15,
+    "cold1_pay": 4060.0,
+    "cold16_hits": 168,
+    "cold16_pay": 55500.0
+   },
+   "last5": {
+    "ll": -0.23396436102067655,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 2,
+    "cold16_pay": 120.0,
+    "detail": [
+     "cold 10-07 Magnum 6335",
+     "cold 10-11 Magnum 0365"
+    ]
+   }
+  },
+  "knn[52 params] beta=0.3": {
+   "validation": {
+    "ll": -256.37874423282983,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 6,
+    "hot1_pay": 840.0,
+    "hot16_hits": 109,
+    "hot16_pay": 29280.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3720.0,
+    "cold16_hits": 137,
+    "cold16_pay": 42160.0
+   },
+   "test": {
+    "ll": -452.29327911675153,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 1740.0,
+    "hot16_hits": 163,
+    "hot16_pay": 36580.0,
+    "cold1_hits": 6,
+    "cold1_pay": 4920.0,
+    "cold16_hits": 171,
+    "cold16_pay": 60860.0
+   },
+   "last5": {
+    "ll": -3.9865107919327754,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "hot 10-04 Magnum 3043",
+     "cold 10-07 Sports Toto 2555"
+    ]
+   }
+  },
+  "knn[26 params] beta=0.1": {
+   "validation": {
+    "ll": -31.569692728953303,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 360.0,
+    "hot16_hits": 126,
+    "hot16_pay": 44280.0,
+    "cold1_hits": 9,
+    "cold1_pay": 4160.0,
+    "cold16_hits": 124,
+    "cold16_pay": 33400.0
+   },
+   "test": {
+    "ll": -52.03017143351703,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 2880.0,
+    "hot16_hits": 161,
+    "hot16_pay": 48860.0,
+    "cold1_hits": 18,
+    "cold1_pay": 14000.0,
+    "cold16_hits": 160,
+    "cold16_pay": 49760.0
+   },
+   "last5": {
+    "ll": -0.3015809374614986,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-14 Magnum 7484",
+     "cold 10-07 Magnum 6335"
+    ]
+   }
+  },
+  "knn[26 params] beta=0.3": {
+   "validation": {
+    "ll": -51.477191944640936,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 10,
+    "hot1_pay": 2020.0,
+    "hot16_hits": 114,
+    "hot16_pay": 30020.0,
+    "cold1_hits": 13,
+    "cold1_pay": 1500.0,
+    "cold16_hits": 134,
+    "cold16_pay": 35720.0
+   },
+   "test": {
+    "ll": -74.22718854379212,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 11,
+    "hot1_pay": 3140.0,
+    "hot16_hits": 144,
+    "hot16_pay": 41960.0,
+    "cold1_hits": 13,
+    "cold1_pay": 5320.0,
+    "cold16_hits": 154,
+    "cold16_pay": 45500.0
+   },
+   "last5": {
+    "ll": -0.9915183235480516,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "cold 10-07 Magnum 6335"
+    ]
+   }
+  },
+  "knn[78 params] beta=0.1": {
+   "validation": {
+    "ll": -31.71647435756382,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 1140.0,
+    "hot16_hits": 116,
+    "hot16_pay": 33920.0,
+    "cold1_hits": 9,
+    "cold1_pay": 4160.0,
+    "cold16_hits": 128,
+    "cold16_pay": 31220.0
+   },
+   "test": {
+    "ll": -57.801676183772415,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 3360.0,
+    "hot16_hits": 161,
+    "hot16_pay": 47480.0,
+    "cold1_hits": 13,
+    "cold1_pay": 6140.0,
+    "cold16_hits": 162,
+    "cold16_pay": 66820.0
+   },
+   "last5": {
+    "ll": -0.40152729382760854,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 60.0,
+    "detail": [
+     "hot 10-07 Sports Toto 1311",
+     "cold 10-11 Magnum 0365"
+    ]
+   }
+  },
+  "knn[78 params] beta=0.3": {
+   "validation": {
+    "ll": -966.1064937440046,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 3,
+    "hot1_pay": 2740.0,
+    "hot16_hits": 108,
+    "hot16_pay": 31900.0,
+    "cold1_hits": 6,
+    "cold1_pay": 1540.0,
+    "cold16_hits": 112,
+    "cold16_pay": 32320.0
+   },
+   "test": {
+    "ll": -1388.3283143739102,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 6,
+    "hot1_pay": 1540.0,
+    "hot16_hits": 155,
+    "hot16_pay": 38000.0,
+    "cold1_hits": 9,
+    "cold1_pay": 1960.0,
+    "cold16_hits": 174,
+    "cold16_pay": 54100.0
+   },
+   "last5": {
+    "ll": -19.417295959070174,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 180.0,
+    "detail": [
+     "cold 10-11 Da Ma Cai 3619"
+    ]
+   }
+  },
+  "softmax[78 params] C=0.001": {
+   "validation": {
+    "ll": -1114.945561382827,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 4220.0,
+    "hot16_hits": 125,
+    "hot16_pay": 21800.0,
+    "cold1_hits": 4,
+    "cold1_pay": 600.0,
+    "cold16_hits": 123,
+    "cold16_pay": 31240.0
+   },
+   "test": {
+    "ll": -1302.1441583972355,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 9,
+    "hot1_pay": 2320.0,
+    "hot16_hits": 134,
+    "hot16_pay": 29300.0,
+    "cold1_hits": 6,
+    "cold1_pay": 600.0,
+    "cold16_hits": 154,
+    "cold16_pay": 47820.0
+   },
+   "last5": {
+    "ll": -7.374166216686785,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 1,
+    "hot16_pay": 60.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 1,
+    "cold16_pay": 1000.0,
+    "detail": [
+     "hot 10-07 Da Ma Cai 4052",
+     "cold 10-14 Magnum 3175"
+    ]
+   }
+  },
+  "softmax[78 params] C=0.01": {
+   "validation": {
+    "ll": -4481.096598961825,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 7,
+    "hot1_pay": 780.0,
+    "hot16_hits": 118,
+    "hot16_pay": 30040.0,
+    "cold1_hits": 9,
+    "cold1_pay": 2900.0,
+    "cold16_hits": 119,
+    "cold16_pay": 37980.0
+   },
+   "test": {
+    "ll": -4986.889202447975,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 8,
+    "hot1_pay": 1780.0,
+    "hot16_hits": 143,
+    "hot16_pay": 42260.0,
+    "cold1_hits": 10,
+    "cold1_pay": 6520.0,
+    "cold16_hits": 162,
+    "cold16_pay": 50380.0
+   },
+   "last5": {
+    "ll": -15.860578296330813,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 0,
+    "hot16_pay": 0.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": []
+   }
+  },
+  "ensemble[5 match formulas]": {
+   "validation": {
+    "ll": -31.143917360571997,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 4,
+    "hot1_pay": 480.0,
+    "hot16_hits": 116,
+    "hot16_pay": 39920.0,
+    "cold1_hits": 10,
+    "cold1_pay": 3400.0,
+    "cold16_hits": 127,
+    "cold16_pay": 40220.0
+   },
+   "test": {
+    "ll": -53.333722226280834,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 13,
+    "hot1_pay": 2800.0,
+    "hot16_hits": 143,
+    "hot16_pay": 41080.0,
+    "cold1_hits": 16,
+    "cold1_pay": 11320.0,
+    "cold16_hits": 170,
+    "cold16_pay": 48640.0
+   },
+   "last5": {
+    "ll": -0.33030425793023127,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 3,
+    "hot16_pay": 180.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-07 Sports Toto 1332",
+     "hot 10-11 Sports Toto 3132",
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  },
+  "ensemble[20 match formulas]": {
+   "validation": {
+    "ll": -32.2799710192179,
+    "digits": 295904,
+    "draws": 3220,
+    "winners": 73976,
+    "hot1_hits": 9,
+    "hot1_pay": 1140.0,
+    "hot16_hits": 126,
+    "hot16_pay": 35800.0,
+    "cold1_hits": 10,
+    "cold1_pay": 5720.0,
+    "cold16_hits": 116,
+    "cold16_pay": 32480.0
+   },
+   "test": {
+    "ll": -52.428671435234186,
+    "digits": 383304,
+    "draws": 4171,
+    "winners": 95826,
+    "hot1_hits": 15,
+    "hot1_pay": 2800.0,
+    "hot16_hits": 146,
+    "hot16_pay": 44980.0,
+    "cold1_hits": 22,
+    "cold1_pay": 9840.0,
+    "cold16_hits": 173,
+    "cold16_pay": 41920.0
+   },
+   "last5": {
+    "ll": -0.25867381896063724,
+    "digits": 1380,
+    "draws": 15,
+    "winners": 345,
+    "hot1_hits": 0,
+    "hot1_pay": 0.0,
+    "hot16_hits": 2,
+    "hot16_pay": 120.0,
+    "cold1_hits": 0,
+    "cold1_pay": 0.0,
+    "cold16_hits": 0,
+    "cold16_pay": 0.0,
+    "detail": [
+     "hot 10-07 Sports Toto 1332",
+     "hot 10-14 Magnum 7484"
+    ]
+   }
+  }
+ }
+}
