@@ -1,0 +1,450 @@
+{
+ "split": 2012,
+ "columns": {
+  "S1_a_straight": [
+   {
+    "test": "mercury_nakshatra x venus_rashi",
+    "z_before": 3.4694601587808953,
+    "hits_after": 307.0,
+    "exp_after": 272.0840003771741,
+    "z_after": 2.1167666181673583
+   },
+   {
+    "test": "jupiter_retrograde x year_yinyang",
+    "z_before": 3.070935393905194,
+    "hits_after": 261.0,
+    "exp_after": 273.0896628013662,
+    "z_after": -0.7315795504427025
+   },
+   {
+    "test": "mercury_retrograde x saturn_combust",
+    "z_before": 2.8636355749442615,
+    "hits_after": 241.0,
+    "exp_after": 271.7088011134645,
+    "z_after": -1.8629920799826967
+   },
+   {
+    "test": "paksha x karana",
+    "z_before": 2.8413990676074277,
+    "hits_after": 257.0,
+    "exp_after": 270.8512143650441,
+    "z_after": -0.8416324213803846
+   },
+   {
+    "test": "nakshatra_lord x hora_lord",
+    "z_before": 2.826043725152801,
+    "hits_after": 293.0,
+    "exp_after": 270.93751370193786,
+    "z_after": 1.3403551348655895
+   }
+  ],
+  "S1_a_reverse": [
+   {
+    "test": "mercury_retrograde x month_stem",
+    "z_before": 3.939083465947033,
+    "hits_after": 276.0,
+    "exp_after": 267.1783053858934,
+    "z_after": 0.5396987646635325
+   },
+   {
+    "test": "paksha x kp_moon_star_lord",
+    "z_before": 3.45157840605865,
+    "hits_after": 262.0,
+    "exp_after": 266.5962707975161,
+    "z_after": -0.28150011262625696
+   },
+   {
+    "test": "paksha x nakshatra_lord",
+    "z_before": 3.4383668469038904,
+    "hits_after": 254.0,
+    "exp_after": 267.33363645944985,
+    "z_after": -0.8154959469948236
+   },
+   {
+    "test": "paksha x karana",
+    "z_before": 3.3027387430906265,
+    "hits_after": 243.0,
+    "exp_after": 268.0003676353098,
+    "z_after": -1.5271394639101776
+   },
+   {
+    "test": "mercury_rashi x nine_star_year",
+    "z_before": 2.9567550962792515,
+    "hits_after": 274.0,
+    "exp_after": 269.2533566127385,
+    "z_after": 0.2892717624265219
+   }
+  ],
+  "S1_a_ibox": [
+   {
+    "test": "mercury_combust x nine_star_month",
+    "z_before": 3.7856093351002977,
+    "hits_after": 4333.0,
+    "exp_after": 4292.1089914577915,
+    "z_after": 0.6241549963156853
+   },
+   {
+    "test": "sun_rashi x kp_sun_sub_lord",
+    "z_before": 3.616822164890387,
+    "hits_after": 4589.0,
+    "exp_after": 4622.368209767321,
+    "z_after": -0.4907955746593291
+   },
+   {
+    "test": "sun_nakshatra x mercury_rashi",
+    "z_before": 3.413598109488817,
+    "hits_after": 4618.0,
+    "exp_after": 4564.845358213064,
+    "z_after": 0.7867344376594282
+   },
+   {
+    "test": "mercury_retrograde x saturn_retrograde",
+    "z_before": 3.359270681911999,
+    "hits_after": 3660.0,
+    "exp_after": 3645.9313593510474,
+    "z_after": 0.23299569281412658
+   },
+   {
+    "test": "mercury_nakshatra x lunar_leap_month",
+    "z_before": 3.1598388305538796,
+    "hits_after": 4358.0,
+    "exp_after": 4393.186707447373,
+    "z_after": -0.5308707531217991
+   }
+  ],
+  "S1_b_straight": [
+   {
+    "test": "day_branch x day_god",
+    "z_before": 3.074204881338627,
+    "hits_after": 269.0,
+    "exp_after": 273.98771023974035,
+    "z_after": -0.3013253528654713
+   },
+   {
+    "test": "planets_with_moon x solar_term",
+    "z_before": 2.9583406142061093,
+    "hits_after": 269.0,
+    "exp_after": 273.2893071566066,
+    "z_after": -0.2594632342307209
+   },
+   {
+    "test": "moon_navamsa x day_stem",
+    "z_before": 2.9009164320751846,
+    "hits_after": 269.0,
+    "exp_after": 273.27698996273307,
+    "z_after": -0.25872398886319764
+   },
+   {
+    "test": "ayana x day_officer",
+    "z_before": 2.7144292247980104,
+    "hits_after": 282.0,
+    "exp_after": 274.80429386131357,
+    "z_after": 0.43407188961737364
+   },
+   {
+    "test": "kp_asc_sub_lord x yellow_black_path",
+    "z_before": 2.5472355647880582,
+    "hits_after": 257.0,
+    "exp_after": 274.9597642530588,
+    "z_after": -1.0830937712497795
+   }
+  ],
+  "S1_b_reverse": [
+   {
+    "test": "sun_rashi x lunar_day",
+    "z_before": 3.0226860657680175,
+    "hits_after": 294.0,
+    "exp_after": 269.3935972422095,
+    "z_after": 1.4991824636559425
+   },
+   {
+    "test": "weekday x day_god",
+    "z_before": 2.8248271058029903,
+    "hits_after": 272.0,
+    "exp_after": 269.5873959036494,
+    "z_after": 0.1469387256556602
+   },
+   {
+    "test": "lunar_day x month_branch",
+    "z_before": 2.822630789426574,
+    "hits_after": 261.0,
+    "exp_after": 269.28701698206385,
+    "z_after": -0.504999003436958
+   },
+   {
+    "test": "lagna_nakshatra x day_vs_year_branch",
+    "z_before": 2.7412282559216954,
+    "hits_after": 272.0,
+    "exp_after": 269.2493560662356,
+    "z_after": 0.1676320432736432
+   },
+   {
+    "test": "tithi x kp_asc_number",
+    "z_before": 2.733752042365497,
+    "hits_after": 153.0,
+    "exp_after": 173.67455114952236,
+    "z_after": -1.5688015042957322
+   }
+  ],
+  "S1_b_ibox": [
+   {
+    "test": "kp_asc_number x lunar_day",
+    "z_before": 3.405581730909942,
+    "hits_after": 2996.0,
+    "exp_after": 3035.5873970898933,
+    "z_after": -0.7185145661938298
+   },
+   {
+    "test": "yoga x day_pillar",
+    "z_before": 3.02309648539354,
+    "hits_after": 4545.0,
+    "exp_after": 4474.241505626985,
+    "z_after": 1.0578372894605512
+   },
+   {
+    "test": "saturn_retrograde x kp_moon_number",
+    "z_before": 3.0112727638779013,
+    "hits_after": 4603.0,
+    "exp_after": 4564.101157008909,
+    "z_after": 0.5757832850001792
+   },
+   {
+    "test": "karana x day_pillar",
+    "z_before": 2.521733373974536,
+    "hits_after": 4709.0,
+    "exp_after": 4529.125045481496,
+    "z_after": 2.6727820220913676
+   },
+   {
+    "test": "kp_moon_sub_lord x kp_asc_star_lord",
+    "z_before": 2.3638802376032575,
+    "hits_after": 4501.0,
+    "exp_after": 4588.788614535412,
+    "z_after": -1.2959527543998175
+   }
+  ],
+  "S2_a_straight": [
+   {
+    "test": "jupiter_rashi x year_yinyang",
+    "z_before": 3.848149951401269,
+    "hits_after": 261.0,
+    "exp_after": 264.51896643691555,
+    "z_after": -0.21636485405955821
+   },
+   {
+    "test": "jupiter_rashi x year_animal",
+    "z_before": 3.747341495917482,
+    "hits_after": 261.0,
+    "exp_after": 264.53506761092586,
+    "z_after": -0.21734822539316523
+   },
+   {
+    "test": "paksha x year_pillar",
+    "z_before": 3.587470632026598,
+    "hits_after": 251.0,
+    "exp_after": 252.209998907208,
+    "z_after": -0.07619102706567234
+   },
+   {
+    "test": "saturn_retrograde x year_pillar",
+    "z_before": 3.337305155082233,
+    "hits_after": 252.0,
+    "exp_after": 251.9434768760596,
+    "z_after": 0.003561021513090204
+   },
+   {
+    "test": "ritu x hour_stem_19h",
+    "z_before": 3.276021051657144,
+    "hits_after": 292.0,
+    "exp_after": 272.9566264470544,
+    "z_after": 1.1526489675347056
+   }
+  ],
+  "S2_a_reverse": [
+   {
+    "test": "karana x kp_moon_number",
+    "z_before": 3.269520070809899,
+    "hits_after": 253.0,
+    "exp_after": 246.93568832120337,
+    "z_after": 0.38591315551590344
+   },
+   {
+    "test": "sun_rashi x mars_retrograde",
+    "z_before": 3.0362896289814656,
+    "hits_after": 296.0,
+    "exp_after": 269.94778535964605,
+    "z_after": 1.585640621383835
+   },
+   {
+    "test": "rahu_rashi x day_pillar",
+    "z_before": 3.0305070338876967,
+    "hits_after": 288.0,
+    "exp_after": 268.78188567441237,
+    "z_after": 1.172224446803303
+   },
+   {
+    "test": "karana x kp_sun_sub_lord",
+    "z_before": 2.8235616551133624,
+    "hits_after": 278.0,
+    "exp_after": 269.37740754083256,
+    "z_after": 0.5253603292537516
+   },
+   {
+    "test": "kp_moon_number x kp_sun_number",
+    "z_before": 2.8196857871355085,
+    "hits_after": 64.0,
+    "exp_after": 53.880025746810524,
+    "z_after": 1.3786864595932604
+   }
+  ],
+  "S2_a_ibox": [
+   {
+    "test": "paksha x saturn_rashi",
+    "z_before": 3.567953323680041,
+    "hits_after": 3768.0,
+    "exp_after": 3662.6988905590956,
+    "z_after": 1.739932252050419
+   },
+   {
+    "test": "paksha x rahu_nakshatra",
+    "z_before": 3.4728259155558185,
+    "hits_after": 4256.0,
+    "exp_after": 4415.773283636078,
+    "z_after": -2.404367101958235
+   },
+   {
+    "test": "jupiter_nakshatra x mercury_combust",
+    "z_before": 3.4620700999087055,
+    "hits_after": 4600.0,
+    "exp_after": 4461.436731982848,
+    "z_after": 2.0744871467321224
+   },
+   {
+    "test": "saturn_rashi x ayana",
+    "z_before": 3.247484497641549,
+    "hits_after": 3858.0,
+    "exp_after": 3802.60781549714,
+    "z_after": 0.8982717145991391
+   },
+   {
+    "test": "jupiter_rashi x year_yinyang",
+    "z_before": 3.057591518697304,
+    "hits_after": 4097.0,
+    "exp_after": 4013.7683690466793,
+    "z_after": 1.3137485563655866
+   }
+  ],
+  "S2_b_straight": [
+   {
+    "test": "lunar_day x day_god",
+    "z_before": 3.1827014255477386,
+    "hits_after": 252.0,
+    "exp_after": 271.1978944940846,
+    "z_after": -1.1657634742385032
+   },
+   {
+    "test": "venus_nakshatra x lunar_day",
+    "z_before": 3.108305524434343,
+    "hits_after": 267.0,
+    "exp_after": 271.16437835074714,
+    "z_after": -0.2528912838694769
+   },
+   {
+    "test": "kp_moon_sub_lord x day_officer",
+    "z_before": 2.638469383800575,
+    "hits_after": 280.0,
+    "exp_after": 270.30601014138745,
+    "z_after": 0.589623398930406
+   },
+   {
+    "test": "tithi x month_stem",
+    "z_before": 2.623259695766239,
+    "hits_after": 280.0,
+    "exp_after": 271.16341287855005,
+    "z_after": 0.5366226726396367
+   },
+   {
+    "test": "weekday x lagna_nakshatra",
+    "z_before": 2.5397162182752053,
+    "hits_after": 281.0,
+    "exp_after": 270.3017186388771,
+    "z_after": 0.6507131929650347
+   }
+  ],
+  "S2_b_reverse": [
+   {
+    "test": "mercury_combust x kp_sun_number",
+    "z_before": 3.5587850197382247,
+    "hits_after": 258.0,
+    "exp_after": 268.58473938661376,
+    "z_after": -0.6458616577203473
+   },
+   {
+    "test": "venus_nakshatra x month_stem",
+    "z_before": 3.4302529610493733,
+    "hits_after": 271.0,
+    "exp_after": 267.8743795079997,
+    "z_after": 0.19097242218953234
+   },
+   {
+    "test": "venus_nakshatra x masa",
+    "z_before": 3.3644135328783453,
+    "hits_after": 257.0,
+    "exp_after": 268.00995879825507,
+    "z_after": -0.6725277790368298
+   },
+   {
+    "test": "venus_nakshatra x month_branch",
+    "z_before": 3.3573686583096913,
+    "hits_after": 267.0,
+    "exp_after": 268.6318771082739,
+    "z_after": -0.09956545364745834
+   },
+   {
+    "test": "yoga x kp_sun_star_lord",
+    "z_before": 3.3382815474634606,
+    "hits_after": 296.0,
+    "exp_after": 268.24053630740093,
+    "z_after": 1.6949186833636007
+   }
+  ],
+  "S2_b_ibox": [
+   {
+    "test": "kp_sun_sub_lord x day_god",
+    "z_before": 2.9815056143578036,
+    "hits_after": 4517.0,
+    "exp_after": 4557.003432808606,
+    "z_after": -0.5925944545968428
+   },
+   {
+    "test": "weekday x nine_star_month",
+    "z_before": 2.8428796933677054,
+    "hits_after": 4640.0,
+    "exp_after": 4549.7750421979235,
+    "z_after": 1.3376168334810186
+   },
+   {
+    "test": "weekday x hour_stem_19h",
+    "z_before": 2.747797617234278,
+    "hits_after": 4627.0,
+    "exp_after": 4546.425675195636,
+    "z_after": 1.1949827250841658
+   },
+   {
+    "test": "hora_lord x day_branch",
+    "z_before": 2.6967631397682474,
+    "hits_after": 4561.0,
+    "exp_after": 4548.717428454877,
+    "z_after": 0.18211462468866682
+   },
+   {
+    "test": "hora_lord x day_stem",
+    "z_before": 2.651820721614071,
+    "hits_after": 4459.0,
+    "exp_after": 4555.8458828135235,
+    "z_after": -1.434817451530863
+   }
+  ]
+ },
+ "mean_z_after": 0.17068452514305849
+}
