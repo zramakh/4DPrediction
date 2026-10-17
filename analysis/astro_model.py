@@ -316,7 +316,7 @@ def forward_test(variant, formula, codes, rows, draws, seed=0):
                                        "random_picks_per_RM1": round(x[f"rp{K}"] / (K * x["draws"]), 3)}
         out[key] = r
     print(f"[{variant}] forward test: {len(test_dates)} draw dates in {time.time() - t0:.0f}s", flush=True)
-    return out, {y: {"hits@10": h, "expected@10": round(e, 1)} for y, (h, e) in sorted(yearly.items())}
+    return out, {int(y): {"hits@10": h, "expected@10": round(e, 1)} for y, (h, e) in sorted(yearly.items())}
 
 
 # ------------------------------------------------------------------ live use
@@ -407,6 +407,7 @@ def main():
     ap.add_argument("--date", default=dt.date.today().isoformat())
     ap.add_argument("--variant", choices=list(VARIANTS))
     ap.add_argument("--k", type=int, default=10)
+    ap.add_argument("--retune", action="store_true")
     a = ap.parse_args()
     if a.mode == "predict":
         return cmd_predict(a)
@@ -416,12 +417,16 @@ def main():
         return cmd_score(a)
     t0 = time.time()
     data, codes, labels, rows, draws, _YEAR = load()
-    formulas, results = {}, {}
-    for v in VARIANTS:
-        formulas[v] = tune(v, codes, rows, draws)
-    with open(FORMULAS, "w") as fh:
-        json.dump(formulas, fh, indent=1)
-    print("formulas frozen ->", FORMULAS, flush=True)
+    results = {}
+    if os.path.exists(FORMULAS) and not a.retune:
+        with open(FORMULAS) as fh:
+            formulas = json.load(fh)
+        print("using the frozen formulas in", FORMULAS, "(--retune to tune again)", flush=True)
+    else:
+        formulas = {v: tune(v, codes, rows, draws) for v in VARIANTS}
+        with open(FORMULAS, "w") as fh:
+            json.dump(formulas, fh, indent=1)
+        print("formulas frozen ->", FORMULAS, flush=True)
     for v in VARIANTS:
         formula = [tuple(t) for t in formulas[v]["terms"]]
         res, yearly = forward_test(v, formula, codes, rows, draws)

@@ -1,0 +1,1578 @@
+{
+ "formulas": {
+  "vedic": {
+   "terms": [
+    [
+     "mars_nakshatra",
+     "box",
+     0.15
+    ],
+    [
+     "jupiter_nakshatra",
+     "dig_op",
+     0.05
+    ],
+    [
+     "jupiter_rashi",
+     "dig_op",
+     0.05
+    ],
+    [
+     "ayana",
+     "box_op",
+     0.05
+    ],
+    [
+     "ritu",
+     "box_op",
+     0.05
+    ],
+    [
+     "mars_rashi",
+     "box",
+     0.05
+    ],
+    [
+     "moon_rashi",
+     "box",
+     0.05
+    ],
+    [
+     "mars_nakshatra",
+     "box_op",
+     0.15
+    ],
+    [
+     "nakshatra_lord",
+     "box_op",
+     0.05
+    ],
+    [
+     "kp_moon_star_lord",
+     "box_op",
+     0.05
+    ],
+    [
+     "mercury_nakshatra",
+     "box_op",
+     0.05
+    ],
+    [
+     "masa",
+     "dig_op",
+     0.05
+    ],
+    [
+     "ritu",
+     "dig_op",
+     0.05
+    ],
+    [
+     "nakshatra",
+     "box_op",
+     0.05
+    ],
+    [
+     "masa",
+     "box_op",
+     0.05
+    ],
+    [
+     "nakshatra",
+     "box",
+     0.05
+    ],
+    [
+     "tithi",
+     "dig_op",
+     0.05
+    ],
+    [
+     "moon_rashi",
+     "box_op",
+     0.05
+    ],
+    [
+     "venus_combust",
+     "dig",
+     0.15
+    ],
+    [
+     "jupiter_retrograde",
+     "box_op",
+     0.05
+    ],
+    [
+     "paksha",
+     "dig_op",
+     0.15
+    ],
+    [
+     "masa",
+     "box",
+     0.05
+    ],
+    [
+     "jupiter_combust",
+     "dig",
+     0.15
+    ],
+    [
+     "kp_moon_number",
+     "num",
+     0.05
+    ],
+    [
+     "jupiter_nakshatra",
+     "box",
+     0.05
+    ],
+    [
+     "masa",
+     "dig",
+     0.05
+    ],
+    [
+     "hora_lord",
+     "box_op",
+     0.05
+    ],
+    [
+     "kp_sun_number",
+     "box",
+     0.05
+    ],
+    [
+     "mercury_nakshatra",
+     "box",
+     0.05
+    ],
+    [
+     "jupiter_nakshatra",
+     "dig",
+     0.05
+    ]
+   ],
+   "validation_gain_millinats_per_winner": 0.30783198317201294,
+   "validation_winners": 73976,
+   "single_terms_top20": [
+    {
+     "parameter": "mars_nakshatra",
+     "kind": "box",
+     "weight": 0.3,
+     "gain_millinats": 0.07197096699316385
+    },
+    {
+     "parameter": "jupiter_nakshatra",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.03644971158184108
+    },
+    {
+     "parameter": "jupiter_rashi",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.03395224096424182
+    },
+    {
+     "parameter": "ayana",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.03364909724385992
+    },
+    {
+     "parameter": "ritu",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.030093237143008766
+    },
+    {
+     "parameter": "mars_rashi",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.029913546498574795
+    },
+    {
+     "parameter": "moon_rashi",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.026693158157515207
+    },
+    {
+     "parameter": "mars_nakshatra",
+     "kind": "box_op",
+     "weight": 0.3,
+     "gain_millinats": 0.024869265745401107
+    },
+    {
+     "parameter": "nakshatra_lord",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.024366936202279695
+    },
+    {
+     "parameter": "kp_moon_star_lord",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.023809700925214193
+    },
+    {
+     "parameter": "mercury_nakshatra",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.02367798103861912
+    },
+    {
+     "parameter": "masa",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.023092335975471383
+    },
+    {
+     "parameter": "ritu",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.01943740586857765
+    },
+    {
+     "parameter": "nakshatra",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.017977164165313555
+    },
+    {
+     "parameter": "masa",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.017312700588515677
+    },
+    {
+     "parameter": "nakshatra",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.016461629031067872
+    },
+    {
+     "parameter": "tithi",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.016266622238397834
+    },
+    {
+     "parameter": "moon_rashi",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.015627810302684602
+    },
+    {
+     "parameter": "venus_combust",
+     "kind": "dig",
+     "weight": 0.3,
+     "gain_millinats": 0.014970292823065345
+    },
+    {
+     "parameter": "jupiter_retrograde",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.014218563026159106
+    }
+   ]
+  },
+  "chinese": {
+   "terms": [
+    [
+     "day_element",
+     "box",
+     0.05
+    ],
+    [
+     "day_stem",
+     "box",
+     0.05
+    ],
+    [
+     "day_officer",
+     "box_op",
+     0.05
+    ],
+    [
+     "year_stem",
+     "dig_op",
+     0.05
+    ],
+    [
+     "nine_star_year",
+     "dig_op",
+     0.05
+    ],
+    [
+     "nine_star_month",
+     "num_op",
+     0.05
+    ],
+    [
+     "day_god",
+     "box_op",
+     0.05
+    ],
+    [
+     "day_officer",
+     "box",
+     0.05
+    ],
+    [
+     "year_element",
+     "dig_op",
+     0.05
+    ],
+    [
+     "year_yinyang",
+     "dig",
+     0.15
+    ],
+    [
+     "year_animal",
+     "box",
+     0.05
+    ],
+    [
+     "day_stem",
+     "num_op",
+     0.05
+    ],
+    [
+     "yellow_black_path",
+     "dig_op",
+     0.15
+    ],
+    [
+     "lunar_month",
+     "box_op",
+     0.05
+    ],
+    [
+     "day_element",
+     "num",
+     0.05
+    ],
+    [
+     "year_stem",
+     "dig",
+     0.05
+    ],
+    [
+     "hour_stem_19h",
+     "box",
+     0.05
+    ],
+    [
+     "nine_star_month",
+     "box_op",
+     0.05
+    ],
+    [
+     "month_branch",
+     "box_op",
+     0.05
+    ],
+    [
+     "lunar_day",
+     "dig",
+     0.05
+    ],
+    [
+     "day_vs_year_branch",
+     "box_op",
+     0.05
+    ],
+    [
+     "nine_star_year",
+     "box_op",
+     0.05
+    ],
+    [
+     "hour_stem_19h",
+     "dig",
+     0.05
+    ],
+    [
+     "day_stem",
+     "box_op",
+     0.05
+    ],
+    [
+     "year_element",
+     "dig",
+     0.05
+    ],
+    [
+     "day_vs_year_branch",
+     "dig_op",
+     0.05
+    ],
+    [
+     "year_yinyang",
+     "box",
+     0.05
+    ],
+    [
+     "nayin_element",
+     "box",
+     0.05
+    ],
+    [
+     "year_animal",
+     "dig",
+     0.05
+    ],
+    [
+     "day_element",
+     "box_op",
+     0.05
+    ]
+   ],
+   "validation_gain_millinats_per_winner": 0.22738203913413263,
+   "validation_winners": 73976,
+   "single_terms_top20": [
+    {
+     "parameter": "day_element",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.04086782482259416
+    },
+    {
+     "parameter": "day_stem",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.038040782097029366
+    },
+    {
+     "parameter": "day_officer",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.02804611570472538
+    },
+    {
+     "parameter": "year_stem",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.02704554617779144
+    },
+    {
+     "parameter": "nine_star_year",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.025613497307537057
+    },
+    {
+     "parameter": "nine_star_month",
+     "kind": "num_op",
+     "weight": 0.1,
+     "gain_millinats": 0.025110709399273453
+    },
+    {
+     "parameter": "day_god",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.023408809422890395
+    },
+    {
+     "parameter": "day_officer",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.021391888831304995
+    },
+    {
+     "parameter": "year_element",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.02116527932329083
+    },
+    {
+     "parameter": "year_yinyang",
+     "kind": "dig",
+     "weight": 0.3,
+     "gain_millinats": 0.020231851470573905
+    },
+    {
+     "parameter": "year_animal",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.019866651856101078
+    },
+    {
+     "parameter": "day_stem",
+     "kind": "num_op",
+     "weight": 0.1,
+     "gain_millinats": 0.011137083006955185
+    },
+    {
+     "parameter": "yellow_black_path",
+     "kind": "dig_op",
+     "weight": 0.3,
+     "gain_millinats": 0.010384611191365736
+    },
+    {
+     "parameter": "lunar_month",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.00995600231376979
+    },
+    {
+     "parameter": "day_element",
+     "kind": "num",
+     "weight": 0.1,
+     "gain_millinats": 0.00943553721187663
+    },
+    {
+     "parameter": "year_stem",
+     "kind": "dig",
+     "weight": 0.1,
+     "gain_millinats": 0.00915966474923914
+    },
+    {
+     "parameter": "hour_stem_19h",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.008805734884101682
+    },
+    {
+     "parameter": "nine_star_month",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.008765784992507379
+    },
+    {
+     "parameter": "month_branch",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.008681830868371408
+    },
+    {
+     "parameter": "lunar_day",
+     "kind": "dig",
+     "weight": 0.1,
+     "gain_millinats": 0.008492573189320072
+    }
+   ]
+  },
+  "both": {
+   "terms": [
+    [
+     "mars_nakshatra",
+     "box",
+     0.15
+    ],
+    [
+     "day_element",
+     "box",
+     0.05
+    ],
+    [
+     "day_stem",
+     "box",
+     0.05
+    ],
+    [
+     "jupiter_nakshatra",
+     "dig_op",
+     0.05
+    ],
+    [
+     "jupiter_rashi",
+     "dig_op",
+     0.05
+    ],
+    [
+     "ayana",
+     "box_op",
+     0.05
+    ],
+    [
+     "ritu",
+     "box_op",
+     0.05
+    ],
+    [
+     "mars_rashi",
+     "box",
+     0.05
+    ],
+    [
+     "day_officer",
+     "box_op",
+     0.05
+    ],
+    [
+     "year_stem",
+     "dig_op",
+     0.05
+    ],
+    [
+     "moon_rashi",
+     "box",
+     0.05
+    ],
+    [
+     "nine_star_year",
+     "dig_op",
+     0.05
+    ],
+    [
+     "nine_star_month",
+     "num_op",
+     0.05
+    ],
+    [
+     "mars_nakshatra",
+     "box_op",
+     0.15
+    ],
+    [
+     "nakshatra_lord",
+     "box_op",
+     0.05
+    ],
+    [
+     "kp_moon_star_lord",
+     "box_op",
+     0.05
+    ],
+    [
+     "mercury_nakshatra",
+     "box_op",
+     0.05
+    ],
+    [
+     "day_god",
+     "box_op",
+     0.05
+    ],
+    [
+     "masa",
+     "dig_op",
+     0.05
+    ],
+    [
+     "day_officer",
+     "box",
+     0.05
+    ],
+    [
+     "year_element",
+     "dig_op",
+     0.05
+    ],
+    [
+     "year_yinyang",
+     "dig",
+     0.15
+    ],
+    [
+     "year_animal",
+     "box",
+     0.05
+    ],
+    [
+     "ritu",
+     "dig_op",
+     0.05
+    ],
+    [
+     "nakshatra",
+     "box_op",
+     0.05
+    ],
+    [
+     "masa",
+     "box_op",
+     0.05
+    ],
+    [
+     "nakshatra",
+     "box",
+     0.05
+    ],
+    [
+     "tithi",
+     "dig_op",
+     0.05
+    ],
+    [
+     "moon_rashi",
+     "box_op",
+     0.05
+    ],
+    [
+     "venus_combust",
+     "dig",
+     0.15
+    ]
+   ],
+   "validation_gain_millinats_per_winner": 0.45071752499140005,
+   "validation_winners": 73976,
+   "single_terms_top20": [
+    {
+     "parameter": "mars_nakshatra",
+     "kind": "box",
+     "weight": 0.3,
+     "gain_millinats": 0.07197096699316385
+    },
+    {
+     "parameter": "day_element",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.04086782482259416
+    },
+    {
+     "parameter": "day_stem",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.038040782097029366
+    },
+    {
+     "parameter": "jupiter_nakshatra",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.03644971158184108
+    },
+    {
+     "parameter": "jupiter_rashi",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.03395224096424182
+    },
+    {
+     "parameter": "ayana",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.03364909724385992
+    },
+    {
+     "parameter": "ritu",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.030093237143008766
+    },
+    {
+     "parameter": "mars_rashi",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.029913546498574795
+    },
+    {
+     "parameter": "day_officer",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.02804611570472538
+    },
+    {
+     "parameter": "year_stem",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.02704554617779144
+    },
+    {
+     "parameter": "moon_rashi",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.026693158157515207
+    },
+    {
+     "parameter": "nine_star_year",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.025613497307537057
+    },
+    {
+     "parameter": "nine_star_month",
+     "kind": "num_op",
+     "weight": 0.1,
+     "gain_millinats": 0.025110709399273453
+    },
+    {
+     "parameter": "mars_nakshatra",
+     "kind": "box_op",
+     "weight": 0.3,
+     "gain_millinats": 0.024869265745401107
+    },
+    {
+     "parameter": "nakshatra_lord",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.024366936202279695
+    },
+    {
+     "parameter": "kp_moon_star_lord",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.023809700925214193
+    },
+    {
+     "parameter": "mercury_nakshatra",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.02367798103861912
+    },
+    {
+     "parameter": "day_god",
+     "kind": "box_op",
+     "weight": 0.1,
+     "gain_millinats": 0.023408809422890395
+    },
+    {
+     "parameter": "masa",
+     "kind": "dig_op",
+     "weight": 0.1,
+     "gain_millinats": 0.023092335975471383
+    },
+    {
+     "parameter": "day_officer",
+     "kind": "box",
+     "weight": 0.1,
+     "gain_millinats": 0.021391888831304995
+    }
+   ]
+  }
+ },
+ "forward_test": {
+  "vedic": {
+   "test": {
+    "Magnum": {
+     "draws": 1400,
+     "loglik_gain_millinats_per_winner": -0.2501,
+     "top1": {
+      "hits": 7,
+      "expected": 3.2,
+      "lift": 2.176,
+      "z": 2.11,
+      "random_picks_hits": 2
+     },
+     "top5": {
+      "hits": 15,
+      "expected": 16.1,
+      "lift": 0.933,
+      "z": -0.27,
+      "random_picks_hits": 17
+     },
+     "top10": {
+      "hits": 38,
+      "expected": 32.2,
+      "lift": 1.182,
+      "z": 1.03,
+      "random_picks_hits": 34
+     },
+     "top23": {
+      "hits": 82,
+      "expected": 74.0,
+      "lift": 1.109,
+      "z": 0.93,
+      "random_picks_hits": 85
+     },
+     "top100": {
+      "hits": 300,
+      "expected": 321.6,
+      "lift": 0.933,
+      "z": -1.21,
+      "random_picks_hits": 326
+     },
+     "big_return_top1": {
+      "per_RM1": 2.043,
+      "random_picks_per_RM1": 0.257
+     },
+     "big_return_top5": {
+      "per_RM1": 0.877,
+      "random_picks_per_RM1": 0.48
+     },
+     "big_return_top10": {
+      "per_RM1": 0.839,
+      "random_picks_per_RM1": 0.723
+     }
+    },
+    "Sports Toto": {
+     "draws": 1397,
+     "loglik_gain_millinats_per_winner": -0.6797,
+     "top1": {
+      "hits": 0,
+      "expected": 3.2,
+      "lift": 0.0,
+      "z": -1.79,
+      "random_picks_hits": 3
+     },
+     "top5": {
+      "hits": 7,
+      "expected": 16.0,
+      "lift": 0.436,
+      "z": -2.26,
+      "random_picks_hits": 17
+     },
+     "top10": {
+      "hits": 16,
+      "expected": 32.1,
+      "lift": 0.499,
+      "z": -2.84,
+      "random_picks_hits": 41
+     },
+     "top23": {
+      "hits": 56,
+      "expected": 73.8,
+      "lift": 0.759,
+      "z": -2.07,
+      "random_picks_hits": 88
+     },
+     "top100": {
+      "hits": 302,
+      "expected": 321.0,
+      "lift": 0.941,
+      "z": -1.06,
+      "random_picks_hits": 344
+     },
+     "big_return_top1": {
+      "per_RM1": 0.0,
+      "random_picks_per_RM1": 0.53
+     },
+     "big_return_top5": {
+      "per_RM1": 0.146,
+      "random_picks_per_RM1": 0.779
+     },
+     "big_return_top10": {
+      "per_RM1": 0.388,
+      "random_picks_per_RM1": 0.789
+     }
+    },
+    "Da Ma Cai": {
+     "draws": 1383,
+     "loglik_gain_millinats_per_winner": -0.2158,
+     "top1": {
+      "hits": 3,
+      "expected": 3.2,
+      "lift": 0.944,
+      "z": -0.1,
+      "random_picks_hits": 0
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 15.9,
+      "lift": 1.07,
+      "z": 0.28,
+      "random_picks_hits": 7
+     },
+     "top10": {
+      "hits": 33,
+      "expected": 31.8,
+      "lift": 1.039,
+      "z": 0.22,
+      "random_picks_hits": 26
+     },
+     "top23": {
+      "hits": 72,
+      "expected": 73.1,
+      "lift": 0.985,
+      "z": -0.13,
+      "random_picks_hits": 67
+     },
+     "top100": {
+      "hits": 297,
+      "expected": 317.8,
+      "lift": 0.935,
+      "z": -1.16,
+      "random_picks_hits": 330
+     },
+     "big_return_top1": {
+      "per_RM1": 0.13,
+      "random_picks_per_RM1": 0.0
+     },
+     "big_return_top5": {
+      "per_RM1": 0.74,
+      "random_picks_per_RM1": 0.159
+     },
+     "big_return_top10": {
+      "per_RM1": 0.5,
+      "random_picks_per_RM1": 0.278
+     }
+    },
+    "All": {
+     "draws": 4180,
+     "loglik_gain_millinats_per_winner": -0.3823,
+     "top1": {
+      "hits": 10,
+      "expected": 9.6,
+      "lift": 1.041,
+      "z": 0.13,
+      "random_picks_hits": 5
+     },
+     "top5": {
+      "hits": 39,
+      "expected": 48.0,
+      "lift": 0.812,
+      "z": -1.3,
+      "random_picks_hits": 41
+     },
+     "top10": {
+      "hits": 87,
+      "expected": 96.0,
+      "lift": 0.906,
+      "z": -0.92,
+      "random_picks_hits": 101
+     },
+     "top23": {
+      "hits": 210,
+      "expected": 220.9,
+      "lift": 0.951,
+      "z": -0.73,
+      "random_picks_hits": 240
+     },
+     "top100": {
+      "hits": 899,
+      "expected": 960.3,
+      "lift": 0.936,
+      "z": -1.98,
+      "random_picks_hits": 1000
+     },
+     "big_return_top1": {
+      "per_RM1": 0.727,
+      "random_picks_per_RM1": 0.263
+     },
+     "big_return_top5": {
+      "per_RM1": 0.588,
+      "random_picks_per_RM1": 0.474
+     },
+     "big_return_top10": {
+      "per_RM1": 0.576,
+      "random_picks_per_RM1": 0.598
+     }
+    }
+   },
+   "by_year": {
+    "2018": {
+     "hits@10": 9,
+     "expected@10": 12.3
+    },
+    "2019": {
+     "hits@10": 12,
+     "expected@10": 11.5
+    },
+    "2020": {
+     "hits@10": 11,
+     "expected@10": 8.7
+    },
+    "2021": {
+     "hits@10": 6,
+     "expected@10": 8.4
+    },
+    "2022": {
+     "hits@10": 10,
+     "expected@10": 12.3
+    },
+    "2023": {
+     "hits@10": 10,
+     "expected@10": 11.4
+    },
+    "2024": {
+     "hits@10": 12,
+     "expected@10": 11.3
+    },
+    "2025": {
+     "hits@10": 8,
+     "expected@10": 11.4
+    },
+    "2026": {
+     "hits@10": 9,
+     "expected@10": 8.7
+    }
+   }
+  },
+  "chinese": {
+   "test": {
+    "Magnum": {
+     "draws": 1400,
+     "loglik_gain_millinats_per_winner": -0.2038,
+     "top1": {
+      "hits": 1,
+      "expected": 3.2,
+      "lift": 0.311,
+      "z": -1.24,
+      "random_picks_hits": 2
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 16.1,
+      "lift": 1.057,
+      "z": 0.23,
+      "random_picks_hits": 17
+     },
+     "top10": {
+      "hits": 28,
+      "expected": 32.2,
+      "lift": 0.871,
+      "z": -0.73,
+      "random_picks_hits": 34
+     },
+     "top23": {
+      "hits": 86,
+      "expected": 74.0,
+      "lift": 1.163,
+      "z": 1.4,
+      "random_picks_hits": 85
+     },
+     "top100": {
+      "hits": 343,
+      "expected": 321.6,
+      "lift": 1.066,
+      "z": 1.19,
+      "random_picks_hits": 326
+     },
+     "big_return_top1": {
+      "per_RM1": 0.129,
+      "random_picks_per_RM1": 0.257
+     },
+     "big_return_top5": {
+      "per_RM1": 0.231,
+      "random_picks_per_RM1": 0.48
+     },
+     "big_return_top10": {
+      "per_RM1": 0.464,
+      "random_picks_per_RM1": 0.723
+     }
+    },
+    "Sports Toto": {
+     "draws": 1397,
+     "loglik_gain_millinats_per_winner": -0.4744,
+     "top1": {
+      "hits": 4,
+      "expected": 3.2,
+      "lift": 1.246,
+      "z": 0.44,
+      "random_picks_hits": 3
+     },
+     "top5": {
+      "hits": 15,
+      "expected": 16.0,
+      "lift": 0.935,
+      "z": -0.26,
+      "random_picks_hits": 17
+     },
+     "top10": {
+      "hits": 32,
+      "expected": 32.1,
+      "lift": 0.997,
+      "z": -0.02,
+      "random_picks_hits": 41
+     },
+     "top23": {
+      "hits": 72,
+      "expected": 73.8,
+      "lift": 0.975,
+      "z": -0.21,
+      "random_picks_hits": 88
+     },
+     "top100": {
+      "hits": 307,
+      "expected": 321.0,
+      "lift": 0.957,
+      "z": -0.78,
+      "random_picks_hits": 344
+     },
+     "big_return_top1": {
+      "per_RM1": 0.429,
+      "random_picks_per_RM1": 0.53
+     },
+     "big_return_top5": {
+      "per_RM1": 0.481,
+      "random_picks_per_RM1": 0.779
+     },
+     "big_return_top10": {
+      "per_RM1": 0.666,
+      "random_picks_per_RM1": 0.789
+     }
+    },
+    "Da Ma Cai": {
+     "draws": 1383,
+     "loglik_gain_millinats_per_winner": 0.0026,
+     "top1": {
+      "hits": 3,
+      "expected": 3.2,
+      "lift": 0.944,
+      "z": -0.1,
+      "random_picks_hits": 0
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 15.9,
+      "lift": 1.07,
+      "z": 0.28,
+      "random_picks_hits": 7
+     },
+     "top10": {
+      "hits": 39,
+      "expected": 31.8,
+      "lift": 1.227,
+      "z": 1.28,
+      "random_picks_hits": 26
+     },
+     "top23": {
+      "hits": 76,
+      "expected": 73.1,
+      "lift": 1.04,
+      "z": 0.34,
+      "random_picks_hits": 67
+     },
+     "top100": {
+      "hits": 294,
+      "expected": 317.8,
+      "lift": 0.925,
+      "z": -1.33,
+      "random_picks_hits": 330
+     },
+     "big_return_top1": {
+      "per_RM1": 0.217,
+      "random_picks_per_RM1": 0.0
+     },
+     "big_return_top5": {
+      "per_RM1": 0.923,
+      "random_picks_per_RM1": 0.159
+     },
+     "big_return_top10": {
+      "per_RM1": 0.817,
+      "random_picks_per_RM1": 0.278
+     }
+    },
+    "All": {
+     "draws": 4180,
+     "loglik_gain_millinats_per_winner": -0.2259,
+     "top1": {
+      "hits": 8,
+      "expected": 9.6,
+      "lift": 0.833,
+      "z": -0.52,
+      "random_picks_hits": 5
+     },
+     "top5": {
+      "hits": 49,
+      "expected": 48.0,
+      "lift": 1.02,
+      "z": 0.14,
+      "random_picks_hits": 41
+     },
+     "top10": {
+      "hits": 99,
+      "expected": 96.0,
+      "lift": 1.031,
+      "z": 0.3,
+      "random_picks_hits": 101
+     },
+     "top23": {
+      "hits": 234,
+      "expected": 220.9,
+      "lift": 1.059,
+      "z": 0.88,
+      "random_picks_hits": 240
+     },
+     "top100": {
+      "hits": 944,
+      "expected": 960.3,
+      "lift": 0.983,
+      "z": -0.53,
+      "random_picks_hits": 1000
+     },
+     "big_return_top1": {
+      "per_RM1": 0.258,
+      "random_picks_per_RM1": 0.263
+     },
+     "big_return_top5": {
+      "per_RM1": 0.544,
+      "random_picks_per_RM1": 0.474
+     },
+     "big_return_top10": {
+      "per_RM1": 0.648,
+      "random_picks_per_RM1": 0.598
+     }
+    }
+   },
+   "by_year": {
+    "2018": {
+     "hits@10": 8,
+     "expected@10": 12.3
+    },
+    "2019": {
+     "hits@10": 14,
+     "expected@10": 11.5
+    },
+    "2020": {
+     "hits@10": 8,
+     "expected@10": 8.7
+    },
+    "2021": {
+     "hits@10": 10,
+     "expected@10": 8.4
+    },
+    "2022": {
+     "hits@10": 11,
+     "expected@10": 12.3
+    },
+    "2023": {
+     "hits@10": 11,
+     "expected@10": 11.4
+    },
+    "2024": {
+     "hits@10": 11,
+     "expected@10": 11.3
+    },
+    "2025": {
+     "hits@10": 14,
+     "expected@10": 11.4
+    },
+    "2026": {
+     "hits@10": 12,
+     "expected@10": 8.7
+    }
+   }
+  },
+  "both": {
+   "test": {
+    "Magnum": {
+     "draws": 1400,
+     "loglik_gain_millinats_per_winner": -0.232,
+     "top1": {
+      "hits": 2,
+      "expected": 3.2,
+      "lift": 0.622,
+      "z": -0.68,
+      "random_picks_hits": 2
+     },
+     "top5": {
+      "hits": 17,
+      "expected": 16.1,
+      "lift": 1.057,
+      "z": 0.23,
+      "random_picks_hits": 17
+     },
+     "top10": {
+      "hits": 27,
+      "expected": 32.2,
+      "lift": 0.84,
+      "z": -0.91,
+      "random_picks_hits": 34
+     },
+     "top23": {
+      "hits": 64,
+      "expected": 74.0,
+      "lift": 0.865,
+      "z": -1.16,
+      "random_picks_hits": 85
+     },
+     "top100": {
+      "hits": 329,
+      "expected": 321.6,
+      "lift": 1.023,
+      "z": 0.41,
+      "random_picks_hits": 326
+     },
+     "big_return_top1": {
+      "per_RM1": 0.171,
+      "random_picks_per_RM1": 0.257
+     },
+     "big_return_top5": {
+      "per_RM1": 0.3,
+      "random_picks_per_RM1": 0.48
+     },
+     "big_return_top10": {
+      "per_RM1": 0.227,
+      "random_picks_per_RM1": 0.723
+     }
+    },
+    "Sports Toto": {
+     "draws": 1397,
+     "loglik_gain_millinats_per_winner": -0.6474,
+     "top1": {
+      "hits": 1,
+      "expected": 3.2,
+      "lift": 0.312,
+      "z": -1.23,
+      "random_picks_hits": 3
+     },
+     "top5": {
+      "hits": 8,
+      "expected": 16.0,
+      "lift": 0.499,
+      "z": -2.01,
+      "random_picks_hits": 17
+     },
+     "top10": {
+      "hits": 16,
+      "expected": 32.1,
+      "lift": 0.499,
+      "z": -2.84,
+      "random_picks_hits": 41
+     },
+     "top23": {
+      "hits": 55,
+      "expected": 73.8,
+      "lift": 0.745,
+      "z": -2.19,
+      "random_picks_hits": 88
+     },
+     "top100": {
+      "hits": 345,
+      "expected": 321.0,
+      "lift": 1.075,
+      "z": 1.34,
+      "random_picks_hits": 344
+     },
+     "big_return_top1": {
+      "per_RM1": 0.129,
+      "random_picks_per_RM1": 0.53
+     },
+     "big_return_top5": {
+      "per_RM1": 0.235,
+      "random_picks_per_RM1": 0.779
+     },
+     "big_return_top10": {
+      "per_RM1": 0.178,
+      "random_picks_per_RM1": 0.789
+     }
+    },
+    "Da Ma Cai": {
+     "draws": 1383,
+     "loglik_gain_millinats_per_winner": -0.1107,
+     "top1": {
+      "hits": 1,
+      "expected": 3.2,
+      "lift": 0.315,
+      "z": -1.22,
+      "random_picks_hits": 0
+     },
+     "top5": {
+      "hits": 16,
+      "expected": 15.9,
+      "lift": 1.007,
+      "z": 0.03,
+      "random_picks_hits": 7
+     },
+     "top10": {
+      "hits": 32,
+      "expected": 31.8,
+      "lift": 1.007,
+      "z": 0.04,
+      "random_picks_hits": 26
+     },
+     "top23": {
+      "hits": 69,
+      "expected": 73.1,
+      "lift": 0.944,
+      "z": -0.48,
+      "random_picks_hits": 67
+     },
+     "top100": {
+      "hits": 326,
+      "expected": 317.8,
+      "lift": 1.026,
+      "z": 0.46,
+      "random_picks_hits": 330
+     },
+     "big_return_top1": {
+      "per_RM1": 0.13,
+      "random_picks_per_RM1": 0.0
+     },
+     "big_return_top5": {
+      "per_RM1": 0.885,
+      "random_picks_per_RM1": 0.159
+     },
+     "big_return_top10": {
+      "per_RM1": 1.008,
+      "random_picks_per_RM1": 0.278
+     }
+    },
+    "All": {
+     "draws": 4180,
+     "loglik_gain_millinats_per_winner": -0.3307,
+     "top1": {
+      "hits": 4,
+      "expected": 9.6,
+      "lift": 0.417,
+      "z": -1.81,
+      "random_picks_hits": 5
+     },
+     "top5": {
+      "hits": 41,
+      "expected": 48.0,
+      "lift": 0.854,
+      "z": -1.01,
+      "random_picks_hits": 41
+     },
+     "top10": {
+      "hits": 75,
+      "expected": 96.0,
+      "lift": 0.781,
+      "z": -2.15,
+      "random_picks_hits": 101
+     },
+     "top23": {
+      "hits": 188,
+      "expected": 220.9,
+      "lift": 0.851,
+      "z": -2.21,
+      "random_picks_hits": 240
+     },
+     "top100": {
+      "hits": 1000,
+      "expected": 960.3,
+      "lift": 1.041,
+      "z": 1.28,
+      "random_picks_hits": 1000
+     },
+     "big_return_top1": {
+      "per_RM1": 0.144,
+      "random_picks_per_RM1": 0.263
+     },
+     "big_return_top5": {
+      "per_RM1": 0.472,
+      "random_picks_per_RM1": 0.474
+     },
+     "big_return_top10": {
+      "per_RM1": 0.469,
+      "random_picks_per_RM1": 0.598
+     }
+    }
+   },
+   "by_year": {
+    "2018": {
+     "hits@10": 11,
+     "expected@10": 12.3
+    },
+    "2019": {
+     "hits@10": 9,
+     "expected@10": 11.5
+    },
+    "2020": {
+     "hits@10": 5,
+     "expected@10": 8.7
+    },
+    "2021": {
+     "hits@10": 7,
+     "expected@10": 8.4
+    },
+    "2022": {
+     "hits@10": 10,
+     "expected@10": 12.3
+    },
+    "2023": {
+     "hits@10": 5,
+     "expected@10": 11.4
+    },
+    "2024": {
+     "hits@10": 5,
+     "expected@10": 11.3
+    },
+    "2025": {
+     "hits@10": 10,
+     "expected@10": 11.4
+    },
+    "2026": {
+     "hits@10": 13,
+     "expected@10": 8.7
+    }
+   }
+  }
+ }
+}

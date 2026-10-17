@@ -398,6 +398,65 @@ and testing it honestly on later draws, gives results consistent with random
 picking. The formula is kept as a tool: it produces numbers for any date,
 but no claim is made that they are more likely to win.
 
+## 8. Vedic-only, Chinese-only and combined formulas, forward-tested draw by draw
+
+`python3 analysis/astro_model.py` (~1 min with the frozen formulas;
+`--retune` to tune again). Unlike section 7, these formulas use **only** Vedic
+and/or Chinese parameters: no hot numbers, no digit bias, no weekday/month or
+Western astrology. (Weekday enters the Vedic set only as the vara.) Every term
+compares how often a number, its digits or its i-Box group won on dates with
+the same parameter value against how often it won overall.
+
+For a draw on date *t*:
+
+```
+score(n) = Σ over the formula's terms (parameter f, kind, weight w)  w · L_kind(f, f(t), n)
+
+L_num (f,v,n) = log[(wins of n on dates with f = v + 10) / (expected + 10)]
+L_box (f,v,n) = log[(wins of n's i-Box group on dates with f = v + 50) / (expected + 50)]
+L_dig (f,v,n) = Σ_pos log[p(digit | f = v) / p(digit)]           (50 pseudo-draws)
+*_op          = the same, counting only the draw's own operator
+```
+
+**Tuning.**
+1. Count from draws before 2012.
+2. Score every (parameter, kind) term alone on 2012–2017: 312 Vedic, 156
+   Chinese, 468 combined.
+3. Rank the ones that helped (61, 36 and 97) and keep the best prefix and
+   scale. The result is 30 terms for each formula.
+4. Freeze the formulas and commit them (`analysis/astro_model_formulas.json`,
+   commit c5d2c7d) before any test was run.
+
+The top terms were Mars's nakshatra (i-Box), Jupiter's nakshatra and rashi
+(digits), ayana and ritu for the Vedic formula; day element, day stem, day
+officer, year stem and Nine Star for the Chinese one.
+
+**Forward test, 2018-01-01 to 2026-10-10, draw by draw.** Each of 4,180 draws
+was predicted from all draws strictly before its date. Its results were then
+added to the counts before the next date was predicted.
+
+| Formula | Top 5 | Top 10 | Top 23 | Top 100 | Fit to winners vs uniform |
+|---|---|---|---|---|---|
+| Vedic | 39 / 48.0 (0.81×) | 87 / 96.0 (0.91×) | 210 / 220.9 (0.95×) | 899 / 960.3 (0.94×, z = −2.0) | worse |
+| Chinese | 49 / 48.0 (1.02×) | 99 / 96.0 (1.03×) | 234 / 220.9 (1.06×) | 944 / 960.3 (0.98×) | worse |
+| Vedic + Chinese | 41 / 48.0 (0.85×) | 75 / 96.0 (0.78×, z = −2.1) | 188 / 220.9 (0.85×, z = −2.2) | 1000 / 960.3 (1.04×) | worse |
+
+(wins of any prize / expected for random picks.)
+
+All three formulas fit the real winners *worse* than assuming every number
+equally likely, although each had looked better on the tuning years. The
+terms that "helped" in 2012–2017 were fitting noise: with 300–470 terms tried,
+about half look helpful by chance. Big Forecast returns per RM1 (top 10):
+Vedic RM0.58, Chinese RM0.65, combined RM0.47, against RM0.64 for an average
+random number.
+
+**Live forward log.** `python3 analysis/astro_model.py log --date YYYY-MM-DD`
+appends each formula's picks for a future draw to `analysis/forward_log.csv`,
+with the time they were made. `python3 analysis/astro_model.py score` scores
+every logged pick that was made before its draw, once `scraper.py` has added
+that draw's results to `data/`. Picks for 2026-10-18 and 2026-10-21 were
+logged on 2026-10-17 00:47 UTC.
+
 ## Conclusion
 
 The draws are fair for practical purposes. Frequency, recency, "overdue",
