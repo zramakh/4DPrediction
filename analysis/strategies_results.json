@@ -1,0 +1,632 @@
+{
+ "held_out": [
+  "2026-10-04",
+  "2026-10-07",
+  "2026-10-10",
+  "2026-10-11",
+  "2026-10-14"
+ ],
+ "random_last5": {
+  "1": {
+   "mean": 0.0328,
+   "p_at_least_1": 0.0326,
+   "p_at_least_2": 0.0002
+  },
+  "3": {
+   "mean": 0.1104,
+   "p_at_least_1": 0.104,
+   "p_at_least_2": 0.0064
+  },
+  "16": {
+   "mean": 0.5494,
+   "p_at_least_1": 0.4136,
+   "p_at_least_2": 0.1148
+  }
+ },
+ "strategies": {
+  "S1 top1": {
+   "formulas": 3081,
+   "test_z_gt_2": 140,
+   "test_z_lt_-2": 33,
+   "test_mean_lift": 1.0480337552742616,
+   "last5_share_with_hit": 0.03894839337877313,
+   "last5_mean_hits": 0.039272963323596234,
+   "best_by_validation": [
+    {
+     "formula": "S1 kp_moon_star_lord x kp_sun_number",
+     "validation": {
+      "hits": 18,
+      "expected": 7.4,
+      "lift": 2.433,
+      "z": 3.9,
+      "big_per_RM1": 1.571,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 10,
+      "expected": 9.62,
+      "lift": 1.04,
+      "z": 0.12,
+      "big_per_RM1": 1.065,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S1 month_branch x hour_stem_19h",
+     "validation": {
+      "hits": 17,
+      "expected": 7.4,
+      "lift": 2.298,
+      "z": 3.53,
+      "big_per_RM1": 1.584,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 5,
+      "expected": 9.62,
+      "lift": 0.52,
+      "z": -1.49,
+      "big_per_RM1": 0.291,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S1 moon_rashi x nine_star_year",
+     "validation": {
+      "hits": 17,
+      "expected": 7.4,
+      "lift": 2.298,
+      "z": 3.53,
+      "big_per_RM1": 2.118,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 14,
+      "expected": 9.62,
+      "lift": 1.456,
+      "z": 1.41,
+      "big_per_RM1": 0.478,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    }
+   ]
+  },
+  "S1 top16": {
+   "formulas": 3081,
+   "test_z_gt_2": 66,
+   "test_z_lt_-2": 57,
+   "test_mean_lift": 1.006487828627069,
+   "last5_share_with_hit": 0.4232392080493346,
+   "last5_mean_hits": 0.5488477766958779,
+   "best_by_validation": [
+    {
+     "formula": "S1 jupiter_combust x kp_asc_star_lord",
+     "validation": {
+      "hits": 155,
+      "expected": 118.36,
+      "lift": 1.31,
+      "z": 3.37,
+      "big_per_RM1": 0.678,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 148,
+      "expected": 153.87,
+      "lift": 0.962,
+      "z": -0.47,
+      "big_per_RM1": 0.6,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S1 karana x month_stem",
+     "validation": {
+      "hits": 150,
+      "expected": 118.36,
+      "lift": 1.267,
+      "z": 2.91,
+      "big_per_RM1": 0.682,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 153,
+      "expected": 153.87,
+      "lift": 0.994,
+      "z": -0.07,
+      "big_per_RM1": 0.736,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S1 jupiter_combust x kp_asc_sub_lord",
+     "validation": {
+      "hits": 149,
+      "expected": 118.36,
+      "lift": 1.259,
+      "z": 2.82,
+      "big_per_RM1": 0.863,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 154,
+      "expected": 153.87,
+      "lift": 1.001,
+      "z": 0.01,
+      "big_per_RM1": 0.543,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    }
+   ]
+  },
+  "S2 top1": {
+   "formulas": 3081,
+   "test_z_gt_2": 158,
+   "test_z_lt_-2": 46,
+   "test_mean_lift": 1.0443881856540085,
+   "last5_share_with_hit": 0.027588445309964297,
+   "last5_mean_hits": 0.027913015254787406,
+   "best_by_validation": [
+    {
+     "formula": "S2 tithi x nakshatra_lord",
+     "validation": {
+      "hits": 17,
+      "expected": 7.4,
+      "lift": 2.298,
+      "z": 3.53,
+      "big_per_RM1": 1.373,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 9,
+      "expected": 9.62,
+      "lift": 0.936,
+      "z": -0.2,
+      "big_per_RM1": 0.301,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S2 mars_rashi x moon_navamsa",
+     "validation": {
+      "hits": 16,
+      "expected": 7.4,
+      "lift": 2.163,
+      "z": 3.16,
+      "big_per_RM1": 1.317,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 13,
+      "expected": 9.62,
+      "lift": 1.352,
+      "z": 1.09,
+      "big_per_RM1": 1.137,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S2 saturn_nakshatra x yellow_black_path",
+     "validation": {
+      "hits": 16,
+      "expected": 7.4,
+      "lift": 2.163,
+      "z": 3.16,
+      "big_per_RM1": 1.025,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 8,
+      "expected": 9.62,
+      "lift": 0.832,
+      "z": -0.52,
+      "big_per_RM1": 0.559,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    }
+   ]
+  },
+  "S2 top16": {
+   "formulas": 3081,
+   "test_z_gt_2": 88,
+   "test_z_lt_-2": 55,
+   "test_mean_lift": 1.0116397273612463,
+   "last5_share_with_hit": 0.3878610840636157,
+   "last5_mean_hits": 0.5267770204479065,
+   "best_by_validation": [
+    {
+     "formula": "S2 jupiter_retrograde x day_element",
+     "validation": {
+      "hits": 161,
+      "expected": 118.36,
+      "lift": 1.36,
+      "z": 3.92,
+      "big_per_RM1": 0.802,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 147,
+      "expected": 153.87,
+      "lift": 0.955,
+      "z": -0.55,
+      "big_per_RM1": 0.698,
+      "draws": 4186
+     },
+     "last5_hits": 1,
+     "last5_big": 180.0
+    },
+    {
+     "formula": "S2 yoga x weekday",
+     "validation": {
+      "hits": 155,
+      "expected": 118.36,
+      "lift": 1.31,
+      "z": 3.37,
+      "big_per_RM1": 0.795,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 165,
+      "expected": 153.87,
+      "lift": 1.072,
+      "z": 0.9,
+      "big_per_RM1": 0.718,
+      "draws": 4186
+     },
+     "last5_hits": 1,
+     "last5_big": 60.0
+    },
+    {
+     "formula": "S2 venus_rashi x nine_star_month",
+     "validation": {
+      "hits": 154,
+      "expected": 118.36,
+      "lift": 1.301,
+      "z": 3.28,
+      "big_per_RM1": 0.668,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 166,
+      "expected": 153.87,
+      "lift": 1.079,
+      "z": 0.98,
+      "big_per_RM1": 0.682,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    }
+   ]
+  },
+  "S3 top1": {
+   "formulas": 3081,
+   "test_z_gt_2": 45,
+   "test_z_lt_-2": 19,
+   "test_mean_lift": 0.9290984405458089,
+   "last5_share_with_hit": 0.055176890619928594,
+   "last5_mean_hits": 0.055176890619928594,
+   "best_by_validation": [
+    {
+     "formula": "S3 kp_moon_star_lord x kp_sun_number",
+     "validation": {
+      "hits": 17,
+      "expected": 6.48,
+      "lift": 2.623,
+      "z": 4.13,
+      "big_per_RM1": 1.078,
+      "draws": 2821
+     },
+     "test": {
+      "hits": 11,
+      "expected": 8.98,
+      "lift": 1.225,
+      "z": 0.67,
+      "big_per_RM1": 1.126,
+      "draws": 3909
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S3 nakshatra_lord x kp_sun_number",
+     "validation": {
+      "hits": 16,
+      "expected": 6.5,
+      "lift": 2.46,
+      "z": 3.72,
+      "big_per_RM1": 1.053,
+      "draws": 2831
+     },
+     "test": {
+      "hits": 12,
+      "expected": 8.98,
+      "lift": 1.337,
+      "z": 1.01,
+      "big_per_RM1": 1.172,
+      "draws": 3907
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S3 kp_asc_star_lord x day_god",
+     "validation": {
+      "hits": 17,
+      "expected": 7.4,
+      "lift": 2.298,
+      "z": 3.53,
+      "big_per_RM1": 1.876,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 13,
+      "expected": 9.62,
+      "lift": 1.352,
+      "z": 1.09,
+      "big_per_RM1": 0.612,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    }
+   ]
+  },
+  "S3 top16": {
+   "formulas": 3081,
+   "test_z_gt_2": 30,
+   "test_z_lt_-2": 12,
+   "test_mean_lift": 1.0019292437520284,
+   "last5_share_with_hit": 0.2583576760791951,
+   "last5_mean_hits": 0.3492372606296657,
+   "best_by_validation": [
+    {
+     "formula": "S3 day_pillar x day_vs_year_branch",
+     "validation": {
+      "hits": 154,
+      "expected": 118.36,
+      "lift": 1.301,
+      "z": 3.28,
+      "big_per_RM1": 0.879,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 155,
+      "expected": 153.87,
+      "lift": 1.007,
+      "z": 0.09,
+      "big_per_RM1": 0.567,
+      "draws": 4186
+     },
+     "last5_hits": 1,
+     "last5_big": 60.0
+    },
+    {
+     "formula": "S3 weekday x day_officer",
+     "validation": {
+      "hits": 151,
+      "expected": 118.36,
+      "lift": 1.276,
+      "z": 3.0,
+      "big_per_RM1": 0.67,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 153,
+      "expected": 153.87,
+      "lift": 0.994,
+      "z": -0.07,
+      "big_per_RM1": 0.695,
+      "draws": 4186
+     },
+     "last5_hits": 1,
+     "last5_big": 60.0
+    },
+    {
+     "formula": "S3 venus_rashi x kp_sun_number",
+     "validation": {
+      "hits": 144,
+      "expected": 112.99,
+      "lift": 1.274,
+      "z": 2.92,
+      "big_per_RM1": 0.828,
+      "draws": 3074
+     },
+     "test": {
+      "hits": 159,
+      "expected": 149.83,
+      "lift": 1.061,
+      "z": 0.75,
+      "big_per_RM1": 0.725,
+      "draws": 4076
+     },
+     "last5_hits": 1,
+     "last5_big": 60.0
+    }
+   ]
+  },
+  "S4 top3": {
+   "formulas": 3,
+   "test_z_gt_2": 0,
+   "test_z_lt_-2": 0,
+   "test_mean_lift": 1.0973333333333333,
+   "last5_share_with_hit": 0.0,
+   "last5_mean_hits": 0.0,
+   "best_by_validation": [
+    {
+     "formula": "S4 mirror 1st-3rd",
+     "validation": {
+      "hits": 28,
+      "expected": 22.19,
+      "lift": 1.262,
+      "z": 1.23,
+      "big_per_RM1": 0.545,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 34,
+      "expected": 28.85,
+      "lift": 1.178,
+      "z": 0.96,
+      "big_per_RM1": 0.51,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S4 repeat 1st-3rd",
+     "validation": {
+      "hits": 15,
+      "expected": 22.19,
+      "lift": 0.676,
+      "z": -1.53,
+      "big_per_RM1": 0.302,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 27,
+      "expected": 28.85,
+      "lift": 0.936,
+      "z": -0.34,
+      "big_per_RM1": 0.492,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    },
+    {
+     "formula": "S4 reverse 1st-3rd",
+     "validation": {
+      "hits": 11,
+      "expected": 22.19,
+      "lift": 0.496,
+      "z": -2.38,
+      "big_per_RM1": 0.325,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 34,
+      "expected": 28.85,
+      "lift": 1.178,
+      "z": 0.96,
+      "big_per_RM1": 0.586,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    }
+   ]
+  },
+  "S4 top16": {
+   "formulas": 1,
+   "test_z_gt_2": 0,
+   "test_z_lt_-2": 0,
+   "test_mean_lift": 0.949,
+   "last5_share_with_hit": 0.0,
+   "last5_mean_hits": 0.0,
+   "best_by_validation": [
+    {
+     "formula": "S4 permutations of 1st",
+     "validation": {
+      "hits": 100,
+      "expected": 118.36,
+      "lift": 0.845,
+      "z": -1.69,
+      "big_per_RM1": 0.561,
+      "draws": 3220
+     },
+     "test": {
+      "hits": 146,
+      "expected": 153.87,
+      "lift": 0.949,
+      "z": -0.63,
+      "big_per_RM1": 0.5,
+      "draws": 4186
+     },
+     "last5_hits": 0,
+     "last5_big": 0.0
+    }
+   ]
+  }
+ },
+ "most_hits_last5_after_the_fact": [
+  {
+   "formula": "S2 year_element x day_stem",
+   "k": 16,
+   "hits": 7,
+   "big": 2660.0
+  },
+  {
+   "formula": "S2 lagna_rashi x day_pillar",
+   "k": 16,
+   "hits": 5,
+   "big": 660.0
+  },
+  {
+   "formula": "S1 mercury_nakshatra x venus_rashi",
+   "k": 16,
+   "hits": 4,
+   "big": 2920.0
+  },
+  {
+   "formula": "S2 saturn_rashi x kp_asc_number",
+   "k": 16,
+   "hits": 4,
+   "big": 2800.0
+  },
+  {
+   "formula": "S1 day_stem x day_god",
+   "k": 16,
+   "hits": 4,
+   "big": 2800.0
+  },
+  {
+   "formula": "S1 day_element x day_god",
+   "k": 16,
+   "hits": 4,
+   "big": 2800.0
+  },
+  {
+   "formula": "S1 hour_stem_19h x day_god",
+   "k": 16,
+   "hits": 4,
+   "big": 2800.0
+  },
+  {
+   "formula": "S1 tithi x mars_retrograde",
+   "k": 16,
+   "hits": 4,
+   "big": 1300.0
+  },
+  {
+   "formula": "S1 venus_nakshatra x nayin_element",
+   "k": 16,
+   "hits": 4,
+   "big": 1300.0
+  },
+  {
+   "formula": "S1 jupiter_rashi x kp_sun_sub_lord",
+   "k": 16,
+   "hits": 4,
+   "big": 1300.0
+  }
+ ]
+}
