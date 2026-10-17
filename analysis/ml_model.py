@@ -309,7 +309,7 @@ def walk(predict_dates=None, k=10):
                 Xs.append(X[idx])
                 ys.append(np.r_[np.ones(len(win)), np.zeros(NEG_PER_DRAW)])
                 yrs.append(np.full(len(idx), y))
-                cats = X[0, len(ALL_NAMES) - len(CAT_NAMES):]
+                cats = X[0, len(ALL_NAMES) - len(CAT_NAMES):].copy()
                 freq = hist.digit_freq(o)
                 for n in win:
                     D.append((cats, freq, n))
@@ -328,7 +328,7 @@ def walk(predict_dates=None, k=10):
             kern_lp = kern.logp(ix)
             for o in range(3):
                 X = hist.features(o, ix, lifts, codes)
-                cats = X[0, len(ALL_NAMES) - len(CAT_NAMES):]
+                cats = X[0, len(ALL_NAMES) - len(CAT_NAMES):].copy()
                 lps = predict_all(models, X, cats, hist.digit_freq(o), kern_lp)
                 for name, lp in lps.items():
                     out.setdefault(d, {}).setdefault(name, {})[OPS[o]] = [int(n) for n in np.argsort(-lp)[:k]]
