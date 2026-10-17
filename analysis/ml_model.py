@@ -366,9 +366,23 @@ def main():
     ap.add_argument("mode", nargs="?", default="evaluate", choices=["evaluate", "predict"])
     ap.add_argument("--date", action="append")
     ap.add_argument("--k", type=int, default=10)
+    ap.add_argument("--log", action="store_true", help="append the picks to analysis/forward_log.csv")
     a = ap.parse_args()
     if a.mode == "predict":
         res = walk(predict_dates=a.date or [dt.date.today().isoformat()], k=a.k)
+        if a.log:
+            import csv
+            new = not os.path.exists(am.LOG)
+            now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M")
+            with open(am.LOG, "a", newline="") as fh:
+                w = csv.writer(fh)
+                if new:
+                    w.writerow(["logged_at_utc", "draw_date", "variant", "operator", "rank", "4d_number"])
+                for d, by_model in res.items():
+                    for name, by_op in by_model.items():
+                        for op, nums in by_op.items():
+                            for r, n in enumerate(nums, 1):
+                                w.writerow([now, d, f"ml_{name}", op, r, f"{n:04d}"])
         for d, by_model in res.items():
             print(f"Picks for {d} (top {a.k}):")
             for name, by_op in by_model.items():
