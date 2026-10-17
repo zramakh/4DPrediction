@@ -11099,6 +11099,190 @@
     "picks": 15,
     "hits": []
    }
+  },
+  "ML A_all": {
+   "2026-10-10": {
+    "straight": 0,
+    "ibox": 2,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-11": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-14": {
+    "straight": 0,
+    "ibox": 3,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   }
+  },
+  "ML A_astro": {
+   "2026-10-10": {
+    "straight": 0,
+    "ibox": 3,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-11": {
+    "straight": 0,
+    "ibox": 2,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-14": {
+    "straight": 0,
+    "ibox": 2,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   }
+  },
+  "ML A_hist": {
+   "2026-10-10": {
+    "straight": 0,
+    "ibox": 2,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-11": {
+    "straight": 0,
+    "ibox": 1,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-14": {
+    "straight": 0,
+    "ibox": 1,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   }
+  },
+  "ML C_digit": {
+   "2026-10-10": {
+    "straight": 0,
+    "ibox": 3,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-11": {
+    "straight": 0,
+    "ibox": 3,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-14": {
+    "straight": 0,
+    "ibox": 1,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   }
+  },
+  "ML B_kernel_b0.1": {
+   "2026-10-10": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-11": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-14": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   }
+  },
+  "ML B_kernel_b0.3": {
+   "2026-10-10": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-11": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-14": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   }
+  },
+  "ML B_kernel_b1.0": {
+   "2026-10-10": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-11": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-14": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   }
+  },
+  "ML E_ens": {
+   "2026-10-10": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-11": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   },
+   "2026-10-14": {
+    "straight": 0,
+    "ibox": 0,
+    "payout": 0,
+    "picks": 30,
+    "hits": []
+   }
   }
  },
  "random_baseline": {
