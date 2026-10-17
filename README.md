@@ -37,3 +37,5 @@ python3 -m unittest tests/test_tinyfish_import.py
 ## Findings
 
 See [analysis/FINDINGS.md](analysis/FINDINGS.md) for a summary of every test, the ranked leads and live checks.
+
+The full question-and-answer log of the analysis is in [docs/conversation.md](docs/conversation.md).
