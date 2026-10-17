@@ -137,7 +137,7 @@ def main():
     init()
     F = st.FACT
     report = {"held_out": G["held"]}
-    with mp.Pool(4, initializer=init) as pool:
+    with mp.get_context("fork").Pool(4) as pool:          # workers inherit the data loaded above
         r1 = run([(f,) for f in F], pool)
         r2 = run(list(itertools.combinations(F, 2)), pool)
         print(f"singles and pairs evaluated ({time.time() - t0:.0f}s)", flush=True)
