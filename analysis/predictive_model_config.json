@@ -1,0 +1,43 @@
+{
+ "weights": {
+  "dig_h300": 0.05,
+  "cbox_a50": 0.02,
+  "cdig_b50": 0.25
+ },
+ "validation_gain_millinats_per_winner": 0.006809698211234464,
+ "single_component": {
+  "dig_h300": {
+   "weight": 0.05,
+   "gain_millinats": 0.0036147277845830638
+  },
+  "dig_h0": {
+   "weight": 0.02,
+   "gain_millinats": 0.00018284543335192168
+  },
+  "cbox_a2": {
+   "weight": 0.05,
+   "gain_millinats": 0.0018996524158865213
+  },
+  "cbox_a10": {
+   "weight": 0.1,
+   "gain_millinats": 0.00294087384827435
+  },
+  "cbox_a50": {
+   "weight": 0.02,
+   "gain_millinats": 0.0173094030469656
+  },
+  "cdig_b50": {
+   "weight": 0.25,
+   "gain_millinats": 0.0026666670367008843
+  },
+  "cdig_b500": {
+   "weight": 0.25,
+   "gain_millinats": 0.0017357591112057758
+  }
+ },
+ "train_before": 2012,
+ "validate": [
+  2012,
+  2017
+ ]
+}
