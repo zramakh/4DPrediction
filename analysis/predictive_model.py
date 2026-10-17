@@ -192,7 +192,7 @@ def tune(data, codes, factors):
     years = data["year"]
     tab = Tables(data, codes, factors, years < TRAIN_END)
     print(f"tables for tuning built in {time.time() - t0:.0f}s", flush=True)
-    grid = (0.25, 0.5, 1, 2, 4)
+    grid = (0.02, 0.05, 0.1, 0.25, 0.5, 1, 2)
     single, n_win = {}, 0
     cache = []
     for op_i in range(3):
@@ -231,8 +231,10 @@ def tune(data, codes, factors):
         print(f"  joint scale {scale}: gain {1000 * g / n_win:+.3f} milli-nats/winner", flush=True)
     scale = max(joint, key=joint.get)
     weights = {k: w * scale for k, w in chosen.items()}
-    cfg = {"weights": weights, "validation_gain_millinats_per_winner": 1000 * joint[scale] / n_win,
-           "single_component": {k: {"weight": w, "gain_millinats": 1000 * g / n_win} for k, (w, g) in best.items()},
+    weights = {k: float(w) for k, w in weights.items()}
+    cfg = {"weights": weights, "validation_gain_millinats_per_winner": float(1000 * joint[scale] / n_win),
+           "single_component": {k: {"weight": float(w), "gain_millinats": float(1000 * g / n_win)}
+                                for k, (w, g) in best.items()},
            "train_before": TRAIN_END, "validate": [TRAIN_END, VALID_END - 1]}
     print(f"chosen formula: {weights}")
     return cfg
@@ -363,7 +365,7 @@ def main():
     out = {"formula": cfg, "test_years": [test_years[0], test_years[-1]], "test": res, "test_by_year": by_year,
            "baseline_hot_only": {"weights": hot_only, "test": res_hot}}
     with open(os.path.join(ROOT, "analysis", "predictive_model_results.json"), "w") as fh:
-        json.dump(out, fh, indent=1)
+        json.dump(out, fh, indent=1, default=float)
     print("\n=== Unseen test draws", test_years[0], "-", test_years[-1], "===")
     for name, r_ in (("formula", res), ("hot-only baseline", res_hot)):
         print(f"[{name}]")
