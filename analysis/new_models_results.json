@@ -1,0 +1,847 @@
+{
+ "best": {
+  "M1": "M1 change-point H=2000 a0=500",
+  "M2": "M2 autoregression lambda=1e+06",
+  "M3": "M3 hazard bins=12",
+  "M4": "M4 neural net (64, 32) alpha=0.001",
+  "M5": "M5 shape H=5000 kappa=5000"
+ },
+ "models": {
+  "M1 change-point H=300 a0=50": {
+   "validation": {
+    "ll_milli_per_unit": -0.21417747432756773,
+    "draws": 3220,
+    "hot1": 10,
+    "hot16": 124,
+    "cold1": 8,
+    "cold16": 111,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.047637071482643,
+    "lift_cold16": 0.9378041526981724,
+    "big16_per_RM1": 0.7158385093167702,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.2225912281487872,
+    "draws": 4171,
+    "hot1": 12,
+    "hot16": 161,
+    "cold1": 10,
+    "cold16": 138,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0500803539749128,
+    "lift_cold16": 0.9000688748356397,
+    "big16_per_RM1": 0.6434308319347878,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": 0.15725170026233773,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 0,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 0.0,
+    "big16_per_RM1": 0.0,
+    "detail": []
+   }
+  },
+  "M1 change-point H=300 a0=500": {
+   "validation": {
+    "ll_milli_per_unit": -0.20751670842135675,
+    "draws": 3220,
+    "hot1": 14,
+    "hot16": 134,
+    "cold1": 6,
+    "cold16": 121,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.132123932086082,
+    "lift_cold16": 1.0222910133016114,
+    "big16_per_RM1": 0.9949534161490683,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.1683853010092631,
+    "draws": 4171,
+    "hot1": 8,
+    "hot16": 167,
+    "cold1": 8,
+    "cold16": 147,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0892137833155928,
+    "lift_cold16": 0.9587690188466597,
+    "big16_per_RM1": 0.7051666267082235,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -0.9807809339572031,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 1,
+    "cold1": 0,
+    "cold16": 0,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 1.8115942028985506,
+    "lift_cold16": 0.0,
+    "big16_per_RM1": 0.75,
+    "detail": [
+     "hot 10-04 Magnum 3043"
+    ]
+   }
+  },
+  "M1 change-point H=2000 a0=50": {
+   "validation": {
+    "ll_milli_per_unit": -0.09452215419446519,
+    "draws": 3220,
+    "hot1": 9,
+    "hot16": 132,
+    "cold1": 6,
+    "cold16": 109,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.1152265599653943,
+    "lift_cold16": 0.9209067805774847,
+    "big16_per_RM1": 0.7096273291925466,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.11501490335381917,
+    "draws": 4171,
+    "hot1": 10,
+    "hot16": 178,
+    "cold1": 14,
+    "cold16": 158,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.1609584037735061,
+    "lift_cold16": 1.0305136393045728,
+    "big16_per_RM1": 0.9167465835531048,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": 0.07051250491366477,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.0,
+    "detail": [
+     "cold 10-10 Magnum 1235"
+    ]
+   }
+  },
+  "M1 change-point H=2000 a0=500": {
+   "validation": {
+    "ll_milli_per_unit": -0.0833393012380807,
+    "draws": 3220,
+    "hot1": 8,
+    "hot16": 117,
+    "cold1": 6,
+    "cold16": 123,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 0.9884962690602358,
+    "lift_cold16": 1.0391883854222992,
+    "big16_per_RM1": 0.7550465838509317,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.07041710865207304,
+    "draws": 4171,
+    "hot1": 11,
+    "hot16": 172,
+    "cold1": 14,
+    "cold16": 163,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.1218249744328261,
+    "lift_cold16": 1.0631248304218062,
+    "big16_per_RM1": 0.604471349796212,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -0.004471585589488513,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.0,
+    "detail": [
+     "cold 10-10 Magnum 1235"
+    ]
+   }
+  },
+  "M3 hazard bins=12": {
+   "validation": {
+    "ll_milli_per_unit": -0.12785693110020202,
+    "draws": 3220,
+    "hot1": 10,
+    "hot16": 119,
+    "cold1": 5,
+    "cold16": 121,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.0053936411809237,
+    "lift_cold16": 1.0222910133016114,
+    "big16_per_RM1": 0.6940993788819876,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.044190575916401915,
+    "draws": 4171,
+    "hot1": 13,
+    "hot16": 156,
+    "cold1": 9,
+    "cold16": 139,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0174691628576795,
+    "lift_cold16": 0.9065911130590864,
+    "big16_per_RM1": 0.7710980580196596,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": 0.333113660540955,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.0,
+    "detail": [
+     "cold 10-07 Sports Toto 2735"
+    ]
+   }
+  },
+  "M3 hazard bins=30": {
+   "validation": {
+    "ll_milli_per_unit": -0.2015840654944164,
+    "draws": 3220,
+    "hot1": 10,
+    "hot16": 119,
+    "cold1": 10,
+    "cold16": 126,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.0053936411809237,
+    "lift_cold16": 1.0645344436033308,
+    "big16_per_RM1": 0.6940993788819876,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.050380510108849766,
+    "draws": 4171,
+    "hot1": 13,
+    "hot16": 156,
+    "cold1": 7,
+    "cold16": 162,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0174691628576795,
+    "lift_cold16": 1.0566025921983595,
+    "big16_per_RM1": 0.7710980580196596,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": 0.6080514445795417,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 0,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 0.0,
+    "big16_per_RM1": 0.0,
+    "detail": []
+   }
+  },
+  "M5 shape H=50 kappa=500": {
+   "validation": {
+    "ll_milli_per_unit": -8.997326081516587,
+    "draws": 3220,
+    "hot1": 5,
+    "hot16": 137,
+    "cold1": 9,
+    "cold16": 136,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.1574699902671137,
+    "lift_cold16": 1.1490213042067698,
+    "big16_per_RM1": 0.7670807453416149,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -8.391814299335675,
+    "draws": 4171,
+    "hot1": 15,
+    "hot16": 163,
+    "cold1": 7,
+    "cold16": 136,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0631248304218062,
+    "lift_cold16": 0.8870243983887464,
+    "big16_per_RM1": 0.7651042915368017,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -10.657628043520576,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 1,
+    "cold1": 0,
+    "cold16": 0,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 1.8115942028985506,
+    "lift_cold16": 0.0,
+    "big16_per_RM1": 0.75,
+    "detail": [
+     "hot 10-04 Sports Toto 8855"
+    ]
+   }
+  },
+  "M5 shape H=50 kappa=5000": {
+   "validation": {
+    "ll_milli_per_unit": -0.9535281121683559,
+    "draws": 3220,
+    "hot1": 5,
+    "hot16": 137,
+    "cold1": 9,
+    "cold16": 136,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.1574699902671137,
+    "lift_cold16": 1.1490213042067698,
+    "big16_per_RM1": 0.7670807453416149,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.6571393748936785,
+    "draws": 4171,
+    "hot1": 15,
+    "hot16": 163,
+    "cold1": 7,
+    "cold16": 136,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0631248304218062,
+    "lift_cold16": 0.8870243983887464,
+    "big16_per_RM1": 0.7651042915368017,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -1.8724431587612012,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 1,
+    "cold1": 0,
+    "cold16": 0,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 1.8115942028985506,
+    "lift_cold16": 0.0,
+    "big16_per_RM1": 0.75,
+    "detail": [
+     "hot 10-04 Sports Toto 8855"
+    ]
+   }
+  },
+  "M5 shape H=500 kappa=500": {
+   "validation": {
+    "ll_milli_per_unit": -1.4213689142892656,
+    "draws": 3220,
+    "hot1": 7,
+    "hot16": 138,
+    "cold1": 13,
+    "cold16": 117,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.1659186763274576,
+    "lift_cold16": 0.9884962690602358,
+    "big16_per_RM1": 0.6952639751552795,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -1.2642774014488778,
+    "draws": 4171,
+    "hot1": 10,
+    "hot16": 168,
+    "cold1": 6,
+    "cold16": 155,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0957360215390395,
+    "lift_cold16": 1.0109469246342329,
+    "big16_per_RM1": 0.9371253895948214,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -1.2514945225349776,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 3,
+    "cold1": 0,
+    "cold16": 2,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 5.434782608695651,
+    "lift_cold16": 3.623188405797101,
+    "big16_per_RM1": 2.25,
+    "detail": [
+     "hot 10-04 Sports Toto 8855",
+     "hot 10-10 Magnum 3300",
+     "hot 10-10 Da Ma Cai 6696",
+     "cold 10-14 Da Ma Cai 1777",
+     "cold 10-14 Da Ma Cai 4454"
+    ]
+   }
+  },
+  "M5 shape H=500 kappa=5000": {
+   "validation": {
+    "ll_milli_per_unit": -0.8696193413136868,
+    "draws": 3220,
+    "hot1": 7,
+    "hot16": 138,
+    "cold1": 13,
+    "cold16": 117,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.1659186763274576,
+    "lift_cold16": 0.9884962690602358,
+    "big16_per_RM1": 0.6952639751552795,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.7315432517341982,
+    "draws": 4171,
+    "hot1": 10,
+    "hot16": 168,
+    "cold1": 6,
+    "cold16": 155,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0957360215390395,
+    "lift_cold16": 1.0109469246342329,
+    "big16_per_RM1": 0.9371253895948214,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -0.6589802779395224,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 3,
+    "cold1": 0,
+    "cold16": 2,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 5.434782608695651,
+    "lift_cold16": 3.623188405797101,
+    "big16_per_RM1": 2.25,
+    "detail": [
+     "hot 10-04 Sports Toto 8855",
+     "hot 10-10 Magnum 3300",
+     "hot 10-10 Da Ma Cai 6696",
+     "cold 10-14 Da Ma Cai 1777",
+     "cold 10-14 Da Ma Cai 4454"
+    ]
+   }
+  },
+  "M5 shape H=5000 kappa=500": {
+   "validation": {
+    "ll_milli_per_unit": -0.6125704979035876,
+    "draws": 3220,
+    "hot1": 9,
+    "hot16": 118,
+    "cold1": 6,
+    "cold16": 117,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 0.9969449551205797,
+    "lift_cold16": 0.9884962690602358,
+    "big16_per_RM1": 0.6785714285714286,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.3538516393358799,
+    "draws": 4171,
+    "hot1": 9,
+    "hot16": 144,
+    "cold1": 7,
+    "cold16": 166,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 0.9392023041763197,
+    "lift_cold16": 1.0826915450921462,
+    "big16_per_RM1": 0.7513186286262287,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": 0.5541270948734552,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 1,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 1.8115942028985506,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.25,
+    "detail": [
+     "cold 10-04 Da Ma Cai 5055",
+     "hot 10-07 Sports Toto 1311"
+    ]
+   }
+  },
+  "M5 shape H=5000 kappa=5000": {
+   "validation": {
+    "ll_milli_per_unit": -0.5392956069974443,
+    "draws": 3220,
+    "hot1": 9,
+    "hot16": 118,
+    "cold1": 6,
+    "cold16": 117,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 0.9969449551205797,
+    "lift_cold16": 0.9884962690602358,
+    "big16_per_RM1": 0.6785714285714286,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.3123789833335354,
+    "draws": 4171,
+    "hot1": 9,
+    "hot16": 144,
+    "cold1": 7,
+    "cold16": 166,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 0.9392023041763197,
+    "lift_cold16": 1.0826915450921462,
+    "big16_per_RM1": 0.7513186286262287,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": 0.5479696342807688,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 1,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 1.8115942028985506,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.25,
+    "detail": [
+     "cold 10-04 Da Ma Cai 5055",
+     "hot 10-07 Sports Toto 1311"
+    ]
+   }
+  },
+  "M4 neural net (32,) alpha=0.01": {
+   "validation": {
+    "ll_milli_per_unit": -24.345665313731338,
+    "draws": 3220,
+    "hot1": 6,
+    "hot16": 121,
+    "cold1": 5,
+    "cold16": 131,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.0222910133016114,
+    "lift_cold16": 1.1067778739050502,
+    "big16_per_RM1": 0.7154503105590062,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -36.59184596809133,
+    "draws": 4171,
+    "hot1": 8,
+    "hot16": 151,
+    "cold1": 11,
+    "cold16": 156,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 0.9848579717404463,
+    "lift_cold16": 1.0174691628576795,
+    "big16_per_RM1": 0.5939822584512108,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -26.364104409774924,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 1,
+    "cold1": 0,
+    "cold16": 3,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 1.8115942028985506,
+    "lift_cold16": 5.434782608695651,
+    "big16_per_RM1": 0.25,
+    "detail": [
+     "cold 10-04 Magnum 8406",
+     "cold 10-10 Magnum 8216",
+     "cold 10-10 Da Ma Cai 7972",
+     "hot 10-11 Sports Toto 3841"
+    ]
+   }
+  },
+  "M4 neural net (64, 32) alpha=0.001": {
+   "validation": {
+    "ll_milli_per_unit": -10.022551100735253,
+    "draws": 3220,
+    "hot1": 6,
+    "hot16": 113,
+    "cold1": 10,
+    "cold16": 129,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 0.9547015248188602,
+    "lift_cold16": 1.0898805017843625,
+    "big16_per_RM1": 0.5586180124223602,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -28.725153970984195,
+    "draws": 4171,
+    "hot1": 13,
+    "hot16": 157,
+    "cold1": 12,
+    "cold16": 165,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0239914010811262,
+    "lift_cold16": 1.0761693068686995,
+    "big16_per_RM1": 0.6266482857827859,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -23.51006753966526,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.0,
+    "detail": [
+     "cold 10-14 Magnum 7685"
+    ]
+   }
+  },
+  "M2 autoregression lambda=100": {
+   "validation": {
+    "ll_milli_per_unit": -4.941018890696469,
+    "draws": 3220,
+    "hot1": 11,
+    "hot16": 116,
+    "cold1": 9,
+    "cold16": 124,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 0.9800475829998919,
+    "lift_cold16": 1.047637071482643,
+    "big16_per_RM1": 0.7445652173913043,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -3.638795621325208,
+    "draws": 4171,
+    "hot1": 7,
+    "hot16": 145,
+    "cold1": 7,
+    "cold16": 167,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 0.9457245423997663,
+    "lift_cold16": 1.0892137833155928,
+    "big16_per_RM1": 0.5448333732917765,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -5.517907586908753,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 0,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 0.0,
+    "big16_per_RM1": 0.0,
+    "detail": []
+   }
+  },
+  "M2 autoregression lambda=10000": {
+   "validation": {
+    "ll_milli_per_unit": -1.164559139428961,
+    "draws": 3220,
+    "hot1": 11,
+    "hot16": 112,
+    "cold1": 7,
+    "cold16": 125,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 0.9462528387585163,
+    "lift_cold16": 1.056085757542987,
+    "big16_per_RM1": 0.7208850931677019,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -1.1092619018571204,
+    "draws": 4171,
+    "hot1": 7,
+    "hot16": 158,
+    "cold1": 4,
+    "cold16": 168,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 1.0305136393045728,
+    "lift_cold16": 1.0957360215390395,
+    "big16_per_RM1": 0.739331095660513,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -2.980251447833677,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 1,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 1.8115942028985506,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.25,
+    "detail": [
+     "hot 10-04 Sports Toto 4896",
+     "cold 10-10 Da Ma Cai 1233"
+    ]
+   }
+  },
+  "M2 autoregression lambda=1e+06": {
+   "validation": {
+    "ll_milli_per_unit": -0.11030817729562897,
+    "draws": 3220,
+    "hot1": 8,
+    "hot16": 125,
+    "cold1": 10,
+    "cold16": 122,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.056085757542987,
+    "lift_cold16": 1.0307396993619553,
+    "big16_per_RM1": 0.6739130434782609,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.04337189553176641,
+    "draws": 4171,
+    "hot1": 8,
+    "hot16": 143,
+    "cold1": 14,
+    "cold16": 162,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 0.932680065952873,
+    "lift_cold16": 1.0566025921983595,
+    "big16_per_RM1": 0.6302445456725005,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -0.38005282903681936,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.0,
+    "detail": [
+     "cold 10-10 Da Ma Cai 6663"
+    ]
+   }
+  },
+  "M2 autoregression lambda=1e+08": {
+   "validation": {
+    "ll_milli_per_unit": -0.11456011195206223,
+    "draws": 3220,
+    "hot1": 8,
+    "hot16": 132,
+    "cold1": 10,
+    "cold16": 124,
+    "exp1": 7.4,
+    "exp16": 118.36,
+    "lift_hot16": 1.1152265599653943,
+    "lift_cold16": 1.047637071482643,
+    "big16_per_RM1": 0.7038043478260869,
+    "detail": []
+   },
+   "test": {
+    "ll_milli_per_unit": -0.04501466105870903,
+    "draws": 4171,
+    "hot1": 7,
+    "hot16": 150,
+    "cold1": 14,
+    "cold16": 165,
+    "exp1": 9.58,
+    "exp16": 153.32,
+    "lift_hot16": 0.9783357335169997,
+    "lift_cold16": 1.0761693068686995,
+    "big16_per_RM1": 0.676096859266363,
+    "detail": []
+   },
+   "last5": {
+    "ll_milli_per_unit": -0.3209016062804504,
+    "draws": 15,
+    "hot1": 0,
+    "hot16": 0,
+    "cold1": 0,
+    "cold16": 1,
+    "exp1": 0.03,
+    "exp16": 0.55,
+    "lift_hot16": 0.0,
+    "lift_cold16": 1.8115942028985506,
+    "big16_per_RM1": 0.0,
+    "detail": [
+     "cold 10-10 Da Ma Cai 6663"
+    ]
+   }
+  }
+ }
+}

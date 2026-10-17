@@ -195,10 +195,12 @@ def m2(lam, X, S):
         if key not in fitted:
             tr = (D.yj < key) if key != "cut" else (D.dj < D.cut)
             tr &= D.yj >= 1987
-            A = np.hstack([Z[tr], np.ones((tr.sum(), 1))])
-            W = np.linalg.solve(A.T @ A + lam * np.eye(A.shape[1]), A.T @ S[tr])
-            fitted[key] = W
-        pred = (np.append(Z[j], 1) @ fitted[key]).reshape(4, 10)
+            zm, ym = Z[tr].mean(0), S[tr].mean(0)                  # intercept left unpenalised
+            A = Z[tr] - zm
+            W = np.linalg.solve(A.T @ A + lam * np.eye(A.shape[1]), A.T @ (S[tr] - ym))
+            fitted[key] = (W, zm, ym)
+        W, zm, ym = fitted[key]
+        pred = (ym + (Z[j] - zm) @ W).reshape(4, 10)
         P = np.clip(pred, 1e-3, None)
         tal.digits(j, P / P.sum(1, keepdims=True))
     return tal
