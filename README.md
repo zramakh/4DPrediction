@@ -33,3 +33,7 @@ If 4dmoon.com cannot be reached directly, fetch the pages with TinyFish
 python3 tinyfish_import.py page.html [more.html ...]   # or the saved JSON response
 python3 -m unittest tests/test_tinyfish_import.py
 ```
+
+## Findings
+
+See [analysis/FINDINGS.md](analysis/FINDINGS.md) for a summary of every test, the ranked leads and live checks.
