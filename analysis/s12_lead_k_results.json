@@ -1,0 +1,335 @@
+{
+ "lead": [
+  {
+   "picks": "top 1",
+   "hits_before": 29.0,
+   "exp_before": 24.449804076563833,
+   "z_before": 0.9202215624363339,
+   "hits_after": 28.0,
+   "exp_after": 16.995507300701497,
+   "z_after": 2.6693342594025444,
+   "hits_per_day_after": 0.011303996770286637
+  },
+  {
+   "picks": "top 2",
+   "hits_before": 55.0,
+   "exp_before": 48.91803203007302,
+   "z_before": 0.8695801952638196,
+   "hits_after": 42.0,
+   "exp_after": 33.991865063237576,
+   "z_after": 1.3735481406337062,
+   "hits_per_day_after": 0.016955995155429955
+  },
+  {
+   "picks": "top 4",
+   "hits_before": 107.0,
+   "exp_before": 97.83623450964531,
+   "z_before": 0.9264545145891706,
+   "hits_after": 80.0,
+   "exp_after": 67.98604242637597,
+   "z_after": 1.4570558988208613,
+   "hits_per_day_after": 0.03229713362939039
+  },
+  {
+   "picks": "top 8",
+   "hits_before": 222.0,
+   "exp_before": 195.59756968189706,
+   "z_before": 1.8878269338467584,
+   "hits_after": 132.0,
+   "exp_after": 135.96638049717097,
+   "z_after": -0.3401563680052728,
+   "hits_per_day_after": 0.05329027048849415
+  },
+  {
+   "picks": "top 16",
+   "hits_before": 419.0,
+   "exp_before": 390.8450742142714,
+   "z_before": 1.424137969325663,
+   "hits_after": 267.0,
+   "exp_after": 271.99944388856926,
+   "z_after": -0.3031361219722549,
+   "hits_per_day_after": 0.10779168348809043
+  },
+  {
+   "picks": "top 32",
+   "hits_before": 813.0,
+   "exp_before": 781.1573353790673,
+   "z_before": 1.1393053717500454,
+   "hits_after": 551.0,
+   "exp_after": 543.8896296382095,
+   "z_after": 0.30488554440063215,
+   "hits_per_day_after": 0.2224465078724263
+  },
+  {
+   "picks": "top 64",
+   "hits_before": 1625.0,
+   "exp_before": 1560.627247838771,
+   "z_before": 1.6294929451045437,
+   "hits_after": 1100.0,
+   "exp_after": 1087.35743995187,
+   "z_after": 0.3833971320636643,
+   "hits_per_day_after": 0.4440855874041179
+  },
+  {
+   "picks": "top 128",
+   "hits_before": 3125.0,
+   "exp_before": 3117.9457244390755,
+   "z_before": 0.12633338853634477,
+   "hits_after": 2190.0,
+   "exp_after": 2173.9720977029906,
+   "z_after": 0.34375553801509207,
+   "hits_per_day_after": 0.884134033104562
+  },
+  {
+   "picks": "top 256",
+   "hits_before": 6239.0,
+   "exp_before": 6228.700052266552,
+   "z_before": 0.13050775293365788,
+   "hits_after": 4341.0,
+   "exp_after": 4347.380335666325,
+   "z_after": -0.09676754186461964,
+   "hits_per_day_after": 1.7525232135647961
+  },
+  {
+   "picks": "top 512",
+   "hits_before": 12410.0,
+   "exp_before": 12440.634795053063,
+   "z_before": -0.2746589203984224,
+   "hits_after": 8603.0,
+   "exp_after": 8693.60759561258,
+   "z_after": -0.971772465023733,
+   "hits_per_day_after": 3.4731530076705694
+  },
+  {
+   "picks": "top 1024",
+   "hits_before": 24769.0,
+   "exp_before": 24843.20467665962,
+   "z_before": -0.47079025892105375,
+   "hits_after": 17275.0,
+   "exp_after": 17383.216759486702,
+   "z_after": -0.8207850777794022,
+   "hits_per_day_after": 6.974162293096487
+  },
+  {
+   "picks": "grid 1^4=1",
+   "hits_before": 29.0,
+   "exp_before": 24.449804076563833,
+   "z_before": 0.9202215624363339,
+   "hits_after": 28.0,
+   "exp_after": 16.995507300701497,
+   "z_after": 2.6693342594025444,
+   "hits_per_day_after": 0.011303996770286637
+  },
+  {
+   "picks": "grid 2^4=16",
+   "hits_before": 459.0,
+   "exp_before": 390.4446078524044,
+   "z_before": 3.469460158780889,
+   "hits_after": 307.0,
+   "exp_after": 272.08400037717456,
+   "z_after": 2.1167666181673286,
+   "hits_per_day_after": 0.12394025030278563
+  },
+  {
+   "picks": "grid 3^4=81",
+   "hits_before": 2052.0,
+   "exp_before": 1971.7984180478811,
+   "z_before": 1.806141109819877,
+   "hits_after": 1386.0,
+   "exp_after": 1377.0669526505415,
+   "z_after": 0.24072550582191254,
+   "hits_per_day_after": 0.5595478401291886
+  },
+  {
+   "picks": "grid 4^4=256",
+   "hits_before": 6296.0,
+   "exp_before": 6217.011332403356,
+   "z_before": 1.001783694388995,
+   "hits_after": 4342.0,
+   "exp_after": 4345.9627881745955,
+   "z_after": -0.06011154032094613,
+   "hits_per_day_after": 1.7529269277351636
+  },
+  {
+   "picks": "grid 5^4=625",
+   "hits_before": 15282.0,
+   "exp_before": 15152.627414511495,
+   "z_before": 1.0509892774996663,
+   "hits_after": 10526.0,
+   "exp_after": 10602.14062634089,
+   "z_after": -0.7394684766220206,
+   "hits_per_day_after": 4.24949535728704
+  }
+ ],
+ "no parameter": [
+  {
+   "picks": "top 1",
+   "hits_before": 22.0,
+   "exp_before": 25.98139516933877,
+   "z_before": -0.781095347439584,
+   "hits_after": 15.0,
+   "exp_after": 17.17179469820883,
+   "z_after": -0.5240960962222166,
+   "hits_per_day_after": 0.0060435132957292505
+  },
+  {
+   "picks": "top 2",
+   "hits_before": 43.0,
+   "exp_before": 51.836456226373265,
+   "z_before": -1.2273275376646167,
+   "hits_after": 28.0,
+   "exp_after": 34.36547821169026,
+   "z_after": -1.085850011015815,
+   "hits_per_day_after": 0.011281224818694601
+  },
+  {
+   "picks": "top 4",
+   "hits_before": 108.0,
+   "exp_before": 103.74562816649032,
+   "z_before": 0.41768659971982003,
+   "hits_after": 59.0,
+   "exp_after": 68.62027322526008,
+   "z_after": -1.1613448145379193,
+   "hits_per_day_after": 0.023771152296535054
+  },
+  {
+   "picks": "top 8",
+   "hits_before": 213.0,
+   "exp_before": 207.08193492797358,
+   "z_before": 0.41125257381728897,
+   "hits_after": 135.0,
+   "exp_after": 137.07305345850526,
+   "z_after": -0.17706570701830976,
+   "hits_per_day_after": 0.05439161966156326
+  },
+  {
+   "picks": "top 16",
+   "hits_before": 404.0,
+   "exp_before": 412.9784508735155,
+   "z_before": -0.4418122113628983,
+   "hits_after": 282.0,
+   "exp_after": 273.6011026307711,
+   "z_after": 0.5077656908726192,
+   "hits_per_day_after": 0.11361804995970991
+  },
+  {
+   "picks": "top 32",
+   "hits_before": 849.0,
+   "exp_before": 824.1602198333605,
+   "z_before": 0.8652506292461882,
+   "hits_after": 530.0,
+   "exp_after": 546.4037365439411,
+   "z_after": -0.7017557103799262,
+   "hits_per_day_after": 0.21353746978243351
+  },
+  {
+   "picks": "top 64",
+   "hits_before": 1692.0,
+   "exp_before": 1644.08780136787,
+   "z_before": 1.1816356822763079,
+   "hits_after": 1096.0,
+   "exp_after": 1092.2678513592507,
+   "z_after": 0.1129261069715897,
+   "hits_per_day_after": 0.44157937147461723
+  },
+  {
+   "picks": "top 128",
+   "hits_before": 3353.0,
+   "exp_before": 3276.4032051021504,
+   "z_before": 1.3381719629963669,
+   "hits_after": 2164.0,
+   "exp_after": 2182.9003762398556,
+   "z_after": -0.4045325682340939,
+   "hits_per_day_after": 0.8718775181305399
+  },
+  {
+   "picks": "top 256",
+   "hits_before": 6564.0,
+   "exp_before": 6526.837594063671,
+   "z_before": 0.4599942677909365,
+   "hits_after": 4271.0,
+   "exp_after": 4358.127934862018,
+   "z_after": -1.3197978995325181,
+   "hits_per_day_after": 1.7207896857373086
+  },
+  {
+   "picks": "top 512",
+   "hits_before": 12931.0,
+   "exp_before": 12995.443711363858,
+   "z_before": -0.5653078127361125,
+   "hits_after": 8632.0,
+   "exp_after": 8706.571762249789,
+   "z_after": -0.7991914229103202,
+   "hits_per_day_after": 3.477840451248993
+  },
+  {
+   "picks": "top 1024",
+   "hits_before": 25750.0,
+   "exp_before": 25855.519146656494,
+   "z_before": -0.6562278220961467,
+   "hits_after": 17148.0,
+   "exp_after": 17384.232628679274,
+   "z_after": -1.7916869074486916,
+   "hits_per_day_after": 6.908944399677679
+  },
+  {
+   "picks": "grid 1^4=1",
+   "hits_before": 22.0,
+   "exp_before": 25.98139516933877,
+   "z_before": -0.781095347439584,
+   "hits_after": 15.0,
+   "exp_after": 17.17179469820883,
+   "z_after": -0.5240960962222166,
+   "hits_per_day_after": 0.0060435132957292505
+  },
+  {
+   "picks": "grid 2^4=16",
+   "hits_before": 424.0,
+   "exp_before": 411.7691002473707,
+   "z_before": 0.6027421041740423,
+   "hits_after": 276.0,
+   "exp_after": 273.01617137204516,
+   "z_after": 0.1805841753959676,
+   "hits_per_day_after": 0.11120064464141821
+  },
+  {
+   "picks": "grid 3^4=81",
+   "hits_before": 2104.0,
+   "exp_before": 2074.0829897747176,
+   "z_before": 0.6569088684719345,
+   "hits_after": 1366.0,
+   "exp_after": 1367.5227982050576,
+   "z_after": -0.04117893103846294,
+   "hits_per_day_after": 0.5503626107977437
+  },
+  {
+   "picks": "grid 4^4=256",
+   "hits_before": 6516.0,
+   "exp_before": 6499.4375207328385,
+   "z_before": 0.20544116114984162,
+   "hits_after": 4311.0,
+   "exp_after": 4318.593743059312,
+   "z_after": -0.11555393060409373,
+   "hits_per_day_after": 1.7369057211925867
+  },
+  {
+   "picks": "grid 5^4=625",
+   "hits_before": 15925.0,
+   "exp_before": 15753.621481214974,
+   "z_before": 1.3654197544266589,
+   "hits_after": 10356.0,
+   "exp_after": 10558.106475701154,
+   "z_after": -1.9669223275929826,
+   "hits_per_day_after": 4.172441579371474
+  }
+ ],
+ "chosen_k": {
+  "picks": "top 8",
+  "z_after": -0.3401563680052728,
+  "shift_mean": -0.10830104243907965,
+  "shift_sd": 1.111486308338098,
+  "shifts_as_high": 56,
+  "hindsight_best_z_after": 2.6693342594025444,
+  "hindsight_shifts_as_high": 4
+ }
+}
