@@ -1,0 +1,1380 @@
+{
+ "held_out": [
+  "2026-10-04",
+  "2026-10-07",
+  "2026-10-10",
+  "2026-10-11",
+  "2026-10-14"
+ ],
+ "triple_parameters": [
+  "day_element",
+  "hour_stem_19h",
+  "adhika_masa",
+  "saturn_combust",
+  "kp_moon_star_lord",
+  "nayin",
+  "venus_retrograde",
+  "lunar_leap_month",
+  "masa",
+  "venus_combust",
+  "jupiter_retrograde",
+  "mars_nakshatra",
+  "mars_rashi",
+  "yellow_black_path",
+  "mars_retrograde",
+  "nakshatra_lord",
+  "mercury_combust",
+  "moon_rashi",
+  "nakshatra_pada",
+  "lunar_month"
+ ],
+ "S1|1|single": {
+  "formulas": 78,
+  "both_positive": 26,
+  "both_z_gt_1": 4,
+  "best": [
+   {
+    "formula": "hora_lord",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "moon_rashi",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nine_star_year",
+    "valid_lift": 1.4869687466205255,
+    "valid_z": 1.3244833758208445,
+    "test_lift": 1.3566255504769063,
+    "test_z": 1.103962026611323,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_element",
+    "valid_lift": 1.4869687466205255,
+    "valid_z": 1.3244833758208445,
+    "test_lift": 1.3566255504769063,
+    "test_z": 1.103962026611323,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-14 Magnum 7484"
+    ]
+   },
+   {
+    "formula": "lagna_rashi",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.669692985202346,
+    "test_z": 2.0730865305716346,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_nakshatra",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.7740487967774927,
+    "test_z": 2.396128031891738,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "rahu_nakshatra",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.3566255504769063,
+    "test_z": 1.103962026611323,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "month_pillar",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.3566255504769063,
+    "test_z": 1.103962026611323,
+    "last5_hits": 1,
+    "last5_big": 180.0,
+    "last5_detail": [
+     "10-11 Magnum 6709"
+    ]
+   },
+   {
+    "formula": "kp_asc_sub_lord",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.2522697389017596,
+    "test_z": 0.7809205252912191,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "karana",
+    "valid_lift": 1.2166107926895209,
+    "valid_z": 0.589149500725994,
+    "test_lift": 1.2522697389017596,
+    "test_z": 0.7809205252912191,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 2
+ },
+ "S1|1|pairs": {
+  "formulas": 3003,
+  "both_positive": 942,
+  "both_z_gt_1": 133,
+  "best": [
+   {
+    "formula": "saturn_nakshatra x saturn_retrograde",
+    "valid_lift": 1.8925056775170324,
+    "valid_z": 2.4274841884631204,
+    "test_lift": 1.8784046083526393,
+    "test_z": 2.719169533211842,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "kp_moon_number x nayin",
+    "valid_lift": 2.0276846544825347,
+    "valid_z": 2.7951511260105457,
+    "test_lift": 1.7740487967774927,
+    "test_z": 2.396128031891738,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "yoga x mercury_retrograde",
+    "valid_lift": 1.8925056775170324,
+    "valid_z": 2.4274841884631204,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "karana x mercury_retrograde",
+    "valid_lift": 2.0276846544825347,
+    "valid_z": 2.7951511260105457,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mercury_nakshatra x year_pillar",
+    "valid_lift": 1.8925056775170324,
+    "valid_z": 2.4274841884631204,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_nakshatra x mars_retrograde",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_nakshatra x lunar_leap_month",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "lagna_rashi x lunar_leap_month",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_combust x solar_term",
+    "valid_lift": 1.8925056775170324,
+    "valid_z": 2.4274841884631204,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_god x nine_star_month",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 0
+ },
+ "S1|1|triples": {
+  "formulas": 1140,
+  "both_positive": 315,
+  "both_z_gt_1": 41,
+  "best": [
+   {
+    "formula": "day_element x masa x nakshatra_pada",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.7740487967774927,
+    "test_z": 2.396128031891738,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "adhika_masa x nayin x venus_retrograde",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.669692985202346,
+    "test_z": 2.0730865305716346,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_element x mars_rashi x nakshatra_pada",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_combust x nayin x venus_combust",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.669692985202346,
+    "test_z": 2.0730865305716346,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_combust x venus_retrograde x mars_nakshatra",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nayin x jupiter_retrograde x mars_rashi",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.982760419927786,
+    "test_z": 3.0422110345319457,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nayin x masa x nakshatra_pada",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nayin x nakshatra_pada x lunar_month",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.7740487967774927,
+    "test_z": 2.396128031891738,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "venus_retrograde x mars_rashi x moon_rashi",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_element x mars_nakshatra x nakshatra_pada",
+    "valid_lift": 2.0276846544825347,
+    "valid_z": 2.7951511260105457,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 0
+ },
+ "S1|16|single": {
+  "formulas": 78,
+  "both_positive": 26,
+  "both_z_gt_1": 2,
+  "best": [
+   {
+    "formula": "nayin",
+    "valid_lift": 1.208162106629177,
+    "valid_z": 2.26468126851712,
+    "test_lift": 1.0892137833155928,
+    "test_z": 1.104672717914228,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nine_star_month",
+    "valid_lift": 1.0983291878447063,
+    "valid_z": 1.0697637214879876,
+    "test_lift": 1.1283472126562728,
+    "test_z": 1.5892349698943835,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nakshatra_pada",
+    "valid_lift": 1.0898805017843625,
+    "valid_z": 0.9778469871011314,
+    "test_lift": 1.1218249744328261,
+    "test_z": 1.5084745945643576,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mercury_combust",
+    "valid_lift": 1.0898805017843625,
+    "valid_z": 0.9778469871011314,
+    "test_lift": 1.1153027362093795,
+    "test_z": 1.4277142192343317,
+    "last5_hits": 2,
+    "last5_big": 120.0,
+    "last5_detail": [
+     "10-07 Sports Toto 1311",
+     "10-14 Magnum 7484"
+    ]
+   },
+   {
+    "formula": "saturn_combust",
+    "valid_lift": 1.0729831296636747,
+    "valid_z": 0.7940135183274187,
+    "test_lift": 1.0892137833155928,
+    "test_z": 1.104672717914228,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-14 Magnum 7484"
+    ]
+   },
+   {
+    "formula": "kp_asc_star_lord",
+    "valid_lift": 1.1405726181464257,
+    "valid_z": 1.5293473934222692,
+    "test_lift": 1.0500803539749128,
+    "test_z": 0.6201104659340722,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_god",
+    "valid_lift": 1.0560857575429867,
+    "valid_z": 0.6101800495537061,
+    "test_lift": 1.0957360215390395,
+    "test_z": 1.1854330932442538,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_pillar",
+    "valid_lift": 1.1405726181464257,
+    "valid_z": 1.5293473934222692,
+    "test_lift": 1.0435581157514662,
+    "test_z": 0.5393500906040462,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "kp_asc_sub_lord",
+    "valid_lift": 1.123675246025738,
+    "valid_z": 1.3455139246485566,
+    "test_lift": 1.0370358775280195,
+    "test_z": 0.4585897152740202,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-14 Sports Toto 2131"
+    ]
+   },
+   {
+    "formula": "kp_moon_star_lord",
+    "valid_lift": 1.039188385422299,
+    "valid_z": 0.42634658077999343,
+    "test_lift": 1.0435581157514662,
+    "test_z": 0.5393500906040462,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 4
+ },
+ "S1|16|pairs": {
+  "formulas": 3003,
+  "both_positive": 740,
+  "both_z_gt_1": 66,
+  "best": [
+   {
+    "formula": "lunar_leap_month x nayin",
+    "valid_lift": 1.2335081648102086,
+    "valid_z": 2.540431471677689,
+    "test_lift": 1.1870473566672928,
+    "test_z": 2.316078347864617,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "venus_combust x day_element",
+    "valid_lift": 1.1997134205688331,
+    "valid_z": 2.1727645341302635,
+    "test_lift": 1.1935695948907394,
+    "test_z": 2.396838723194643,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "kp_sun_sub_lord x nayin",
+    "valid_lift": 1.208162106629177,
+    "valid_z": 2.26468126851712,
+    "test_lift": 1.1674806419969528,
+    "test_z": 2.073797221874539,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "jupiter_nakshatra x hour_stem_19h",
+    "valid_lift": 1.2335081648102086,
+    "valid_z": 2.540431471677689,
+    "test_lift": 1.1413916891031661,
+    "test_z": 1.7507557205544355,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-07 Da Ma Cai 6721"
+    ]
+   },
+   {
+    "formula": "saturn_rashi x day_god",
+    "valid_lift": 1.1912647345084892,
+    "valid_z": 2.0808477997434074,
+    "test_lift": 1.1413916891031661,
+    "test_z": 1.7507557205544355,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-10 Sports Toto 2640"
+    ]
+   },
+   {
+    "formula": "mars_nakshatra x saturn_combust",
+    "valid_lift": 1.1574699902671135,
+    "valid_z": 1.7131808621959819,
+    "test_lift": 1.2196585477845263,
+    "test_z": 2.719880224514747,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "yoga x kp_asc_number",
+    "valid_lift": 1.1659186763274574,
+    "valid_z": 1.8050975965828382,
+    "test_lift": 1.1348694508797195,
+    "test_z": 1.6699953452244096,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mars_combust x saturn_combust",
+    "valid_lift": 1.1490213042067696,
+    "valid_z": 1.6212641278091255,
+    "test_lift": 1.1544361655500595,
+    "test_z": 1.9122764712144873,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-14 Magnum 7484"
+    ]
+   },
+   {
+    "formula": "lunar_leap_month x nayin_element",
+    "valid_lift": 1.1490213042067696,
+    "valid_z": 1.6212641278091255,
+    "test_lift": 1.1413916891031661,
+    "test_z": 1.7507557205544355,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "paksha x month_pillar",
+    "valid_lift": 1.1574699902671135,
+    "valid_z": 1.7131808621959819,
+    "test_lift": 1.1218249744328261,
+    "test_z": 1.5084745945643576,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 3
+ },
+ "S1|16|triples": {
+  "formulas": 1140,
+  "both_positive": 378,
+  "both_z_gt_1": 43,
+  "best": [
+   {
+    "formula": "day_element x nayin x lunar_leap_month",
+    "valid_lift": 1.2335081648102086,
+    "valid_z": 2.540431471677689,
+    "test_lift": 1.1870473566672928,
+    "test_z": 2.316078347864617,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "adhika_masa x nayin x lunar_leap_month",
+    "valid_lift": 1.2250594787498648,
+    "valid_z": 2.4485147372908327,
+    "test_lift": 1.1479139273266128,
+    "test_z": 1.8315160958844614,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "kp_moon_star_lord x mars_nakshatra x lunar_month",
+    "valid_lift": 1.1743673623878013,
+    "valid_z": 1.8970143309696945,
+    "test_lift": 1.1413916891031661,
+    "test_z": 1.7507557205544355,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "hour_stem_19h x venus_retrograde x masa",
+    "valid_lift": 1.1405726181464257,
+    "valid_z": 1.5293473934222692,
+    "test_lift": 1.1413916891031661,
+    "test_z": 1.7507557205544355,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "hour_stem_19h x masa x yellow_black_path",
+    "valid_lift": 1.3095463393533036,
+    "valid_z": 3.3676820811593955,
+    "test_lift": 1.1218249744328261,
+    "test_z": 1.5084745945643576,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "hour_stem_19h x masa x lunar_month",
+    "valid_lift": 1.1490213042067696,
+    "valid_z": 1.6212641278091255,
+    "test_lift": 1.1218249744328261,
+    "test_z": 1.5084745945643576,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-04 Da Ma Cai 9601"
+    ]
+   },
+   {
+    "formula": "mars_nakshatra x nakshatra_lord x lunar_month",
+    "valid_lift": 1.1659186763274574,
+    "valid_z": 1.8050975965828382,
+    "test_lift": 1.1218249744328261,
+    "test_z": 1.5084745945643576,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nayin x yellow_black_path x nakshatra_pada",
+    "valid_lift": 1.1574699902671135,
+    "valid_z": 1.7131808621959819,
+    "test_lift": 1.1087804979859328,
+    "test_z": 1.3469538439043056,
+    "last5_hits": 2,
+    "last5_big": 240.0,
+    "last5_detail": [
+     "10-07 Sports Toto 2485",
+     "10-14 Magnum 7484"
+    ]
+   },
+   {
+    "formula": "venus_combust x yellow_black_path x lunar_month",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 3.8272657530936773,
+    "test_lift": 1.1087804979859328,
+    "test_z": 1.3469538439043056,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "adhika_masa x saturn_combust x masa",
+    "valid_lift": 1.123675246025738,
+    "valid_z": 1.3455139246485566,
+    "test_lift": 1.1283472126562728,
+    "test_z": 1.5892349698943835,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 3
+ },
+ "S2|1|single": {
+  "formulas": 78,
+  "both_positive": 27,
+  "both_z_gt_1": 6,
+  "best": [
+   {
+    "formula": "jupiter_retrograde",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mercury_retrograde",
+    "valid_lift": 1.4869687466205255,
+    "valid_z": 1.3244833758208445,
+    "test_lift": 1.7740487967774927,
+    "test_z": 2.396128031891738,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_combust",
+    "valid_lift": 1.4869687466205255,
+    "valid_z": 1.3244833758208445,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "ayana",
+    "valid_lift": 1.4869687466205255,
+    "valid_z": 1.3244833758208445,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "jupiter_combust",
+    "valid_lift": 1.4869687466205255,
+    "valid_z": 1.3244833758208445,
+    "test_lift": 1.3566255504769063,
+    "test_z": 1.103962026611323,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "yellow_black_path",
+    "valid_lift": 1.8925056775170324,
+    "valid_z": 2.4274841884631204,
+    "test_lift": 1.3566255504769063,
+    "test_z": 1.103962026611323,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "venus_retrograde",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.3566255504769063,
+    "test_z": 1.103962026611323,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mars_retrograde",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_retrograde",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "sun_nakshatra",
+    "valid_lift": 1.3517897696550232,
+    "valid_z": 0.9568164382734193,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 0
+ },
+ "S2|1|pairs": {
+  "formulas": 3003,
+  "both_positive": 781,
+  "both_z_gt_1": 73,
+  "best": [
+   {
+    "formula": "mars_retrograde x nine_star_month",
+    "valid_lift": 1.8925056775170324,
+    "valid_z": 2.4274841884631204,
+    "test_lift": 1.8784046083526393,
+    "test_z": 2.719169533211842,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mercury_combust x mars_combust",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.669692985202346,
+    "test_z": 2.0730865305716346,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "masa x lunar_leap_month",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.7740487967774927,
+    "test_z": 2.396128031891738,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "kp_moon_number x kp_sun_sub_lord",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "moon_rashi x mars_rashi",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.7740487967774927,
+    "test_z": 2.396128031891738,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "lagna_rashi x hour_stem_19h",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.669692985202346,
+    "test_z": 2.0730865305716346,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "masa x day_stem",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.982760419927786,
+    "test_z": 3.0422110345319457,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "ritu x kp_sun_star_lord",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-07 Da Ma Cai 7926"
+    ]
+   },
+   {
+    "formula": "ritu x yellow_black_path",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.7740487967774927,
+    "test_z": 2.396128031891738,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nakshatra x kp_moon_sub_lord",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 1
+ },
+ "S2|1|triples": {
+  "formulas": 1140,
+  "both_positive": 345,
+  "both_z_gt_1": 30,
+  "best": [
+   {
+    "formula": "kp_moon_star_lord x yellow_black_path x nakshatra_pada",
+    "valid_lift": 1.8925056775170324,
+    "valid_z": 2.4274841884631204,
+    "test_lift": 1.669692985202346,
+    "test_z": 2.0730865305716346,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "kp_moon_star_lord x venus_retrograde x nakshatra_lord",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.669692985202346,
+    "test_z": 2.0730865305716346,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_element x hour_stem_19h x masa",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.982760419927786,
+    "test_z": 3.0422110345319457,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_combust x venus_retrograde x mars_nakshatra",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "saturn_combust x venus_retrograde x mars_retrograde",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "venus_retrograde x yellow_black_path x nakshatra_pada",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.5653371736271995,
+    "test_z": 1.7500450292515306,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "masa x yellow_black_path x lunar_month",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.8784046083526393,
+    "test_z": 2.719169533211842,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "hour_stem_19h x venus_retrograde x lunar_month",
+    "valid_lift": 1.75732670055153,
+    "valid_z": 2.059817250915695,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "lunar_leap_month x venus_combust x mercury_combust",
+    "valid_lift": 1.6221477235860278,
+    "valid_z": 1.6921503133682698,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 1,
+    "last5_big": 500.0,
+    "last5_detail": [
+     "10-10 Sports Toto 9069"
+    ]
+   },
+   {
+    "formula": "mars_nakshatra x mars_rashi x nakshatra_pada",
+    "valid_lift": 2.162863631448037,
+    "valid_z": 3.162818063557971,
+    "test_lift": 1.4609813620520529,
+    "test_z": 1.4270035279314268,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 1
+ },
+ "S2|16|single": {
+  "formulas": 78,
+  "both_positive": 24,
+  "both_z_gt_1": 4,
+  "best": [
+   {
+    "formula": "nakshatra_lord",
+    "valid_lift": 1.1574699902671135,
+    "valid_z": 1.7131808621959819,
+    "test_lift": 1.1740028802203994,
+    "test_z": 2.1545575972045654,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "yellow_black_path",
+    "valid_lift": 1.115226559965394,
+    "valid_z": 1.2535971902617002,
+    "test_lift": 1.0892137833155928,
+    "test_z": 1.104672717914228,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "hour_stem_19h",
+    "valid_lift": 1.2250594787498648,
+    "valid_z": 2.4485147372908327,
+    "test_lift": 1.0892137833155928,
+    "test_z": 1.104672717914228,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-11 Da Ma Cai 6329"
+    ]
+   },
+   {
+    "formula": "weekday",
+    "valid_lift": 1.0983291878447063,
+    "valid_z": 1.0697637214879876,
+    "test_lift": 1.180525118443846,
+    "test_z": 2.2353179725345913,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-10 Da Ma Cai 2759"
+    ]
+   },
+   {
+    "formula": "mars_combust",
+    "valid_lift": 1.0898805017843625,
+    "valid_z": 0.9778469871011314,
+    "test_lift": 1.2392252624548663,
+    "test_z": 2.9621613505048248,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-11 Magnum 0365"
+    ]
+   },
+   {
+    "formula": "sun_rashi",
+    "valid_lift": 1.1574699902671135,
+    "valid_z": 1.7131808621959819,
+    "test_lift": 1.0696470686452528,
+    "test_z": 0.8623915919241499,
+    "last5_hits": 1,
+    "last5_big": 180.0,
+    "last5_detail": [
+     "10-10 Sports Toto 7895"
+    ]
+   },
+   {
+    "formula": "nine_star_month",
+    "valid_lift": 1.0729831296636747,
+    "valid_z": 0.7940135183274187,
+    "test_lift": 1.1087804979859328,
+    "test_z": 1.3469538439043056,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-11 Magnum 0365"
+    ]
+   },
+   {
+    "formula": "day_element",
+    "valid_lift": 1.0729831296636747,
+    "valid_z": 0.7940135183274187,
+    "test_lift": 1.1087804979859328,
+    "test_z": 1.3469538439043056,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mansion_28",
+    "valid_lift": 1.0645344436033308,
+    "valid_z": 0.7020967839405624,
+    "test_lift": 1.0566025921983595,
+    "test_z": 0.700870841264098,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "solar_term",
+    "valid_lift": 1.0560857575429867,
+    "valid_z": 0.6101800495537061,
+    "test_lift": 1.0631248304218062,
+    "test_z": 0.781631216594124,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   }
+  ],
+  "best_last5_hits_total": 5
+ },
+ "S2|16|pairs": {
+  "formulas": 3003,
+  "both_positive": 716,
+  "both_z_gt_1": 79,
+  "best": [
+   {
+    "formula": "day_element x nine_star_year",
+    "valid_lift": 1.1828160484481451,
+    "valid_z": 1.9889310653565508,
+    "test_lift": 1.1544361655500595,
+    "test_z": 1.9122764712144873,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-11 Da Ma Cai 6536"
+    ]
+   },
+   {
+    "formula": "lunar_month x nine_star_year",
+    "valid_lift": 1.1912647345084892,
+    "valid_z": 2.0808477997434074,
+    "test_lift": 1.1479139273266128,
+    "test_z": 1.8315160958844614,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "nakshatra_lord x adhika_masa",
+    "valid_lift": 1.1490213042067696,
+    "valid_z": 1.6212641278091255,
+    "test_lift": 1.1348694508797195,
+    "test_z": 1.6699953452244096,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "venus_rashi x kp_sun_sub_lord",
+    "valid_lift": 1.1490213042067696,
+    "valid_z": 1.6212641278091255,
+    "test_lift": 1.1479139273266128,
+    "test_z": 1.8315160958844614,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "paksha x moon_rashi",
+    "valid_lift": 1.208162106629177,
+    "valid_z": 2.26468126851712,
+    "test_lift": 1.1283472126562728,
+    "test_z": 1.5892349698943835,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "karana x kp_moon_star_lord",
+    "valid_lift": 1.1828160484481451,
+    "valid_z": 1.9889310653565508,
+    "test_lift": 1.1283472126562728,
+    "test_z": 1.5892349698943835,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "rahu_rashi x venus_combust",
+    "valid_lift": 1.1743673623878013,
+    "valid_z": 1.8970143309696945,
+    "test_lift": 1.1283472126562728,
+    "test_z": 1.5892349698943835,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "paksha x kp_asc_sub_lord",
+    "valid_lift": 1.1405726181464257,
+    "valid_z": 1.5293473934222692,
+    "test_lift": 1.1740028802203994,
+    "test_z": 2.1545575972045654,
+    "last5_hits": 1,
+    "last5_big": 180.0,
+    "last5_detail": [
+     "10-14 Da Ma Cai 1710"
+    ]
+   },
+   {
+    "formula": "jupiter_combust x yellow_black_path",
+    "valid_lift": 1.1405726181464257,
+    "valid_z": 1.5293473934222692,
+    "test_lift": 1.1544361655500595,
+    "test_z": 1.9122764712144873,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-07 Magnum 6335"
+    ]
+   },
+   {
+    "formula": "kp_asc_star_lord x day_god",
+    "valid_lift": 1.1405726181464257,
+    "valid_z": 1.5293473934222692,
+    "test_lift": 1.1479139273266128,
+    "test_z": 1.8315160958844614,
+    "last5_hits": 2,
+    "last5_big": 240.0,
+    "last5_detail": [
+     "10-10 Sports Toto 7078",
+     "10-11 Da Ma Cai 7208"
+    ]
+   }
+  ],
+  "best_last5_hits_total": 5
+ },
+ "S2|16|triples": {
+  "formulas": 1140,
+  "both_positive": 376,
+  "both_z_gt_1": 56,
+  "best": [
+   {
+    "formula": "hour_stem_19h x kp_moon_star_lord x lunar_leap_month",
+    "valid_lift": 1.1912647345084892,
+    "valid_z": 2.0808477997434074,
+    "test_lift": 1.2196585477845263,
+    "test_z": 2.719880224514747,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "lunar_leap_month x mars_rashi x yellow_black_path",
+    "valid_lift": 1.1912647345084892,
+    "valid_z": 2.0808477997434074,
+    "test_lift": 1.226180786007973,
+    "test_z": 2.800640599844773,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mars_rashi x yellow_black_path x mars_retrograde",
+    "valid_lift": 1.2335081648102086,
+    "valid_z": 2.540431471677689,
+    "test_lift": 1.1544361655500595,
+    "test_z": 1.9122764712144873,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "hour_stem_19h x lunar_leap_month x nakshatra_lord",
+    "valid_lift": 1.1743673623878013,
+    "valid_z": 1.8970143309696945,
+    "test_lift": 1.2783586917955463,
+    "test_z": 3.4467236024849806,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_element x yellow_black_path x nakshatra_pada",
+    "valid_lift": 1.1659186763274574,
+    "valid_z": 1.8050975965828382,
+    "test_lift": 1.1935695948907394,
+    "test_z": 2.396838723194643,
+    "last5_hits": 1,
+    "last5_big": 180.0,
+    "last5_detail": [
+     "10-14 Sports Toto 5213"
+    ]
+   },
+   {
+    "formula": "adhika_masa x kp_moon_star_lord x mercury_combust",
+    "valid_lift": 1.1997134205688331,
+    "valid_z": 2.1727645341302635,
+    "test_lift": 1.1413916891031661,
+    "test_z": 1.7507557205544355,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "day_element x saturn_combust x venus_retrograde",
+    "valid_lift": 1.1574699902671135,
+    "valid_z": 1.7131808621959819,
+    "test_lift": 1.1740028802203994,
+    "test_z": 2.1545575972045654,
+    "last5_hits": 1,
+    "last5_big": 180.0,
+    "last5_detail": [
+     "10-04 Da Ma Cai 3442"
+    ]
+   },
+   {
+    "formula": "saturn_combust x mars_rashi x yellow_black_path",
+    "valid_lift": 1.1490213042067696,
+    "valid_z": 1.6212641278091255,
+    "test_lift": 1.1348694508797195,
+    "test_z": 1.6699953452244096,
+    "last5_hits": 0,
+    "last5_big": 0.0,
+    "last5_detail": []
+   },
+   {
+    "formula": "mars_nakshatra x mars_rashi x mercury_combust",
+    "valid_lift": 1.1490213042067696,
+    "valid_z": 1.6212641278091255,
+    "test_lift": 1.1348694508797195,
+    "test_z": 1.6699953452244096,
+    "last5_hits": 1,
+    "last5_big": 2500.0,
+    "last5_detail": [
+     "10-14 Magnum 3872"
+    ]
+   },
+   {
+    "formula": "day_element x saturn_combust x lunar_leap_month",
+    "valid_lift": 1.1405726181464257,
+    "valid_z": 1.5293473934222692,
+    "test_lift": 1.2066140713376328,
+    "test_z": 2.558359473854695,
+    "last5_hits": 1,
+    "last5_big": 60.0,
+    "last5_detail": [
+     "10-11 Da Ma Cai 6329"
+    ]
+   }
+  ],
+  "best_last5_hits_total": 4
+ }
+}
