@@ -1,0 +1,265 @@
+{
+ "A_digit_level": {
+  "1995-2011 (independent)": {
+   "first_cold_share": 0.10011552961206373,
+   "rest_cold_share": 0.09966750320612038,
+   "z": 0.271250470262922,
+   "first_mean_rank": 4.48656208196522,
+   "rest_mean_rank": 4.4925734091009595,
+   "rank_z": -0.3795670717206487,
+   "first_digits": 32892,
+   "rest_digits": 723616
+  },
+  "2012-2026 (lead found here)": {
+   "first_cold_share": 0.10326086956521739,
+   "rest_cold_share": 0.10090007426456599,
+   "z": 1.349057490552643,
+   "first_mean_rank": 4.50968809073724,
+   "rest_mean_rank": 4.504874762936458,
+   "rank_z": 0.2884299233655925,
+   "first_digits": 29624,
+   "rest_digits": 651724
+  }
+ },
+ "B_number_level": {
+  "1995-2011 (independent)": {
+   "1st": {
+    "cold_hits": 0,
+    "hot_hits": 2,
+    "slots": 8223,
+    "expected": 0.8223,
+    "p": 1.0
+   },
+   "2nd": {
+    "cold_hits": 0,
+    "hot_hits": 0,
+    "slots": 8223,
+    "expected": 0.8223,
+    "p": 1.0
+   },
+   "3rd": {
+    "cold_hits": 0,
+    "hot_hits": 0,
+    "slots": 8223,
+    "expected": 0.8223,
+    "p": 1.0
+   },
+   "Special": {
+    "cold_hits": 9,
+    "hot_hits": 9,
+    "slots": 82230,
+    "expected": 8.223,
+    "p": 0.4385486773728634
+   },
+   "Consolation": {
+    "cold_hits": 9,
+    "hot_hits": 2,
+    "slots": 82228,
+    "expected": 8.2228,
+    "p": 0.4385208450504282
+   }
+  },
+  "2012-2026 (lead found here)": {
+   "1st": {
+    "cold_hits": 5,
+    "hot_hits": 0,
+    "slots": 7406,
+    "expected": 0.7406,
+    "p": 0.0010073215692637527
+   },
+   "2nd": {
+    "cold_hits": 0,
+    "hot_hits": 1,
+    "slots": 7406,
+    "expected": 0.7406,
+    "p": 1.0
+   },
+   "3rd": {
+    "cold_hits": 0,
+    "hot_hits": 1,
+    "slots": 7406,
+    "expected": 0.7406,
+    "p": 1.0
+   },
+   "Special": {
+    "cold_hits": 12,
+    "hot_hits": 11,
+    "slots": 74059,
+    "expected": 7.4059,
+    "p": 0.07385521840023779
+   },
+   "Consolation": {
+    "cold_hits": 11,
+    "hot_hits": 8,
+    "slots": 74060,
+    "expected": 7.406,
+    "p": 0.12982112715311667
+   }
+  }
+ },
+ "C_chi_square": {
+  "1995-2011 (independent)": {
+   "sum": 104.74471409717648,
+   "p_sum": 0.5707942606013203,
+   "tests": [
+    {
+     "operator": "Magnum",
+     "position": 1,
+     "chi2": 4.916302143389142,
+     "p": 0.8424447708898272
+    },
+    {
+     "operator": "Magnum",
+     "position": 2,
+     "chi2": 7.895266441058106,
+     "p": 0.5456582756462397
+    },
+    {
+     "operator": "Magnum",
+     "position": 3,
+     "chi2": 13.568840147191827,
+     "p": 0.13775699062997834
+    },
+    {
+     "operator": "Magnum",
+     "position": 4,
+     "chi2": 18.39971430412534,
+     "p": 0.030729474196627995
+    },
+    {
+     "operator": "Sports Toto",
+     "position": 1,
+     "chi2": 9.990379269575616,
+     "p": 0.3510471762056386
+    },
+    {
+     "operator": "Sports Toto",
+     "position": 2,
+     "chi2": 5.30121434059338,
+     "p": 0.808446551215394
+    },
+    {
+     "operator": "Sports Toto",
+     "position": 3,
+     "chi2": 5.996463291659995,
+     "p": 0.7416648976565379
+    },
+    {
+     "operator": "Sports Toto",
+     "position": 4,
+     "chi2": 10.562224121820783,
+     "p": 0.30646594817512235
+    },
+    {
+     "operator": "Da Ma Cai",
+     "position": 1,
+     "chi2": 2.938558906885704,
+     "p": 0.9659718186145785
+    },
+    {
+     "operator": "Da Ma Cai",
+     "position": 2,
+     "chi2": 11.071835006936096,
+     "p": 0.2702156091639053
+    },
+    {
+     "operator": "Da Ma Cai",
+     "position": 3,
+     "chi2": 7.768979967723885,
+     "p": 0.558574360226059
+    },
+    {
+     "operator": "Da Ma Cai",
+     "position": 4,
+     "chi2": 6.334936156216603,
+     "p": 0.7074031043507779
+    }
+   ]
+  },
+  "2012-2026 (lead found here)": {
+   "sum": 100.85104277950377,
+   "p_sum": 0.6744410829057642,
+   "tests": [
+    {
+     "operator": "Magnum",
+     "position": 1,
+     "chi2": 5.578944682002937,
+     "p": 0.7824830632240556
+    },
+    {
+     "operator": "Magnum",
+     "position": 2,
+     "chi2": 7.550333729264808,
+     "p": 0.581113283336956
+    },
+    {
+     "operator": "Magnum",
+     "position": 3,
+     "chi2": 6.437670095482236,
+     "p": 0.6968549655539318
+    },
+    {
+     "operator": "Magnum",
+     "position": 4,
+     "chi2": 10.68448224859523,
+     "p": 0.29746914368537536
+    },
+    {
+     "operator": "Sports Toto",
+     "position": 1,
+     "chi2": 10.38915447025784,
+     "p": 0.31952535795502934
+    },
+    {
+     "operator": "Sports Toto",
+     "position": 2,
+     "chi2": 7.332858927615262,
+     "p": 0.6036982475996489
+    },
+    {
+     "operator": "Sports Toto",
+     "position": 3,
+     "chi2": 6.391512075768572,
+     "p": 0.7016012687560214
+    },
+    {
+     "operator": "Sports Toto",
+     "position": 4,
+     "chi2": 18.29958089590752,
+     "p": 0.03176239717273066
+    },
+    {
+     "operator": "Da Ma Cai",
+     "position": 1,
+     "chi2": 6.418232429424363,
+     "p": 0.6988550288310058
+    },
+    {
+     "operator": "Da Ma Cai",
+     "position": 2,
+     "chi2": 4.129881703443501,
+     "p": 0.9028921428182177
+    },
+    {
+     "operator": "Da Ma Cai",
+     "position": 3,
+     "chi2": 6.805243966733363,
+     "p": 0.6587495194849976
+    },
+    {
+     "operator": "Da Ma Cai",
+     "position": 4,
+     "chi2": 10.83314755500814,
+     "p": 0.28678444432402145
+    }
+   ]
+  }
+ },
+ "cold_number_first_prizes": [
+  "2012 Sports Toto 9568",
+  "2014 Magnum 6666",
+  "2018 Magnum 6666",
+  "2024 Sports Toto 8568",
+  "2024 Da Ma Cai 5122"
+ ]
+}
