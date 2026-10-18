@@ -71,7 +71,14 @@ stakes, against 64% for random numbers.
 | 17 Oct 2026 | 3. S2 Mars nakshatra x Mars rashi x Mercury combust | 1 straight: 8426 Toto Consolation (RM60 on RM48); i-Box matches on Da Ma Cai 6342 (2nd) and 1624 |
 | 17 Oct 2026 | 4. Cold number, 5. 1024 | 0 hits |
 
-Picks for 18 and 21 Oct are already logged.
+| 18 Oct 2026 | 1. Mercury nakshatra x Venus rashi S1 (same 16 numbers) | 0 straight; i-Box matches 5375 Toto Special, 4557 Toto Consolation, 5673 Da Ma Cai Special |
+| 18 Oct 2026 | 2. Karana x Day pillar S1 i-Box | 0 straight; 5 i-Box Specials (9569 and 4960 Magnum, 4950 Toto, 5619 and 9406 Da Ma Cai) |
+| 18 Oct 2026 | 3. S1 / S2 Mars triple | 0 straight; i-Box 5304, 4950, 8628 (Toto) |
+| 18 Oct 2026 | 4. Cold number, 5. 1024 | 0 hits |
+| 18 Oct 2026 | All 29 logged formulas | 0 straight hits, RM0 on RM832 |
+
+Score any date with `python3 analysis/score_live.py YYYY-MM-DD`. Picks for 21 Oct
+are already logged.
 
 ## Updating
 
