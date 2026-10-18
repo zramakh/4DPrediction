@@ -69,6 +69,8 @@ def evaluate(cells):
                 kh = cnt[cand] * 1e4 + g - cand * 1e-5
                 hot.append(cand[np.argsort(-kh)[:16]])
                 c = gcold[t][cnt[gcold[t]] == 0][:16]
+                if len(c) < 16:                       # most numbers already seen: rank all 10,000
+                    c = np.lexsort((NUM, Gc[t], cnt))[:16]
                 cold.append(c)
                 days.append(t)
             cnt += W[t]
