@@ -33,6 +33,8 @@ selection is accounted for. Even the best lead would return about 72% of stakes.
 | Same number repeating when a parameter value recurs (single, pair) | `recurrence_test.py`, `recurrence_pairs.py`, `recurrence_pairs_null.py` |
 | Same, as Straight / Reverse / i-Box | `recurrence_perm.py` |
 | S1 / S2 picks from earlier same-value days, Straight / Reverse / i-Box | `recurrence_s12.py`, `recurrence_s12_forward.py` |
+| Whole-number hot / cold (16 numbers that won most / least on earlier same-value days) | `whole_number_test.py` |
+| Exact positions: longitudes, angles between planets, aspects, position within sign | `continuous_astro.py` |
 | Same, with 1-81 picks | `recurrence_s12_k.py` |
 
 Key recurrence results:

@@ -1,0 +1,378 @@
+{
+ "reference_no_parameter": [
+  [
+   417.0,
+   395.7986211035614,
+   283.0,
+   272.00266534532585
+  ],
+  [
+   361.0,
+   391.8998340058663,
+   246.0,
+   269.9759230605394
+  ],
+  [
+   6929.0,
+   6943.907527649333,
+   4983.0,
+   5007.759018991414
+  ],
+  [
+   385.0,
+   383.5358884778899,
+   288.0,
+   271.17270552613604
+  ],
+  [
+   408.0,
+   381.56656190600086,
+   240.0,
+   272.8584004341434
+  ],
+  [
+   6456.0,
+   6475.7844066710595,
+   4900.0,
+   4985.450193866976
+  ]
+ ],
+ "columns": [
+  {
+   "strategy": "hot",
+   "rule": "straight",
+   "forward_mean_z": -0.1561889251507628,
+   "null_forward": [
+    0.19246322516397604,
+    -0.30051266257904036,
+    0.0026844127437857246,
+    0.6158315795019463
+   ],
+   "best_z_all": 4.305351894126382,
+   "best_test": "kp_moon_number x year_element",
+   "null_best": [
+    3.5486848515011116,
+    3.3833955368622397,
+    3.9690176417305807,
+    4.169201027542794
+   ],
+   "forward_tests": [
+    {
+     "test": "venus_rashi x year_element",
+     "z_before": 3.480004504757439,
+     "hits_after": 276.0,
+     "exp_after": 271.92702925409384,
+     "z_after": 0.24699325965942331
+    },
+    {
+     "test": "nakshatra_pada x mercury_combust",
+     "z_before": 3.208975109148693,
+     "hits_after": 255.0,
+     "exp_after": 271.77474868506994,
+     "z_after": -1.0175399541516492
+    },
+    {
+     "test": "jupiter_retrograde x year_animal",
+     "z_before": 2.855937056400293,
+     "hits_after": 267.0,
+     "exp_after": 273.88727998804166,
+     "z_after": -0.4161614108557271
+    },
+    {
+     "test": "venus_rashi x lunar_leap_month",
+     "z_before": 2.8138632153939134,
+     "hits_after": 270.0,
+     "exp_after": 271.74175543444824,
+     "z_after": -0.10565960577276859
+    },
+    {
+     "test": "kp_asc_sub_lord x year_animal",
+     "z_before": 2.7839188568919027,
+     "hits_after": 281.0,
+     "exp_after": 272.55676626776165,
+     "z_after": 0.5114230853669075
+    }
+   ]
+  },
+  {
+   "strategy": "hot",
+   "rule": "reverse",
+   "forward_mean_z": -0.632046072716645,
+   "null_forward": [
+    0.3154155070272552,
+    -0.3145813575323652,
+    -0.18996755514158495,
+    0.05640695011387544
+   ],
+   "best_z_all": 3.4192215224140288,
+   "best_test": "rahu_nakshatra x kp_asc_star_lord",
+   "null_best": [
+    3.258572252178947,
+    3.287931990748678,
+    3.4845000543427758,
+    3.396448183802775
+   ],
+   "forward_tests": [
+    {
+     "test": "nakshatra_pada x yoga",
+     "z_before": 4.350389258533867,
+     "hits_after": 255.0,
+     "exp_after": 246.44251355630234,
+     "z_after": 0.5451153417338005
+    },
+    {
+     "test": "mars_rashi x month_branch",
+     "z_before": 3.6525487333959576,
+     "hits_after": 269.0,
+     "exp_after": 266.6461698260156,
+     "z_after": 0.14414761161208833
+    },
+    {
+     "test": "moon_rashi x kp_moon_number",
+     "z_before": 3.5907377085009147,
+     "hits_after": 243.0,
+     "exp_after": 267.7752184198289,
+     "z_after": -1.5140224007541814
+    },
+    {
+     "test": "jupiter_combust x kp_moon_number",
+     "z_before": 3.589954406737959,
+     "hits_after": 252.0,
+     "exp_after": 264.2456250306072,
+     "z_after": -0.753315761290506
+    },
+    {
+     "test": "kp_moon_star_lord x kp_moon_number",
+     "z_before": 3.507213248004907,
+     "hits_after": 242.0,
+     "exp_after": 267.8959685930988,
+     "z_after": -1.5821551548844268
+    }
+   ]
+  },
+  {
+   "strategy": "hot",
+   "rule": "ibox",
+   "forward_mean_z": 0.12137950709168907,
+   "null_forward": [
+    -0.6026835636361281,
+    -0.14416356318333473,
+    0.2723498073754672,
+    0.26165868523391056
+   ],
+   "best_z_all": 3.290316128991505,
+   "best_test": "mercury_retrograde x mansion_28",
+   "null_best": [
+    4.093363228571279,
+    2.961375713035411,
+    3.2053620696045346,
+    3.645959973325601
+   ],
+   "forward_tests": [
+    {
+     "test": "planets_with_moon x nine_star_year",
+     "z_before": 3.3620615989698774,
+     "hits_after": 4836.0,
+     "exp_after": 4876.466636482284,
+     "z_after": -0.5794880432444433
+    },
+    {
+     "test": "year_animal x hour_stem_19h",
+     "z_before": 3.196845178744157,
+     "hits_after": 4767.0,
+     "exp_after": 4800.431352685525,
+     "z_after": -0.482518331506706
+    },
+    {
+     "test": "mercury_retrograde x day_officer",
+     "z_before": 3.1795848792424035,
+     "hits_after": 4727.0,
+     "exp_after": 4719.075590498469,
+     "z_after": 0.11535553641815358
+    },
+    {
+     "test": "weekday x month_stem",
+     "z_before": 3.1747427185773662,
+     "hits_after": 4780.0,
+     "exp_after": 4689.243070157747,
+     "z_after": 1.3253434111255535
+    },
+    {
+     "test": "saturn_rashi x kp_asc_number",
+     "z_before": 2.984768956557366,
+     "hits_after": 4255.0,
+     "exp_after": 4240.14012387536,
+     "z_after": 0.22820496266588752
+    }
+   ]
+  },
+  {
+   "strategy": "cold",
+   "rule": "straight",
+   "forward_mean_z": 0.6113761489382932,
+   "null_forward": [
+    0.9531427024459035,
+    0.632055905234109,
+    1.4379981016692893,
+    0.6035527094530658
+   ],
+   "best_z_all": 3.0347244966643308,
+   "best_test": "karana x jupiter_combust",
+   "null_best": [
+    3.4338199913633884,
+    2.7146722461915282,
+    3.301547078587155,
+    2.4304571083950353
+   ],
+   "forward_tests": [
+    {
+     "test": "mercury_retrograde x day_god",
+     "z_before": 2.0925530073199647,
+     "hits_after": 299.0,
+     "exp_after": 270.89821966368936,
+     "z_after": 1.7073822385802457
+    },
+    {
+     "test": "mercury_retrograde x mars_combust",
+     "z_before": 1.99417077803929,
+     "hits_after": 275.0,
+     "exp_after": 270.91507122992084,
+     "z_after": 0.2481806428160387
+    },
+    {
+     "test": "kp_moon_number x nine_star_month",
+     "z_before": 1.9812648132563,
+     "hits_after": 263.0,
+     "exp_after": 248.66625838911693,
+     "z_after": 0.9089733313046737
+    },
+    {
+     "test": "venus_retrograde x day_god",
+     "z_before": 1.8911973519073504,
+     "hits_after": 277.0,
+     "exp_after": 270.93446152947877,
+     "z_after": 0.3684997836711358
+    },
+    {
+     "test": "lunar_leap_month x day_vs_year_branch",
+     "z_before": 1.8652331834930298,
+     "hits_after": 268.0,
+     "exp_after": 270.89934282907853,
+     "z_after": -0.17615525168062837
+    }
+   ]
+  },
+  {
+   "strategy": "cold",
+   "rule": "reverse",
+   "forward_mean_z": -1.6487169185264967,
+   "null_forward": [
+    -0.9761786830876487,
+    -1.04329541325779,
+    -1.7725503060667918,
+    -1.3178686564374353
+   ],
+   "best_z_all": 2.379573982246005,
+   "best_test": "ayana x kp_moon_sub_lord",
+   "null_best": [
+    2.9430610520671197,
+    2.1268785363783995,
+    1.6183882656239965,
+    2.778717255874019
+   ],
+   "forward_tests": [
+    {
+     "test": "kp_moon_number x day_pillar",
+     "z_before": 2.864074256262424,
+     "hits_after": 87.0,
+     "exp_after": 101.3490909698406,
+     "z_after": -1.4253268293165438
+    },
+    {
+     "test": "month_pillar x day_pillar",
+     "z_before": 2.641560792986329,
+     "hits_after": 188.0,
+     "exp_after": 219.59527669735658,
+     "z_after": -2.1321151975125368
+    },
+    {
+     "test": "tithi x day_pillar",
+     "z_before": 2.5542615239086466,
+     "hits_after": 241.0,
+     "exp_after": 271.41619131642983,
+     "z_after": -1.8462348955141963
+    },
+    {
+     "test": "adhika_masa x yellow_black_path",
+     "z_before": 2.494926750328517,
+     "hits_after": 249.0,
+     "exp_after": 268.0193615382908,
+     "z_after": -1.161750451263367
+    },
+    {
+     "test": "kp_asc_number x mansion_28",
+     "z_before": 2.484801697249449,
+     "hits_after": 193.0,
+     "exp_after": 217.76429581501174,
+     "z_after": -1.6781572190258405
+    }
+   ]
+  },
+  {
+   "strategy": "cold",
+   "rule": "ibox",
+   "forward_mean_z": -0.1754068123350287,
+   "null_forward": [
+    0.20690456530029255,
+    -0.7860170347811971,
+    -0.2630555181133709,
+    0.2511588737731859
+   ],
+   "best_z_all": 2.8920643280675034,
+   "best_test": "kp_sun_number x year_pillar",
+   "null_best": [
+    2.894842885284381,
+    2.0027654898708054,
+    2.195000795374844,
+    2.616422894057246
+   ],
+   "forward_tests": [
+    {
+     "test": "kp_sun_number x year_pillar",
+     "z_before": 2.8241601705486756,
+     "hits_after": 887.0,
+     "exp_after": 852.9570409876076,
+     "z_after": 1.1656380686023415
+    },
+    {
+     "test": "mars_combust x year_yinyang",
+     "z_before": 2.719302090713546,
+     "hits_after": 4758.0,
+     "exp_after": 4729.528607026117,
+     "z_after": 0.41399947210631344
+    },
+    {
+     "test": "saturn_nakshatra x kp_sun_number",
+     "z_before": 2.6065481336900587,
+     "hits_after": 3174.0,
+     "exp_after": 3238.620875109889,
+     "z_after": -1.1355147490731803
+    },
+    {
+     "test": "samvatsara x kp_sun_number",
+     "z_before": 2.570753669502677,
+     "hits_after": 882.0,
+     "exp_after": 864.4752166558377,
+     "z_after": 0.5960413421692999
+    },
+    {
+     "test": "jupiter_combust x year_yinyang",
+     "z_before": 2.477732674110543,
+     "hits_after": 4348.0,
+     "exp_after": 4476.270016192444,
+     "z_after": -1.9171981954799182
+    }
+   ]
+  }
+ ]
+}
