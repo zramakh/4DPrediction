@@ -77,8 +77,14 @@ stakes, against 64% for random numbers.
 | 18 Oct 2026 | 4. Cold number, 5. 1024 | 0 hits |
 | 18 Oct 2026 | All 29 logged formulas | 0 straight hits, RM0 on RM832 |
 
-Score any date with `python3 analysis/score_live.py YYYY-MM-DD`. Picks for 21 Oct
-are already logged.
+The 18 Oct picks were made before the 17 Oct draw. Rebuilt with 17 Oct included
+(`update_picks.py`), only the Mars-triple picks change, and they also have 0
+straight hits on 18 Oct. Picks for 21 Oct were rebuilt from all results through
+18 Oct and logged before the draw (variants ending `_upd`).
+
+Score any date with `python3 analysis/score_live.py YYYY-MM-DD`; rebuild the leads'
+picks for the next draw with `python3 analysis/update_picks.py YYYY-MM-DD --log`
+after adding the latest results.
 
 ## Updating
 

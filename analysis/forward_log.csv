@@ -1655,3 +1655,131 @@ logged_at_utc,draw_date,variant,operator,rank,4d_number
 2026-10-17 09:08,2026-10-21,recur_S1b_karana_daypillar_ibox,All,14,9442
 2026-10-17 09:08,2026-10-21,recur_S1b_karana_daypillar_ibox,All,15,9470
 2026-10-17 09:08,2026-10-21,recur_S1b_karana_daypillar_ibox,All,16,9472
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,1,6335
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,2,6337
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,3,6345
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,4,6347
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,5,6535
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,6,6537
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,7,6545
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,8,6547
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,9,7335
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,10,7337
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,11,7345
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,12,7347
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,13,7535
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,14,7537
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,15,7545
+2026-10-18 12:07,2026-10-21,recur_S1a_mercurynak_venusrashi_upd,All,16,7547
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,1,6340
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,2,6342
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,3,6370
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,4,6372
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,5,6440
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,6,6442
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,7,6470
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,8,6472
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,9,9340
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,10,9342
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,11,9370
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,12,9372
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,13,9440
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,14,9442
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,15,9470
+2026-10-18 12:07,2026-10-21,recur_S1b_karana_daypillar_ibox_upd,All,16,9472
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,1,5340
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,2,5348
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,3,5380
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,4,5388
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,5,5440
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,6,5448
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,7,5480
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,8,5488
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,9,9340
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,10,9348
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,11,9380
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,12,9388
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,13,9440
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,14,9448
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,15,9480
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Magnum,16,9488
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,1,1303
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,2,1305
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,3,1313
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,4,1315
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,5,1903
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,6,1905
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,7,1913
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,8,1915
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,9,4303
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,10,4305
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,11,4313
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,12,4315
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,13,4903
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,14,4905
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,15,4913
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Sports Toto,16,4915
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,1,1514
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,2,1519
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,3,1594
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,4,1599
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,5,1914
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,6,1919
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,7,1994
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,8,1999
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,9,9514
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,10,9519
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,11,9594
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,12,9599
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,13,9914
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,14,9919
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,15,9994
+2026-10-18 12:07,2026-10-21,S1_marsnak_marsrashi_mercombust_upd,Da Ma Cai,16,9999
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,1,4226
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,2,4227
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,3,4266
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,4,4267
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,5,4626
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,6,4627
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,7,4666
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,8,4667
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,9,6226
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,10,6227
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,11,6266
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,12,6267
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,13,6626
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,14,6627
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,15,6666
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Magnum,16,6667
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,1,0426
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,2,0428
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,3,0436
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,4,0438
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,5,0826
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,6,0828
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,7,0836
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,8,0838
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,9,8426
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,10,8428
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,11,8436
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,12,8438
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,13,8826
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,14,8828
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,15,8836
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Sports Toto,16,8838
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,1,2342
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,2,2346
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,3,2362
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,4,2366
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,5,2742
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,6,2746
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,7,2762
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,8,2766
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,9,4342
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,10,4346
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,11,4362
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,12,4366
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,13,4742
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,14,4746
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,15,4762
+2026-10-18 12:07,2026-10-21,S2_marsnak_marsrashi_mercombust_upd,Da Ma Cai,16,4766
