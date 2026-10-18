@@ -1,0 +1,656 @@
+{
+ "features": [
+  {
+   "feature": "lon_Sun",
+   "gain_mnats": -0.35129382200296666,
+   "z": -10.496216080610141,
+   "null_mean": -0.396651080859886,
+   "null_share_as_high": 0.1
+  },
+  {
+   "feature": "lon_Moon",
+   "gain_mnats": -0.36476958289498124,
+   "z": -10.859867854414995,
+   "null_mean": -0.38646738868827757,
+   "null_share_as_high": 0.23333333333333334
+  },
+  {
+   "feature": "lon_Mars",
+   "gain_mnats": -0.42237017269864086,
+   "z": -11.86232495014355,
+   "null_mean": -0.39154227879024955,
+   "null_share_as_high": 0.7333333333333333
+  },
+  {
+   "feature": "lon_Mercury",
+   "gain_mnats": -0.3833748250945976,
+   "z": -10.975083718100521,
+   "null_mean": -0.3829674130005147,
+   "null_share_as_high": 0.6
+  },
+  {
+   "feature": "lon_Jupiter",
+   "gain_mnats": -0.42015032058196744,
+   "z": -11.880833544456342,
+   "null_mean": -0.49625057562016467,
+   "null_share_as_high": 0.26666666666666666
+  },
+  {
+   "feature": "lon_Venus",
+   "gain_mnats": -0.3726492128808461,
+   "z": -11.375294592877179,
+   "null_mean": -0.39324889715420314,
+   "null_share_as_high": 0.26666666666666666
+  },
+  {
+   "feature": "lon_Saturn",
+   "gain_mnats": -1.3845427296682107,
+   "z": -22.443260292967878,
+   "null_mean": -0.7632599571634322,
+   "null_share_as_high": 0.9666666666666667
+  },
+  {
+   "feature": "lon_Rahu",
+   "gain_mnats": -0.46039323592845854,
+   "z": -13.02650841901801,
+   "null_mean": -0.46951986471918644,
+   "null_share_as_high": 0.6
+  },
+  {
+   "feature": "lon_Lagna",
+   "gain_mnats": -0.37282646147077025,
+   "z": -11.585575486137072,
+   "null_mean": -0.39230833068104476,
+   "null_share_as_high": 0.3333333333333333
+  },
+  {
+   "feature": "sep_Sun_Moon",
+   "gain_mnats": -0.3916729925555764,
+   "z": -11.585815670711579,
+   "null_mean": -0.3874545629240872,
+   "null_share_as_high": 0.5
+  },
+  {
+   "feature": "sep_Sun_Mars",
+   "gain_mnats": -0.3815048329889662,
+   "z": -11.508665215101402,
+   "null_mean": -0.3765329217820409,
+   "null_share_as_high": 0.5666666666666667
+  },
+  {
+   "feature": "sep_Sun_Mercury",
+   "gain_mnats": -0.06536554429096396,
+   "z": -4.722273706534407,
+   "null_mean": -0.05487771303776599,
+   "null_share_as_high": 0.8
+  },
+  {
+   "feature": "sep_Sun_Jupiter",
+   "gain_mnats": -0.36472530947932164,
+   "z": -10.775235611091505,
+   "null_mean": -0.37072324480119717,
+   "null_share_as_high": 0.43333333333333335
+  },
+  {
+   "feature": "sep_Sun_Venus",
+   "gain_mnats": -0.10299612416841278,
+   "z": -5.281149267562509,
+   "null_mean": -0.1334453817805075,
+   "null_share_as_high": 0.1
+  },
+  {
+   "feature": "sep_Sun_Saturn",
+   "gain_mnats": -0.32958773057736146,
+   "z": -10.27011521023057,
+   "null_mean": -0.39004983834639545,
+   "null_share_as_high": 0.06666666666666667
+  },
+  {
+   "feature": "sep_Sun_Rahu",
+   "gain_mnats": -0.44690084937119284,
+   "z": -13.274178515135723,
+   "null_mean": -0.3841608842758044,
+   "null_share_as_high": 1.0
+  },
+  {
+   "feature": "sep_Sun_Lagna",
+   "gain_mnats": -0.008574520472918103,
+   "z": -1.2907457309703254,
+   "null_mean": -0.021909825757008807,
+   "null_share_as_high": 0.03333333333333333
+  },
+  {
+   "feature": "sep_Moon_Mars",
+   "gain_mnats": -0.40999744732856536,
+   "z": -12.051667439739898,
+   "null_mean": -0.3825541015542899,
+   "null_share_as_high": 0.7666666666666667
+  },
+  {
+   "feature": "sep_Moon_Mercury",
+   "gain_mnats": -0.38701934491942064,
+   "z": -11.607126368462069,
+   "null_mean": -0.37423347776043275,
+   "null_share_as_high": 0.5333333333333333
+  },
+  {
+   "feature": "sep_Moon_Jupiter",
+   "gain_mnats": -0.3480245713567633,
+   "z": -10.405759767117143,
+   "null_mean": -0.38233198541876195,
+   "null_share_as_high": 0.23333333333333334
+  },
+  {
+   "feature": "sep_Moon_Venus",
+   "gain_mnats": -0.39972999314386265,
+   "z": -11.83818824887208,
+   "null_mean": -0.38629414524557587,
+   "null_share_as_high": 0.5333333333333333
+  },
+  {
+   "feature": "sep_Moon_Saturn",
+   "gain_mnats": -0.3679945446255953,
+   "z": -11.62056927566502,
+   "null_mean": -0.3756891317427283,
+   "null_share_as_high": 0.43333333333333335
+  },
+  {
+   "feature": "sep_Moon_Rahu",
+   "gain_mnats": -0.38025602977396333,
+   "z": -11.179426657197435,
+   "null_mean": -0.3637655399906924,
+   "null_share_as_high": 0.6333333333333333
+  },
+  {
+   "feature": "sep_Moon_Lagna",
+   "gain_mnats": -0.38220522870405993,
+   "z": -11.088645877843838,
+   "null_mean": -0.3847233483386603,
+   "null_share_as_high": 0.5
+  },
+  {
+   "feature": "sep_Mars_Mercury",
+   "gain_mnats": -0.42031922171124436,
+   "z": -11.892649111786204,
+   "null_mean": -0.38146415060988853,
+   "null_share_as_high": 0.9
+  },
+  {
+   "feature": "sep_Mars_Jupiter",
+   "gain_mnats": -0.5221841371117991,
+   "z": -13.776062690734216,
+   "null_mean": -0.44036130702385406,
+   "null_share_as_high": 0.9666666666666667
+  },
+  {
+   "feature": "sep_Mars_Venus",
+   "gain_mnats": -0.3614311221988704,
+   "z": -10.947353202584905,
+   "null_mean": -0.3775415953989136,
+   "null_share_as_high": 0.4
+  },
+  {
+   "feature": "sep_Mars_Saturn",
+   "gain_mnats": -0.4270753005923142,
+   "z": -12.113055347074619,
+   "null_mean": -0.4308678701959266,
+   "null_share_as_high": 0.6
+  },
+  {
+   "feature": "sep_Mars_Rahu",
+   "gain_mnats": -0.4246528314700766,
+   "z": -12.341989846042612,
+   "null_mean": -0.380070876466517,
+   "null_share_as_high": 0.9333333333333333
+  },
+  {
+   "feature": "sep_Mars_Lagna",
+   "gain_mnats": -0.4013755724852613,
+   "z": -12.109586069066884,
+   "null_mean": -0.3733201467749796,
+   "null_share_as_high": 0.7333333333333333
+  },
+  {
+   "feature": "sep_Mercury_Jupiter",
+   "gain_mnats": -0.457007257845186,
+   "z": -12.942967662443179,
+   "null_mean": -0.3966666786247827,
+   "null_share_as_high": 0.9
+  },
+  {
+   "feature": "sep_Mercury_Venus",
+   "gain_mnats": -0.1776036609329464,
+   "z": -7.987050187870427,
+   "null_mean": -0.1650534291555458,
+   "null_share_as_high": 0.8333333333333334
+  },
+  {
+   "feature": "sep_Mercury_Saturn",
+   "gain_mnats": -0.4340921945333901,
+   "z": -12.508502969390094,
+   "null_mean": -0.3896332112223976,
+   "null_share_as_high": 0.9
+  },
+  {
+   "feature": "sep_Mercury_Rahu",
+   "gain_mnats": -0.45981552741458953,
+   "z": -12.378090032443353,
+   "null_mean": -0.46452596397612794,
+   "null_share_as_high": 0.43333333333333335
+  },
+  {
+   "feature": "sep_Mercury_Lagna",
+   "gain_mnats": -0.06479373221025457,
+   "z": -4.360639378523285,
+   "null_mean": -0.06459662130393419,
+   "null_share_as_high": 0.5666666666666667
+  },
+  {
+   "feature": "sep_Jupiter_Venus",
+   "gain_mnats": -0.3235741126461305,
+   "z": -9.740009471145758,
+   "null_mean": -0.4009783354550847,
+   "null_share_as_high": 0.0
+  },
+  {
+   "feature": "sep_Jupiter_Saturn",
+   "gain_mnats": -0.3937340830826341,
+   "z": -11.050186633714382,
+   "null_mean": -0.4707462629521359,
+   "null_share_as_high": 0.06666666666666667
+  },
+  {
+   "feature": "sep_Jupiter_Rahu",
+   "gain_mnats": -0.38804742501948336,
+   "z": -10.618168173082163,
+   "null_mean": -0.44311789500517446,
+   "null_share_as_high": 0.13333333333333333
+  },
+  {
+   "feature": "sep_Jupiter_Lagna",
+   "gain_mnats": -0.3650637071538191,
+   "z": -10.805698724433219,
+   "null_mean": -0.36954081675732164,
+   "null_share_as_high": 0.36666666666666664
+  },
+  {
+   "feature": "sep_Venus_Saturn",
+   "gain_mnats": -0.4004827031170337,
+   "z": -11.637374066240968,
+   "null_mean": -0.38366430352624536,
+   "null_share_as_high": 0.6333333333333333
+  },
+  {
+   "feature": "sep_Venus_Rahu",
+   "gain_mnats": -0.39746217276152707,
+   "z": -11.803824708860246,
+   "null_mean": -0.4259649853341489,
+   "null_share_as_high": 0.2
+  },
+  {
+   "feature": "sep_Venus_Lagna",
+   "gain_mnats": -0.11320745406365698,
+   "z": -6.054211152397949,
+   "null_mean": -0.12612526491167836,
+   "null_share_as_high": 0.23333333333333334
+  },
+  {
+   "feature": "sep_Saturn_Rahu",
+   "gain_mnats": -0.6530522494039361,
+   "z": -15.717794921537108,
+   "null_mean": -0.5057201851547163,
+   "null_share_as_high": 1.0
+  },
+  {
+   "feature": "sep_Saturn_Lagna",
+   "gain_mnats": -0.36700619181321603,
+   "z": -11.131543573984375,
+   "null_mean": -0.3805549558514871,
+   "null_share_as_high": 0.4
+  },
+  {
+   "feature": "sep_Rahu_Lagna",
+   "gain_mnats": -0.44531316124792975,
+   "z": -13.02421258455309,
+   "null_mean": -0.3802921535613156,
+   "null_share_as_high": 0.9666666666666667
+  },
+  {
+   "feature": "moon_in_nakshatra",
+   "gain_mnats": -0.3676566595811736,
+   "z": -11.284132547741299,
+   "null_mean": -0.368244218145973,
+   "null_share_as_high": 0.5
+  },
+  {
+   "feature": "moon_in_rashi",
+   "gain_mnats": -0.41100124366855517,
+   "z": -11.763125977354964,
+   "null_mean": -0.39082012035315994,
+   "null_share_as_high": 0.7333333333333333
+  },
+  {
+   "feature": "lagna_in_rashi",
+   "gain_mnats": -0.4109678380671292,
+   "z": -12.084789807784817,
+   "null_mean": -0.3806765762545822,
+   "null_share_as_high": 0.6666666666666666
+  },
+  {
+   "feature": "aspect_Sun_Moon",
+   "gain_mnats": -0.10235398172381804,
+   "z": -6.518979910485719,
+   "null_mean": -0.07981221073422379,
+   "null_share_as_high": 0.9
+  },
+  {
+   "feature": "aspect_Sun_Mars",
+   "gain_mnats": -0.0990051280589718,
+   "z": -6.079646057298493,
+   "null_mean": -0.0814414022200194,
+   "null_share_as_high": 0.8666666666666667
+  },
+  {
+   "feature": "aspect_Sun_Mercury",
+   "gain_mnats": -0.00202668068878117,
+   "z": -0.28613209252528876,
+   "null_mean": -0.020017815760782303,
+   "null_share_as_high": 0.03333333333333333
+  },
+  {
+   "feature": "aspect_Sun_Jupiter",
+   "gain_mnats": -0.10526698114073713,
+   "z": -6.780828388954297,
+   "null_mean": -0.07727639638849765,
+   "null_share_as_high": 0.9666666666666667
+  },
+  {
+   "feature": "aspect_Sun_Venus",
+   "gain_mnats": -0.020293162522966684,
+   "z": -2.3502709476997556,
+   "null_mean": -0.01933719254498571,
+   "null_share_as_high": 0.6333333333333333
+  },
+  {
+   "feature": "aspect_Sun_Saturn",
+   "gain_mnats": -0.0808782248237439,
+   "z": -5.386559039168953,
+   "null_mean": -0.08479043053008105,
+   "null_share_as_high": 0.5333333333333333
+  },
+  {
+   "feature": "aspect_Sun_Rahu",
+   "gain_mnats": -0.08564817708955184,
+   "z": -5.587010185347036,
+   "null_mean": -0.08299135836527928,
+   "null_share_as_high": 0.5666666666666667
+  },
+  {
+   "feature": "aspect_Sun_Lagna",
+   "gain_mnats": -0.015926134710960584,
+   "z": -2.5668108866297588,
+   "null_mean": -0.019227790229801266,
+   "null_share_as_high": 0.43333333333333335
+  },
+  {
+   "feature": "aspect_Moon_Mars",
+   "gain_mnats": -0.09761021497691334,
+   "z": -6.278104495604821,
+   "null_mean": -0.08763127426916303,
+   "null_share_as_high": 0.7
+  },
+  {
+   "feature": "aspect_Moon_Mercury",
+   "gain_mnats": -0.11284907438433552,
+   "z": -7.058726911753328,
+   "null_mean": -0.08049092491635274,
+   "null_share_as_high": 1.0
+  },
+  {
+   "feature": "aspect_Moon_Jupiter",
+   "gain_mnats": -0.08781513520836846,
+   "z": -5.1846678489597515,
+   "null_mean": -0.08050533883090767,
+   "null_share_as_high": 0.7
+  },
+  {
+   "feature": "aspect_Moon_Venus",
+   "gain_mnats": -0.059021582532351895,
+   "z": -3.566509134313973,
+   "null_mean": -0.08691553267882998,
+   "null_share_as_high": 0.03333333333333333
+  },
+  {
+   "feature": "aspect_Moon_Saturn",
+   "gain_mnats": -0.07272052764091294,
+   "z": -4.330111339990417,
+   "null_mean": -0.08230742821207356,
+   "null_share_as_high": 0.4
+  },
+  {
+   "feature": "aspect_Moon_Rahu",
+   "gain_mnats": -0.06007598330673941,
+   "z": -3.900932930145186,
+   "null_mean": -0.08754407106829788,
+   "null_share_as_high": 0.06666666666666667
+  },
+  {
+   "feature": "aspect_Moon_Lagna",
+   "gain_mnats": -0.0985032565655302,
+   "z": -5.737784088166495,
+   "null_mean": -0.0794935280396587,
+   "null_share_as_high": 0.8333333333333334
+  },
+  {
+   "feature": "aspect_Mars_Mercury",
+   "gain_mnats": -0.08856959398845418,
+   "z": -5.633196394734777,
+   "null_mean": -0.0812151302713242,
+   "null_share_as_high": 0.6
+  },
+  {
+   "feature": "aspect_Mars_Jupiter",
+   "gain_mnats": -0.10178204965562646,
+   "z": -5.8246431408462,
+   "null_mean": -0.0971899321243155,
+   "null_share_as_high": 0.6
+  },
+  {
+   "feature": "aspect_Mars_Venus",
+   "gain_mnats": -0.08816639118303413,
+   "z": -5.112506001252693,
+   "null_mean": -0.08640425231747262,
+   "null_share_as_high": 0.5333333333333333
+  },
+  {
+   "feature": "aspect_Mars_Saturn",
+   "gain_mnats": -0.05480792081609978,
+   "z": -3.603104144021138,
+   "null_mean": -0.08301479392009266,
+   "null_share_as_high": 0.03333333333333333
+  },
+  {
+   "feature": "aspect_Mars_Rahu",
+   "gain_mnats": -0.08045544835173998,
+   "z": -5.1408267944873325,
+   "null_mean": -0.08987798195966239,
+   "null_share_as_high": 0.3
+  },
+  {
+   "feature": "aspect_Mars_Lagna",
+   "gain_mnats": -0.08650321738079468,
+   "z": -5.643623025618062,
+   "null_mean": -0.08096749282431058,
+   "null_share_as_high": 0.6333333333333333
+  },
+  {
+   "feature": "aspect_Mercury_Jupiter",
+   "gain_mnats": -0.08493678466988817,
+   "z": -5.530542264588923,
+   "null_mean": -0.08853834655116548,
+   "null_share_as_high": 0.43333333333333335
+  },
+  {
+   "feature": "aspect_Mercury_Venus",
+   "gain_mnats": -0.03137417491525998,
+   "z": -3.3028638562546586,
+   "null_mean": -0.03968050242915327,
+   "null_share_as_high": 0.23333333333333334
+  },
+  {
+   "feature": "aspect_Mercury_Saturn",
+   "gain_mnats": -0.09725003487089298,
+   "z": -5.504606542974695,
+   "null_mean": -0.08512419603645607,
+   "null_share_as_high": 0.7
+  },
+  {
+   "feature": "aspect_Mercury_Rahu",
+   "gain_mnats": -0.10290609096713373,
+   "z": -5.8580317250091305,
+   "null_mean": -0.1082602928496725,
+   "null_share_as_high": 0.4666666666666667
+  },
+  {
+   "feature": "aspect_Mercury_Lagna",
+   "gain_mnats": -0.0072245730427053624,
+   "z": -1.0631641884398926,
+   "null_mean": -0.01857810181704438,
+   "null_share_as_high": 0.06666666666666667
+  },
+  {
+   "feature": "aspect_Jupiter_Venus",
+   "gain_mnats": -0.0536517232732654,
+   "z": -3.9550263225306983,
+   "null_mean": -0.08056127961200144,
+   "null_share_as_high": 0.1
+  },
+  {
+   "feature": "aspect_Jupiter_Saturn",
+   "gain_mnats": -0.06353469918891994,
+   "z": -4.102411722909341,
+   "null_mean": -0.09508077486820032,
+   "null_share_as_high": 0.13333333333333333
+  },
+  {
+   "feature": "aspect_Jupiter_Rahu",
+   "gain_mnats": -0.08709743534018095,
+   "z": -5.020629766254287,
+   "null_mean": -0.08102504562999992,
+   "null_share_as_high": 0.6
+  },
+  {
+   "feature": "aspect_Jupiter_Lagna",
+   "gain_mnats": -0.10179489786216599,
+   "z": -6.489308466686942,
+   "null_mean": -0.07750740819001138,
+   "null_share_as_high": 0.9333333333333333
+  },
+  {
+   "feature": "aspect_Venus_Saturn",
+   "gain_mnats": -0.08329393058576169,
+   "z": -5.119400835223708,
+   "null_mean": -0.08490606081012914,
+   "null_share_as_high": 0.5333333333333333
+  },
+  {
+   "feature": "aspect_Venus_Rahu",
+   "gain_mnats": -0.07114986948128413,
+   "z": -4.257826528188562,
+   "null_mean": -0.08463610428657457,
+   "null_share_as_high": 0.26666666666666666
+  },
+  {
+   "feature": "aspect_Venus_Lagna",
+   "gain_mnats": -0.02226449831127784,
+   "z": -2.552889322143,
+   "null_mean": -0.019165763346788503,
+   "null_share_as_high": 0.6333333333333333
+  },
+  {
+   "feature": "aspect_Saturn_Rahu",
+   "gain_mnats": -0.12273769680991986,
+   "z": -6.070640972819198,
+   "null_mean": -0.0897214756647132,
+   "null_share_as_high": 0.8666666666666667
+  },
+  {
+   "feature": "aspect_Saturn_Lagna",
+   "gain_mnats": -0.07688584123180503,
+   "z": -5.555110731042787,
+   "null_mean": -0.08221265799564716,
+   "null_share_as_high": 0.4
+  },
+  {
+   "feature": "aspect_Rahu_Lagna",
+   "gain_mnats": -0.11941182074032838,
+   "z": -7.06647965336311,
+   "null_mean": -0.08208131459563908,
+   "null_share_as_high": 1.0
+  }
+ ],
+ "null_best": [
+  -0.0054231910103865605,
+  -0.005845542611966866,
+  -0.0036133612608264393,
+  -0.015087039432120709,
+  -0.014821292073115612,
+  -0.004918841222404615,
+  -0.005674521493396392,
+  -0.013102920477830156,
+  -0.013969988550042757,
+  -0.010442285499701784,
+  -0.0073567956903294535,
+  -0.008926773758749834,
+  -0.0011149700795965423,
+  -0.007744610600882181,
+  -0.002215731145980693,
+  -0.0037561801787739865,
+  -0.01094821364041104,
+  -0.008502633846946587,
+  -0.01384691757568134,
+  -0.015493230631103128,
+  -0.015417282532558623,
+  -0.005558810044889626,
+  -0.010806109163905682,
+  -0.012526424491963391,
+  -0.00962605635825961,
+  -0.011829837803694185,
+  -0.012138460164565913,
+  -0.004510527280609921,
+  -0.011599179191016091,
+  -0.012276952155029807
+ ],
+ "null_n_positive": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ]
+}
