@@ -82,6 +82,12 @@ The 18 Oct picks were made before the 17 Oct draw. Rebuilt with 17 Oct included
 straight hits on 18 Oct. Picks for 21 Oct were rebuilt from all results through
 18 Oct and logged before the draw (variants ending `_upd`).
 
+Full rescan before each draw (`rescan_live.py`: all singles and pairs, S1/S2, a/b,
+Straight/Reverse/i-Box, using only earlier results): the top tests barely move
+(z changes of about 0.01) and their picks score at chance: Straight 1 hit vs 2.2
+expected on 17 Oct and 1 vs 2.0 on 18 Oct; i-Box (distinct pick sets) 27 vs 28.7
+and 33 vs 30.6.
+
 Score any date with `python3 analysis/score_live.py YYYY-MM-DD`; rebuild the leads'
 picks for the next draw with `python3 analysis/update_picks.py YYYY-MM-DD --log`
 after adding the latest results.
