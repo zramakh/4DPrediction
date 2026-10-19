@@ -65,6 +65,15 @@ Expected performance of lead 1 if its 2012-2026 rate held: about 0.12 hits per d
 RM1 Big on 16 numbers x 3 operators (RM48 per draw) that returns about 72% of
 stakes, against 64% for random numbers.
 
+## Most consistent lead (picks rebuilt before every draw)
+
+Karana x Day pillar, S1 from the previous same-value day, i-Box: chosen among the
+top 5 of its column on 1985-2011, then above chance in 14 of 15 years 2012-2026
+(x1.04 overall, x1.035 in 2019-2026). None of 50 shifted calendars got 14 years
+(their average is 7.7), and the same picks without a parameter got 6 of 15 (x0.995).
+Allowing for the ~60 picks checked forward, the chance of this by luck is about 3%.
+The gain is small: as i-Box it would return about 67% of stakes instead of about 64%.
+
 ## Live checks (picks logged before each draw in `forward_log.csv`)
 
 | Draw | Lead | Result |
