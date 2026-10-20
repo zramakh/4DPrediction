@@ -35,6 +35,7 @@ selection is accounted for. Even the best lead would return about 72% of stakes.
 | S1 / S2 picks from earlier same-value days, Straight / Reverse / i-Box | `recurrence_s12.py`, `recurrence_s12_forward.py` |
 | S3: hottest + coldest digit per position, 16 numbers, single / pair parameters | `recurrence_s3.py` |
 | Rank pairs: 2nd hottest + 2nd coldest, 3rd + 3rd, 4th + 4th, 5th + 6th (and S3 again) | `recurrence_rankpairs.py` |
+| D9 navamsa family: navamsa sign and vargottama of 9 bodies, alone, in pairs and with all other parameters; tests A-D above | `navamsa_family.py` |
 | Whole-number hot / cold (16 numbers that won most / least on earlier same-value days) | `whole_number_test.py` |
 | Exact positions: longitudes, angles between planets, aspects, position within sign | `continuous_astro.py` |
 | Same, with 1-81 picks | `recurrence_s12_k.py` |
