@@ -112,7 +112,7 @@ def main():
     names = [" x ".join(t) for t in tests]
     print("\nBy chart: best digit-mix gain (A) among its tests")
     for n in CHARTS:
-        g = [out["A"]["gain"][nm] for nm in names if f"_d{n}" in nm and all(f"_d{n}" in p for p in nm.split(" x "))]
+        g = [out["A"]["gain"][nm] for nm in names if all(p.endswith(f"_d{n}") for p in nm.split(" x "))]
         print(f"   D{n:<3} best {max(g):+.3f}, mean {np.mean(g):+.3f} ({len(g)} tests)")
 
 
