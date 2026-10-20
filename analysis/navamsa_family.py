@@ -157,22 +157,20 @@ def fwd_stats(A):
     return zb, za, zall, top, np.take_along_axis(za, top, 0).mean(0)
 
 
-def main():
-    n_shifts = int(sys.argv[1]) if len(sys.argv) > 1 else 8
-    t0 = time.time()
+def setup_all(extra_codes, extra_labels):
+    """Load data for all analyses and add extra parameters to both data copies."""
     wn.setup()                                                            # also runs recurrence_s12.setup()
     rperm.setup()
-    codes, labels = nav_codes(r.G["D"].dates)
     for D in (r.G["D"], rperm.G["D"]):
-        inject(D, codes, labels)
-    D = r.G["D"]
-    same = np.mean([len(set(zip(D.codes["moon_navamsa"], codes["moon_navamsa"]))) == 12])
-    print(f"check: moon_navamsa from positions matches the almanac's moon_navamsa: {bool(same)}")
-    other = [f for f in r.FACT if f != "moon_navamsa"]
-    tests = [(f,) for f in NAVF] + list(itertools.combinations(NAVF, 2)) + [(a, b) for a in NAVF for b in other]
+        inject(D, extra_codes, extra_labels)
+
+
+def run_suite(tests, n_shifts, out_name, seed=41):
+    """Analyses A-D on the given tests; prints the summary and writes analysis/<out_name>."""
+    t0 = time.time()
     names = [" x ".join(t) for t in tests]
     print(f"{len(tests)} tests", flush=True)
-    rng = np.random.default_rng(41)
+    rng = np.random.default_rng(seed)
     shifts = [int(s) for s in rng.integers(170, r.G["nd"] - 170, n_shifts)]
     out = {"tests": len(tests), "n_shifts": n_shifts}
     with mp.get_context("fork").Pool(4) as pool:
@@ -252,8 +250,24 @@ def main():
                   f"best {zall[q, ci]:+.2f} [{names[q]}]")
             out["D"].append({"strategy": s, "rule": rule, "forward": float(fwd[ci]), "null_forward": nf[:, ci].tolist(),
                              "best_z": float(zall[q, ci]), "best_test": names[q]})
-    json.dump(out, open(os.path.join(am.ROOT, "analysis", "navamsa_family_results.json"), "w"), indent=1)
+    json.dump(out, open(os.path.join(am.ROOT, "analysis", out_name), "w"), indent=1)
     print(f"done in {time.time() - t0:.0f}s")
+    return out
+
+
+def main():
+    n_shifts = int(sys.argv[1]) if len(sys.argv) > 1 else 8
+    wn.setup()
+    codes, labels = nav_codes(r.G["D"].dates)
+    rperm.setup()
+    for D in (r.G["D"], rperm.G["D"]):
+        inject(D, codes, labels)
+    D = r.G["D"]
+    same = len(set(zip(D.codes["moon_navamsa"], codes["moon_navamsa"]))) == 12
+    print(f"check: moon_navamsa from positions matches the almanac's moon_navamsa: {same}")
+    other = [f for f in r.FACT if f != "moon_navamsa"]
+    tests = [(f,) for f in NAVF] + list(itertools.combinations(NAVF, 2)) + [(a, b) for a in NAVF for b in other]
+    run_suite(tests, n_shifts, "navamsa_family_results.json")
 
 
 if __name__ == "__main__":
