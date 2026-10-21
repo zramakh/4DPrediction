@@ -92,6 +92,13 @@ The gain is small: as i-Box it would return about 67% of stakes instead of about
 | 18 Oct 2026 | 4. Cold number, 5. 1024 | 0 hits |
 | 18 Oct 2026 | All 29 logged formulas | 0 straight hits, RM0 on RM832 |
 
+| 21 Oct 2026 | 5. Mercury nakshatra x Venus rashi S1 (logged before the draw) | **6537 Magnum 2nd prize (Straight, RM1,000 on RM48)** |
+| 21 Oct 2026 | 1. Karana x Day pillar S1 i-Box | 0 straight; i-Box 4036 Magnum Special, 4409 Toto Special, 4246 Toto 3rd |
+| 21 Oct 2026 | 6. Jupiter nakshatra x Mercury combust S2 i-Box | i-Box 5840 -> 8450 Magnum 1st |
+| 21 Oct 2026 | Others | 0 straight hits |
+
+Score the ranked leads on any dates with `python3 analysis/score_leads.py DATE [DATE ...]`.
+
 The 18 Oct picks were made before the 17 Oct draw. Rebuilt with 17 Oct included
 (`update_picks.py`), only the Mars-triple picks change, and they also have 0
 straight hits on 18 Oct. Picks for 21 Oct were rebuilt from all results through
