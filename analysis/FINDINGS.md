@@ -69,14 +69,22 @@ Expected performance of lead 1 if its 2012-2026 rate held: about 0.12 hits per d
 RM1 Big on 16 numbers x 3 operators (RM48 per draw) that returns about 72% of
 stakes, against 64% for random numbers.
 
-## Most consistent lead (picks rebuilt before every draw)
+## Most consistent leads (picks rebuilt before every draw; `yearly_consistency.py`)
 
-Karana x Day pillar, S1 from the previous same-value day, i-Box: chosen among the
-top 5 of its column on 1985-2011, then above chance in 14 of 15 years 2012-2026
-(x1.04 overall, x1.035 in 2019-2026). None of 50 shifted calendars got 14 years
-(their average is 7.7), and the same picks without a parameter got 6 of 15 (x0.995).
-Allowing for the ~60 picks checked forward, the chance of this by luck is about 3%.
-The gain is small: as i-Box it would return about 67% of stakes instead of about 64%.
+Candidates = the ~210 tests per run chosen on 1985-2011 draws only; count of years
+2012-2026 above chance. Correction: earlier this file gave Karana x Day pillar about a
+3% chance of luck; allowing properly for the 210 candidates searched it is about 20%.
+
+| Run | Average good years real / shifted | 12+ good years real / shifted | Best real / shifted calendars as high | Most consistent |
+|---|---|---|---|---|
+| Pooled | 7.34 / 7.26 | 2 / 3.3 | 14 / 4 of 20 | Karana x Day pillar, S1 (b) i-Box: 14/15, x1.04 |
+| Magnum | 7.45 / 7.25 | 5 / 2.5 | 13 / 7 of 20 | Jupiter retrograde x KP Asc sub lord, 4+7 (b) Straight: 13/15, x1.36 |
+| Sports Toto | 7.25 / 7.18 | 2 / 2.7 | 12 / 20 of 20 | Lunar month x Day element, S2 (b) i-Box: 12/15, x1.07 |
+| Da Ma Cai | 7.19 / 7.16 | 4 / 2.7 | 12 / 19 of 20 | Ayana x KP Asc star lord, 1+10 (a) Reverse: 12/15, x1.21 |
+
+No run is more consistent than chance as a whole. Magnum has the most candidates with
+12+ good years (5 vs 2.5) and the strongest single candidate (x1.36), still within the
+range of the shifted calendars.
 
 ## Per operator (`per_operator.py`)
 
