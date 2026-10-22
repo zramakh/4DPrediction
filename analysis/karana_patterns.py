@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Karana x Day pillar (S1 from the previous same-value day) by i-Box pattern of
-the pick: ABCD (24 arrangements), AABC (12), AABB two pairs (6), AAAB triplet
+"""A lead's picks by i-Box pattern (default: Karana x Day pillar, S1 from the
+previous same-value day). Pattern of the pick: ABCD (24 arrangements), AABC (12), AABB two pairs (6), AAAB triplet
 (4), AAAA (1). Each pick is bet on all 3 operators; evidence is counted by
 distinct winning numbers per draw and operator (one winner matching several
 same-digit picks counts once), money by bet (every matching pick pays).
 Big i-Box pays the Big prize / arrangements; Small i-Box the Small prize
 (1st 3500, 2nd 2000, 3rd 1000) / arrangements.
 
-Run from the repo root:  python3 analysis/karana_patterns.py
+Run from the repo root:  python3 analysis/karana_patterns.py [param1 param2 picks version]
+   e.g. python3 analysis/karana_patterns.py mars_nakshatra kp_asc_number 5+6 b
 """
 
 import math
@@ -19,6 +20,7 @@ import numpy as np
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import astro_model as am  # noqa: E402
+import recurrence_rankpairs as rp  # noqa: E402
 import recurrence_s12 as r  # noqa: E402
 
 BIG = {"1st": 2500, "2nd": 1000, "3rd": 500, "Special": 180, "Consolation": 60}
@@ -32,19 +34,35 @@ def perms(n):
     return math.factorial(4) // math.prod(math.factorial(s.count(c)) for c in set(s))
 
 
+def make_picks(C, kind):
+    if kind == "S1":
+        return r.picks(C, True)[0]
+    if kind == "S2":
+        return r.picks(C, False)[0]
+    a, b = (int(x) - 1 for x in kind.split("+"))
+    return rp.pair_picks(np.argsort(-C, axis=2, kind="stable"), (a, b))[0]
+
+
 def main():
+    args = sys.argv[1:]
+    test = tuple(args[:2]) if len(args) >= 2 else ("karana", "day_pillar")
+    kind = args[2] if len(args) > 2 else "S1"
+    version = args[3] if len(args) > 3 else "b"
+    print(f"Lead: {' x '.join(test)}, {kind} ({version})")
     r.setup()
     G = r.G
     D = G["D"]
     yr = np.array([int(d[:4]) for d in D.dates])
     _, _, _, _, draws, _ = am.load()
-    cells = r.cells_of(("karana", "day_pillar"))
+    cells = r.cells_of(test)
+    cum = {}
     recs = []                                       # (t, op, pattern, n_bets, distinct, exp_distinct, big, small, top3, details)
     last = {}
     for t in range(G["nd"]):
         c = cells[t]
         if c in last:
-            P = [int(n) for n in r.picks(G["dday"][last[c]][None], True)[0]]
+            C = (cum[c] if version == "a" else G["dday"][last[c]])[None]
+            P = [int(n) for n in make_picks(C, kind)]
             for o in range(3):
                 if (t, o) not in draws:
                     continue
@@ -71,6 +89,7 @@ def main():
                                 det.append(f"{w:04d} {p}")
                     recs.append((t, o, k, len(picks), distinct, exp, big, small, top3, det))
         last[c] = t
+        cum[c] = cum.get(c, 0) + G["dday"][t]
 
     def summ(sel):
         bets = sum(x[3] for x in sel)
@@ -113,7 +132,10 @@ def main():
         t = D.dates.index(d)
         c = cells[t]
         e = np.flatnonzero((cells == c) & (np.arange(G["nd"]) < t))
-        P = [int(n) for n in r.picks(G["dday"][e[-1:]].sum(0, keepdims=True), True)[0]]
+        if len(e) == 0:
+            print(f"   {d}: no earlier same-value day")
+            continue
+        P = [int(n) for n in make_picks(G["dday"][e if version == "a" else e[-1:]].sum(0, keepdims=True), kind)]
         by = {PAT[k]: [f"{n:04d}" for n in P if perms(n) == k] for k in PAT}
         hits = [(PAT[x[2]], am.OPS[x[1]], x[9]) for x in recs if x[0] == t and x[9]]
         print(f"   {d}: " + "; ".join(f"{k} {len(v)}" + (f" {v}" if k.startswith(("AABB", "AAAB", "AAAA")) and v else "") for k, v in by.items() if v))
