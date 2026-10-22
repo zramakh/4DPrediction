@@ -74,7 +74,9 @@ def evaluate(cells):
                 cold.append(c)
                 days.append(t)
             cnt += W[t]
-    days = np.array(days)
+    if not days:                                             # no value ever repeats
+        return np.zeros((len(COLS), 4))
+    days = np.array(days, dtype=int)
     late = G["yr"][days] >= SPLIT
     out = []
     for s, P in (("hot", np.array(hot)), ("cold", np.array(cold))):

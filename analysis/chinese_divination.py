@@ -30,6 +30,7 @@ Direct digit test: do the Mei Hua numbers (upper, lower, moving line) and the
   draw's winning digits more often than the year's digit mix predicts?
 
 Run from the repo root:  python3 analysis/chinese_divination.py [n_shifts]
+                         python3 analysis/chinese_divination.py --only-D [n_shifts]   (whole-number part only)
 """
 
 import datetime as dt
@@ -204,8 +205,32 @@ def digit_test(rows, D, shifts):
     return out
 
 
+def only_d(tests, n_shifts):
+    import multiprocessing as mp
+    names = [" x ".join(t) for t in tests]
+    rng = np.random.default_rng(47)
+    shifts = [int(s) for s in rng.integers(170, nf.r.G["nd"] - 170, n_shifts)]
+    with mp.get_context("fork").Pool(4) as pool:
+        scan = lambda sh: np.array(pool.map(nf.task, [("D", t, sh) for t in tests], chunksize=8))  # noqa: E731
+        real = scan(0)
+        null = [nf.fwd_stats(scan(s)) for s in shifts]
+    zb, za, zall, top, fwd = nf.fwd_stats(real)
+    nfw = np.array([x[4] for x in null])
+    print("D. whole-number hot / cold: forward real (shifted, as high) | best z all years")
+    out = []
+    for ci, (s, rule) in enumerate(nf.wn.COLS):
+        q = int(np.argmax(zall[:, ci]))
+        print(f"   {s:<4} {rule:<9} forward {fwd[ci]:+.2f} ({nfw[:, ci].mean():+.2f}, {int((nfw[:, ci] >= fwd[ci]).sum())}/{n_shifts}) | "
+              f"best {zall[q, ci]:+.2f} [{names[q]}]")
+        out.append({"strategy": s, "rule": rule, "forward": float(fwd[ci]), "null_forward": nfw[:, ci].tolist(),
+                    "best_z": float(zall[q, ci]), "best_test": names[q]})
+    return out
+
+
 def main():
-    n_shifts = int(sys.argv[1]) if len(sys.argv) > 1 else 8
+    only = "--only-D" in sys.argv
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    n_shifts = int(args[0]) if args else 8
     nf.wn.setup()
     D = nf.r.G["D"]
     codes, labels, rows = compute(D.dates)
@@ -217,6 +242,12 @@ def main():
     print({k: len(v) for k, v in labels.items()})
     NEW = list(codes)
     tests = [(f,) for f in NEW] + list(itertools.combinations(NEW, 2)) + [(a, b) for a in NEW for b in nf.r.FACT]
+    if only:
+        path = os.path.join(am.ROOT, "analysis", "chinese_divination_results.json")
+        out = json.load(open(path)) if os.path.exists(path) else {}
+        out["D"] = only_d(tests, n_shifts)
+        json.dump(out, open(path, "w"), indent=1)
+        return
     rng = np.random.default_rng(47)
     shifts = [int(s) for s in rng.integers(170, nf.r.G["nd"] - 170, 30)]
     print("\nDirect digit test (30 shifted calendars):")
