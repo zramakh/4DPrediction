@@ -71,7 +71,9 @@ def setup():
     yix = yr - yr.min()
     q = np.zeros((yix.max() + 1, 4, 10))
     np.add.at(q, yix, dday)
-    q /= q.sum(2, keepdims=True)
+    with np.errstate(invalid="ignore"):
+        q /= q.sum(2, keepdims=True)
+    q = np.nan_to_num(q, nan=0.1)                                         # years with no draws (operator not yet running)
     Py = q[:, 0, DIG[:, 0]] * q[:, 1, DIG[:, 1]] * q[:, 2, DIG[:, 2]] * q[:, 3, DIG[:, 3]]     # (years, 10000)
     Pbox = np.stack([np.bincount(box, weights=Py[y], minlength=nbox) for y in range(len(Py))])
     G.update(D=D, nd=nd, nwin=nwin, W=W, dday=dday, rev=rev, pal=rev == num, box=box, Cb=Cb, yix=yix, Py=Py, Pbox=Pbox)
