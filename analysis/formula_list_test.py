@@ -179,6 +179,7 @@ def main():
         f = formulas[q]
         p, v, rule = nf.C_COLS[ca[q]]
         tot = [0, 0, 0, 0.0, 0]
+        per = {}
         for d in dates:
             t = D.dates.index(d)
             win = {op: {x["4d_number"]: x["prize"] for x in rows[op] if x["date"] == d} for op in sl.OPS}
@@ -187,12 +188,13 @@ def main():
                 continue
             s, sp, b, bp = sc.score({op: pk for op in sl.OPS}, win)
             tot[0] += len(s); tot[1] += sp; tot[2] += len(b); tot[3] += bp; tot[4] += 48
+            per[d] = {"straight": s, "straight_rm": sp, "ibox": len(b), "ibox_rm": bp}
         print(f"{' x '.join(f)} | {nf.pname(p)} ({v}) {rule} | {zba[q]:+.2f} | x{ra[q]:.3f} z {zaa[q]:+.2f} | "
               f"RM{tot[4]}: straight {tot[0]} RM{tot[1]}, i-Box {tot[2]} ~RM{tot[3]:.0f}")
         out.append({"formula": " x ".join(f), "method": f"{nf.pname(p)} ({v}) {rule}", "z_before": float(zba[q]),
                     "ratio_after": float(ra[q]), "z_after": float(zaa[q]), "mean_z_all_methods": float(ma[q]),
                     "recent": {"staked": tot[4], "straight_hits": tot[0], "straight_rm": tot[1],
-                               "ibox": tot[2], "ibox_rm": tot[3]}})
+                               "ibox": tot[2], "ibox_rm": tot[3]}, "per_draw": per})
     json.dump({"formulas": out, "random_mean_z_after": float(zab.mean()), "list_mean_z_after": float(zaa.mean()),
                "share_random_sets_as_high": float(np.mean(sims >= zaa.mean())), "dates": dates},
               open(os.path.join(am.ROOT, "analysis", "formula_list_results.json"), "w"), indent=1)
