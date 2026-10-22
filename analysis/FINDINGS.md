@@ -39,6 +39,7 @@ selection is accounted for. Even the best lead would return about 72% of stakes.
 | Other divisional charts D2-D60 (14 charts x 9 bodies), alone and in pairs within each chart; tests A-D | `divisional_charts.py` |
 | Mei Hua Yi Shu (time casting), Da Liu Ren (7 pm plate, transmissions, generals), Tai Yi day cycles (72/24/18/360); tests A-D plus direct number test | `chinese_divination.py` |
 | Every analysis (A-D) on singles and pairs, separately for Magnum, Sports Toto, Da Ma Cai | `per_operator.py` |
+| i-Box by pick pattern (ABCD / AABC / AABB / AAAB / AAAA), all picks columns, pooled and per operator | `pattern_ibox.py` |
 | Whole-number hot / cold (16 numbers that won most / least on earlier same-value days) | `whole_number_test.py` |
 | Exact positions: longitudes, angles between planets, aspects, position within sign | `continuous_astro.py` |
 | Same, with 1-81 picks | `recurrence_s12_k.py` |
@@ -95,6 +96,16 @@ operators. i-Box matches x1.42 before 2012 and x1.26 in 2012-2026; Small i-Box r
 (about a 1-in-4 chance by luck), and such picks are rare (about 0.6 per draw).
 Last 5 draws: two-pair picks only on 11 Oct (6116) and 18 Oct (9696), no matches.
 24 Oct: no two-pair picks (Garaja x Xin Wei, from 23 Jan 2021).
+
+## i-Box by number pattern (`pattern_ibox.py`)
+
+No pattern beats chance in general (average over all tests equals the shifted calendars,
+pooled and per operator). Pooled two-pair (AABB) forward picks lean positive (+0.29 vs
++0.19, 5 of 14 columns beat every shift vs ~2). Single-test z values for AABB / AAAB are
+inflated because one winning number can match several same-digit picks (e.g. 7227 matches
+7227, 7272, 7722): Da Ma Cai KP Moon number x KP Asc star lord (z +5.2) is 46 matches but
+only 21 distinct winners vs 21.7 expected, i.e. chance. The Karana x Day pillar AABB lead
+holds up when counted by distinct winners (81 vs 52 before 2012, 53 vs 42 after).
 
 ## Per operator (`per_operator.py`)
 
