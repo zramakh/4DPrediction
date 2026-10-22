@@ -1,3 +1,83 @@
 {
- "log_A_to_C": "21 Oct 2026: {'mh_upper': 4, 'mh_lower': 7, 'mh_hexagram': '4/7', 'mh_moving': 3, 'mh_changed': '4/8', 'mh_mutual': '2/5', 'mh_body_use': 'controls', 'lr_general': 4, 'lr_initial': 11, 'lr_middle': 5, 'lr_last': 11, 'lr_transmission': '11-5-11', 'lr_general_initial': 'Gou Chen', 'lr_method': 'zei she hai', 'lr_lessons': '2z0k', 'ty_72': 15, 'ty_24': 15, 'ty_18': 15, 'ty_360': 15}\n{'mh_upper': 8, 'mh_lower': 8, 'mh_hexagram': 8, 'mh_moving': 6, 'mh_changed': 24, 'mh_mutual': 8, 'mh_body_use': 4, 'lr_general': 12, 'lr_initial': 12, 'lr_middle': 12, 'lr_last': 12, 'lr_transmission': 132, 'lr_general_initial': 12, 'lr_method': 9, 'lr_lessons': 15, 'ty_72': 72, 'ty_24': 24, 'ty_18': 18, 'ty_360': 360}\n\nDirect digit test (30 shifted calendars):\n   Mei Hua upper/lower/moving                 449489 digits vs 450295 expected (x0.9982, z -1.20); shifted z -0.05 +/- 0.92, 27/30 as high\n   Liu Ren transmissions (branch no. 1-12)    455582 digits vs 455232 expected (x1.0008, z +0.52); shifted z +0.08 +/- 0.97, 10/30 as high\n1672 tests\n\nA. digit mix given the value(s), log-likelihood gain on 2012-2026 (milli-nats per digit; 0 = no information)\n   tests with gain > 0: 1 (shifted calendars 0.8)\n   best +0.001 [ty_72 x year_pillar] vs shifted best +0.001 (3/8 as high); singles: mh_upper -0.126, mh_lower -0.126, mh_hexagram -0.126, mh_moving -0.063, mh_changed -0.373, mh_mutual -0.126, mh_body_use -0.035, lr_general -0.145, lr_initial -0.222, lr_middle -0.215, lr_last -0.143, lr_transmission -1.047, lr_general_initial -0.195, lr_method -0.116, lr_lessons -0.210, ty_72 -1.057, ty_24 -0.364, ty_18 -0.309\n\nB. same 4D number when the value(s) recur (1083s)\n   straight  (a any later day) z>2  19 (shifted 28) | best +3.14 [mh_body_use x planets_with_moon] x1.003 | shifted best +3.05 (2/8 as high)\n   straight  (b next day     ) z>2  10 (shifted 46) | best +2.84 [ty_24 x hora_lord] x1.057 | shifted best +2.98 (7/8 as high)\n   reverse   (a any later day) z>2  36 (shifted 27) | best +3.02 [ty_24 x lunar_day] x1.029 | shifted best +3.05 (5/8 as high)\n   reverse   (b next day     ) z>2  22 (shifted 28) | best +2.77 [lr_general_initial x lunar_day] x1.057 | shifted best +3.09 (7/8 as high)\n   ibox      (a any later day) z>2  96 (shifted 78) | best +10.84 [lr_method x mars_retrograde] x1.002 | shifted best +5.90 (0/8 as high)\n   ibox      (b next day     ) z>2  47 (shifted 29) | best +3.18 [lr_method x mercury_retrograde] x1.015 | shifted best +3.24 (5/8 as high)\n\nC. digit-position picks (2170s): z>2 real (shifted) | best z (shifted, as high) | forward real (shifted, as high)\n   S1    (a) straight    27 (  31) | +3.24 (+3.48, 6/8) | -0.57 (+0.13, 8/8)\n   S1    (a) reverse     52 (  35) | +3.46 (+3.30, 3/8) | +0.34 (+0.23, 3/8)\n   S1    (a) ibox        33 (  38) | +3.27 (+3.37, 5/8) | +0.10 (+0.11, 4/8)\n   S1    (b) straight    31 (  23) | +3.33 (+3.14, 1/8) | +0.21 (+0.05, 4/8)\n   S1    (b) reverse    111 (  46) | +2.96 (+3.22, 7/8) | -0.27 (+0.11, 6/8)\n   S1    (b) ibox        99 (  32) | +3.75 (+2.92, 0/8) | +0.72 (-0.39, 0/8)\n   S2    (a) straight    56 (  51) | +3.36 (+3.60, 6/8) | -0.29 (+0.18, 5/8)\n   S2    (a) reverse     22 (  36) | +2.70 (+3.23, 8/8) | -0.40 (-0.06, 6/8)\n   S2    (a) ibox        57 (  44) | +3.04 (+3.36, 8/8) | -0.31 (-0.12, 7/8)\n   S2    (b) straight    27 (  33) | +2.96 (+3.06, 4/8) | +0.08 (-0.13, 3/8)\n   S2    (b) reverse     21 (  36) | +2.95 (+3.16, 4/8) | -0.50 (+0.04, 8/8)\n   S2    (b) ibox        35 (  40) | +3.11 (+3.25, 6/8) | -0.67 (+0.10, 7/8)\n   1+10  (a) straight    40 (  39) | +3.21 (+3.40, 5/8) | +0.13 (+0.01, 3/8)\n   1+10  (a) reverse     39 (  36) | +3.11 (+3.30, 6/8) | -0.41 (-0.16, 6/8)\n   1+10  (a) ibox        54 (  34) | +3.13 (+3.17, 4/8) | +0.35 (-0.12, 1/8)\n   1+10  (b) straight    25 (  32) | +2.85 (+3.04, 7/8) | -0.21 (-0.16, 5/8)\n   1+10  (b) reverse     11 (  35) | +3.17 (+3.29, 5/8) | -0.46 (+0.21, 7/8)\n   1+10  (b) ibox        27 (  32) | +2.68 (+3.08, 8/8) | -0.69 (+0.25, 8/8)\n   2+9   (a) straight    43 (  38) | +2.95 (+3.28, 7/8) | -0.32 (-0.22, 5/8)\n   2+9   (a) reverse     23 (  37) | +3.08 (+3.50, 8/8) | -0.15 (+0.06, 5/8)\n   2+9   (a) ibox        51 (  45) | +3.50 (+3.36, 3/8) | -0.14 (+0.36, 6/8)\n   2+9   (b) straight    26 (  31) | +3.10 (+3.20, 4/8) | -0.54 (+0.13, 8/8)\n   2+9   (b) reverse     33 (  36) | +3.38 (+3.06, 2/8) | -1.54 (-1.52, 3/8)\n   2+9   (b) ibox        32 (  27) | +2.64 (+3.10, 7/8) | -0.03 (-0.52, 2/8)\n   3+8   (a) straight    42 (  38) | +3.67 (+3.61, 4/8) | +0.14 (-0.04, 4/8)\n   3+8   (a) reverse     26 (  35) | +3.10 (+3.42, 7/8) | -0.20 (+0.06, 5/8)\n   3+8   (a) ibox        39 (  39) | +3.00 (+3.17, 6/8) | +0.09 (-0.31, 2/8)\n   3+8   (b) straight    20 (  20) | +3.37 (+2.90, 0/8) | +1.86 (-0.50, 0/8)\n   3+8   (b) reverse     51 (  16) | +3.96 (+2.89, 0/8) | -0.64 (-0.24, 8/8)\n   3+8   (b) ibox        33 (  22) | +3.32 (+3.24, 4/8) | +0.45 (+0.07, 2/8)\n   4+7   (a) straight    40 (  43) | +3.22 (+3.59, 6/8) | -0.06 (+0.12, 5/8)\n   4+7   (a) reverse     35 (  39) | +3.24 (+3.37, 4/8) | -0.50 (+0.08, 6/8)\n   4+7   (a) ibox        38 (  36) | +3.41 (+3.37, 3/8) | +0.82 (+0.05, 0/8)\n   4+7   (b) straight    30 (  42) | +2.88 (+3.18, 6/8) | -0.65 (-0.39, 6/8)\n   4+7   (b) reverse     21 (  22) | +2.92 (+3.05, 5/8) | -0.32 (-0.05, 5/8)\n   4+7   (b) ibox        31 (  29) | +3.38 (+3.25, 2/8) | +0.00 (+0.30, 7/8)\n   5+6   (a) straight    39 (  39) | +3.13 (+3.33, 5/8) | +0.22 (+0.09, 5/8)\n   5+6   (a) reverse     34 (  37) | +3.33 (+3.30, 3/8) | -0.41 (+0.12, 8/8)\n   5+6   (a) ibox        45 (  33) | +3.46 (+3.15, 1/8) | -1.02 (-0.05, 8/8)\n   5+6   (b) straight    21 (  39) | +2.91 (+3.12, 7/8) | -0.11 (-0.03, 4/8)\n   5+6   (b) reverse     24 (  33) | +2.76 (+3.34, 8/8) | -0.84 (-0.22, 7/8)\n   5+6   (b) ibox        25 (  35) | +2.86 (+2.95, 4/8) | +0.33 (-0.45, 2/8)\n   forward mean over all 42 columns: real -0.152 vs shifted -0.067; columns beating every shift: 3 (about 4.7 by chance)\n      S1 (b) ibox: forward +0.72 vs -0.39; top pick lr_general_initial x month_stem before z +3.78 -> after x1.020 (z +1.33)\n      3+8 (b) straight: forward +1.86 vs -0.50; top pick ty_360 x yoga before z +3.28 -> after x1.120 (z +1.34)\n      4+7 (a) ibox: forward +0.82 vs +0.05; top pick ty_18 x year_pillar before z +3.19 -> after x0.998 (z -0.16)\n"
+ "log_A_to_C": "21 Oct 2026: {'mh_upper': 4, 'mh_lower': 7, 'mh_hexagram': '4/7', 'mh_moving': 3, 'mh_changed': '4/8', 'mh_mutual': '2/5', 'mh_body_use': 'controls', 'lr_general': 4, 'lr_initial': 11, 'lr_middle': 5, 'lr_last': 11, 'lr_transmission': '11-5-11', 'lr_general_initial': 'Gou Chen', 'lr_method': 'zei she hai', 'lr_lessons': '2z0k', 'ty_72': 15, 'ty_24': 15, 'ty_18': 15, 'ty_360': 15}\n{'mh_upper': 8, 'mh_lower': 8, 'mh_hexagram': 8, 'mh_moving': 6, 'mh_changed': 24, 'mh_mutual': 8, 'mh_body_use': 4, 'lr_general': 12, 'lr_initial': 12, 'lr_middle': 12, 'lr_last': 12, 'lr_transmission': 132, 'lr_general_initial': 12, 'lr_method': 9, 'lr_lessons': 15, 'ty_72': 72, 'ty_24': 24, 'ty_18': 18, 'ty_360': 360}\n\nDirect digit test (30 shifted calendars):\n   Mei Hua upper/lower/moving                 449489 digits vs 450295 expected (x0.9982, z -1.20); shifted z -0.05 +/- 0.92, 27/30 as high\n   Liu Ren transmissions (branch no. 1-12)    455582 digits vs 455232 expected (x1.0008, z +0.52); shifted z +0.08 +/- 0.97, 10/30 as high\n1672 tests\n\nA. digit mix given the value(s), log-likelihood gain on 2012-2026 (milli-nats per digit; 0 = no information)\n   tests with gain > 0: 1 (shifted calendars 0.8)\n   best +0.001 [ty_72 x year_pillar] vs shifted best +0.001 (3/8 as high); singles: mh_upper -0.126, mh_lower -0.126, mh_hexagram -0.126, mh_moving -0.063, mh_changed -0.373, mh_mutual -0.126, mh_body_use -0.035, lr_general -0.145, lr_initial -0.222, lr_middle -0.215, lr_last -0.143, lr_transmission -1.047, lr_general_initial -0.195, lr_method -0.116, lr_lessons -0.210, ty_72 -1.057, ty_24 -0.364, ty_18 -0.309\n\nB. same 4D number when the value(s) recur (1083s)\n   straight  (a any later day) z>2  19 (shifted 28) | best +3.14 [mh_body_use x planets_with_moon] x1.003 | shifted best +3.05 (2/8 as high)\n   straight  (b next day     ) z>2  10 (shifted 46) | best +2.84 [ty_24 x hora_lord] x1.057 | shifted best +2.98 (7/8 as high)\n   reverse   (a any later day) z>2  36 (shifted 27) | best +3.02 [ty_24 x lunar_day] x1.029 | shifted best +3.05 (5/8 as high)\n   reverse   (b next day     ) z>2  22 (shifted 28) | best +2.77 [lr_general_initial x lunar_day] x1.057 | shifted best +3.09 (7/8 as high)\n   ibox      (a any later day) z>2  96 (shifted 78) | best +10.84 [lr_method x mars_retrograde] x1.002 | shifted best +5.90 (0/8 as high)\n   ibox      (b next day     ) z>2  47 (shifted 29) | best +3.18 [lr_method x mercury_retrograde] x1.015 | shifted best +3.24 (5/8 as high)\n\nC. digit-position picks (2170s): z>2 real (shifted) | best z (shifted, as high) | forward real (shifted, as high)\n   S1    (a) straight    27 (  31) | +3.24 (+3.48, 6/8) | -0.57 (+0.13, 8/8)\n   S1    (a) reverse     52 (  35) | +3.46 (+3.30, 3/8) | +0.34 (+0.23, 3/8)\n   S1    (a) ibox        33 (  38) | +3.27 (+3.37, 5/8) | +0.10 (+0.11, 4/8)\n   S1    (b) straight    31 (  23) | +3.33 (+3.14, 1/8) | +0.21 (+0.05, 4/8)\n   S1    (b) reverse    111 (  46) | +2.96 (+3.22, 7/8) | -0.27 (+0.11, 6/8)\n   S1    (b) ibox        99 (  32) | +3.75 (+2.92, 0/8) | +0.72 (-0.39, 0/8)\n   S2    (a) straight    56 (  51) | +3.36 (+3.60, 6/8) | -0.29 (+0.18, 5/8)\n   S2    (a) reverse     22 (  36) | +2.70 (+3.23, 8/8) | -0.40 (-0.06, 6/8)\n   S2    (a) ibox        57 (  44) | +3.04 (+3.36, 8/8) | -0.31 (-0.12, 7/8)\n   S2    (b) straight    27 (  33) | +2.96 (+3.06, 4/8) | +0.08 (-0.13, 3/8)\n   S2    (b) reverse     21 (  36) | +2.95 (+3.16, 4/8) | -0.50 (+0.04, 8/8)\n   S2    (b) ibox        35 (  40) | +3.11 (+3.25, 6/8) | -0.67 (+0.10, 7/8)\n   1+10  (a) straight    40 (  39) | +3.21 (+3.40, 5/8) | +0.13 (+0.01, 3/8)\n   1+10  (a) reverse     39 (  36) | +3.11 (+3.30, 6/8) | -0.41 (-0.16, 6/8)\n   1+10  (a) ibox        54 (  34) | +3.13 (+3.17, 4/8) | +0.35 (-0.12, 1/8)\n   1+10  (b) straight    25 (  32) | +2.85 (+3.04, 7/8) | -0.21 (-0.16, 5/8)\n   1+10  (b) reverse     11 (  35) | +3.17 (+3.29, 5/8) | -0.46 (+0.21, 7/8)\n   1+10  (b) ibox        27 (  32) | +2.68 (+3.08, 8/8) | -0.69 (+0.25, 8/8)\n   2+9   (a) straight    43 (  38) | +2.95 (+3.28, 7/8) | -0.32 (-0.22, 5/8)\n   2+9   (a) reverse     23 (  37) | +3.08 (+3.50, 8/8) | -0.15 (+0.06, 5/8)\n   2+9   (a) ibox        51 (  45) | +3.50 (+3.36, 3/8) | -0.14 (+0.36, 6/8)\n   2+9   (b) straight    26 (  31) | +3.10 (+3.20, 4/8) | -0.54 (+0.13, 8/8)\n   2+9   (b) reverse     33 (  36) | +3.38 (+3.06, 2/8) | -1.54 (-1.52, 3/8)\n   2+9   (b) ibox        32 (  27) | +2.64 (+3.10, 7/8) | -0.03 (-0.52, 2/8)\n   3+8   (a) straight    42 (  38) | +3.67 (+3.61, 4/8) | +0.14 (-0.04, 4/8)\n   3+8   (a) reverse     26 (  35) | +3.10 (+3.42, 7/8) | -0.20 (+0.06, 5/8)\n   3+8   (a) ibox        39 (  39) | +3.00 (+3.17, 6/8) | +0.09 (-0.31, 2/8)\n   3+8   (b) straight    20 (  20) | +3.37 (+2.90, 0/8) | +1.86 (-0.50, 0/8)\n   3+8   (b) reverse     51 (  16) | +3.96 (+2.89, 0/8) | -0.64 (-0.24, 8/8)\n   3+8   (b) ibox        33 (  22) | +3.32 (+3.24, 4/8) | +0.45 (+0.07, 2/8)\n   4+7   (a) straight    40 (  43) | +3.22 (+3.59, 6/8) | -0.06 (+0.12, 5/8)\n   4+7   (a) reverse     35 (  39) | +3.24 (+3.37, 4/8) | -0.50 (+0.08, 6/8)\n   4+7   (a) ibox        38 (  36) | +3.41 (+3.37, 3/8) | +0.82 (+0.05, 0/8)\n   4+7   (b) straight    30 (  42) | +2.88 (+3.18, 6/8) | -0.65 (-0.39, 6/8)\n   4+7   (b) reverse     21 (  22) | +2.92 (+3.05, 5/8) | -0.32 (-0.05, 5/8)\n   4+7   (b) ibox        31 (  29) | +3.38 (+3.25, 2/8) | +0.00 (+0.30, 7/8)\n   5+6   (a) straight    39 (  39) | +3.13 (+3.33, 5/8) | +0.22 (+0.09, 5/8)\n   5+6   (a) reverse     34 (  37) | +3.33 (+3.30, 3/8) | -0.41 (+0.12, 8/8)\n   5+6   (a) ibox        45 (  33) | +3.46 (+3.15, 1/8) | -1.02 (-0.05, 8/8)\n   5+6   (b) straight    21 (  39) | +2.91 (+3.12, 7/8) | -0.11 (-0.03, 4/8)\n   5+6   (b) reverse     24 (  33) | +2.76 (+3.34, 8/8) | -0.84 (-0.22, 7/8)\n   5+6   (b) ibox        25 (  35) | +2.86 (+2.95, 4/8) | +0.33 (-0.45, 2/8)\n   forward mean over all 42 columns: real -0.152 vs shifted -0.067; columns beating every shift: 3 (about 4.7 by chance)\n      S1 (b) ibox: forward +0.72 vs -0.39; top pick lr_general_initial x month_stem before z +3.78 -> after x1.020 (z +1.33)\n      3+8 (b) straight: forward +1.86 vs -0.50; top pick ty_360 x yoga before z +3.28 -> after x1.120 (z +1.34)\n      4+7 (a) ibox: forward +0.82 vs +0.05; top pick ty_18 x year_pillar before z +3.19 -> after x0.998 (z -0.16)\n",
+ "D": [
+  {
+   "strategy": "hot",
+   "rule": "straight",
+   "forward": -0.6809550839457715,
+   "null_forward": [
+    0.06538891777057396,
+    0.6733845271340627,
+    -0.6735383677864422,
+    0.36543797179134174
+   ],
+   "best_z": 2.8121876592468644,
+   "best_test": "ty_18 x jupiter_combust"
+  },
+  {
+   "strategy": "hot",
+   "rule": "reverse",
+   "forward": -0.1646116809246004,
+   "null_forward": [
+    -0.512730798218054,
+    0.6972257518778262,
+    -0.33296521867277534,
+    -0.381338365950004
+   ],
+   "best_z": 3.024447123276659,
+   "best_test": "mh_changed x month_stem"
+  },
+  {
+   "strategy": "hot",
+   "rule": "ibox",
+   "forward": 1.0331660776286786,
+   "null_forward": [
+    -0.07244093678298355,
+    0.22670241764651058,
+    -0.4154422523021866,
+    -0.7600756925335481
+   ],
+   "best_z": 3.8308412339524835,
+   "best_test": "lr_general_initial x mars_rashi"
+  },
+  {
+   "strategy": "cold",
+   "rule": "straight",
+   "forward": 0.6788690735417682,
+   "null_forward": [
+    0.7041159034344167,
+    0.4150733384645372,
+    0.6465227623657361,
+    0.46652376301288073
+   ],
+   "best_z": 2.2711211719657993,
+   "best_test": "ty_24 x kp_asc_number"
+  },
+  {
+   "strategy": "cold",
+   "rule": "reverse",
+   "forward": -1.4132021931680265,
+   "null_forward": [
+    -0.027681637924772785,
+    -1.326620965057366,
+    -0.781421402592969,
+    -0.6559341487274989
+   ],
+   "best_z": 2.1389807493547233,
+   "best_test": "ty_360 x nakshatra_pada"
+  },
+  {
+   "strategy": "cold",
+   "rule": "ibox",
+   "forward": -0.4765495289546119,
+   "null_forward": [
+    -0.5641826502583692,
+    -0.1812798762806438,
+    0.4774884039560089,
+    -1.182630556587819
+   ],
+   "best_z": 2.038450987101844,
+   "best_test": "ty_360 x month_pillar"
+  }
+ ]
 }
