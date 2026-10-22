@@ -9,6 +9,7 @@ lunar month M, lunar day D, hour-branch number H (19:00 = Xu = 11):
   Li 3, Zhen 4, Xun 5, Kan 6, Gen 7, Kun 8. Parameters: mh_upper, mh_lower,
   mh_hexagram, mh_moving, mh_changed, mh_mutual, mh_body_use (five-element
   relation of the body trigram to the use trigram, the one holding the moving line).
+  With the hour fixed at Xu, lower = upper + 3 (mod 8), so only 8 hexagrams occur.
 Da Liu Ren (大六壬) at the Xu hour: monthly general from the Sun's sign
   (after Yushui Hai, after Chunfen Xu, ... after Dahan Zi), heaven plate =
   general over Xu; four lessons from the day stem's lodging branch and the day
@@ -183,7 +184,7 @@ def digit_test(rows, D, shifts):
             "Liu Ren transmissions (branch no. 1-12)": [{(r["lr_initial"] + 1) % 10, (r["lr_middle"] + 1) % 10,
                                                          (r["lr_last"] + 1) % 10} for r in rows]}
     q = np.zeros((yr.max() - yr.min() + 1, 10))
-    np.add.at(q, (yr[D.rd] - yr.min())[:, None].repeat(4, 1), dig)
+    np.add.at(q, (np.repeat(yr[D.rd] - yr.min(), 4), dig.ravel()), 1)
     q /= q.sum(1, keepdims=True)
     out = {}
     for name, S in sets.items():
