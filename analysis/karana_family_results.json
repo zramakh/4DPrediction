@@ -1,0 +1,1965 @@
+{
+ "versions": [
+  {
+   "version": "S1 (a) straight",
+   "z_before": 1.9075116336102402,
+   "z_after": -1.009347268876804,
+   "ratio_after": 0.9384063678614416
+  },
+  {
+   "version": "S1 (a) reverse",
+   "z_before": -0.2163367834962669,
+   "z_after": 0.5735806440863708,
+   "ratio_after": 1.0351915585678337
+  },
+  {
+   "version": "S1 (a) ibox",
+   "z_before": 0.5303464046588102,
+   "z_after": 1.362196241007351,
+   "ratio_after": 1.0203162103481511
+  },
+  {
+   "version": "S1 (b) straight",
+   "z_before": -0.20682566459037371,
+   "z_after": 1.2234827789784921,
+   "ratio_after": 1.074605966918083
+  },
+  {
+   "version": "S1 (b) reverse",
+   "z_before": 0.14083647027408755,
+   "z_after": 0.11614558979190326,
+   "ratio_after": 1.007119933257308
+  },
+  {
+   "version": "S1 (b) ibox",
+   "z_before": 2.521733373974524,
+   "z_after": 2.7237835938768753,
+   "ratio_after": 1.0404442720299414
+  },
+  {
+   "version": "S2 (a) straight",
+   "z_before": -0.30003429005668936,
+   "z_after": -0.05761531996506191,
+   "ratio_after": 0.9964867718815044
+  },
+  {
+   "version": "S2 (a) reverse",
+   "z_before": 0.40196090741313234,
+   "z_after": -0.7420018764896591,
+   "ratio_after": 0.9545138414810758
+  },
+  {
+   "version": "S2 (a) ibox",
+   "z_before": 0.7363943179897393,
+   "z_after": 0.7210528695429578,
+   "ratio_after": 1.0107802842334113
+  },
+  {
+   "version": "S2 (b) straight",
+   "z_before": -0.9148716484192493,
+   "z_after": -2.050762439664637,
+   "ratio_after": 0.8748722207305201
+  },
+  {
+   "version": "S2 (b) reverse",
+   "z_before": 1.0502117299585507,
+   "z_after": 1.0098221349550833,
+   "ratio_after": 1.0619692592161352
+  },
+  {
+   "version": "S2 (b) ibox",
+   "z_before": 0.5956838243192374,
+   "z_after": 0.5101853254490112,
+   "ratio_after": 1.0075996960976246
+  },
+  {
+   "version": "1+10 (a) straight",
+   "z_before": 0.9049111469236851,
+   "z_after": -0.656517867323911,
+   "ratio_after": 0.9599537502201388
+  },
+  {
+   "version": "1+10 (a) reverse",
+   "z_before": 1.1431514351328855,
+   "z_after": -0.36429913956992005,
+   "ratio_after": 0.9776609039371882
+  },
+  {
+   "version": "1+10 (a) ibox",
+   "z_before": 2.043376732786307,
+   "z_after": -0.930804575291249,
+   "ratio_after": 0.9861001646490641
+  },
+  {
+   "version": "1+10 (b) straight",
+   "z_before": 0.979092860726745,
+   "z_after": -0.3801360470238322,
+   "ratio_after": 0.9767892674091077
+  },
+  {
+   "version": "1+10 (b) reverse",
+   "z_before": -0.608279564063258,
+   "z_after": 0.20162625606735862,
+   "ratio_after": 1.012369165500151
+  },
+  {
+   "version": "1+10 (b) ibox",
+   "z_before": 1.8393032493525154,
+   "z_after": 0.27154856228863217,
+   "ratio_after": 1.0040342592671325
+  },
+  {
+   "version": "2+9 (a) straight",
+   "z_before": -0.6909876282731812,
+   "z_after": 0.9449450128315899,
+   "ratio_after": 1.0576662472648493
+  },
+  {
+   "version": "2+9 (a) reverse",
+   "z_before": -0.3685606242164318,
+   "z_after": 1.0490651037148377,
+   "ratio_after": 1.0643351664573346
+  },
+  {
+   "version": "2+9 (a) ibox",
+   "z_before": -0.5518338575026159,
+   "z_after": -0.42996118795673127,
+   "ratio_after": 0.9936537561243225
+  },
+  {
+   "version": "2+9 (b) straight",
+   "z_before": -2.010106754698362,
+   "z_after": -1.5194028626504774,
+   "ratio_after": 0.9073459353530209
+  },
+  {
+   "version": "2+9 (b) reverse",
+   "z_before": 2.3446911793610807,
+   "z_after": 0.9093498809037363,
+   "ratio_after": 1.0557385997820734
+  },
+  {
+   "version": "2+9 (b) ibox",
+   "z_before": -0.008730845818621904,
+   "z_after": 0.6200778612129659,
+   "ratio_after": 1.009195489386023
+  },
+  {
+   "version": "3+8 (a) straight",
+   "z_before": -1.148818282472785,
+   "z_after": 1.3053109164277072,
+   "ratio_after": 1.0796444179915736
+  },
+  {
+   "version": "3+8 (a) reverse",
+   "z_before": -0.9065730294377653,
+   "z_after": -1.7672301210077699,
+   "ratio_after": 0.8916059575997249
+  },
+  {
+   "version": "3+8 (a) ibox",
+   "z_before": -0.7082643573910811,
+   "z_after": 0.48539287715741386,
+   "ratio_after": 1.0072394664049047
+  },
+  {
+   "version": "3+8 (b) straight",
+   "z_before": 1.846604246121944,
+   "z_after": -0.09993332252170789,
+   "ratio_after": 0.99390285301515
+  },
+  {
+   "version": "3+8 (b) reverse",
+   "z_before": 0.7283002308502894,
+   "z_after": -1.993882005901073,
+   "ratio_after": 0.8776294037517622
+  },
+  {
+   "version": "3+8 (b) ibox",
+   "z_before": 1.3764954670557414,
+   "z_after": 0.3183012074351025,
+   "ratio_after": 1.0047377922089265
+  },
+  {
+   "version": "4+7 (a) straight",
+   "z_before": -1.3427718421154418,
+   "z_after": -0.5380596808516824,
+   "ratio_after": 0.967183057521237
+  },
+  {
+   "version": "4+7 (a) reverse",
+   "z_before": 0.222708200928426,
+   "z_after": -1.358566892939533,
+   "ratio_after": 0.9167266488924326
+  },
+  {
+   "version": "4+7 (a) ibox",
+   "z_before": 2.3456053535540167,
+   "z_after": 1.444855937796709,
+   "ratio_after": 1.0213885074357425
+  },
+  {
+   "version": "4+7 (b) straight",
+   "z_before": -0.12282947038580044,
+   "z_after": -1.3709877807653215,
+   "ratio_after": 0.9163259070422474
+  },
+  {
+   "version": "4+7 (b) reverse",
+   "z_before": 0.5926064883122135,
+   "z_after": -2.1970669728698335,
+   "ratio_after": 0.8652438374620894
+  },
+  {
+   "version": "4+7 (b) ibox",
+   "z_before": -1.3817780688061259,
+   "z_after": -0.26336977071919226,
+   "ratio_after": 0.996077262308348
+  },
+  {
+   "version": "5+6 (a) straight",
+   "z_before": 1.7137936159067042,
+   "z_after": -1.5381468679948318,
+   "ratio_after": 0.9060759172722236
+  },
+  {
+   "version": "5+6 (a) reverse",
+   "z_before": -2.106797701095701,
+   "z_after": -0.13223301469333693,
+   "ratio_after": 0.9918946697639262
+  },
+  {
+   "version": "5+6 (a) ibox",
+   "z_before": -0.7152497367414138,
+   "z_after": -0.37429165428291905,
+   "ratio_after": 0.994460431067823
+  },
+  {
+   "version": "5+6 (b) straight",
+   "z_before": 0.8003911528263966,
+   "z_after": -0.8323317107649475,
+   "ratio_after": 0.9492180532726608
+  },
+  {
+   "version": "5+6 (b) reverse",
+   "z_before": 1.1607972088356566,
+   "z_after": -1.5273634328051366,
+   "ratio_after": 0.9063348142462914
+  },
+  {
+   "version": "5+6 (b) ibox",
+   "z_before": 1.1391499986060767,
+   "z_after": -1.1408503180608753,
+   "ratio_after": 0.9829483006124984
+  }
+ ],
+ "families": {
+  "Karana x any other": {
+   "n": 76,
+   "mean_z_before": 0.45016557865953316,
+   "mean_z_after": -0.3130849363900821,
+   "null_mean_z_after": [
+    0.5183127533020907,
+    -0.641600782105257,
+    0.10676959606942968,
+    0.950584652824028,
+    -0.5178475908279374,
+    -0.16545958019764154,
+    -0.7458694011733917,
+    0.280204218780195,
+    0.0855792613703954,
+    -0.5323618068657139,
+    -0.12009719593114325,
+    -1.0622067852157895,
+    -0.691771173315653,
+    -0.036342941494099314,
+    -0.802155153165881,
+    -0.5492903648830252,
+    -0.6151158339423658,
+    0.16885724415365014,
+    0.32745341648083043,
+    -0.19089800742233562
+   ],
+   "mean_good_years": 6.881578947368421,
+   "null_good_years": [
+    7.828947368421052,
+    6.7631578947368425,
+    7.434210526315789,
+    9.052631578947368,
+    6.723684210526316,
+    7.328947368421052,
+    5.9868421052631575,
+    7.9605263157894735,
+    7.7894736842105265,
+    6.973684210526316,
+    6.644736842105263,
+    5.5394736842105265,
+    6.2631578947368425,
+    6.947368421052632,
+    5.381578947368421,
+    5.868421052631579,
+    6.381578947368421,
+    7.855263157894737,
+    7.605263157894737,
+    7.0394736842105265
+   ],
+   "members": {
+    "tithi x karana": {
+     "z_before": -0.899892432937018,
+     "z_after": 1.3821048289630868,
+     "good_years": 9,
+     "ratio_after": 1.0203818378677458
+    },
+    "paksha x karana": {
+     "z_before": 0.3213371591423383,
+     "z_after": -0.46654657894090207,
+     "good_years": 5,
+     "ratio_after": 0.9931216281532697
+    },
+    "nakshatra x karana": {
+     "z_before": -1.0431607203162145,
+     "z_after": -1.121401537681289,
+     "good_years": 6,
+     "ratio_after": 0.9834894473729554
+    },
+    "nakshatra_lord x karana": {
+     "z_before": -1.1084320923493107,
+     "z_after": 0.6937632239374525,
+     "good_years": 8,
+     "ratio_after": 1.0102334673544888
+    },
+    "nakshatra_pada x karana": {
+     "z_before": 0.32285914373297836,
+     "z_after": 1.885811227784118,
+     "good_years": 8,
+     "ratio_after": 1.028046032837068
+    },
+    "yoga x karana": {
+     "z_before": -0.09263914865438609,
+     "z_after": -0.20990150933094073,
+     "good_years": 8,
+     "ratio_after": 0.9969001849029124
+    },
+    "karana x weekday": {
+     "z_before": 0.7694036152235257,
+     "z_after": -1.1925396001835502,
+     "good_years": 5,
+     "ratio_after": 0.9824128775479806
+    },
+    "karana x hora_lord": {
+     "z_before": 1.0594508057359098,
+     "z_after": -1.0375353683339936,
+     "good_years": 7,
+     "ratio_after": 0.9846845311171909
+    },
+    "karana x moon_rashi": {
+     "z_before": -0.8404672174764686,
+     "z_after": -0.1634311782621581,
+     "good_years": 8,
+     "ratio_after": 0.9975887859675656
+    },
+    "karana x sun_rashi": {
+     "z_before": 0.8629229485822976,
+     "z_after": -0.9648420077397394,
+     "good_years": 5,
+     "ratio_after": 0.9857779772219001
+    },
+    "karana x sun_nakshatra": {
+     "z_before": 1.6885004359010218,
+     "z_after": -0.9234503009535886,
+     "good_years": 7,
+     "ratio_after": 0.9863839189093528
+    },
+    "karana x mars_rashi": {
+     "z_before": 0.9108562065025625,
+     "z_after": -0.4535628060834988,
+     "good_years": 6,
+     "ratio_after": 0.9933160517278714
+    },
+    "karana x mars_nakshatra": {
+     "z_before": 1.6092911395564593,
+     "z_after": -0.738888502502976,
+     "good_years": 7,
+     "ratio_after": 0.9890819283212375
+    },
+    "karana x mercury_rashi": {
+     "z_before": 0.2507795280679084,
+     "z_after": -2.4812537295153847,
+     "good_years": 3,
+     "ratio_after": 0.9634008595805428
+    },
+    "karana x mercury_nakshatra": {
+     "z_before": -0.734387404953382,
+     "z_after": -0.9732723215979441,
+     "good_years": 5,
+     "ratio_after": 0.985619955187712
+    },
+    "karana x venus_rashi": {
+     "z_before": 1.149720010481044,
+     "z_after": 0.5496642087109646,
+     "good_years": 9,
+     "ratio_after": 1.0081072359014536
+    },
+    "karana x venus_nakshatra": {
+     "z_before": 0.3366656894026733,
+     "z_after": -0.6159472682239155,
+     "good_years": 7,
+     "ratio_after": 0.9909042145054402
+    },
+    "karana x jupiter_rashi": {
+     "z_before": 1.3474259513938507,
+     "z_after": -0.9508769473133204,
+     "good_years": 6,
+     "ratio_after": 0.9859793040140855
+    },
+    "karana x jupiter_nakshatra": {
+     "z_before": 0.6350411887407282,
+     "z_after": -1.1847114280099362,
+     "good_years": 6,
+     "ratio_after": 0.9825215529414598
+    },
+    "karana x saturn_rashi": {
+     "z_before": 1.2205991847158295,
+     "z_after": -0.9236409042480802,
+     "good_years": 7,
+     "ratio_after": 0.9863736687476183
+    },
+    "karana x saturn_nakshatra": {
+     "z_before": 0.5382469605050478,
+     "z_after": -0.3152894642707463,
+     "good_years": 7,
+     "ratio_after": 0.9953321410770367
+    },
+    "karana x rahu_rashi": {
+     "z_before": 1.1100505016373983,
+     "z_after": -0.6896148658643063,
+     "good_years": 7,
+     "ratio_after": 0.9898408059566153
+    },
+    "karana x rahu_nakshatra": {
+     "z_before": 1.7451134289721721,
+     "z_after": -0.46327818786621583,
+     "good_years": 5,
+     "ratio_after": 0.9931696494417311
+    },
+    "karana x lagna_rashi": {
+     "z_before": 0.9424907468401614,
+     "z_after": -0.7908925095431537,
+     "good_years": 6,
+     "ratio_after": 0.9883486556663608
+    },
+    "karana x lagna_nakshatra": {
+     "z_before": -0.47856890699889476,
+     "z_after": -1.49721285522815,
+     "good_years": 5,
+     "ratio_after": 0.9779042602546939
+    },
+    "karana x moon_navamsa": {
+     "z_before": -0.5486815133376258,
+     "z_after": 0.6799945171959824,
+     "good_years": 10,
+     "ratio_after": 1.0100315280537533
+    },
+    "karana x mercury_retrograde": {
+     "z_before": 1.4603025793538869,
+     "z_after": -0.1882659854428696,
+     "good_years": 5,
+     "ratio_after": 0.9972253074939419
+    },
+    "karana x venus_retrograde": {
+     "z_before": 1.3069263668166622,
+     "z_after": -0.7074252060514866,
+     "good_years": 8,
+     "ratio_after": 0.9895752552708647
+    },
+    "karana x mars_retrograde": {
+     "z_before": 1.187082317184187,
+     "z_after": -1.061381360010685,
+     "good_years": 7,
+     "ratio_after": 0.9843559029964427
+    },
+    "karana x jupiter_retrograde": {
+     "z_before": 1.9318191289885545,
+     "z_after": -0.5754147344263715,
+     "good_years": 6,
+     "ratio_after": 0.9915150709121374
+    },
+    "karana x saturn_retrograde": {
+     "z_before": 0.8003521379094077,
+     "z_after": -0.5774368973889676,
+     "good_years": 6,
+     "ratio_after": 0.9914872387129671
+    },
+    "karana x mercury_combust": {
+     "z_before": 0.24143324799066304,
+     "z_after": 0.5935919284260749,
+     "good_years": 8,
+     "ratio_after": 1.0087522811782814
+    },
+    "karana x venus_combust": {
+     "z_before": 1.610429079794695,
+     "z_after": -0.7065713911589003,
+     "good_years": 5,
+     "ratio_after": 0.9895820844075407
+    },
+    "karana x mars_combust": {
+     "z_before": 0.8472581668678729,
+     "z_after": -0.6547745150206378,
+     "good_years": 7,
+     "ratio_after": 0.9903473618112819
+    },
+    "karana x jupiter_combust": {
+     "z_before": 1.1678542426795882,
+     "z_after": -0.5882224767336275,
+     "good_years": 5,
+     "ratio_after": 0.9913308183828343
+    },
+    "karana x saturn_combust": {
+     "z_before": 1.0466214613230678,
+     "z_after": -1.4403103142534166,
+     "good_years": 5,
+     "ratio_after": 0.9787770376739715
+    },
+    "karana x planets_with_moon": {
+     "z_before": -0.9004885561184244,
+     "z_after": -1.2697596042310428,
+     "good_years": 5,
+     "ratio_after": 0.9812683820425142
+    },
+    "karana x masa": {
+     "z_before": 2.0210134061848337,
+     "z_after": -0.6581725963969727,
+     "good_years": 7,
+     "ratio_after": 0.9902985709506833
+    },
+    "karana x adhika_masa": {
+     "z_before": 1.2842247973400618,
+     "z_after": -0.7439093108348175,
+     "good_years": 8,
+     "ratio_after": 0.9890286026766115
+    },
+    "karana x ritu": {
+     "z_before": 0.3687492963121305,
+     "z_after": -1.205922505156804,
+     "good_years": 5,
+     "ratio_after": 0.982219232481235
+    },
+    "karana x ayana": {
+     "z_before": 1.2008991432203382,
+     "z_after": -1.363403130513729,
+     "good_years": 3,
+     "ratio_after": 0.9798987559536816
+    },
+    "karana x samvatsara": {
+     "z_before": 1.4467046933549152,
+     "z_after": -0.8496715125695886,
+     "good_years": 7,
+     "ratio_after": 0.9870618726700146
+    },
+    "karana x kp_moon_star_lord": {
+     "z_before": -1.0353830782718128,
+     "z_after": 0.7632264757136381,
+     "good_years": 9,
+     "ratio_after": 1.0112626165488015
+    },
+    "karana x kp_moon_sub_lord": {
+     "z_before": 1.1545357169380304,
+     "z_after": -0.5191464922745485,
+     "good_years": 7,
+     "ratio_after": 0.9923432714922626
+    },
+    "karana x kp_moon_number": {
+     "z_before": 0.04933936506165467,
+     "z_after": 1.3835503261593538,
+     "good_years": 10,
+     "ratio_after": 1.0213629030661777
+    },
+    "karana x kp_asc_star_lord": {
+     "z_before": 0.06934289177026455,
+     "z_after": -0.22675338412637697,
+     "good_years": 7,
+     "ratio_after": 0.9966517345605032
+    },
+    "karana x kp_asc_sub_lord": {
+     "z_before": -0.3455052148592051,
+     "z_after": -0.27610873466239966,
+     "good_years": 7,
+     "ratio_after": 0.9959266585499538
+    },
+    "karana x kp_asc_number": {
+     "z_before": -0.8498916611907404,
+     "z_after": 1.2447312583466343,
+     "good_years": 9,
+     "ratio_after": 1.0192081328887652
+    },
+    "karana x kp_sun_star_lord": {
+     "z_before": -1.2967847999051858,
+     "z_after": -0.05264161944141854,
+     "good_years": 7,
+     "ratio_after": 0.9992235520466884
+    },
+    "karana x kp_sun_sub_lord": {
+     "z_before": -0.6048099633021103,
+     "z_after": -0.2280829832961657,
+     "good_years": 7,
+     "ratio_after": 0.996632502382161
+    },
+    "karana x kp_sun_number": {
+     "z_before": 0.631258796753836,
+     "z_after": 1.866329759691447,
+     "good_years": 9,
+     "ratio_after": 1.0288013113717878
+    },
+    "karana x year_animal": {
+     "z_before": 0.7714633264966104,
+     "z_after": -1.3592546754400217,
+     "good_years": 6,
+     "ratio_after": 0.9799614992757505
+    },
+    "karana x year_stem": {
+     "z_before": 0.6906303042701225,
+     "z_after": -0.29247696694251707,
+     "good_years": 6,
+     "ratio_after": 0.9956875856998435
+    },
+    "karana x year_element": {
+     "z_before": 1.1211857266245837,
+     "z_after": -0.8828630760456374,
+     "good_years": 6,
+     "ratio_after": 0.9869798719359831
+    },
+    "karana x year_yinyang": {
+     "z_before": 0.6384170749034228,
+     "z_after": -0.2971411643142722,
+     "good_years": 5,
+     "ratio_after": 0.9956194427616426
+    },
+    "karana x year_pillar": {
+     "z_before": 0.8437885063671943,
+     "z_after": -0.4625367740700985,
+     "good_years": 7,
+     "ratio_after": 0.9929482978069858
+    },
+    "karana x lunar_month": {
+     "z_before": 0.8931358083301366,
+     "z_after": -1.97461091193759,
+     "good_years": 3,
+     "ratio_after": 0.9709017520582435
+    },
+    "karana x lunar_day": {
+     "z_before": -2.3979100510588323,
+     "z_after": 0.05474404809793415,
+     "good_years": 8,
+     "ratio_after": 1.0008080981104337
+    },
+    "karana x lunar_leap_month": {
+     "z_before": 1.1276332134177538,
+     "z_after": -0.39047466409915854,
+     "good_years": 8,
+     "ratio_after": 0.9942443230257494
+    },
+    "karana x solar_term": {
+     "z_before": -0.11667891526938683,
+     "z_after": -1.085899396332277,
+     "good_years": 6,
+     "ratio_after": 0.9839869167339368
+    },
+    "karana x month_branch": {
+     "z_before": 0.768818922084632,
+     "z_after": -1.209793608401752,
+     "good_years": 4,
+     "ratio_after": 0.9821489587955898
+    },
+    "karana x month_stem": {
+     "z_before": 0.9520990203584121,
+     "z_after": 0.08966901257139882,
+     "good_years": 8,
+     "ratio_after": 1.0013231156415283
+    },
+    "karana x month_pillar": {
+     "z_before": 0.40013501979113436,
+     "z_after": -0.15353076621421735,
+     "good_years": 9,
+     "ratio_after": 0.9977197293174455
+    },
+    "karana x day_stem": {
+     "z_before": 1.139307611340161,
+     "z_after": 0.6892815875260895,
+     "good_years": 10,
+     "ratio_after": 1.0101593317230493
+    },
+    "karana x day_branch": {
+     "z_before": 0.12097660853939667,
+     "z_after": 2.4156079886357995,
+     "good_years": 12,
+     "ratio_after": 1.0356498469095927
+    },
+    "karana x day_element": {
+     "z_before": 0.5974629917634726,
+     "z_after": -0.27759124931310686,
+     "good_years": 5,
+     "ratio_after": 0.9959057251673876
+    },
+    "karana x nayin": {
+     "z_before": -0.23343459192006755,
+     "z_after": 0.8001463203765747,
+     "good_years": 11,
+     "ratio_after": 1.011817026728035
+    },
+    "karana x nayin_element": {
+     "z_before": 0.46777975719996906,
+     "z_after": -0.1784461037705298,
+     "good_years": 8,
+     "ratio_after": 0.9973669784317576
+    },
+    "karana x hour_stem_19h": {
+     "z_before": 0.5968326261458585,
+     "z_after": 1.0697148370594824,
+     "good_years": 10,
+     "ratio_after": 1.0157696217228769
+    },
+    "karana x day_officer": {
+     "z_before": -0.8443260193598885,
+     "z_after": 0.9618772389559479,
+     "good_years": 6,
+     "ratio_after": 1.0141947322287317
+    },
+    "karana x day_god": {
+     "z_before": 0.3066832343152984,
+     "z_after": 0.17044854417950983,
+     "good_years": 8,
+     "ratio_after": 1.0025165604624453
+    },
+    "karana x yellow_black_path": {
+     "z_before": -0.11073712801387559,
+     "z_after": -0.38179471289519024,
+     "good_years": 6,
+     "ratio_after": 0.9943706793793351
+    },
+    "karana x mansion_28": {
+     "z_before": -0.8316666804807251,
+     "z_after": 1.1991128787422647,
+     "good_years": 9,
+     "ratio_after": 1.0177034847522533
+    },
+    "karana x day_vs_year_branch": {
+     "z_before": -0.04956760018827171,
+     "z_after": -0.5656014123957962,
+     "good_years": 7,
+     "ratio_after": 0.9916564362516461
+    },
+    "karana x nine_star_year": {
+     "z_before": 0.7792676337475075,
+     "z_after": -0.8716029257701765,
+     "good_years": 5,
+     "ratio_after": 0.9871406342626259
+    },
+    "karana x nine_star_month": {
+     "z_before": 0.7134788084121104,
+     "z_after": 0.14725765690696394,
+     "good_years": 9,
+     "ratio_after": 1.002172136337713
+    }
+   }
+  },
+  "Day pillar x any other": {
+   "n": 76,
+   "mean_z_before": 0.09615115160284467,
+   "mean_z_after": 0.4311955247725619,
+   "null_mean_z_after": [
+    -0.398647012874424,
+    -0.1642978592085991,
+    -0.06499513189656626,
+    -0.11055910952932219,
+    -0.3773500349366187,
+    -0.5365792990709434,
+    -0.49247265765280585,
+    -0.8847264701592715,
+    0.01608643965562966,
+    -0.12543235418982443,
+    -0.13291997636556319,
+    -0.2849781512097991,
+    -0.2022406418147136,
+    0.3534859548189724,
+    0.25888175917418005,
+    -0.014132705953872546,
+    0.2694078356146705,
+    -0.7258143769612668,
+    -0.1511478180602829,
+    0.4473497734828715
+   ],
+   "mean_good_years": 8.263157894736842,
+   "null_good_years": [
+    6.618421052631579,
+    7.315789473684211,
+    7.552631578947368,
+    6.697368421052632,
+    6.868421052631579,
+    6.894736842105263,
+    6.342105263157895,
+    6.052631578947368,
+    7.434210526315789,
+    7.578947368421052,
+    7.565789473684211,
+    7.0394736842105265,
+    7.171052631578948,
+    8.18421052631579,
+    7.934210526315789,
+    7.394736842105263,
+    7.526315789473684,
+    6.855263157894737,
+    7.355263157894737,
+    8.210526315789474
+   ],
+   "members": {
+    "tithi x day_pillar": {
+     "z_before": 0.5356115209461948,
+     "z_after": 0.20980525818461576,
+     "good_years": 6,
+     "ratio_after": 1.0031131458779299
+    },
+    "paksha x day_pillar": {
+     "z_before": -0.441046953671709,
+     "z_after": 1.205953243152248,
+     "good_years": 10,
+     "ratio_after": 1.0177880786452858
+    },
+    "nakshatra x day_pillar": {
+     "z_before": -0.5499132698243672,
+     "z_after": -0.6678734615960046,
+     "good_years": 7,
+     "ratio_after": 0.9900236367427189
+    },
+    "nakshatra_lord x day_pillar": {
+     "z_before": -0.2629027561188001,
+     "z_after": 0.025169095266432292,
+     "good_years": 9,
+     "ratio_after": 1.000371571103703
+    },
+    "nakshatra_pada x day_pillar": {
+     "z_before": 0.6519080864674887,
+     "z_after": 0.7187935759604236,
+     "good_years": 6,
+     "ratio_after": 1.0138366236442413
+    },
+    "yoga x day_pillar": {
+     "z_before": 3.02309648539354,
+     "z_after": 1.0858742453153751,
+     "good_years": 10,
+     "ratio_after": 1.0162227759272915
+    },
+    "weekday x day_pillar": {
+     "z_before": 1.1347782266188344,
+     "z_after": -0.4827411749168448,
+     "good_years": 6,
+     "ratio_after": 0.9928759486325197
+    },
+    "hora_lord x day_pillar": {
+     "z_before": 0.10716968956791746,
+     "z_after": -0.14149269608374312,
+     "good_years": 7,
+     "ratio_after": 0.9979143931596488
+    },
+    "moon_rashi x day_pillar": {
+     "z_before": -1.430371606048556,
+     "z_after": -2.0889226184151184,
+     "good_years": 5,
+     "ratio_after": 0.9691687697192878
+    },
+    "sun_rashi x day_pillar": {
+     "z_before": -0.406185032210762,
+     "z_after": 0.17187712093084825,
+     "good_years": 8,
+     "ratio_after": 1.0025374029863956
+    },
+    "sun_nakshatra x day_pillar": {
+     "z_before": 1.8013973574353555,
+     "z_after": -0.5182175344980331,
+     "good_years": 6,
+     "ratio_after": 0.9923114551430722
+    },
+    "mars_rashi x day_pillar": {
+     "z_before": 1.2918083364562338,
+     "z_after": -0.19352474891566934,
+     "good_years": 6,
+     "ratio_after": 0.9971388758937054
+    },
+    "mars_nakshatra x day_pillar": {
+     "z_before": -0.6306580832252932,
+     "z_after": 0.9317035217246057,
+     "good_years": 9,
+     "ratio_after": 1.0138821254451018
+    },
+    "mercury_rashi x day_pillar": {
+     "z_before": 0.253589847428738,
+     "z_after": 1.4874598700921913,
+     "good_years": 11,
+     "ratio_after": 1.0219264125115228
+    },
+    "mercury_nakshatra x day_pillar": {
+     "z_before": 1.2296237655644993,
+     "z_after": 0.4467234297594467,
+     "good_years": 8,
+     "ratio_after": 1.0066763621667383
+    },
+    "venus_rashi x day_pillar": {
+     "z_before": 0.20096251957302436,
+     "z_after": -0.9415902562211662,
+     "good_years": 4,
+     "ratio_after": 0.986101577565619
+    },
+    "venus_nakshatra x day_pillar": {
+     "z_before": 0.32784944434330754,
+     "z_after": 1.1146644361521003,
+     "good_years": 8,
+     "ratio_after": 1.0165959187796627
+    },
+    "jupiter_rashi x day_pillar": {
+     "z_before": -0.270482670818003,
+     "z_after": 0.4743807120344347,
+     "good_years": 8,
+     "ratio_after": 1.0070180998726934
+    },
+    "jupiter_nakshatra x day_pillar": {
+     "z_before": 1.159776986672121,
+     "z_after": 0.2580860673345107,
+     "good_years": 10,
+     "ratio_after": 1.0038538700234643
+    },
+    "saturn_rashi x day_pillar": {
+     "z_before": 0.812899256279138,
+     "z_after": 0.9587678835772856,
+     "good_years": 9,
+     "ratio_after": 1.0142256350628671
+    },
+    "saturn_nakshatra x day_pillar": {
+     "z_before": 0.44294724769589605,
+     "z_after": 1.5662065705825183,
+     "good_years": 10,
+     "ratio_after": 1.0235979143280052
+    },
+    "rahu_rashi x day_pillar": {
+     "z_before": -0.7423885817733413,
+     "z_after": 0.8611711380922703,
+     "good_years": 10,
+     "ratio_after": 1.0126855079911499
+    },
+    "rahu_nakshatra x day_pillar": {
+     "z_before": 0.1932580722659929,
+     "z_after": 0.9018364921320356,
+     "good_years": 9,
+     "ratio_after": 1.0135268927103196
+    },
+    "lagna_rashi x day_pillar": {
+     "z_before": 0.9101743533194481,
+     "z_after": 0.6731247704969997,
+     "good_years": 8,
+     "ratio_after": 1.0099339854163998
+    },
+    "lagna_nakshatra x day_pillar": {
+     "z_before": 0.9663470090522654,
+     "z_after": -1.3437624899175509,
+     "good_years": 5,
+     "ratio_after": 0.9800978202934592
+    },
+    "moon_navamsa x day_pillar": {
+     "z_before": -1.1097943552300207,
+     "z_after": 1.938501226244325,
+     "good_years": 13,
+     "ratio_after": 1.0286168547324919
+    },
+    "mercury_retrograde x day_pillar": {
+     "z_before": -0.13378115982779312,
+     "z_after": 2.0029616810652584,
+     "good_years": 13,
+     "ratio_after": 1.0295442370207897
+    },
+    "venus_retrograde x day_pillar": {
+     "z_before": -0.3089250112322685,
+     "z_after": 0.5018828565846827,
+     "good_years": 9,
+     "ratio_after": 1.00739668711661
+    },
+    "mars_retrograde x day_pillar": {
+     "z_before": 0.03731563687735898,
+     "z_after": 1.678400002292244,
+     "good_years": 10,
+     "ratio_after": 1.0247541929226345
+    },
+    "jupiter_retrograde x day_pillar": {
+     "z_before": 0.23148772285270955,
+     "z_after": 1.8831579431963317,
+     "good_years": 11,
+     "ratio_after": 1.0277946334509673
+    },
+    "saturn_retrograde x day_pillar": {
+     "z_before": 0.7737879884634512,
+     "z_after": 1.4744170239498038,
+     "good_years": 9,
+     "ratio_after": 1.0217578169892723
+    },
+    "mercury_combust x day_pillar": {
+     "z_before": 0.04809663221671815,
+     "z_after": 1.067940256996698,
+     "good_years": 9,
+     "ratio_after": 1.0157449542941133
+    },
+    "venus_combust x day_pillar": {
+     "z_before": -0.5874801799295265,
+     "z_after": 0.600732642091735,
+     "good_years": 10,
+     "ratio_after": 1.00886571235491
+    },
+    "mars_combust x day_pillar": {
+     "z_before": -0.7771201357639761,
+     "z_after": -0.647312536474482,
+     "good_years": 6,
+     "ratio_after": 0.990452667322351
+    },
+    "jupiter_combust x day_pillar": {
+     "z_before": 1.4549949311862853,
+     "z_after": 0.2813497284629002,
+     "good_years": 7,
+     "ratio_after": 1.0041492126098939
+    },
+    "saturn_combust x day_pillar": {
+     "z_before": -0.40448203822262174,
+     "z_after": -0.0030528085593919357,
+     "good_years": 7,
+     "ratio_after": 0.9999549751223272
+    },
+    "planets_with_moon x day_pillar": {
+     "z_before": 0.804922489443237,
+     "z_after": -0.5584233606570502,
+     "good_years": 5,
+     "ratio_after": 0.9917347480681069
+    },
+    "masa x day_pillar": {
+     "z_before": -0.12671378215725762,
+     "z_after": 1.2377718137865419,
+     "good_years": 8,
+     "ratio_after": 1.0182498510085845
+    },
+    "adhika_masa x day_pillar": {
+     "z_before": -0.5119913888771318,
+     "z_after": 0.7234551529176256,
+     "good_years": 9,
+     "ratio_after": 1.0106726128951813
+    },
+    "ritu x day_pillar": {
+     "z_before": -0.5730324373140285,
+     "z_after": 1.9593023660584747,
+     "good_years": 11,
+     "ratio_after": 1.0289034740450924
+    },
+    "ayana x day_pillar": {
+     "z_before": 0.24672059678607994,
+     "z_after": -0.5679630000690381,
+     "good_years": 7,
+     "ratio_after": 0.9916244903135241
+    },
+    "samvatsara x day_pillar": {
+     "z_before": 1.117821646574015,
+     "z_after": 1.013346883678177,
+     "good_years": 11,
+     "ratio_after": 1.0186542177515843
+    },
+    "kp_moon_star_lord x day_pillar": {
+     "z_before": -0.5034155795309325,
+     "z_after": -0.22283068480357812,
+     "good_years": 8,
+     "ratio_after": 0.9967102805452245
+    },
+    "kp_moon_sub_lord x day_pillar": {
+     "z_before": -0.5939391339890829,
+     "z_after": -0.4187658308074956,
+     "good_years": 5,
+     "ratio_after": 0.9938218626689443
+    },
+    "kp_moon_number x day_pillar": {
+     "z_before": -0.6039426567323659,
+     "z_after": 0.10684796675242139,
+     "good_years": 8,
+     "ratio_after": 1.0026063427860237
+    },
+    "kp_asc_star_lord x day_pillar": {
+     "z_before": -0.848540019538651,
+     "z_after": -0.9453753123927099,
+     "good_years": 8,
+     "ratio_after": 0.9860292321926948
+    },
+    "kp_asc_sub_lord x day_pillar": {
+     "z_before": 1.6182918871987357,
+     "z_after": 0.7359979125028348,
+     "good_years": 9,
+     "ratio_after": 1.0108976439293784
+    },
+    "kp_asc_number x day_pillar": {
+     "z_before": -1.1248750288270744,
+     "z_after": -1.1040245650953309,
+     "good_years": 4,
+     "ratio_after": 0.9742648263056226
+    },
+    "kp_sun_star_lord x day_pillar": {
+     "z_before": 0.20253103704289463,
+     "z_after": 0.20353412765039092,
+     "good_years": 8,
+     "ratio_after": 1.003011030579156
+    },
+    "kp_sun_sub_lord x day_pillar": {
+     "z_before": 0.5157535067337755,
+     "z_after": -1.391978523423495,
+     "good_years": 5,
+     "ratio_after": 0.9794161957041592
+    },
+    "kp_sun_number x day_pillar": {
+     "z_before": 0.36072958817790585,
+     "z_after": -0.4717868086275468,
+     "good_years": 5,
+     "ratio_after": 0.9888424660286015
+    },
+    "year_animal x day_pillar": {
+     "z_before": -0.2851802151638638,
+     "z_after": 0.6445341122842783,
+     "good_years": 9,
+     "ratio_after": 1.0095224352113206
+    },
+    "year_stem x day_pillar": {
+     "z_before": -0.4814183393907647,
+     "z_after": -0.24108101804314916,
+     "good_years": 7,
+     "ratio_after": 0.9964366553620145
+    },
+    "year_element x day_pillar": {
+     "z_before": 0.06968810497803629,
+     "z_after": 0.8315594363902091,
+     "good_years": 9,
+     "ratio_after": 1.012275801709307
+    },
+    "year_yinyang x day_pillar": {
+     "z_before": -0.7624242771145018,
+     "z_after": 0.37112450338711506,
+     "good_years": 9,
+     "ratio_after": 1.0054767853004576
+    },
+    "year_pillar x day_pillar": {
+     "z_before": -0.06014090306194551,
+     "z_after": 0.9032690564883955,
+     "good_years": 9,
+     "ratio_after": 1.0166531089275388
+    },
+    "lunar_month x day_pillar": {
+     "z_before": -0.4032703214101585,
+     "z_after": 0.6148568375041207,
+     "good_years": 9,
+     "ratio_after": 1.0090810111643367
+    },
+    "lunar_day x day_pillar": {
+     "z_before": -0.8515113800861169,
+     "z_after": -0.09179934181859127,
+     "good_years": 6,
+     "ratio_after": 0.9986361019751853
+    },
+    "lunar_leap_month x day_pillar": {
+     "z_before": -0.30744500787564816,
+     "z_after": 0.6959593842409336,
+     "good_years": 9,
+     "ratio_after": 1.0102715880361073
+    },
+    "solar_term x day_pillar": {
+     "z_before": -0.10973435965825123,
+     "z_after": 1.2065703682519129,
+     "good_years": 10,
+     "ratio_after": 1.01785317450779
+    },
+    "month_branch x day_pillar": {
+     "z_before": -0.04916770656596517,
+     "z_after": 1.7900191214077457,
+     "good_years": 10,
+     "ratio_after": 1.026382219158075
+    },
+    "month_stem x day_pillar": {
+     "z_before": -0.8512796870643324,
+     "z_after": -1.780602306166287,
+     "good_years": 3,
+     "ratio_after": 0.9737051956578425
+    },
+    "month_pillar x day_pillar": {
+     "z_before": 1.4167593675108612,
+     "z_after": -0.5259160935424296,
+     "good_years": 6,
+     "ratio_after": 0.9913149946374856
+    },
+    "day_stem x day_pillar": {
+     "z_before": 0.023043379288621893,
+     "z_after": 0.7051878391185511,
+     "good_years": 10,
+     "ratio_after": 1.0104006086386272
+    },
+    "day_branch x day_pillar": {
+     "z_before": 0.023043379288610624,
+     "z_after": 0.7051878391185511,
+     "good_years": 10,
+     "ratio_after": 1.0104006086386272
+    },
+    "day_element x day_pillar": {
+     "z_before": 0.023043379288621893,
+     "z_after": 0.7051878391185374,
+     "good_years": 10,
+     "ratio_after": 1.010400608638627
+    },
+    "day_pillar x nayin": {
+     "z_before": 0.023043379288621893,
+     "z_after": 0.7051878391185511,
+     "good_years": 10,
+     "ratio_after": 1.0104006086386272
+    },
+    "day_pillar x nayin_element": {
+     "z_before": 0.023043379288621893,
+     "z_after": 0.7051878391185511,
+     "good_years": 10,
+     "ratio_after": 1.0104006086386272
+    },
+    "day_pillar x hour_stem_19h": {
+     "z_before": 0.023043379288621893,
+     "z_after": 0.7051878391185511,
+     "good_years": 10,
+     "ratio_after": 1.0104006086386272
+    },
+    "day_pillar x day_officer": {
+     "z_before": -0.04916770656596517,
+     "z_after": 1.7900191214077457,
+     "good_years": 10,
+     "ratio_after": 1.026382219158075
+    },
+    "day_pillar x day_god": {
+     "z_before": -0.33678661342875155,
+     "z_after": 1.924029340826961,
+     "good_years": 10,
+     "ratio_after": 1.028381938337992
+    },
+    "day_pillar x yellow_black_path": {
+     "z_before": -0.1462625880904619,
+     "z_after": 1.4281386261209463,
+     "good_years": 9,
+     "ratio_after": 1.0210587058139498
+    },
+    "day_pillar x mansion_28": {
+     "z_before": 1.1347782266188229,
+     "z_after": -0.4827411749168581,
+     "good_years": 6,
+     "ratio_after": 0.9928759486325195
+    },
+    "day_pillar x day_vs_year_branch": {
+     "z_before": -0.5036221106821018,
+     "z_after": 0.9038992824942581,
+     "good_years": 11,
+     "ratio_after": 1.0133450109782833
+    },
+    "day_pillar x nine_star_year": {
+     "z_before": -0.3422062223314521,
+     "z_after": 0.6237389720528859,
+     "good_years": 10,
+     "ratio_after": 1.0092228152734066
+    },
+    "day_pillar x nine_star_month": {
+     "z_before": 0.5739489776974356,
+     "z_after": 0.14259601608868086,
+     "good_years": 6,
+     "ratio_after": 1.0021026168295202
+    }
+   }
+  },
+  "Karana x parts of the day pillar": {
+   "n": 4,
+   "mean_z_before": 0.4060781549307407,
+   "mean_z_after": 0.9068611618063392,
+   "null_mean_z_after": [
+    -0.26677001959783914,
+    0.21095390265569136,
+    0.13738605070867727,
+    0.3011168657134068,
+    -0.5404946575659988,
+    -0.5019302229162039,
+    0.42863572880903716,
+    0.6523904363507488,
+    0.6424402955915,
+    -1.084963370360896,
+    0.1388560462682755,
+    -0.6200575857999007,
+    -0.14673637934782324,
+    0.4534675789796654,
+    -0.8050276765108074,
+    0.21614476705516947,
+    0.08543638501623405,
+    -0.6263450952340001,
+    -0.2008546524647543,
+    -0.16767103219523147
+   ],
+   "mean_good_years": 9.5,
+   "null_good_years": [
+    8.0,
+    8.25,
+    7.0,
+    8.0,
+    6.0,
+    5.5,
+    8.0,
+    7.75,
+    9.0,
+    4.75,
+    7.0,
+    6.25,
+    7.0,
+    8.0,
+    5.75,
+    7.0,
+    7.5,
+    6.75,
+    7.5,
+    8.0
+   ],
+   "members": {
+    "karana x day_stem": {
+     "z_before": 1.139307611340161,
+     "z_after": 0.6892815875260895,
+     "good_years": 10,
+     "ratio_after": 1.0101593317230493
+    },
+    "karana x day_branch": {
+     "z_before": 0.12097660853939667,
+     "z_after": 2.4156079886357995,
+     "good_years": 12,
+     "ratio_after": 1.0356498469095927
+    },
+    "karana x nayin": {
+     "z_before": -0.23343459192006755,
+     "z_after": 0.8001463203765747,
+     "good_years": 11,
+     "ratio_after": 1.011817026728035
+    },
+    "karana x day_element": {
+     "z_before": 0.5974629917634726,
+     "z_after": -0.27759124931310686,
+     "good_years": 5,
+     "ratio_after": 0.9959057251673876
+    }
+   }
+  },
+  "Panchanga x Chinese day": {
+   "n": 34,
+   "mean_z_before": 0.060215012001863265,
+   "mean_z_after": 0.29664759117772876,
+   "null_mean_z_after": [
+    -0.2221666775594991,
+    0.05965905387215173,
+    -0.009676952989305213,
+    -0.09168074568982325,
+    -0.09749449667462366,
+    -0.26708623072957316,
+    0.030607862278960167,
+    -0.03587427535622171,
+    0.09589000686983522,
+    0.008578463049874745,
+    -0.2466648725875065,
+    -0.2561340885681811,
+    -0.32592857541410875,
+    0.023598827361321194,
+    -0.4892717010726593,
+    0.18485078221359805,
+    -0.09228286059499416,
+    -0.4664827899201128,
+    0.03477740298936355,
+    -0.2136083865864306
+   ],
+   "mean_good_years": 7.676470588235294,
+   "null_good_years": [
+    7.176470588235294,
+    7.5,
+    7.647058823529412,
+    7.264705882352941,
+    6.911764705882353,
+    6.970588235294118,
+    7.088235294117647,
+    7.323529411764706,
+    7.529411764705882,
+    7.470588235294118,
+    6.588235294117647,
+    7.0,
+    6.911764705882353,
+    7.411764705882353,
+    6.382352941176471,
+    7.764705882352941,
+    7.176470588235294,
+    6.5,
+    7.529411764705882,
+    7.117647058823529
+   ],
+   "members": {
+    "tithi x day_pillar": {
+     "z_before": 0.5356115209461948,
+     "z_after": 0.20980525818461576,
+     "good_years": 6,
+     "ratio_after": 1.0031131458779299
+    },
+    "tithi x day_stem": {
+     "z_before": 0.2885606555883185,
+     "z_after": 0.8788455237160069,
+     "good_years": 9,
+     "ratio_after": 1.0129531236507126
+    },
+    "tithi x day_branch": {
+     "z_before": -0.20828974453554358,
+     "z_after": 1.1733777723577354,
+     "good_years": 10,
+     "ratio_after": 1.0172960057892313
+    },
+    "tithi x nayin": {
+     "z_before": 0.5877391098017256,
+     "z_after": 1.1652250446525902,
+     "good_years": 10,
+     "ratio_after": 1.0172063406107963
+    },
+    "tithi x day_element": {
+     "z_before": 1.0126849935775915,
+     "z_after": 1.5512431347938005,
+     "good_years": 9,
+     "ratio_after": 1.02287726729953
+    },
+    "tithi x day_officer": {
+     "z_before": -1.662935304893624,
+     "z_after": -0.727543274318916,
+     "good_years": 4,
+     "ratio_after": 0.9892510229973529
+    },
+    "tithi x day_god": {
+     "z_before": -1.1146176128924234,
+     "z_after": 1.1350875242669485,
+     "good_years": 9,
+     "ratio_after": 1.0167449535084516
+    },
+    "karana x day_stem": {
+     "z_before": 1.139307611340161,
+     "z_after": 0.6892815875260895,
+     "good_years": 10,
+     "ratio_after": 1.0101593317230493
+    },
+    "karana x day_branch": {
+     "z_before": 0.12097660853939667,
+     "z_after": 2.4156079886357995,
+     "good_years": 12,
+     "ratio_after": 1.0356498469095927
+    },
+    "karana x nayin": {
+     "z_before": -0.23343459192006755,
+     "z_after": 0.8001463203765747,
+     "good_years": 11,
+     "ratio_after": 1.011817026728035
+    },
+    "karana x day_element": {
+     "z_before": 0.5974629917634726,
+     "z_after": -0.27759124931310686,
+     "good_years": 5,
+     "ratio_after": 0.9959057251673876
+    },
+    "karana x day_officer": {
+     "z_before": -0.8443260193598885,
+     "z_after": 0.9618772389559479,
+     "good_years": 6,
+     "ratio_after": 1.0141947322287317
+    },
+    "karana x day_god": {
+     "z_before": 0.3066832343152984,
+     "z_after": 0.17044854417950983,
+     "good_years": 8,
+     "ratio_after": 1.0025165604624453
+    },
+    "yoga x day_pillar": {
+     "z_before": 3.02309648539354,
+     "z_after": 1.0858742453153751,
+     "good_years": 10,
+     "ratio_after": 1.0162227759272915
+    },
+    "yoga x day_stem": {
+     "z_before": 0.401762584189588,
+     "z_after": -1.1537543502012468,
+     "good_years": 4,
+     "ratio_after": 0.982976220708182
+    },
+    "yoga x day_branch": {
+     "z_before": 0.30111230076455886,
+     "z_after": 0.1551344288139288,
+     "good_years": 8,
+     "ratio_after": 1.002290448352896
+    },
+    "yoga x nayin": {
+     "z_before": -1.2079003934159114,
+     "z_after": 1.2738771684127086,
+     "good_years": 9,
+     "ratio_after": 1.0188155490495139
+    },
+    "yoga x day_element": {
+     "z_before": 0.46441162294060373,
+     "z_after": -1.5219876324964374,
+     "good_years": 4,
+     "ratio_after": 0.9775452598876843
+    },
+    "yoga x day_officer": {
+     "z_before": -0.781386407240801,
+     "z_after": 1.3519810302366815,
+     "good_years": 11,
+     "ratio_after": 1.019924645215579
+    },
+    "yoga x day_god": {
+     "z_before": -2.184757672618546,
+     "z_after": 0.27275979862942623,
+     "good_years": 7,
+     "ratio_after": 1.004026649937574
+    },
+    "nakshatra x day_pillar": {
+     "z_before": -0.5499132698243672,
+     "z_after": -0.6678734615960046,
+     "good_years": 7,
+     "ratio_after": 0.9900236367427189
+    },
+    "nakshatra x day_stem": {
+     "z_before": 0.7944031340367836,
+     "z_after": -1.6437482099660545,
+     "good_years": 4,
+     "ratio_after": 0.9757548746395832
+    },
+    "nakshatra x day_branch": {
+     "z_before": -0.7094311878593929,
+     "z_after": -0.7595686889250656,
+     "good_years": 4,
+     "ratio_after": 0.9887854573712802
+    },
+    "nakshatra x nayin": {
+     "z_before": -0.0803851892588035,
+     "z_after": 1.7624279797071514,
+     "good_years": 12,
+     "ratio_after": 1.0260038198018138
+    },
+    "nakshatra x day_element": {
+     "z_before": -0.5185310879132474,
+     "z_after": 0.1853972303402965,
+     "good_years": 10,
+     "ratio_after": 1.0027337034372978
+    },
+    "nakshatra x day_officer": {
+     "z_before": 0.8683099212777107,
+     "z_after": 0.03915386642984353,
+     "good_years": 8,
+     "ratio_after": 1.000576832091076
+    },
+    "nakshatra x day_god": {
+     "z_before": 1.747663890520107,
+     "z_after": 0.22215381531572856,
+     "good_years": 6,
+     "ratio_after": 1.0032808480848248
+    },
+    "weekday x day_pillar": {
+     "z_before": 1.1347782266188344,
+     "z_after": -0.4827411749168448,
+     "good_years": 6,
+     "ratio_after": 0.9928759486325197
+    },
+    "weekday x day_stem": {
+     "z_before": 1.3511547476201133,
+     "z_after": -0.5230002913405162,
+     "good_years": 7,
+     "ratio_after": 0.9922858108175867
+    },
+    "weekday x day_branch": {
+     "z_before": -1.2370126242510324,
+     "z_after": 0.9526819233580529,
+     "good_years": 8,
+     "ratio_after": 1.014047459692834
+    },
+    "weekday x nayin": {
+     "z_before": 0.12028087613466876,
+     "z_after": -0.15373108930031695,
+     "good_years": 8,
+     "ratio_after": 0.9977302510786943
+    },
+    "weekday x day_element": {
+     "z_before": -1.0310049342577037,
+     "z_after": 0.19687617059091203,
+     "good_years": 6,
+     "ratio_after": 1.0029028919289438
+    },
+    "weekday x day_officer": {
+     "z_before": -0.275915478699517,
+     "z_after": -0.9720763328406924,
+     "good_years": 6,
+     "ratio_after": 0.9856579813841441
+    },
+    "weekday x day_god": {
+     "z_before": -0.10884858836444662,
+     "z_after": 0.3203702604622576,
+     "good_years": 7,
+     "ratio_after": 1.0047250000511874
+    }
+   }
+  }
+ },
+ "values_karana": [
+  {
+   "value": "Balava",
+   "ratio_before": 1.065205757647835,
+   "ratio_after": 1.0470843497815738
+  },
+  {
+   "value": "Bava",
+   "ratio_before": 1.0647712550624953,
+   "ratio_after": 1.0628936941586007
+  },
+  {
+   "value": "Chatushpada",
+   "ratio_before": 0.9692992001333964,
+   "ratio_after": 0.9742825650198162
+  },
+  {
+   "value": "Garaja",
+   "ratio_before": 1.0144282681160903,
+   "ratio_after": 0.9695568020772002
+  },
+  {
+   "value": "Kaulava",
+   "ratio_before": 0.9604192068202219,
+   "ratio_after": 1.022144219918776
+  },
+  {
+   "value": "Kimstughna",
+   "ratio_before": 1.067802456382714,
+   "ratio_after": 0.9269908423665094
+  },
+  {
+   "value": "Naga",
+   "ratio_before": 1.060292764375762,
+   "ratio_after": 1.0141550277005258
+  },
+  {
+   "value": "Shakuni",
+   "ratio_before": 0.8171764143123198,
+   "ratio_after": 1.0115700278003876
+  },
+  {
+   "value": "Taitila",
+   "ratio_before": 1.0480605056611216,
+   "ratio_after": 0.9824556018294562
+  },
+  {
+   "value": "Vanija",
+   "ratio_before": 1.0425275962599263,
+   "ratio_after": 1.1439071874239173
+  },
+  {
+   "value": "Vishti",
+   "ratio_before": 1.042595829157009,
+   "ratio_after": 1.0820495621545945
+  }
+ ],
+ "values_day_pillar": [
+  {
+   "value": "Bing Chen",
+   "ratio_before": 1.0338459701310905,
+   "ratio_after": 1.2895343099378898
+  },
+  {
+   "value": "Bing Shen",
+   "ratio_before": 1.1050196173278377,
+   "ratio_after": 1.0299061590709446
+  },
+  {
+   "value": "Bing Wu",
+   "ratio_before": 1.1414337560656405,
+   "ratio_after": 0.7252741135322792
+  },
+  {
+   "value": "Bing Xu",
+   "ratio_before": 1.1210591112947526,
+   "ratio_after": 0.9390779068559626
+  },
+  {
+   "value": "Bing Yin",
+   "ratio_before": 1.1022121744616777,
+   "ratio_after": 1.0980557310510661
+  },
+  {
+   "value": "Bing Zi",
+   "ratio_before": 0.9869600680291529,
+   "ratio_after": 0.9618205238530337
+  },
+  {
+   "value": "Ding Chou",
+   "ratio_before": 0.9361721755420805,
+   "ratio_after": 1.1051867293414532
+  },
+  {
+   "value": "Ding Hai",
+   "ratio_before": 0.9990466211309431,
+   "ratio_after": 1.068023251749857
+  },
+  {
+   "value": "Ding Mao",
+   "ratio_before": 0.9831374525785649,
+   "ratio_after": 0.9608893603570181
+  },
+  {
+   "value": "Ding Si",
+   "ratio_before": 1.0266827320730654,
+   "ratio_after": 1.0629734523991743
+  },
+  {
+   "value": "Ding Wei",
+   "ratio_before": 1.0921402041578845,
+   "ratio_after": 1.0805250762383145
+  },
+  {
+   "value": "Ding You",
+   "ratio_before": 1.1053019668564878,
+   "ratio_after": 1.114563893723828
+  },
+  {
+   "value": "Geng Chen",
+   "ratio_before": 1.0433629977470424,
+   "ratio_after": 1.0431419595045899
+  },
+  {
+   "value": "Geng Shen",
+   "ratio_before": 1.004784139169289,
+   "ratio_after": 1.145634601826929
+  },
+  {
+   "value": "Geng Wu",
+   "ratio_before": 0.9928652182148381,
+   "ratio_after": 1.0232321049562516
+  },
+  {
+   "value": "Geng Xu",
+   "ratio_before": 1.0060575230799034,
+   "ratio_after": 0.9563075637453812
+  },
+  {
+   "value": "Geng Yin",
+   "ratio_before": 1.0218371684762795,
+   "ratio_after": 1.2079277344059087
+  },
+  {
+   "value": "Geng Zi",
+   "ratio_before": 0.9673809032387877,
+   "ratio_after": 1.0208142626084213
+  },
+  {
+   "value": "Gui Chou",
+   "ratio_before": 0.916295029637122,
+   "ratio_after": 1.0299278150616857
+  },
+  {
+   "value": "Gui Hai",
+   "ratio_before": 0.9289112455224114,
+   "ratio_after": 1.0105736055402799
+  },
+  {
+   "value": "Gui Mao",
+   "ratio_before": 1.0480316325552317,
+   "ratio_after": 1.0832846867725354
+  },
+  {
+   "value": "Gui Si",
+   "ratio_before": 1.0583327399457378,
+   "ratio_after": 0.957678297422392
+  },
+  {
+   "value": "Gui Wei",
+   "ratio_before": 0.9450682495686126,
+   "ratio_after": 1.0277320482209524
+  },
+  {
+   "value": "Gui You",
+   "ratio_before": 1.0243684112514864,
+   "ratio_after": 1.1355534323585776
+  },
+  {
+   "value": "Ji Chou",
+   "ratio_before": 1.1818066591747267,
+   "ratio_after": 1.0119101604245089
+  },
+  {
+   "value": "Ji Hai",
+   "ratio_before": 1.0889591900579416,
+   "ratio_after": 0.8745707617347074
+  },
+  {
+   "value": "Ji Mao",
+   "ratio_before": 1.0569463632388434,
+   "ratio_after": 1.0617540720111345
+  },
+  {
+   "value": "Ji Si",
+   "ratio_before": 0.8784514009857418,
+   "ratio_after": 1.026265634756587
+  },
+  {
+   "value": "Ji Wei",
+   "ratio_before": 1.0992924852518167,
+   "ratio_after": 0.8792580852237317
+  },
+  {
+   "value": "Ji You",
+   "ratio_before": 1.0582372855343474,
+   "ratio_after": 1.0293484966543869
+  },
+  {
+   "value": "Jia Chen",
+   "ratio_before": 0.9413469730167339,
+   "ratio_after": 1.049860600995609
+  },
+  {
+   "value": "Jia Shen",
+   "ratio_before": 1.0457109046356865,
+   "ratio_after": 1.0618486655218327
+  },
+  {
+   "value": "Jia Wu",
+   "ratio_before": 0.931486834036148,
+   "ratio_after": 1.0679483127245495
+  },
+  {
+   "value": "Jia Xu",
+   "ratio_before": 1.16735866618043,
+   "ratio_after": 1.1858566911217634
+  },
+  {
+   "value": "Jia Yin",
+   "ratio_before": 0.9582580401699482,
+   "ratio_after": 0.9092977297699778
+  },
+  {
+   "value": "Jia Zi",
+   "ratio_before": 0.911472295341438,
+   "ratio_after": 1.3564780178755402
+  },
+  {
+   "value": "Ren Chen",
+   "ratio_before": 1.0808218581886706,
+   "ratio_after": 0.9697156778523802
+  },
+  {
+   "value": "Ren Shen",
+   "ratio_before": 1.0580071397051636,
+   "ratio_after": 0.9754731679330304
+  },
+  {
+   "value": "Ren Wu",
+   "ratio_before": 1.0097286766453915,
+   "ratio_after": 0.9799361058005249
+  },
+  {
+   "value": "Ren Xu",
+   "ratio_before": 1.064835881085934,
+   "ratio_after": 1.0613974333563259
+  },
+  {
+   "value": "Ren Yin",
+   "ratio_before": 1.1955751528947143,
+   "ratio_after": 1.1065743497369365
+  },
+  {
+   "value": "Ren Zi",
+   "ratio_before": 0.9664594523826933,
+   "ratio_after": 1.0860178921599088
+  },
+  {
+   "value": "Wu Chen",
+   "ratio_before": 1.0478109968060463,
+   "ratio_after": 1.1819553154061417
+  },
+  {
+   "value": "Wu Shen",
+   "ratio_before": 1.0281417924519425,
+   "ratio_after": 0.8913176522764285
+  },
+  {
+   "value": "Wu Wu",
+   "ratio_before": 1.0446649034664155,
+   "ratio_after": 0.9330976452723035
+  },
+  {
+   "value": "Wu Xu",
+   "ratio_before": 1.1208758089920285,
+   "ratio_after": 1.0676451132400224
+  },
+  {
+   "value": "Wu Yin",
+   "ratio_before": 1.1194958354007132,
+   "ratio_after": 1.0095701004083197
+  },
+  {
+   "value": "Wu Zi",
+   "ratio_before": 1.2129230432091112,
+   "ratio_after": 1.1633704545435473
+  },
+  {
+   "value": "Xin Chou",
+   "ratio_before": 1.0804951263849656,
+   "ratio_after": 1.0037727153897829
+  },
+  {
+   "value": "Xin Hai",
+   "ratio_before": 1.034177172857886,
+   "ratio_after": 1.0876300751253114
+  },
+  {
+   "value": "Xin Mao",
+   "ratio_before": 0.9556713113630887,
+   "ratio_after": 0.9766789593375642
+  },
+  {
+   "value": "Xin Si",
+   "ratio_before": 1.030907662736983,
+   "ratio_after": 1.0280027428480796
+  },
+  {
+   "value": "Xin Wei",
+   "ratio_before": 1.0073530959627714,
+   "ratio_after": 0.9732650058344696
+  },
+  {
+   "value": "Xin You",
+   "ratio_before": 0.9303356306758752,
+   "ratio_after": 1.0377351818818137
+  },
+  {
+   "value": "Yi Chou",
+   "ratio_before": 1.2693241568649651,
+   "ratio_after": 1.0091644754544615
+  },
+  {
+   "value": "Yi Hai",
+   "ratio_before": 1.067932153403248,
+   "ratio_after": 0.939662771183201
+  },
+  {
+   "value": "Yi Mao",
+   "ratio_before": 0.9737449422454875,
+   "ratio_after": 1.172961236300325
+  },
+  {
+   "value": "Yi Si",
+   "ratio_before": 0.9292079784415223,
+   "ratio_after": 1.1290092195507409
+  },
+  {
+   "value": "Yi Wei",
+   "ratio_before": 0.9394369773937383,
+   "ratio_after": 1.051156108919674
+  },
+  {
+   "value": "Yi You",
+   "ratio_before": 0.8975054102925124,
+   "ratio_after": 1.018333170605193
+  }
+ ]
+}

@@ -97,6 +97,16 @@ operators. i-Box matches x1.42 before 2012 and x1.26 in 2012-2026; Small i-Box r
 Last 5 draws: two-pair picks only on 11 Oct (6116) and 18 Oct (9696), no matches.
 24 Oct: no two-pair picks (Garaja x Xin Wei, from 23 Jan 2021).
 
+## Karana x Day pillar family (`karana_family.py`)
+
+Scored with the lead's method (S1 from the previous same-value day, i-Box). The Day
+pillar side carries it: Day pillar x any other parameter averages z +0.43 after 2012
+(shifted calendars -0.17, 1 of 20 as high; 53 of 76 above chance; 8.3 good years vs 7.2),
+Panchanga x Chinese day +0.30 (0 of 20 as high). Karana x any other does not (-0.31 vs
+-0.21). Halves alone: Day pillar +0.71, Karana -0.87. No relative chosen before 2012 beat
+the lead after 2012 (best: Yoga x Day pillar, z +1.09). Only the lead's own method works
+well; across its 42 versions the mean z after 2012 is -0.18.
+
 ## i-Box by number pattern (`pattern_ibox.py`)
 
 No pattern beats chance in general (average over all tests equals the shifted calendars,
