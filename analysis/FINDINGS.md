@@ -38,6 +38,7 @@ selection is accounted for. Even the best lead would return about 72% of stakes.
 | D9 navamsa family: navamsa sign and vargottama of 9 bodies, alone, in pairs and with all other parameters; tests A-D above | `navamsa_family.py` |
 | Other divisional charts D2-D60 (14 charts x 9 bodies), alone and in pairs within each chart; tests A-D | `divisional_charts.py` |
 | Mei Hua Yi Shu (time casting), Da Liu Ren (7 pm plate, transmissions, generals), Tai Yi day cycles (72/24/18/360); tests A-D plus direct number test | `chinese_divination.py` |
+| Every analysis (A-D) on singles and pairs, separately for Magnum, Sports Toto, Da Ma Cai | `per_operator.py` |
 | Whole-number hot / cold (16 numbers that won most / least on earlier same-value days) | `whole_number_test.py` |
 | Exact positions: longitudes, angles between planets, aspects, position within sign | `continuous_astro.py` |
 | Same, with 1-81 picks | `recurrence_s12_k.py` |
@@ -76,6 +77,13 @@ top 5 of its column on 1985-2011, then above chance in 14 of 15 years 2012-2026
 (their average is 7.7), and the same picks without a parameter got 6 of 15 (x0.995).
 Allowing for the ~60 picks checked forward, the chance of this by luck is about 3%.
 The gain is small: as i-Box it would return about 67% of stakes instead of about 64%.
+
+## Per operator (`per_operator.py`)
+
+Picks built from and scored on one operator only. Magnum: weekday changes the digit mix
+slightly (best of all tests, beats all shifted calendars) and analysis C is a little above
+chance (forward +0.10 vs -0.04; 10 of 42 columns beat every shift vs ~6). Sports Toto and
+Da Ma Cai: at chance (forward -0.00 vs -0.06 and +0.05 vs +0.06). Effects too small to bet on.
 
 ## Live checks (picks logged before each draw in `forward_log.csv`)
 
