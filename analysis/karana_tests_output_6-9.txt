@@ -1,0 +1,29 @@
+computed 84 parameters for 7271 draw dates in 4s
+computed 84 parameters for 7271 draw dates in 6s
+Lead Karana x Day pillar, S1 (b) i-Box: before x1.033 (z +2.52) | 2012-2026 x1.040 (z +2.72) | 14/15 good years
+
+6. Karana taken at other times of the draw day (Day pillar unchanged)
+   sunrise 07:00  (same Karana as 19:00 on 3% of days): before x1.023 (z +1.81) | 2012-2026 x1.034 (z +2.27) | 10/15 good years
+   19:00 (lead)   (same Karana as 19:00 on 100% of days): before x1.033 (z +2.52) | 2012-2026 x1.040 (z +2.72) | 14/15 good years
+   19:30          (same Karana as 19:00 on 96% of days): before x1.025 (z +1.92) | 2012-2026 x1.036 (z +2.44) | 11/15 good years
+
+7. Which numbers of the source day are used to build the 16 picks
+   all 69 (lead)        before x1.033 (z +2.52) | 2012-2026 x1.040 (z +2.72) | 14/15 good years
+   top-3 prizes only    before x1.005 (z +0.39) | 2012-2026 x1.016 (z +1.06) | 9/15 good years
+   Specials only        before x1.000 (z +0.04) | 2012-2026 x0.995 (z -0.30) | 7/15 good years
+   Consolations only    before x1.013 (z +0.98) | 2012-2026 x0.999 (z -0.08) | 6/15 good years
+   Magnum only          before x1.004 (z +0.31) | 2012-2026 x1.021 (z +1.41) | 12/15 good years
+   Sports Toto only     before x1.004 (z +0.24) | 2012-2026 x1.004 (z +0.23) | 7/15 good years
+   Da Ma Cai only       before x1.003 (z +0.22) | 2012-2026 x0.992 (z -0.52) | 7/15 good years
+
+9. Bankroll 2012-2026 (RM1 per pick per operator, every draw day with an earlier same-value day)
+   all 16, Big i-Box            2454 days bet, stake RM117,168, returned RM79,932 (68.2%), net RM-37,236
+                                winning days 2064, longest losing run 35 draw days, worst drawdown RM37,524
+                                random picks (same patterns, 200 runs): return 63.7% median (60.4-67.1%), lead beats 196/200; drawdown median RM42,693
+   two-pair picks, Big i-Box    883 days bet, stake RM3,157, returned RM3,070 (97.2%), net RM-87
+                                winning days 52, longest losing run 71 draw days, worst drawdown RM928
+                                random picks (same patterns, 200 runs): return 64.7% median (36.5-108.1%), lead beats 174/200; drawdown median RM1,315
+   two-pair picks, Small i-Box  883 days bet, stake RM3,157, returned RM3,250 (102.9%), net RM+93
+                                winning days 8, longest losing run 350 draw days, worst drawdown RM1,265
+                                random picks (same patterns, 200 runs): return 68.6% median (28.9-126.8%), lead beats 169/200; drawdown median RM1,536
+exit 0

@@ -107,6 +107,25 @@ Panchanga x Chinese day +0.30 (0 of 20 as high). Karana x any other does not (-0
 the lead after 2012 (best: Yoga x Day pillar, z +1.09). Only the lead's own method works
 well; across its 42 versions the mean z after 2012 is -0.18.
 
+## Karana x Day pillar: nine further checks (`karana_tests.py`, `karana_singapore.py`)
+
+| # | Check | Result | Reading |
+|---|---|---|---|
+| 1 | Other game: Singapore 4D, 5,508 draws 1986-2026 (`data/singapore4d.csv`) | z before 2012 -0.57, 2012-2026 -1.60 (x0.956), 6/15 good years; 194 of 200 shifted calendars as high; rank 2,958 of 3,081 tests | **Fails.** The Malaysian top 20 average -0.33 on Singapore, the same as all tests (-0.31). Sabah 88, Sandakan, CashSweep and Grand Dragon: no bulk history found |
+| 2 | Karana shuffled within each Day pillar, 200 times | shuffles: z before +0.18, after +0.09; 0/200 as good before, 1/200 after, 0/200 as many good years | The exact Karana split matters in Malaysia, but a lead picked as one of the best of 3,081 tests will beat random splits anyway |
+| 3 | Edge over time | excess grows steadily from 1987 (+376 hits by 2026); 2012-2026 x1.040, 95% range x1.025-x1.059 resampling years; 2012-18 x1.046, 2019-26 x1.035 | Steady, slightly fading; no single lucky year |
+| 4 | Source age | median 660 days back; 2012-2026 x1.07 (0-120 days), x1.07 (120-240), x1.05 (240-420), x1.08 (420-720), x1.03 (720-1200), x1.01 (1200+) | Older sources are a little weaker; the counts are small |
+| 5 | Source moved 1-3 draw days (same age, other cell) | pooled x1.010 before and after (z +1.85 / +1.61), 10/15 years; true source x1.033 / x1.040 | Recent draws help a little in general; the same-cell source does 3-4 times better |
+| 6 | Karana at sunrise 07:00 / 19:30 | sunrise z +1.81 / +2.27, 10/15; 19:30 +1.92 / +2.44, 11/15; 19:00 +2.52 / +2.72, 14/15 | 19:00 (draw time) is best; sunrise Karana is the previous Karana on most days, so it splits the days almost the same way |
+| 7 | Source subsets | top-3 only +0.39 / +1.06; Specials -0.30 after; Consolations -0.08 after; Magnum only +1.41 after (12/15); Toto +0.23; DMC -0.52 | Needs all 69 numbers; no tier or operator carries it |
+| 8 | Pick construction | grid 16 (lead) best; 81 grid -0.59 after; ranked top 4/8/16/32 +0.44 / +0.93 / +0.68 / +0.18 | Only the 16-number grid works, a sign the lead is fitted to its exact form |
+| 9 | Bankroll 2012-2026, RM1 per pick per operator | all 16 Big i-Box: stake RM117,168, return 68.2% (random 63.7%, lead beats 196/200), worst drawdown RM37,524, longest losing run 35 draws. Two-pair only: Big 97.2% (beats 174/200), Small 102.9% (+RM93 on RM3,157; 8 winning days in 883; losing run 350 draws; beats 169/200) | Loses money on all 16. Two-pair Small i-Box is break-even and comes from 8 wins |
+
+Overall: in Malaysia the lead is steady, but it is tied to one exact form (Karana at 19:00,
+grid 16, all 69 numbers, same-cell source). It does not carry over to Singapore 4D, where
+it ranks near the bottom. That points to a Malaysian-data fit and not a real astrological
+effect. Bet on it only as entertainment.
+
 ## i-Box by number pattern (`pattern_ibox.py`)
 
 No pattern beats chance in general (average over all tests equals the shifted calendars,
