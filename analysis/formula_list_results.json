@@ -1,0 +1,1047 @@
+{
+ "formulas": [
+  {
+   "formula": "rahu_rashi x vargottama_d10_count",
+   "method": "5+6 (a) ibox",
+   "z_before": 2.152814803992643,
+   "ratio_after": 1.0381281209743685,
+   "z_after": 2.548503869794585,
+   "mean_z_all_methods": 0.019321546333595792,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 45.0
+   }
+  },
+  {
+   "formula": "kp_sun_star_lord x day_stem",
+   "method": "S2 (b) ibox",
+   "z_before": 2.2107736363156762,
+   "ratio_after": 1.0284265935364778,
+   "z_after": 1.9196612214065105,
+   "mean_z_all_methods": -0.014306924314140839,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 45.0
+   }
+  },
+  {
+   "formula": "day_element x lagna_navamsa_lord",
+   "method": "4+7 (b) reverse",
+   "z_before": 2.7034697454736847,
+   "ratio_after": 1.0954260930395348,
+   "z_after": 1.5659814395641825,
+   "mean_z_all_methods": 0.050838272022969706,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 113.33333333333333
+   }
+  },
+  {
+   "formula": "kp_sun_number x lagna_d7",
+   "method": "S2 (a) ibox",
+   "z_before": 2.037546150391696,
+   "ratio_after": 1.0224090374870296,
+   "z_after": 1.5102782526368044,
+   "mean_z_all_methods": 0.19349882627432174,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 134.16666666666669
+   }
+  },
+  {
+   "formula": "saturn_retrograde x nayin",
+   "method": "4+7 (b) reverse",
+   "z_before": 2.140365431677949,
+   "ratio_after": 1.0918483581103087,
+   "z_after": 1.5071757566357429,
+   "mean_z_all_methods": -0.006464300570110213,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 500,
+    "ibox": 8,
+    "ibox_rm": 151.66666666666666
+   }
+  },
+  {
+   "formula": "sun_sign_tropical x aspect_moon_saturn",
+   "method": "1+10 (a) straight",
+   "z_before": 2.0957081647350044,
+   "ratio_after": 1.083458714958339,
+   "z_after": 1.37713500557608,
+   "mean_z_all_methods": -0.023339794629845378,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 180,
+    "ibox": 8,
+    "ibox_rm": 114.99999999999999
+   }
+  },
+  {
+   "formula": "kp_sun_sub_lord x year_yinyang",
+   "method": "1+10 (b) straight",
+   "z_before": 1.970847794701859,
+   "ratio_after": 1.0827913138159504,
+   "z_after": 1.3665433115011663,
+   "mean_z_all_methods": -0.20101192146507726,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 37.5
+   }
+  },
+  {
+   "formula": "day_pillar x aspect_jupiter_saturn",
+   "method": "5+6 (b) straight",
+   "z_before": 1.9239737383934683,
+   "ratio_after": 1.0826891008380188,
+   "z_after": 1.3602859023821172,
+   "mean_z_all_methods": 0.14569351771274291,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 2,
+    "ibox_rm": 17.5
+   }
+  },
+  {
+   "formula": "saturn_combust x plum_trigrams",
+   "method": "5+6 (a) ibox",
+   "z_before": 1.8145734381583558,
+   "ratio_after": 1.0175883969063906,
+   "z_after": 1.2128804487771714,
+   "mean_z_all_methods": 0.017256221058389257,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 180,
+    "ibox": 8,
+    "ibox_rm": 181.66666666666669
+   }
+  },
+  {
+   "formula": "mercury_rashi x day_branch",
+   "method": "1+10 (a) straight",
+   "z_before": 2.430670894172787,
+   "ratio_after": 1.0697646041431264,
+   "z_after": 1.1506348317963702,
+   "mean_z_all_methods": 0.13462718360690176,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 11,
+    "ibox_rm": 191.66666666666669
+   }
+  },
+  {
+   "formula": "sun_rashi x nayin_element",
+   "method": "5+6 (b) straight",
+   "z_before": 2.640251506290476,
+   "ratio_after": 1.0621164052852479,
+   "z_after": 1.024634979143342,
+   "mean_z_all_methods": -0.09462173193022115,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 60,
+    "ibox": 3,
+    "ibox_rm": 44.166666666666664
+   }
+  },
+  {
+   "formula": "mercury_nakshatra x aspects_soft",
+   "method": "1+10 (a) straight",
+   "z_before": 2.364066069193427,
+   "ratio_after": 1.0569524373016028,
+   "z_after": 0.9368447101241129,
+   "mean_z_all_methods": 0.2326058167667314,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 8,
+    "ibox_rm": 80.83333333333333
+   }
+  },
+  {
+   "formula": "pof_sign x moon_d27_lord",
+   "method": "S1 (a) ibox",
+   "z_before": 2.3416418297306008,
+   "ratio_after": 1.0138776768771276,
+   "z_after": 0.9355784849643636,
+   "mean_z_all_methods": -0.11980754035133392,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 66.66666666666666
+   }
+  },
+  {
+   "formula": "hora_lord x mars_combust",
+   "method": "1+10 (b) ibox",
+   "z_before": 1.6897849952598525,
+   "ratio_after": 1.0131800727561087,
+   "z_after": 0.8921277653375457,
+   "mean_z_all_methods": -0.08824118410154395,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 10,
+    "ibox_rm": 110.0
+   }
+  },
+  {
+   "formula": "moon_rashi x aspects_hard",
+   "method": "2+9 (b) reverse",
+   "z_before": 1.9743435532797036,
+   "ratio_after": 1.0458482253285977,
+   "z_after": 0.7515214104465006,
+   "mean_z_all_methods": -0.27512179468718745,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 60,
+    "ibox": 7,
+    "ibox_rm": 81.66666666666666
+   }
+  },
+  {
+   "formula": "aspect_venus_jupiter x sun_navamsa",
+   "method": "4+7 (b) ibox",
+   "z_before": 3.6049763974742404,
+   "ratio_after": 1.0096364326728504,
+   "z_after": 0.6512960345033575,
+   "mean_z_all_methods": 0.049030926562192594,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 7,
+    "ibox_rm": 170.83333333333331
+   }
+  },
+  {
+   "formula": "saturn_rashi x kp_asc_star_lord",
+   "method": "S2 (b) reverse",
+   "z_before": 2.378695544608341,
+   "ratio_after": 1.0381973642919249,
+   "z_after": 0.6261747300944905,
+   "mean_z_all_methods": 0.06958827463851147,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 500,
+    "ibox": 4,
+    "ibox_rm": 181.66666666666666
+   }
+  },
+  {
+   "formula": "month_branch x aspects_soft",
+   "method": "1+10 (a) reverse",
+   "z_before": 2.121279794658914,
+   "ratio_after": 1.0353517220923127,
+   "z_after": 0.5792806440755931,
+   "mean_z_all_methods": -0.10142919790722946,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 2,
+    "ibox_rm": 5.0
+   }
+  },
+  {
+   "formula": "aspect_mars_saturn x mars_navamsa",
+   "method": "4+7 (b) ibox",
+   "z_before": 2.530935962901568,
+   "ratio_after": 1.0075833600630877,
+   "z_after": 0.5119993462698319,
+   "mean_z_all_methods": -0.2298064837601745,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 60,
+    "ibox": 10,
+    "ibox_rm": 240.0
+   }
+  },
+  {
+   "formula": "mercury_combust x aspects_soft",
+   "method": "S1 (b) ibox",
+   "z_before": 2.5957147800411215,
+   "ratio_after": 1.0070313487121654,
+   "z_after": 0.4770259564022251,
+   "mean_z_all_methods": 0.15995541681417247,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 100.83333333333333
+   }
+  },
+  {
+   "formula": "hora_lord x mars_retrograde",
+   "method": "4+7 (a) reverse",
+   "z_before": 1.5574487845332896,
+   "ratio_after": 1.02655483147829,
+   "z_after": 0.43541863803155656,
+   "mean_z_all_methods": 0.23721780385100089,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 1000,
+    "ibox": 7,
+    "ibox_rm": 71.66666666666666
+   }
+  },
+  {
+   "formula": "rahu_nakshatra x kp_asc_sub_lord",
+   "method": "4+7 (b) ibox",
+   "z_before": 3.047203375001284,
+   "ratio_after": 1.003626813901795,
+   "z_after": 0.24484273603615012,
+   "mean_z_all_methods": -0.3561610807552136,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 8,
+    "ibox_rm": 128.33333333333331
+   }
+  },
+  {
+   "formula": "mars_combust x aspect_moon_mercury",
+   "method": "4+7 (a) reverse",
+   "z_before": 2.1932099459618577,
+   "ratio_after": 1.0146688340529526,
+   "z_after": 0.24061060131704154,
+   "mean_z_all_methods": -0.06560218455344591,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 2,
+    "straight_rm": 120,
+    "ibox": 6,
+    "ibox_rm": 60.0
+   }
+  },
+  {
+   "formula": "kp_asc_star_lord x year_pillar",
+   "method": "S2 (b) reverse",
+   "z_before": 2.5877552854503896,
+   "ratio_after": 1.0146707677511257,
+   "z_after": 0.23393764873543205,
+   "mean_z_all_methods": 0.0200980582766868,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 500,
+    "ibox": 4,
+    "ibox_rm": 181.66666666666666
+   }
+  },
+  {
+   "formula": "masa x day_god",
+   "method": "4+7 (b) ibox",
+   "z_before": 2.408544762790989,
+   "ratio_after": 1.0032861230829695,
+   "z_after": 0.2219049410616956,
+   "mean_z_all_methods": -0.14095429940015988,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 9,
+    "ibox_rm": 255.83333333333334
+   }
+  },
+  {
+   "formula": "pof_rashi x aspect_venus_jupiter",
+   "method": "1+10 (b) ibox",
+   "z_before": 2.0922227237026183,
+   "ratio_after": 1.0027004662279373,
+   "z_after": 0.18266899800174208,
+   "mean_z_all_methods": 0.3544780768124009,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 250.83333333333334
+   }
+  },
+  {
+   "formula": "aspect_sun_mars x aspect_moon_venus",
+   "method": "S2 (a) ibox",
+   "z_before": 2.3220506924224016,
+   "ratio_after": 1.0025088627286989,
+   "z_after": 0.1532387463957728,
+   "mean_z_all_methods": -0.42233643272758997,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 7,
+    "ibox_rm": 96.66666666666666
+   }
+  },
+  {
+   "formula": "samvatsara x vargottama_d24_count",
+   "method": "5+6 (b) straight",
+   "z_before": 2.3602387193704395,
+   "ratio_after": 1.0082357123413428,
+   "z_after": 0.13402189723594957,
+   "mean_z_all_methods": 0.1488730959192758,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 60,
+    "ibox": 15,
+    "ibox_rm": 288.33333333333337
+   }
+  },
+  {
+   "formula": "day_of_month x aspect_venus_jupiter",
+   "method": "5+6 (b) straight",
+   "z_before": 2.931283678708163,
+   "ratio_after": 1.004030663536137,
+   "z_after": 0.0664636796697324,
+   "mean_z_all_methods": 0.2970723395413304,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 7,
+    "ibox_rm": 129.16666666666669
+   }
+  },
+  {
+   "formula": "karana x masa",
+   "method": "S1 (a) ibox",
+   "z_before": 2.8253682384281626,
+   "ratio_after": 0.9989446732750509,
+   "z_after": -0.07011896763314156,
+   "mean_z_all_methods": 0.05447652750212223,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 35.0
+   }
+  },
+  {
+   "formula": "nakshatra x sun_sign_tropical",
+   "method": "S2 (b) ibox",
+   "z_before": 2.2090187360619233,
+   "ratio_after": 0.9980923226270574,
+   "z_after": -0.12887354103277243,
+   "mean_z_all_methods": 0.06469191091343647,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 22.5
+   }
+  },
+  {
+   "formula": "day_vs_year_branch x jupiter_d7",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.0881496925710388,
+   "ratio_after": 0.9877114591285417,
+   "z_after": -0.20166293815648634,
+   "mean_z_all_methods": -0.06238726164883517,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 180,
+    "ibox": 5,
+    "ibox_rm": 30.0
+   }
+  },
+  {
+   "formula": "lagna_rashi x day_officer",
+   "method": "5+6 (a) reverse",
+   "z_before": 2.421507530696521,
+   "ratio_after": 0.986964877297578,
+   "z_after": -0.213995722773629,
+   "mean_z_all_methods": -0.5211467131060499,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 7,
+    "ibox_rm": 70.83333333333333
+   }
+  },
+  {
+   "formula": "aspect_venus_jupiter x universal_day",
+   "method": "4+7 (a) ibox",
+   "z_before": 2.0554999128009235,
+   "ratio_after": 0.995762291748894,
+   "z_after": -0.28335494344578416,
+   "mean_z_all_methods": -0.11770790847698598,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 8,
+    "ibox_rm": 193.33333333333334
+   }
+  },
+  {
+   "formula": "lagna_navamsa_lord x vargottama_count",
+   "method": "5+6 (a) straight",
+   "z_before": 2.4852668792948096,
+   "ratio_after": 0.9820454879103905,
+   "z_after": -0.29604888935953294,
+   "mean_z_all_methods": -0.32273276801660405,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 11,
+    "ibox_rm": 105.0
+   }
+  },
+  {
+   "formula": "nayin_element x plum_trigrams",
+   "method": "S2 (b) ibox",
+   "z_before": 2.31190321486003,
+   "ratio_after": 0.9949408464968016,
+   "z_after": -0.34129697222142324,
+   "mean_z_all_methods": -0.22460791825954945,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 0,
+    "ibox_rm": 0.0
+   }
+  },
+  {
+   "formula": "ayana x kp_moon_star_lord",
+   "method": "S2 (a) straight",
+   "z_before": 2.560322915340761,
+   "ratio_after": 0.9769327078686638,
+   "z_after": -0.38063183526179223,
+   "mean_z_all_methods": 0.03501980774327268,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 66.66666666666666
+   }
+  },
+  {
+   "formula": "mercury_rashi x kp_asc_sub_lord",
+   "method": "5+6 (b) reverse",
+   "z_before": 1.9177523907107474,
+   "ratio_after": 0.9756041005210286,
+   "z_after": -0.39978884519059704,
+   "mean_z_all_methods": -0.3274236524231853,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 2,
+    "straight_rm": 240,
+    "ibox": 13,
+    "ibox_rm": 169.16666666666669
+   }
+  },
+  {
+   "formula": "month_stem x kp_ruling_planets",
+   "method": "S2 (b) reverse",
+   "z_before": 2.33939494108589,
+   "ratio_after": 0.9685266725507788,
+   "z_after": -0.4454384808499479,
+   "mean_z_all_methods": -0.17531668128142702,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 155.0
+   }
+  },
+  {
+   "formula": "mars_rashi x month",
+   "method": "S2 (b) reverse",
+   "z_before": 2.877207182102025,
+   "ratio_after": 0.9721791450661755,
+   "z_after": -0.45584539844557265,
+   "mean_z_all_methods": 0.02241271293188489,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 3,
+    "ibox_rm": 25.0
+   }
+  },
+  {
+   "formula": "karana x aspect_venus_mars",
+   "method": "S2 (b) ibox",
+   "z_before": 1.6553639605234245,
+   "ratio_after": 0.9927487255181994,
+   "z_after": -0.48923311569668504,
+   "mean_z_all_methods": 0.14164179921706516,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 240.83333333333334
+   }
+  },
+  {
+   "formula": "mars_retrograde x moon_phase",
+   "method": "S1 (a) reverse",
+   "z_before": 2.1557357288123695,
+   "ratio_after": 0.9635223669142882,
+   "z_after": -0.5934250027749575,
+   "mean_z_all_methods": 0.06608943601177442,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 7,
+    "ibox_rm": 188.33333333333334
+   }
+  },
+  {
+   "formula": "nakshatra x nayin",
+   "method": "S1 (a) ibox",
+   "z_before": 2.216650263559125,
+   "ratio_after": 0.9910347119236634,
+   "z_after": -0.609204108789809,
+   "mean_z_all_methods": -0.14544904465264527,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 8,
+    "ibox_rm": 63.33333333333333
+   }
+  },
+  {
+   "formula": "paksha x venus_rashi",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.065469960820327,
+   "ratio_after": 0.9573131450819136,
+   "z_after": -0.7007724178833596,
+   "mean_z_all_methods": 0.12833710716949906,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "sun_rashi x planets_with_moon",
+   "method": "S2 (a) ibox",
+   "z_before": 2.158400955330921,
+   "ratio_after": 0.9891028579979824,
+   "z_after": -0.7070453042785215,
+   "mean_z_all_methods": -0.0372996236148108,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 180,
+    "ibox": 4,
+    "ibox_rm": 78.33333333333333
+   }
+  },
+  {
+   "formula": "hora_lord x adhika_masa",
+   "method": "1+10 (a) ibox",
+   "z_before": 2.2802653294424977,
+   "ratio_after": 0.9884558594247796,
+   "z_after": -0.7575909736385661,
+   "mean_z_all_methods": 0.05856115856180529,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 9,
+    "ibox_rm": 96.66666666666666
+   }
+  },
+  {
+   "formula": "hour_stem_19h x sun_sign_tropical",
+   "method": "1+10 (b) straight",
+   "z_before": 1.6999801650416355,
+   "ratio_after": 0.9536966002172068,
+   "z_after": -0.7645298325861835,
+   "mean_z_all_methods": -0.1150564338034896,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 1,
+    "ibox_rm": 2.5
+   }
+  },
+  {
+   "formula": "year_stem x lagna_navamsa_lord",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.3121872596927497,
+   "ratio_after": 0.9532137374735922,
+   "z_after": -0.7682273572898425,
+   "mean_z_all_methods": -0.0802428135032027,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 1,
+    "straight_rm": 60,
+    "ibox": 8,
+    "ibox_rm": 72.5
+   }
+  },
+  {
+   "formula": "kp_moon_number x nayin_element",
+   "method": "1+10 (b) reverse",
+   "z_before": 1.7461637139316541,
+   "ratio_after": 0.9427325176673012,
+   "z_after": -0.9307081572599845,
+   "mean_z_all_methods": 0.23798570980375933,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 124.16666666666667
+   }
+  },
+  {
+   "formula": "lunar_month x sun_sign_tropical",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.7485037422618728,
+   "ratio_after": 0.939131569737423,
+   "z_after": -0.9990544129067892,
+   "mean_z_all_methods": -0.06567414513385726,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "lagna_rashi x lunar_day",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.8768475010508268,
+   "ratio_after": 0.9300630248119066,
+   "z_after": -1.1466230282542977,
+   "mean_z_all_methods": -0.19018505354770543,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 37.5
+   }
+  },
+  {
+   "formula": "day_element x aspect_moon_jupiter",
+   "method": "4+7 (b) straight",
+   "z_before": 1.7290336254692715,
+   "ratio_after": 0.9296306137448678,
+   "z_after": -1.1608839726152562,
+   "mean_z_all_methods": -0.0517738138477142,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 8,
+    "ibox_rm": 194.16666666666666
+   }
+  },
+  {
+   "formula": "month_branch x aspect_venus_jupiter",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.5436028415176812,
+   "ratio_after": 0.9281173544541166,
+   "z_after": -1.1797571279794172,
+   "mean_z_all_methods": -0.36149482591509663,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "saturn_d24",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.4917073915314245,
+   "ratio_after": 0.9277329888470535,
+   "z_after": -1.1863111104551534,
+   "mean_z_all_methods": -0.1797172912275622,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 37.5
+   }
+  },
+  {
+   "formula": "kp_sun_star_lord x month_pillar",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.25634181203944,
+   "ratio_after": 0.9276485543859812,
+   "z_after": -1.1877512091554412,
+   "mean_z_all_methods": 0.03364761156860668,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "aspect_moon_mars x aspect_mercury_mars",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.11195927194948,
+   "ratio_after": 0.9242342420768695,
+   "z_after": -1.2436025911109445,
+   "mean_z_all_methods": 0.1877339519053064,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 47.5
+   }
+  },
+  {
+   "formula": "venus_retrograde x venus_d30",
+   "method": "1+10 (a) ibox",
+   "z_before": 2.3486412893414568,
+   "ratio_after": 0.9805052473926821,
+   "z_after": -1.2998289387561202,
+   "mean_z_all_methods": -0.06803373479931955,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 90.0
+   }
+  },
+  {
+   "formula": "lagna_nakshatra x rahu_navamsa",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.3033600193599164,
+   "ratio_after": 0.9177365900654039,
+   "z_after": -1.3495723151137082,
+   "mean_z_all_methods": 0.2591963508213794,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 32.5
+   }
+  },
+  {
+   "formula": "sun_nakshatra x lunar_month",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.8332254700147974,
+   "ratio_after": 0.9166533289481041,
+   "z_after": -1.3681514498245384,
+   "mean_z_all_methods": 0.07719393576540153,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "moon_sign_tropical x sun_navamsa",
+   "method": "3+8 (b) ibox",
+   "z_before": 1.707620489992028,
+   "ratio_after": 0.9775671998500195,
+   "z_after": -1.5164152834054985,
+   "mean_z_all_methods": 0.281038029245653,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 42.5
+   }
+  },
+  {
+   "formula": "aspect_mars_jupiter x rahu_d27",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.4686438517386424,
+   "ratio_after": 0.8979330786036255,
+   "z_after": -1.6756013947058672,
+   "mean_z_all_methods": 0.13993858082354327,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "saturn_retrograde x aspect_mercury_jupiter",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.9384125484252746,
+   "ratio_after": 0.8979136191692989,
+   "z_after": -1.675939014320893,
+   "mean_z_all_methods": -0.16487581025691966,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "mercury_nakshatra x saturn_combust",
+   "method": "2+9 (b) reverse",
+   "z_before": 2.770133378595162,
+   "ratio_after": 0.8939328552028977,
+   "z_after": -1.7415540192545869,
+   "mean_z_all_methods": 0.19412190744805188,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "moon_phase x lagna_d24",
+   "method": "1+10 (b) straight",
+   "z_before": 2.037862420531571,
+   "ratio_after": 0.8920699494281201,
+   "z_after": -1.7813368923314272,
+   "mean_z_all_methods": 0.006582404030030366,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 6,
+    "ibox_rm": 88.33333333333333
+   }
+  },
+  {
+   "formula": "mars_combust x aspect_jupiter_saturn",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.198643230704628,
+   "ratio_after": 0.8906420047729313,
+   "z_after": -1.7951658341472798,
+   "mean_z_all_methods": 0.013402268140490694,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "ayana x lunar_leap_month",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.227852008185956,
+   "ratio_after": 0.8905740150311058,
+   "z_after": -1.7963504856669916,
+   "mean_z_all_methods": 0.10337729771840909,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "masa x adhika_masa",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.573026551966493,
+   "ratio_after": 0.8904992129085676,
+   "z_after": -1.79765394344998,
+   "mean_z_all_methods": -0.09406025546366607,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 4,
+    "ibox_rm": 136.66666666666669
+   }
+  },
+  {
+   "formula": "plum_trigrams x saturn_navamsa",
+   "method": "S2 (b) reverse",
+   "z_before": 1.8634328606980213,
+   "ratio_after": 0.8890099602512095,
+   "z_after": -1.819825071850115,
+   "mean_z_all_methods": -0.05686549834248152,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 2,
+    "straight_rm": 360,
+    "ibox": 10,
+    "ibox_rm": 161.66666666666669
+   }
+  },
+  {
+   "formula": "lagna_rashi x saturn_retrograde",
+   "method": "2+9 (b) reverse",
+   "z_before": 3.732652736449097,
+   "ratio_after": 0.8831897301313004,
+   "z_after": -1.9175314719085352,
+   "mean_z_all_methods": -0.2541761403202128,
+   "recent": {
+    "staked": 144,
+    "straight_hits": 0,
+    "straight_rm": 0,
+    "ibox": 5,
+    "ibox_rm": 35.0
+   }
+  }
+ ],
+ "random_mean_z_after": -0.4179894415696558,
+ "list_mean_z_after": -0.20808739686759803,
+ "share_random_sets_as_high": 0.0452,
+ "dates": [
+  "2026-10-17",
+  "2026-10-18",
+  "2026-10-21"
+ ]
+}
