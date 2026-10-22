@@ -86,6 +86,16 @@ No run is more consistent than chance as a whole. Magnum has the most candidates
 12+ good years (5 vs 2.5) and the strongest single candidate (x1.36), still within the
 range of the shifted calendars.
 
+## Lead: Karana x Day pillar, two-pair picks only, Small i-Box (`karana_profit.py`)
+
+From Karana x Day pillar's 16 picks (S1 from the previous same-value day), bet only the
+numbers with two pairs (6 arrangements, e.g. 3311, 7744) as Small i-Box on all 3
+operators. i-Box matches x1.42 before 2012 and x1.26 in 2012-2026; Small i-Box return
+105% and 103%. Caveat: it rests on 8 top-3 matches in 2012-2026 against ~5.7 by chance
+(about a 1-in-4 chance by luck), and such picks are rare (about 0.6 per draw).
+Last 5 draws: two-pair picks only on 11 Oct (6116) and 18 Oct (9696), no matches.
+24 Oct: no two-pair picks (Garaja x Xin Wei, from 23 Jan 2021).
+
 ## Per operator (`per_operator.py`)
 
 Picks built from and scored on one operator only. Magnum: weekday changes the digit mix
