@@ -126,6 +126,23 @@ grid 16, all 69 numbers, same-cell source). It does not carry over to Singapore 
 it ranks near the bottom. That points to a Malaysian-data fit and not a real astrological
 effect. Bet on it only as entertainment.
 
+## Offset ("lag") and lunar-date rules (`lag_rule.py`)
+
+Source = the previous same-value day moved by k calendar days (k = -7..+7, +-14, +-28,
++-30), for all 3,081 single / pair tests, S1 / S2 x Straight / Reverse / i-Box, against 6
+shifted calendars. Also the lunar date rule (same lunar month + day in an earlier year,
+with the same offsets) and plain lags with no parameter (source = the draw exactly 1-10,
+14, 21, 28-30, 59, 60, 354, 355, 364, 365, 384 days before).
+
+- Walk-forward (top 5 tests chosen before 2012, scored 2012-2026): mean z +0.12 vs +-0.02
+  shifted; 22 of 126 offset x column cells beat every shift, about 18 expected by chance.
+  No offset stands out once you allow for having tried 21 of them (best: k = +1, +0.71
+  above the shifts).
+- Plain lags and the lunar date rule: all within chance (|z| < 2.7, mixed signs).
+- The largest single z values (e.g. ayana x year_pillar at k = +1, S2 Straight, z +6.6)
+  come from very few scored days (ayana at k = +1: 12 days, 7 hits vs well under 1
+  expected) and are not leads.
+
 ## i-Box by number pattern (`pattern_ibox.py`)
 
 No pattern beats chance in general (average over all tests equals the shifted calendars,
