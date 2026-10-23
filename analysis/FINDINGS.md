@@ -143,6 +143,25 @@ with the same offsets) and plain lags with no parameter (source = the draw exact
   come from very few scored days (ayana at k = +1: 12 days, 7 hits vs well under 1
   expected) and are not leads.
 
+## Shadbala and Ashtakavarga (`shadbala_ashtakavarga.py`)
+
+32 new parameters from the sidereal chart at 19:00 MYT: each planet's Bhinna
+Ashtakavarga bindus in its own sign (7), Sarvashtakavarga of each planet's sign, the
+Lagna and the 11th house (9, binned), each planet's sign dignity (7), a simplified
+Shadbala (uccha + rashi dignity + dig + chesta + paksha; tercile per planet, 7) and the
+strongest / weakest planet. 3,024 tests (singles, pairs among them, and each x the 78
+existing parameters), full suite A-D against 6 shifted calendars.
+
+- A digit mix: 2 tests gain anything on 2012-2026 (best +0.001 milli-nats per digit,
+  sun_strength x year_pillar), i.e. no information.
+- B same-number recurrence: Straight (a) best z +3.75 (mercury_bav x kp_moon_number,
+  x1.04) beats the 6 shifts, but the number of z > 2 tests (62) is near chance (56).
+  i-Box and the (b) versions are below the shifted calendars.
+- C digit-position picks, walk-forward: mean z -0.04 vs -0.03 shifted; 3 of 42 columns
+  beat every shift (about 6 expected by chance); their top picks score z -0.47 to +0.63
+  after 2012.
+- No Shadbala or Ashtakavarga lead.
+
 ## i-Box by number pattern (`pattern_ibox.py`)
 
 No pattern beats chance in general (average over all tests equals the shifted calendars,
