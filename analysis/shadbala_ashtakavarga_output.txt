@@ -1,1 +1,42 @@
 computed 84 parameters for 7271 draw dates in 5s
+computed 84 parameters for 7271 draw dates in 5s
+straight: matches between any two draw days x0.999 of size-based chance
+sr: matches between any two draw days x0.999 of size-based chance
+ibox: matches between any two draw days x1.000 of size-based chance
+   sun_bav            1:226 2:1075 3:2326 4:2240 5:1126 6:253 7:24 8:1
+   moon_bav           1:52 2:351 3:982 4:1901 5:2206 6:1410 7:359 8:10
+   mars_bav           1:219 2:1276 3:2188 4:2104 5:1125 6:308 7:46 8:5
+   mercury_bav        1:33 2:276 3:1055 4:1931 5:2150 6:1250 7:480 8:96
+   jupiter_bav        1:11 2:122 3:678 4:1777 5:2303 6:1611 7:651 8:118
+   venus_bav          1:39 2:399 3:1403 4:2351 5:1920 6:920 7:224 8:15
+   saturn_bav         0:201 1:772 2:1749 3:2166 4:1574 5:652 6:139 7:18
+   sav_sun            <=22:3076 23-25:2330 26-28:1316 29-31:448 >=32:101
+   sav_moon           <=22:1129 23-25:1589 26-28:1769 29-31:1590 >=32:1194
+   sav_mars           <=22:1095 23-25:1383 26-28:1549 29-31:1531 >=32:1713
+   sav_mercury        <=22:2100 23-25:2349 26-28:1700 29-31:793 >=32:329
+   sav_jupiter        <=22:1189 23-25:1644 26-28:1702 29-31:1539 >=32:1197
+   sav_venus          <=22:2482 23-25:1792 26-28:1419 29-31:915 >=32:663
+   sav_saturn         <=22:981 23-25:1511 26-28:1723 29-31:1546 >=32:1510
+   sav_lagna          <=22:238 23-25:1448 26-28:2328 29-31:1916 >=32:1341
+   sav_11th           <=22:26 23-25:465 26-28:1388 29-31:2604 >=32:2788
+   sun_dignity        exalted:608 own:616 friend:2392 neutral:1233 enemy:1822 debilitated:600
+   sun_strength       weak:2424 medium:2423 strong:2424
+   moon_dignity       exalted:585 own:598 friend:1842 neutral:3620 debilitated:626
+   moon_strength      weak:2424 medium:2423 strong:2424
+   mars_dignity       exalted:504 own:1155 friend:1766 neutral:1750 enemy:1361 debilitated:735
+   mars_strength      weak:2424 medium:2423 strong:2424
+   mercury_dignity    exalted:615 own:565 friend:1752 neutral:3129 enemy:622 debilitated:588
+   mercury_strength   weak:2424 medium:2423 strong:2424
+   jupiter_dignity    exalted:637 own:1029 friend:1814 neutral:507 enemy:2750 debilitated:534
+   jupiter_strength   weak:2424 medium:2423 strong:2424
+   venus_dignity      exalted:772 own:1407 friend:1685 neutral:1647 enemy:1242 debilitated:518
+   venus_strength     weak:2424 medium:2423 strong:2424
+   saturn_dignity     exalted:538 own:1900 friend:1259 neutral:1522 enemy:1694 debilitated:358
+   saturn_strength    weak:2424 medium:2423 strong:2424
+   strongest_planet   Sun:300 Moon:667 Mars:891 Mercury:437 Jupiter:2033 Venus:897 Saturn:2046
+   weakest_planet     Sun:965 Moon:1126 Mars:1189 Mercury:2375 Jupiter:771 Venus:619 Saturn:226
+3024 tests
+
+A. digit mix given the value(s), log-likelihood gain on 2012-2026 (milli-nats per digit; 0 = no information)
+   tests with gain > 0: 2 (shifted calendars 0.0)
+   best +0.001 [sun_strength x year_pillar] vs shifted best -0.015 (0/6 as high); singles: sun_bav -0.119, moon_bav -0.106, mars_bav -0.079, mercury_bav -0.106, jupiter_bav -0.099, venus_bav -0.080, saturn_bav -0.096, sav_sun -0.077, sav_moon -0.060, sav_mars -0.052, sav_mercury -0.078, sav_jupiter -0.047, sav_venus -0.048, sav_saturn -0.074, sav_lagna -0.089, sav_11th -0.078, sun_dignity -0.083, sun_strength -0.039
