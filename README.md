@@ -40,7 +40,7 @@ python3 -m unittest tests/test_tinyfish_import.py
 python3 analysis/predict_all.py 2026-10-24            # every logged pick set, from results before that date
 python3 analysis/predict_all.py 2026-10-24 --log      # also append them to analysis/forward_log.csv
 python3 analysis/predict_all.py --check 2026-10-21    # rebuild a logged date and compare with the log
-python3 analysis/ml_model.py predict --date 2026-10-24 --before 2026-10-24   # ml_* sets (needs lightgbm)
+python3 analysis/ml_model.py predict --date 2026-10-24 --before 2026-10-24   # ml_* sets (needs lightgbm; --before 2026-10-17 reproduces the logged ones)
 ```
 
 `predict_all.py` uses the analysis code itself (score_leads, update_picks,
