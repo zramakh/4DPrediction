@@ -34,6 +34,21 @@ python3 tinyfish_import.py page.html [more.html ...]   # or the saved JSON respo
 python3 -m unittest tests/test_tinyfish_import.py
 ```
 
+## Making picks for a draw (use these; do not re-implement)
+
+```
+python3 analysis/predict_all.py 2026-10-24            # every logged pick set, from results before that date
+python3 analysis/predict_all.py 2026-10-24 --log      # also append them to analysis/forward_log.csv
+python3 analysis/predict_all.py --check 2026-10-21    # rebuild a logged date and compare with the log
+python3 analysis/ml_model.py predict --date 2026-10-24 --before 2026-10-24   # ml_* sets (needs lightgbm)
+```
+
+`predict_all.py` uses the analysis code itself (score_leads, update_picks,
+astro_model, manual_formula) and the same parameter values. Sets without a
+suffix are frozen at their original cutoff (vedic / chinese / both: results
+before 11 Oct 2026; the rest: before 17 Oct 2026); `_upd` sets use all results
+before the draw. `--check` on 18 and 21 Oct reproduces every logged non-ML set.
+
 ## Findings
 
 See [analysis/FINDINGS.md](analysis/FINDINGS.md) for a summary of every test, the ranked leads and live checks.

@@ -338,10 +338,16 @@ def date_codes(date, codes, labels, factors):
     return ix, codes2, ctx
 
 
-def picks_for(date, variants, k):
+def picks_for(date, variants, k, before=None):
+    """Top-k picks per operator from the results of draws before `before` (default: `date`)."""
     with open(FORMULAS) as fh:
         formulas = json.load(fh)
     data, codes, labels, rows, draws, _ = load()
+    dates = sorted({r["date"] for op, stem in cn.OPERATORS.items()
+                    for r in csv.DictReader(open(os.path.join(ROOT, "data", f"{stem}.csv")))
+                    if (op, r["date"]) not in cn.EXCLUDE})
+    ok = np.array([d < (before or date) for d in dates])[rows["date"]]
+    rows = {key: v[ok] for key, v in rows.items()}
     out = {}
     for v in variants:
         formula = [tuple(t) for t in formulas[v]["terms"]]
@@ -355,15 +361,15 @@ def picks_for(date, variants, k):
 
 def cmd_predict(a):
     variants = [a.variant] if a.variant else list(VARIANTS)
-    res = picks_for(a.date, variants, a.k)
-    print(f"Picks for draws on {a.date} (top {a.k}):")
+    res = picks_for(a.date, variants, a.k, a.before)
+    print(f"Picks for draws on {a.date} (top {a.k}, results before {a.before or a.date}):")
     for v, by_op in res.items():
         for op, nums in by_op.items():
             print(f"  {v:<8} {op:<12} " + " ".join(f"{n:04d}" for n in nums))
 
 
 def cmd_log(a):
-    res = picks_for(a.date, list(VARIANTS), a.k)
+    res = picks_for(a.date, list(VARIANTS), a.k, a.before)
     new = not os.path.exists(LOG)
     with open(LOG, "a", newline="") as fh:
         w = csv.writer(fh)
@@ -414,6 +420,7 @@ def main():
     ap.add_argument("--date", default=dt.date.today().isoformat())
     ap.add_argument("--variant", choices=list(VARIANTS))
     ap.add_argument("--k", type=int, default=10)
+    ap.add_argument("--before", help="use only results of draws before this date (default: --date)")
     ap.add_argument("--retune", action="store_true")
     a = ap.parse_args()
     if a.mode == "predict":
