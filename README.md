@@ -1,5 +1,7 @@
 # 4DPrediction
 
+**AI agents: read [AGENTS.md](AGENTS.md) first.**
+
 Historical 4D results for Malaysia's three main operators, scraped from
 [4dmoon.com](https://www.4dmoon.com/past-results).
 

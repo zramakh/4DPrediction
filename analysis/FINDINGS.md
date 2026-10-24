@@ -1,7 +1,7 @@
 # Findings: can Vedic / Chinese almanac parameters predict Malaysian 4D?
 
 Data: Magnum (from 1985), Sports Toto and Da Ma Cai (from 1992), all 23 prizes per
-draw, up to 17 Oct 2026. Parameters: 78 Vedic, KP and Chinese almanac values per
+draw, up to 21 Oct 2026 (handoff and open items: `AGENTS.md`). Parameters: 78 Vedic, KP and Chinese almanac values per
 draw date at 19:00 MYT (`almanac.py`, `astro_model.py`).
 
 **Short answer: no parameter, pair of parameters, or model has shown an edge that
@@ -43,6 +43,16 @@ selection is accounted for. Even the best lead would return about 72% of stakes.
 | Whole-number hot / cold (16 numbers that won most / least on earlier same-value days) | `whole_number_test.py` |
 | Exact positions: longitudes, angles between planets, aspects, position within sign | `continuous_astro.py` |
 | Same, with 1-81 picks | `recurrence_s12_k.py` |
+| Year-by-year consistency of forward picks, pooled and per operator | `yearly_consistency.py`, `consistent_leads_live.py` |
+| Best per-operator leads on live draws | `per_operator_leads.py` |
+| Given list of 75 formulas | `formula_list_test.py` |
+| Mei Hua / Da Liu Ren leads on live draws | `mh_lr_leads.py` |
+| Nakshatra parameters at 19:00 / 19:15 / 19:30 | `nakshatra_test.py` |
+| Day pillar x every pair of other parameters (triples) | `day_pillar_triples.py` |
+| Karana x Day pillar: family, profit, i-Box patterns, nine further checks, Singapore 4D | `karana_family.py`, `karana_profit.py`, `karana_patterns.py`, `karana_tests.py`, `karana_singapore.py` |
+| Offset (lag) and lunar-date source rules | `lag_rule.py` |
+| Shadbala and Ashtakavarga | `shadbala_ashtakavarga.py` |
+| Hold out the last N draws; one past draw against all single formulas | `last_draws_test.py`, `search_single_draw.py` |
 
 Key recurrence results:
 - Single parameters: best Day element x1.002 (corrected p 0.89).
