@@ -67,9 +67,7 @@ def aspect(a, b):
 
 
 def build(D):
-    z = np.load(os.path.join(am.ROOT, "analysis", "continuous_astro_positions.npz"), allow_pickle=True)
-    assert list(z["dates"]) == list(D.dates), "positions cache is out of date: run continuous_astro.py"
-    lon = z["lon"]
+    lon = __import__("continuous_astro").positions(D.dates)          # cached; recomputed when dates change
     days = [dt.date.fromisoformat(d) for d in D.dates]
     ayan = np.array([vedic.ayanamsa(eph.julian_day(dt.datetime.combine(d, dt.time(11)))) for d in days])
     codes, labels = {}, {}

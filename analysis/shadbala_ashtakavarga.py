@@ -94,9 +94,7 @@ def speeds(dates):
 
 
 def codes_for(dates):
-    z = np.load(os.path.join(am.ROOT, "analysis", "continuous_astro_positions.npz"), allow_pickle=True)
-    assert list(z["dates"]) == list(dates), "positions cache is out of date: run continuous_astro.py"
-    lon = z["lon"]                                                       # Sun Moon Mars Mercury Jupiter Venus Saturn Rahu Lagna
+    lon = __import__("continuous_astro").positions(dates)          # cached; recomputed when dates change                                                       # Sun Moon Mars Mercury Jupiter Venus Saturn Rahu Lagna
     col = {p: lon[:, nf.BODIES.index(p)] for p in REF}
     sign = {p: (col[p] // 30).astype(int) for p in REF}
     n = len(dates)

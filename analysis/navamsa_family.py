@@ -56,9 +56,7 @@ def pname(p):
 
 
 def nav_codes(dates):
-    z = np.load(os.path.join(am.ROOT, "analysis", "continuous_astro_positions.npz"), allow_pickle=True)
-    assert list(z["dates"]) == list(dates), "positions cache is out of date: run continuous_astro.py"
-    lon = z["lon"]                                                        # (dates, 9) in BODIES order
+    lon = __import__("continuous_astro").positions(dates)          # cached; recomputed when dates change                                                        # (dates, 9) in BODIES order
     codes, labels = {}, {}
     for j, b in enumerate(BODIES):
         nav = (np.floor(lon[:, j] * 9 / 30) % 12).astype(int)

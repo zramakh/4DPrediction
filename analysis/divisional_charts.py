@@ -82,9 +82,7 @@ def varga(lon, n):
 
 
 def chart_codes(dates):
-    z = np.load(os.path.join(am.ROOT, "analysis", "continuous_astro_positions.npz"), allow_pickle=True)
-    assert list(z["dates"]) == list(dates), "positions cache is out of date: run continuous_astro.py"
-    lon = z["lon"]
+    lon = __import__("continuous_astro").positions(dates)          # cached; recomputed when dates change
     codes, labels = {}, {}
     for n in CHARTS:
         for j, b in enumerate(BODIES):
