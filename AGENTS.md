@@ -12,7 +12,7 @@ conversation that produced them. Pick up from here; don't redo finished work.
 | Conclusions, ranked leads, every test and its result | `analysis/FINDINGS.md` (start here), older detail in `analysis/REPORT.md` |
 | Every question asked and answer given (16-24 Oct 2026) | `docs/conversation.md` |
 | Every inline one-off command run during the work | `analysis/adhoc/inline_snippets.md` (+ scratch scripts in `analysis/adhoc/`) |
-| Data | `data/magnum.csv`, `data/sportstoto.csv`, `data/damacai.csv` (1985 to 21 Oct 2026); `data/singapore4d.csv` (Singapore 4D 1986 to 12 Jul 2026, for out-of-sample tests) |
+| Data | `data/magnum.csv`, `data/sportstoto.csv`, `data/damacai.csv` (1985 to 24 Oct 2026); `data/singapore4d.csv` (Singapore 4D 1986 to 12 Jul 2026, for out-of-sample tests) |
 | Picks logged before each draw | `analysis/forward_log.csv` |
 | Result of each script | `analysis/<script>_results.json` and `analysis/<script>_output.txt` |
 
@@ -39,7 +39,20 @@ conversation that produced them. Pick up from here; don't redo finished work.
    (e.g. ayana at lag +1: 12 days).
 8. Parameters are computed at 19:00 MYT (11:00 UTC), sidereal Lahiri;
    `almanac.factors(date)` for any date, `astro_model.date_codes` for a future date.
-9. Commit and push results with each step; write conclusions into `FINDINGS.md`
+9. **Ties are broken by the lower number, on every machine.** All top-k pick
+   lists use `np.lexsort((np.arange(N), -score))` (digit ranks: `argsort(...,
+   kind="stable")`). Before 25 Oct 2026, `ml_model.py` and `astro_model.py` used
+   plain `np.argsort`, whose order for exactly tied scores depends on the numpy
+   build. The `ml_B_kernel_*` models give every arrangement of the same digits the
+   same score (e.g. 2888, 8288, 8828, 8882), so their last picks could differ
+   between machines. Rebuilt kernel sets may therefore differ from the ones logged
+   before 25 Oct in which arrangements were picked; i-Box results are the same,
+   Straight results can differ. `forward_log.csv` stays the record for logged dates.
+10. **Score only logged sets as forward results.** A set rebuilt after its draw is
+   hindsight: mark it "rebuilt", never mix it into forward totals. Log picks
+   (`predict_all.py DATE --log`, `ml_model.py predict --date DATE --before ... --log`)
+   before every draw.
+11. Commit and push results with each step; write conclusions into `FINDINGS.md`
    and the Q&A into `docs/conversation.md`.
 
 ## Status on 24 Oct 2026
@@ -56,11 +69,12 @@ conversation that produced them. Pick up from here; don't redo finished work.
   patterns, yearly consistency, the 75-formula list, offset and lunar-date rules,
   Shadbala and Ashtakavarga (stages A-C). See the "What was tried" table in `FINDINGS.md`.
 - **Live:** picks are logged for 17, 18 and 21 Oct (and 24 Oct by the other agent's
-  file, which matches `predict_all.py`). Data stops at 21 Oct 2026.
+  file, which matches `predict_all.py`; ML picks for 24 Oct must come from
+  `--before 2026-10-17`). Data stops at 24 Oct 2026; nothing was logged before the 24 Oct draw.
 
 ## Open items (continue here)
 
-1. Add the 24 Oct 2026 results (and later draws) to `data/*.csv`. Direct curl to
+1. Add results after 24 Oct 2026 to `data/*.csv`. Direct curl to
    result sites is blocked by the proxy; use TinyFish `fetch_content` (check4d.org,
    4dkingdom.com) and `tinyfish_import.py`. Then score with
    `python3 analysis/score_leads.py` / `score_live.py`.

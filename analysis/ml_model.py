@@ -340,7 +340,7 @@ def walk(predict_dates=None, k=10, before=None):
                 cats = X[0, len(ALL_NAMES) - len(CAT_NAMES):].copy()
                 lps = predict_all(models, X, cats, hist.digit_freq(o), kern_lp)
                 for name, lp in lps.items():
-                    out.setdefault(d, {}).setdefault(name, {})[OPS[o]] = [int(n) for n in np.argsort(-lp)[:k]]
+                    out.setdefault(d, {}).setdefault(name, {})[OPS[o]] = [int(n) for n in np.lexsort((np.arange(len(lp)), -lp))[:k]]   # exact ties -> lower number
         return out
     return tally.summary(), time.time() - t0
 

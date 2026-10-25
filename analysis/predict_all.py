@@ -115,7 +115,7 @@ def positional(cutoff):
         for o, op in enumerate(am.OPS):
             m = ok & (D.ro == o)
             C = np.stack([np.bincount(am.DIG[D.rn[m], p], minlength=10) for p in range(4)]).astype(float)
-            top2 = np.argsort(sign * C, 1)[:, :2]
+            top2 = np.argsort(sign * C, 1, kind="stable")[:, :2]
             out[f"positional_{strat}_noparam"][op] = [int((np.array([top2[p, b] for p, b in enumerate(bits)]) * r.POW).sum())
                                                       for bits in itertools.product((0, 1), repeat=4)]
     return out

@@ -355,7 +355,8 @@ def picks_for(date, variants, k, before=None):
         ix, codes2, ctx = date_codes(date, codes, labels, factors)
         c = Counts(factors, codes2)
         c.add(rows["date"], rows["op_ix"], rows["num"])
-        out[v] = {OPS[o]: [int(n) for n in np.argsort(-score(c, formula, ix, o))[:k]] for o in range(3)}
+        out[v] = {OPS[o]: [int(n) for n in np.lexsort((np.arange(10000), -score(c, formula, ix, o)))[:k]]   # exact ties -> lower number
+                 for o in range(3)}
     return out
 
 

@@ -80,7 +80,7 @@ def picks_for(date, cutoff):
             overall = counts(before, o)
             overall /= overall.sum(1, keepdims=True)
             C = counts(idx, o) + 1e-6 * overall
-            out[name][op] = grid(np.argsort(sign * C, axis=1)[:, :2])
+            out[name][op] = grid(np.argsort(sign * C, axis=1, kind="stable")[:, :2])
         info[name] = f"{v}, {len(idx)} earlier days"
     return out, info
 
